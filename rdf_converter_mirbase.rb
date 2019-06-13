@@ -2,41 +2,116 @@
 require 'rubygems'
 require 'bio'
 
-org_codes = [ 
-"aae",  7159,  "Aedes aegypti",
-"ame",  7460,  "Apis mellifera",
-"ath",  3702,  "Arabidopsis thaliana",
-"bmo",  7091,  "Bombyx mori",
-"bta",  9913,  "Bos taurus",
-"cbr",  6238,  "Caenorhabditis briggsae",
-"cel",  6239,  "Caenorhabditis elegans",
-"cfa",  9615,  "Canis familiaris",
-"cre",  3055,  "Chlamydomonas reinhardtii",
-"dme",  7227,  "Drosophila melanogaster",
-"dps",  46245, "Drosophila pseudoobscura pseudoobscura",
-"dre",  7955,  "Danio rerio",
-"ebv",  10376, "Epstein Barr virus",
-"fru",  31033, "Takifugu rubripes",
-"gga",  9031,  "Gallus gallus",
-"hcmv", 10359, "Human cytomegalovirus",
-"hsa",  9606,  "Homo sapiens",
-"kshv", 435895,"Kaposi sarcoma-associated herpesvirus",
-"mdo",  13616, "Monodelphis domestica",
-"mghv", 33708, "Mouse gammaherpesvirus 68",
-"mml",  9544,  "Macaca mulatta",
-"mmu",  10090, "Mus musculus",
-"osa",  39947, "Oryza sativa japonica",
-"ptc",  3694,  "Populus trichocarpa",
-"ptr",  9598,  "Pan troglodytes",
-"rno",  10116, "Rattus norvegicus",
-"sme",  79327, "Schmidtea mediterranea",
-"tni",  99883, "Tetraodon nigroviridis",
-"vvi",  29760, "Vitis vinifera",
-"xtr",  8364,  "Xenopus tropicalis",
-"zma",  4577,  "Zea mays"
-]
 
-p org_codes
+module MiRBase
+
+  OrganismCodes = {
+    "aae" => ["7159",  "Aedes aegypti"],
+    "ame" => ["7460",  "Apis mellifera"],
+    "ath" => ["3702",  "Arabidopsis thaliana"],
+    "bmo" => ["7091",  "Bombyx mori"],
+    "bta" => ["9913",  "Bos taurus"],
+    "cbr" => ["6238",  "Caenorhabditis briggsae"],
+    "cel" => ["6239",  "Caenorhabditis elegans"],
+    "cfa" => ["9615",  "Canis familiaris"],
+    "cre" => ["3055",  "Chlamydomonas reinhardtii"],
+    "dme" => ["7227",  "Drosophila melanogaster"],
+    "dps" => ["46245", "Drosophila pseudoobscura pseudoobscura"],
+    "dre" => ["7955",  "Danio rerio"],
+    "ebv" => ["10376", "Epstein Barr virus"],
+    "fru" => ["31033", "Takifugu rubripes"],
+    "gga" => ["9031",  "Gallus gallus"],
+    "hcmv" => ["10359", "Human cytomegalovirus"],
+    "hsa" => ["9606",  "Homo sapiens"],
+    "kshv" => ["435895", "Kaposi sarcoma-associated herpesvirus"],
+    "mdo" => ["13616", "Monodelphis domestica"],
+    "mghv" => ["33708", "Mouse gammaherpesvirus 68"],
+    "mml" => ["9544",  "Macaca mulatta"],
+    "mmu" => ["10090", "Mus musculus"],
+    "osa" => ["39947", "Oryza sativa japonica"],
+    "ptc" => ["3694",  "Populus trichocarpa"],
+    "ptr" => ["9598",  "Pan troglodytes"],
+    "rno" => ["10116", "Rattus norvegicus"],
+    "sme" => ["79327", "Schmidtea mediterranea"],
+    "tni" => ["99883", "Tetraodon nigroviridis"],
+    "vvi" => ["29760", "Vitis vinifera"],
+    "xtr" => ["8364",  "Xenopus tropicalis"],
+    "zma" => ["4577",  "Zea mays"]
+  }
+
+
+  class GFF
+
+    def initialize(file, org_code = nil)
+      org_code == nil ? @org_code = get_org(file) : @org_code = org_code
+      @file = open(file)
+    end
+
+    def get_org(file)
+      if /^(\w+)\.gff/ =~ File.basename(file)
+        org_code = $1
+        org_code if OrganismCodes.key?(org_code)
+      end
+    end
+
+    def rdf
+      @file.each_line do |line|
+        unless /^#/ =~ line
+          ary = line.chomp.split
+          if ary[8] != nil
+            /chr(\d+)/  =~ ary[0]
+            chr         = $1
+            feature     = ary[2]
+            mirna_start = ary[3]
+            mirna_end   = ary[4]
+            info        = ary[8]
+
+            mirna_info = Hash[*info.split(";").map{|e| /(\S+)\=(\S+)/ =~ e; [$1, $2]}.flatten]
+
+            /MIMAT/ =~ mirna_info["ID"] ? mature = true : mature = false
+            print_ttl(chr, feature, mirna_start, mirna_end, mirna_info, mature)
+          end
+        end
+      end
+    end
+
+    def print_ttl(chr, feature, mirna_start, mirna_end, mirna_info, mature)
+      print "mirbase:#{mirna_info["ID"]}\n"
+      print "  a :MatureMicroRNA ;\n"
+      print "  a obo:SO_0000276 ;\n"
+      print "  a :MicroRNA ;\n"
+      print "  a obo:SO_0001265 ;\n"
+      print "  skos:altLabel \"#{mirna_info["Alias"]}\" ;\n"
+      print "  dcterms:identifier \"#{mirna_info["ID"]}\" ;\n"
+      print "  faldo:location [\n"
+      print "    a faldo:Region ;\n"
+      print "    faldo:begin [\n"
+      print "      a faldo:ExactPosition ;\n"
+      print "      faldo:position #{mirna_start} ; \n"
+      print "      faldo:reference <http://identifiers.org/hco/#{chr}#GRCh38>\n"
+#      print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
+      print "    ] ;\n"
+      print "    faldo:end [\n"
+      print "      a faldo:ExactPosition ;\n"
+      print "      faldo:position #{mirna_end} ;\n"
+      print "      faldo:reference <http://identifiers.org/hco/#{chr}#GRCh38>\n"
+#      print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
+      print "    ] \n"
+      print "  ] .\n"
+      print "mirbase:#{mirna_info["ID"]} :derives_from mirbase:#{mirna_info["Derives_from"]} .\n"
+      if /miRNA_primary_transcript/ =~ feature
+      elsif /miRNA/ =~ feature
+        mimat_id = mirna_info["Derives_from"]
+        print "mirbase:#{mirna_info["ID"]} :derives_from mirbase:#{mirna_info["Derives_from"]} .\n"
+      end
+      print "\n"
+    end
+  end
+
+end
+
+gff = MiRBase::GFF.new(ARGV.shift)
+gff.rdf
 
 =begin
 
