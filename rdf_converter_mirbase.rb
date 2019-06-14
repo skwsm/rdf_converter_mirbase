@@ -39,19 +39,44 @@ module MiRBase
     "zma" => ["4577",  "Zea mays"]
   }
 
+  def get_org(file)
+    if /^(\w+)\.gff/ =~ File.basename(file)
+      org_code = $1
+      org_code if OrganismCodes.key?(org_code)
+    end
+  end
+  module_function :get_org
 
+  def prefixes
+    ["faldo: <http://biohackathon.org/resource/faldo#>",
+     "rdfs: <http://www.w3.org/2000/01/rdf-schema#>",
+     "dcterms: <http://purl.org/dc/terms/>",
+     "hco: <http://identifiers.org/hco/>",
+     "term: <http://rdf.ebi.ac.uk/terms/ensembl/>",
+     "identifiers: <http://identifiers.org/>",
+     "pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/>",
+     "pmid: <http://identifiers.org/pubmed/>",
+     "obo: <http://purl.obolibrary.org/obo/>",
+     "so: <http://purl.obolibrary.org/obo/so#>",
+     "sio: <http://semanticscience.org/resource/>",
+     "up: <http://purl.uniprot.org/uniprot/>",
+     "upid: <http://identifiers.org/uniprot/>",
+     "mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=>",
+     "taxonomy: <http://identifiers.org/taxonomy/>",
+     "rfam: <http://identifiers.org/rfam/>",
+     "hgnc: <http://identifiers.org/hgnc/>",
+     "ncbigene: <http://identifiers.org/ncbigene/>",
+     "skos: <http://http://www.w3.org/2004/02/skos/core#>",
+     ": <http://purl.jp/bio/10/mirbase/ontology/>"
+    ].each {|uri| print "@prefix #{uri} .\n"}  
+  end
+  module_function :prefixes
+ 
   class GFF
 
     def initialize(file, org_code = nil)
-      org_code == nil ? @org_code = get_org(file) : @org_code = org_code
+      org_code == nil ? @org_code = MiRBase.get_org(file) : @org_code = org_code
       @file = open(file)
-    end
-
-    def get_org(file)
-      if /^(\w+)\.gff/ =~ File.basename(file)
-        org_code = $1
-        org_code if OrganismCodes.key?(org_code)
-      end
     end
 
     def rdf
@@ -66,7 +91,10 @@ module MiRBase
             mirna_end   = ary[4]
             info        = ary[8]
 
-            mirna_info = Hash[*info.split(";").map{|e| /(\S+)\=(\S+)/ =~ e; [$1, $2]}.flatten]
+            mirna_info = Hash[*info.split(";").map{ |e|
+                                                    /(\S+)\=(\S+)/ =~ e;
+                                                    [$1, $2]
+                                                  }.flatten ]
 
             /MIMAT/ =~ mirna_info["ID"] ? mature = true : mature = false
             print_ttl(chr, feature, mirna_start, mirna_end, mirna_info, mature)
@@ -89,16 +117,17 @@ module MiRBase
       print "      a faldo:ExactPosition ;\n"
       print "      faldo:position #{mirna_start} ; \n"
       print "      faldo:reference <http://identifiers.org/hco/#{chr}#GRCh38>\n"
-#      print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
+      #QName notation with URL fragment (like below) is not allowed for
+      #Virtuoso due to a bug.\n"
+      #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
       print "    ] ;\n"
       print "    faldo:end [\n"
       print "      a faldo:ExactPosition ;\n"
       print "      faldo:position #{mirna_end} ;\n"
       print "      faldo:reference <http://identifiers.org/hco/#{chr}#GRCh38>\n"
-#      print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
+      #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
       print "    ] \n"
       print "  ] .\n"
-      print "mirbase:#{mirna_info["ID"]} :derives_from mirbase:#{mirna_info["Derives_from"]} .\n"
       if /miRNA_primary_transcript/ =~ feature
       elsif /miRNA/ =~ feature
         mimat_id = mirna_info["Derives_from"]
@@ -108,10 +137,22 @@ module MiRBase
     end
   end
 
+  class DB
+
+    def initialize(file, org_code = nil)
+      org_code == nil ? @org_code = MiRBase.get_org(file) : @org_code = org_code
+      @file = open(file)
+    end
+
+    def rdf
+
+    end
+  end
+
 end
 
 gff = MiRBase::GFF.new(ARGV.shift)
-gff.rdf
+MiRBase.prefixes
 
 =begin
 
