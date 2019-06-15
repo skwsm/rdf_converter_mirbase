@@ -68,7 +68,8 @@ module MiRBase
      "ncbigene: <http://identifiers.org/ncbigene/>",
      "skos: <http://http://www.w3.org/2004/02/skos/core#>",
      ": <http://purl.jp/bio/10/mirbase/ontology/>"
-    ].each {|uri| print "@prefix #{uri} .\n"}  
+    ].each {|uri| print "@prefix #{uri} .\n"}
+    print "\n"
   end
   module_function :prefixes
  
@@ -145,10 +146,40 @@ module MiRBase
     end
 
     def rdf
+      ff = Bio::FlatFile.new(Bio::EMBL, f_miRBase)
 
+      ff.each do |entry|
+        if /#{organism}/ =~ entry.description
+          print "mirbase:#{entry.accession}\n"
+          print "  dcterms:identifier \"#{entry.accession}\" ;\n"
+          print "  dcterms:description \"#{entry.description}\"@en ;\n"
+          print "  rdfs:label \"#{entry.entry_id}\"@en ;\n"
+          print "  obo:RO_0002162 taxonomy:#{tax_id} ;\n"
+          entry.dblinks.each do |link|
+            case link.database
+            when "HGNC"
+              print "  rdfs:seeAlso hgnc:#{link.id} ;\n"
+            when "ENTREZGENE"
+              print "  rdfs:seeAlso ncbigene:#{link.id} ;\n"
+            when "RFAM"
+              print "  rdfs:seeAlso rfam:#{link.id} ;\n"
+            when "RFAM"
+            end
+          end
+          entry.references.each do |ref|
+            print "  dcterms:references pubmed:#{ref.pubmed} ;\n" unless ref.pubmed == ""
+            print "  dcterms:references pmid:#{ref.pubmed} ;\n" unless ref.pubmed == ""
+          end
+          if entry.accession == "MIMAT" 
+            print "  a :MatureMicroRNA .\n"
+          else
+            print "  a :MicroRNA .\n"
+          end
+          print "\n"
+        end
+      end
     end
   end
-
 end
 
 gff = MiRBase::GFF.new(ARGV.shift)
