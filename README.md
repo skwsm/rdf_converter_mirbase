@@ -1,4 +1,5 @@
-# rdf_converter_mirbase
+# RDF Converter for miRBase
+
 RDF converter for [miRBase](http://www.mirbase.org/)
 
 ## Usage

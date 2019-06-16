@@ -146,165 +146,55 @@ module MiRBase
     end
 
     def rdf
-      ff = Bio::FlatFile.new(Bio::EMBL, f_miRBase)
-
+      ff = Bio::FlatFile.new(Bio::EMBL, @file)
       ff.each do |entry|
-        if /#{organism}/ =~ entry.description
-          print "mirbase:#{entry.accession}\n"
-          print "  dcterms:identifier \"#{entry.accession}\" ;\n"
-          print "  dcterms:description \"#{entry.description}\"@en ;\n"
-          print "  rdfs:label \"#{entry.entry_id}\"@en ;\n"
-          print "  obo:RO_0002162 taxonomy:#{tax_id} ;\n"
-          entry.dblinks.each do |link|
-            case link.database
-            when "HGNC"
-              print "  rdfs:seeAlso hgnc:#{link.id} ;\n"
-            when "ENTREZGENE"
-              print "  rdfs:seeAlso ncbigene:#{link.id} ;\n"
-            when "RFAM"
-              print "  rdfs:seeAlso rfam:#{link.id} ;\n"
-            when "RFAM"
-            end
+        print_turtle(entry)
+      end
+    end
+
+    def print_turtle(entry)
+
+      if /Homo sapiens/ =~ entry.description
+        print "mirbase:#{entry.accession}\n"
+        print "  dcterms:identifier \"#{entry.accession}\" ;\n"
+        print "  dcterms:description \"#{entry.description}\"@en ;\n"
+        print "  rdfs:label \"#{entry.entry_id}\"@en ;\n"
+        print "  obo:RO_0002162 taxonomy:9606 ;\n"
+        entry.dblinks.each do |link|
+          case link.database
+          when "HGNC"
+            print "  rdfs:seeAlso hgnc:#{link.id} ;\n"
+          when "ENTREZGENE"
+            print "  rdfs:seeAlso ncbigene:#{link.id} ;\n"
+          when "RFAM"
+            print "  rdfs:seeAlso rfam:#{link.id} ;\n"
+          when "RFAM"
           end
-          entry.references.each do |ref|
-            print "  dcterms:references pubmed:#{ref.pubmed} ;\n" unless ref.pubmed == ""
-            print "  dcterms:references pmid:#{ref.pubmed} ;\n" unless ref.pubmed == ""
+        end
+        entry.references.each do |ref|
+          unless ref.pubmed == ""
+            print "  dcterms:references pubmed:#{ref.pubmed} ;\n"
+            print "  dcterms:references pmid:#{ref.pubmed} ;\n"
           end
           if entry.accession == "MIMAT" 
             print "  a :MatureMicroRNA .\n"
           else
             print "  a :MicroRNA .\n"
           end
-          print "\n"
         end
+        print "\n"
       end
     end
   end
 end
 
-gff = MiRBase::GFF.new(ARGV.shift)
-MiRBase.prefixes
+#gff = MiRBase::GFF.new(ARGV.shift)
+#MiRBase.prefixes
 
-=begin
-
-case organism
-when "Homo sapiens"
-  tax_id = "9606"
-when "Caenorhabditis elegans"
-  tax_id = "6239"
-when "Mus musculus"
-  tax_id = "10090"
-when "Rattus norvegicus"
-  tax_id = "10116"
-end
-
-print "@prefix faldo: <http://biohackathon.org/resource/faldo#> .\n"
-print "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n"
-print "@prefix dcterms: <http://purl.org/dc/terms/> .\n"
-print "@prefix hco: <http://identifiers.org/hco/> .\n"
-print "@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .\n"
-print "@prefix identifiers: <http://identifiers.org/> .\n"
-print "@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .\n"
-print "@prefix pmid: <http://identifiers.org/pubmed/> .\n"
-print "@prefix obo: <http://purl.obolibrary.org/obo/> .\n"
-print "@prefix so: <http://purl.obolibrary.org/obo/so#> .\n"
-print "@prefix sio: <http://semanticscience.org/resource/> .\n"
-print "@prefix up: <http://purl.uniprot.org/uniprot/> .\n"
-print "@prefix upid: <http://identifiers.org/uniprot/> .\n"
-print "@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .\n"
-print "@prefix taxonomy: <http://identifiers.org/taxonomy/> .\n"
-print "@prefix rfam: <http://identifiers.org/rfam/> .\n"
-print "@prefix hgnc: <http://identifiers.org/hgnc/> .\n"
-print "@prefix ncbigene: <http://identifiers.org/ncbigene/> .\n"
-print "@prefix skos: <http://http://www.w3.org/2004/02/skos/core#> .\n"
-print "@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .\n"
-print "\n"
-
-f_miRBase = open(ARGV.shift) # miRBase
-f_gff     = open(ARGV.shift) # GFF
-
-mirna_info_str = ""
-
-f_gff.each_line do |line|
-  unless /^#/ =~ line
-    ary = line.chomp.split
-    if ary[8] != nil
-
-      /chr(\d+)/ =~ ary[0]
-      ch_id = $1
-      mirna_start = ary[3]
-      mirna_end   = ary[4]
-      mirna_info_str  = ary[8]
-
-      mirna_info = Hash[*mirna_info_str.split(";").map{|e| /(\S+)\=(\S+)/ =~ e; [$1, $2]}.flatten]
-      print "mirbase:#{mirna_info["ID"]}\n"
-
-      if /MIMAT/ =~ mirna_info["ID"]
-        print "  a :MatureMicroRNA ;\n"
-        print "  a obo:SO_0000276 ;\n"
-      else
-        print "  a :MicroRNA ;\n"
-        print "  a obo:SO_0001265 ;\n"
-      end
-      print "  skos:altLabel \"#{mirna_info["Alias"]}\" ;\n"
-      print "  dcterms:identifier \"#{mirna_info["ID"]}\" ;\n"
-      print "  faldo:location [\n"
-      print "    a faldo:Region ;\n"
-      print "    faldo:begin [\n"
-      print "      a faldo:ExactPosition ;\n"
-      print "      faldo:position #{mirna_start} ; \n"
-      print "      faldo:reference hco:#{ch_id}\\#GRCh38 \n"
-      print "    ] ;\n"
-      print "    faldo:end [\n"
-      print "      a faldo:ExactPosition ;\n"
-      print "      faldo:position #{mirna_end} ;\n"
-      print "      faldo:reference hco:#{ch_id}\\#GRCh38 \n"
-      print "    ] \n"
-      print "  ] .\n"
-      print "\n"
-
-      if /miRNA_primary_transcript/ =~ ary[2]
-
-      elsif /miRNA/ =~ ary[2]
-        mimat_id = mirna_info["Derives_from"]
-        print "mirbase:#{mirna_info["ID"]} :derives_from mirbase:#{mirna_info["Derives_from"]} .\n"
-      end
-    end
-  end
-end
+mirbase = MiRBase::DB.new(ARGV.shift)
+mirbase.rdf
 
 
-ff = Bio::FlatFile.new(Bio::EMBL, f_miRBase)
 
-ff.each do |entry|
-  if /#{organism}/ =~ entry.description
-  print "mirbase:#{entry.accession}\n"
-  print "  dcterms:identifier \"#{entry.accession}\" ;\n"
-  print "  dcterms:description \"#{entry.description}\"@en ;\n"
-  print "  rdfs:label \"#{entry.entry_id}\"@en ;\n"
-  print "  obo:RO_0002162 taxonomy:#{tax_id} ;\n"
-  entry.dblinks.each do |link|
-    case link.database
-    when "HGNC"
-      print "  rdfs:seeAlso hgnc:#{link.id} ;\n"
-    when "ENTREZGENE"
-      print "  rdfs:seeAlso ncbigene:#{link.id} ;\n"
-    when "RFAM"
-      print "  rdfs:seeAlso rfam:#{link.id} ;\n"
-    when "RFAM"
-    end
-  end
-  entry.references.each do |ref|
-    print "  dcterms:references pubmed:#{ref.pubmed} ;\n" unless ref.pubmed == ""
-    print "  dcterms:references pmid:#{ref.pubmed} ;\n" unless ref.pubmed == ""
-  end
-  if entry.accession == "MIMAT" 
-    print "  a :MatureMicroRNA .\n"
-  else
-    print "  a :MicroRNA .\n"
-  end
-  print "\n"
-  end
-end
 
-=end
+
