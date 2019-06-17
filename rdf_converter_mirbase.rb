@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'bio'
-
+require 'optparse'
 
 module MiRBase
 
@@ -142,59 +142,71 @@ module MiRBase
 
     def initialize(file, org_code = nil)
       org_code == nil ? @org_code = MiRBase.get_org(file) : @org_code = org_code
+      @org_name = MiRBase::OrganismCodes[org_code][1]
+      @tax_id = MiRBase::OrganismCodes[org_code][0]
       @file = open(file)
     end
 
     def rdf
       ff = Bio::FlatFile.new(Bio::EMBL, @file)
       ff.each do |entry|
-        print_turtle(entry)
+        if /#{@org_name}/ =~ entry.description
+          print_turtle(entry)
+        end
       end
     end
 
     def print_turtle(entry)
 
-      if /Homo sapiens/ =~ entry.description
-        print "mirbase:#{entry.accession}\n"
-        print "  dcterms:identifier \"#{entry.accession}\" ;\n"
-        print "  dcterms:description \"#{entry.description}\"@en ;\n"
-        print "  rdfs:label \"#{entry.entry_id}\"@en ;\n"
-        print "  obo:RO_0002162 taxonomy:9606 ;\n"
-        entry.dblinks.each do |link|
-          case link.database
-          when "HGNC"
-            print "  rdfs:seeAlso hgnc:#{link.id} ;\n"
-          when "ENTREZGENE"
-            print "  rdfs:seeAlso ncbigene:#{link.id} ;\n"
-          when "RFAM"
-            print "  rdfs:seeAlso rfam:#{link.id} ;\n"
-          when "RFAM"
-          end
+      print "mirbase:#{entry.accession}\n"
+      print "  dcterms:identifier \"#{entry.accession}\" ;\n"
+      print "  dcterms:description \"#{entry.description}\"@en ;\n"
+      print "  rdfs:label \"#{entry.entry_id}\"@en ;\n"
+      print "  obo:RO_0002162 taxonomy:#{@tax_id} ;\n"
+      entry.dblinks.each do |link|
+        case link.database
+        when "HGNC"
+          print "  rdfs:seeAlso hgnc:#{link.id} ;\n"
+        when "ENTREZGENE"
+          print "  rdfs:seeAlso ncbigene:#{link.id} ;\n"
+        when "RFAM"
+          print "  rdfs:seeAlso rfam:#{link.id} ;\n"
+        when "TARGETS:PICTAR-VERT"
+        when "MIR"
+        else
+          print "Unkown Database\n"
+          exit
         end
-        entry.references.each do |ref|
-          unless ref.pubmed == ""
-            print "  dcterms:references pubmed:#{ref.pubmed} ;\n"
-            print "  dcterms:references pmid:#{ref.pubmed} ;\n"
-          end
-          if entry.accession == "MIMAT" 
-            print "  a :MatureMicroRNA .\n"
-          else
-            print "  a :MicroRNA .\n"
-          end
-        end
-        print "\n"
       end
+      entry.references.each do |ref|
+        unless ref.pubmed == ""
+          print "  dcterms:references pubmed:#{ref.pubmed} ;\n"
+          print "  dcterms:references pmid:#{ref.pubmed} ;\n"
+        end
+      end
+      if entry.accession == "MIMAT" 
+        print "  a :MatureMicroRNA .\n"
+      else
+        print "  a :MicroRNA .\n"
+      end
+      print "\n"
     end
   end
 end
 
+
+params = ARGV.getopts('po:', 'prefixes', 'org:')
+if params["o"] || params["org"]
+  org_code = params["o"] || org_code = params["org"]
+  mirbase = MiRBase::DB.new(ARGV.shift, org_code)
+  mirbase.rdf
+end
+
+#mirbase = MiRBase::DB.new(ARGV.shift)
+
+
 #gff = MiRBase::GFF.new(ARGV.shift)
 #MiRBase.prefixes
-
-mirbase = MiRBase::DB.new(ARGV.shift)
-mirbase.rdf
-
-
 
 
 
