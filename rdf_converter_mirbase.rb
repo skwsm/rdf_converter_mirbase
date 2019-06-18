@@ -112,6 +112,12 @@ module MiRBase
       print "  a obo:SO_0001265 ;\n"
       print "  skos:altLabel \"#{mirna_info["Alias"]}\" ;\n"
       print "  dcterms:identifier \"#{mirna_info["ID"]}\" ;\n"
+      if /miRNA_primary_transcript/ =~ feature
+      elsif /miRNA/ =~ feature
+        mimat_id = mirna_info["Derives_from"]
+        print "\n"
+        print "  :derives_from mirbase:#{mirna_info["Derives_from"]} ;\n"
+      end
       print "  faldo:location [\n"
       print "    a faldo:Region ;\n"
       print "    faldo:begin [\n"
@@ -129,11 +135,6 @@ module MiRBase
       #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
       print "    ] \n"
       print "  ] .\n"
-      if /miRNA_primary_transcript/ =~ feature
-      elsif /miRNA/ =~ feature
-        mimat_id = mirna_info["Derives_from"]
-        print "mirbase:#{mirna_info["ID"]} :derives_from mirbase:#{mirna_info["Derives_from"]} .\n"
-      end
       print "\n"
     end
   end
@@ -188,14 +189,21 @@ module MiRBase
         print "  a :MatureMicroRNA .\n"
       else
         print "  a :MicroRNA .\n"
-      end
-      print "\n"
+     end
+     print "\n"
     end
   end
 end
 
 
-params = ARGV.getopts('po:', 'prefixes', 'org:')
+params = ARGV.getopts('po:g', 'prefixes', 'org:', 'gff')
+if params["p"] || params["prefixes"]
+  MiRBase.prefixes
+end
+if params["g"] || params["gff"]
+  mirbase_gff = MiRBase::GFF.new(ARGV.shift)
+  mirbase_gff.rdf
+end
 if params["o"] || params["org"]
   org_code = params["o"] || org_code = params["org"]
   mirbase = MiRBase::DB.new(ARGV.shift, org_code)
