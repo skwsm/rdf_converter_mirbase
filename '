@@ -237,12 +237,10 @@ module MiRBase
       @experiment2references.each do |experiment, references|
         print "  :evidence [\n"
           print "  :experiment_type \"#{experiment}\" ;\n"
-          pmids = []
           references.each do |embl_gb_record_number|
-            pmids << "pubmed:#{@ref_rn2ref[embl_gb_record_number].pubmed}"
-            pmids << "pmid:#{@ref_rn2ref[embl_gb_record_number].pubmed}"
+            print "    dcterms:references pubmed:#{@ref_rn2ref[embl_gb_record_number].pubmed} ,\n"
+            print "      pmid:#{@ref_rn2ref[embl_gb_record_number].pubmed} ;\n"
           end
-          print "      dcterms:references #{pmids.join(', ')} ;\n"
         print "  ] ;\n"
       end
       if entry.accession == "MIMAT" 
