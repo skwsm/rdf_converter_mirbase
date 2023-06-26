@@ -1,0 +1,572 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0005697
+  dcterms:identifier "MI0005697" ;
+  dcterms:description "Chlamydomonas reinhardtii miR918 stem-loop"@en ;
+  rdfs:label "cre-MIR918"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005698
+  dcterms:identifier "MI0005698" ;
+  dcterms:description "Chlamydomonas reinhardtii miR905 stem-loop"@en ;
+  rdfs:label "cre-MIR905"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535, pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005699
+  dcterms:identifier "MI0005699" ;
+  dcterms:description "Chlamydomonas reinhardtii miR906 stem-loop"@en ;
+  rdfs:label "cre-MIR906"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005700
+  dcterms:identifier "MI0005700" ;
+  dcterms:description "Chlamydomonas reinhardtii miR907 stem-loop"@en ;
+  rdfs:label "cre-MIR907"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005701
+  dcterms:identifier "MI0005701" ;
+  dcterms:description "Chlamydomonas reinhardtii miR908 stem-loop"@en ;
+  rdfs:label "cre-MIR908"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005702
+  dcterms:identifier "MI0005702" ;
+  dcterms:description "Chlamydomonas reinhardtii miR909 stem-loop"@en ;
+  rdfs:label "cre-MIR909"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005703
+  dcterms:identifier "MI0005703" ;
+  dcterms:description "Chlamydomonas reinhardtii miR910 stem-loop"@en ;
+  rdfs:label "cre-MIR910"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535, pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005704
+  dcterms:identifier "MI0005704" ;
+  dcterms:description "Chlamydomonas reinhardtii miR911 stem-loop"@en ;
+  rdfs:label "cre-MIR911"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005705
+  dcterms:identifier "MI0005705" ;
+  dcterms:description "Chlamydomonas reinhardtii miR912 stem-loop"@en ;
+  rdfs:label "cre-MIR912"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535, pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005706
+  dcterms:identifier "MI0005706" ;
+  dcterms:description "Chlamydomonas reinhardtii miR913 stem-loop"@en ;
+  rdfs:label "cre-MIR913"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005707
+  dcterms:identifier "MI0005707" ;
+  dcterms:description "Chlamydomonas reinhardtii miR914 stem-loop"@en ;
+  rdfs:label "cre-MIR914"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005708
+  dcterms:identifier "MI0005708" ;
+  dcterms:description "Chlamydomonas reinhardtii miR915 stem-loop"@en ;
+  rdfs:label "cre-MIR915"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005709
+  dcterms:identifier "MI0005709" ;
+  dcterms:description "Chlamydomonas reinhardtii miR919 stem-loop"@en ;
+  rdfs:label "cre-MIR919"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005710
+  dcterms:identifier "MI0005710" ;
+  dcterms:description "Chlamydomonas reinhardtii miR917 stem-loop"@en ;
+  rdfs:label "cre-MIR917"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17470535, pmid:17470535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006203
+  dcterms:identifier "MI0006203" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1142 stem-loop"@en ;
+  rdfs:label "cre-MIR1142"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006204
+  dcterms:identifier "MI0006204" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1143 stem-loop"@en ;
+  rdfs:label "cre-MIR1143"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006205
+  dcterms:identifier "MI0006205" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1144a stem-loop"@en ;
+  rdfs:label "cre-MIR1144a"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006206
+  dcterms:identifier "MI0006206" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1145 stem-loop"@en ;
+  rdfs:label "cre-MIR1145"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006207
+  dcterms:identifier "MI0006207" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1146 stem-loop"@en ;
+  rdfs:label "cre-MIR1146"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006208
+  dcterms:identifier "MI0006208" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1147 stem-loop"@en ;
+  rdfs:label "cre-MIR1147"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006209
+  dcterms:identifier "MI0006209" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1148 stem-loop"@en ;
+  rdfs:label "cre-MIR1148"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006210
+  dcterms:identifier "MI0006210" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1149 stem-loop"@en ;
+  rdfs:label "cre-MIR1149"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006211
+  dcterms:identifier "MI0006211" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1150 stem-loop"@en ;
+  rdfs:label "cre-MIR1150"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006212
+  dcterms:identifier "MI0006212" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1151a stem-loop"@en ;
+  rdfs:label "cre-MIR1151a"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006213
+  dcterms:identifier "MI0006213" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1151b stem-loop"@en ;
+  rdfs:label "cre-MIR1151b"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006214
+  dcterms:identifier "MI0006214" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1152 stem-loop"@en ;
+  rdfs:label "cre-MIR1152"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006215
+  dcterms:identifier "MI0006215" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1153 stem-loop"@en ;
+  rdfs:label "cre-MIR1153"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006216
+  dcterms:identifier "MI0006216" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1154 stem-loop"@en ;
+  rdfs:label "cre-MIR1154"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006217
+  dcterms:identifier "MI0006217" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1155 stem-loop"@en ;
+  rdfs:label "cre-MIR1155"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006218
+  dcterms:identifier "MI0006218" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1156 stem-loop"@en ;
+  rdfs:label "cre-MIR1156"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006219
+  dcterms:identifier "MI0006219" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1157 stem-loop"@en ;
+  rdfs:label "cre-MIR1157"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006220
+  dcterms:identifier "MI0006220" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1158 stem-loop"@en ;
+  rdfs:label "cre-MIR1158"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006221
+  dcterms:identifier "MI0006221" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1160 stem-loop"@en ;
+  rdfs:label "cre-MIR1160"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006222
+  dcterms:identifier "MI0006222" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1161a stem-loop"@en ;
+  rdfs:label "cre-MIR1161a"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006223
+  dcterms:identifier "MI0006223" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1162 stem-loop"@en ;
+  rdfs:label "cre-MIR1162"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006224
+  dcterms:identifier "MI0006224" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1163 stem-loop"@en ;
+  rdfs:label "cre-MIR1163"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006225
+  dcterms:identifier "MI0006225" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1164 stem-loop"@en ;
+  rdfs:label "cre-MIR1164"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006226
+  dcterms:identifier "MI0006226" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1165 stem-loop"@en ;
+  rdfs:label "cre-MIR1165"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006227
+  dcterms:identifier "MI0006227" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1166 stem-loop"@en ;
+  rdfs:label "cre-MIR1166"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006228
+  dcterms:identifier "MI0006228" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1168 stem-loop"@en ;
+  rdfs:label "cre-MIR1168"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006229
+  dcterms:identifier "MI0006229" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1169 stem-loop"@en ;
+  rdfs:label "cre-MIR1169"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006230
+  dcterms:identifier "MI0006230" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1170 stem-loop"@en ;
+  rdfs:label "cre-MIR1170"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006231
+  dcterms:identifier "MI0006231" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1171 stem-loop"@en ;
+  rdfs:label "cre-MIR1171"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006232
+  dcterms:identifier "MI0006232" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1173 stem-loop"@en ;
+  rdfs:label "cre-MIR1173"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006233
+  dcterms:identifier "MI0006233" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1172 stem-loop"@en ;
+  rdfs:label "cre-MIR1172"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006234
+  dcterms:identifier "MI0006234" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1167 stem-loop"@en ;
+  rdfs:label "cre-MIR1167"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006235
+  dcterms:identifier "MI0006235" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1144b stem-loop"@en ;
+  rdfs:label "cre-MIR1144b"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006236
+  dcterms:identifier "MI0006236" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1159 stem-loop"@en ;
+  rdfs:label "cre-MIR1159"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015964
+  dcterms:identifier "MI0015964" ;
+  dcterms:description "Chlamydomonas reinhardtii miR1161b stem-loop"@en ;
+  rdfs:label "cre-MIR1161b"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17538623, pmid:17538623 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031825
+  dcterms:identifier "MI0031825" ;
+  dcterms:description "Chlamydomonas reinhardtii miR9897 stem-loop"@en ;
+  rdfs:label "cre-MIR9897"@en ;
+  obo:RO_0002162 taxonomy:3055 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24127635, pmid:24127635 ;
+  ] ;
+  a :MicroRNA .
+

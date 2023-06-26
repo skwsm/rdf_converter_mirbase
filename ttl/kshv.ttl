@@ -1,0 +1,253 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0002472
+  dcterms:identifier "MI0002472" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-10a stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-10a"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15800047, pmid:15800047, pubmed:15782219, pmid:15782219, pubmed:15994824, pmid:15994824, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002473
+  dcterms:identifier "MI0002473" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-10b stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-10b"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15800047, pmid:15800047, pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002474
+  dcterms:identifier "MI0002474" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-11 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-11"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:15994824, pmid:15994824, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002475
+  dcterms:identifier "MI0002475" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-1 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-1"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002476
+  dcterms:identifier "MI0002476" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-2 stem-loop"@en ;
+  rdfs:label "kshv-miR-K12-2"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002477
+  dcterms:identifier "MI0002477" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-9 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-9"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15800047, pmid:15800047, pubmed:15782219, pmid:15782219, pubmed:15994824, pmid:15994824, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002478
+  dcterms:identifier "MI0002478" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-8 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-8"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15800047, pmid:15800047, pubmed:15782219, pmid:15782219, pubmed:15994824, pmid:15994824, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002479
+  dcterms:identifier "MI0002479" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-7 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-7"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15800047, pmid:15800047, pubmed:15782219, pmid:15782219, pubmed:15994824, pmid:15994824, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002480
+  dcterms:identifier "MI0002480" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-6 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-6"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15800047, pmid:15800047, pubmed:15782219, pmid:15782219, pubmed:15994824, pmid:15994824, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002481
+  dcterms:identifier "MI0002481" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-5 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-5"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15800047, pmid:15800047, pubmed:15782219, pmid:15782219, pubmed:15994824, pmid:15994824, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002482
+  dcterms:identifier "MI0002482" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-4 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-4"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15800047, pmid:15800047, pubmed:15782219, pmid:15782219, pubmed:15994824, pmid:15994824, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002483
+  dcterms:identifier "MI0002483" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-3 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-3"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004987
+  dcterms:identifier "MI0004987" ;
+  dcterms:description "Kaposi sarcoma-associated herpesvirus miR-K12-12 stem-loop"@en ;
+  rdfs:label "kshv-mir-K12-12"@en ;
+  obo:RO_0002162 taxonomy:435895 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19889781, pmid:19889781 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20566670, pmid:20566670 ;
+  ] ;
+  a :MicroRNA .
+

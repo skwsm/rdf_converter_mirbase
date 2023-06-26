@@ -1,0 +1,4440 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0001360
+  dcterms:identifier "MI0001360" ;
+  dcterms:description "Danio rerio miR-7b stem-loop"@en ;
+  rdfs:label "dre-mir-7b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628633 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001361
+  dcterms:identifier "MI0001361" ;
+  dcterms:description "Danio rerio miR-7a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-7a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628886 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001362
+  dcterms:identifier "MI0001362" ;
+  dcterms:description "Danio rerio miR-7a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-7a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628810 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001363
+  dcterms:identifier "MI0001363" ;
+  dcterms:description "Danio rerio miR-10a stem-loop"@en ;
+  rdfs:label "dre-mir-10a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628634 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001364
+  dcterms:identifier "MI0001364" ;
+  dcterms:description "Danio rerio miR-10b-1 stem-loop"@en ;
+  rdfs:label "dre-mir-10b-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628848 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001365
+  dcterms:identifier "MI0001365" ;
+  dcterms:description "Danio rerio miR-34 stem-loop"@en ;
+  rdfs:label "dre-mir-34a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628635 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001366
+  dcterms:identifier "MI0001366" ;
+  dcterms:description "Danio rerio miR-181b-1 stem-loop"@en ;
+  rdfs:label "dre-mir-181b-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628636 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001367
+  dcterms:identifier "MI0001367" ;
+  dcterms:description "Danio rerio miR-181b-2 stem-loop"@en ;
+  rdfs:label "dre-mir-181b-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033761 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001368
+  dcterms:identifier "MI0001368" ;
+  dcterms:description "Danio rerio miR-182 stem-loop"@en ;
+  rdfs:label "dre-mir-182"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628887 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001369
+  dcterms:identifier "MI0001369" ;
+  dcterms:description "Danio rerio miR-183 stem-loop"@en ;
+  rdfs:label "dre-mir-183"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628811 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001370
+  dcterms:identifier "MI0001370" ;
+  dcterms:description "Danio rerio miR-187 stem-loop"@en ;
+  rdfs:label "dre-mir-187"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628637 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001371
+  dcterms:identifier "MI0001371" ;
+  dcterms:description "Danio rerio miR-192 stem-loop"@en ;
+  rdfs:label "dre-mir-192"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628638 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001372
+  dcterms:identifier "MI0001372" ;
+  dcterms:description "Danio rerio miR-196a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-196a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628639 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001373
+  dcterms:identifier "MI0001373" ;
+  dcterms:description "Danio rerio miR-199-1 stem-loop"@en ;
+  rdfs:label "dre-mir-199-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628962 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001374
+  dcterms:identifier "MI0001374" ;
+  dcterms:description "Danio rerio miR-199-2 stem-loop"@en ;
+  rdfs:label "dre-mir-199-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628888 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001375
+  dcterms:identifier "MI0001375" ;
+  dcterms:description "Danio rerio miR-199-3 stem-loop"@en ;
+  rdfs:label "dre-mir-199-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628812 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001376
+  dcterms:identifier "MI0001376" ;
+  dcterms:description "Danio rerio miR-203a stem-loop"@en ;
+  rdfs:label "dre-mir-203a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628640 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001377
+  dcterms:identifier "MI0001377" ;
+  dcterms:description "Danio rerio miR-204-1 stem-loop"@en ;
+  rdfs:label "dre-mir-204-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628641 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001378
+  dcterms:identifier "MI0001378" ;
+  dcterms:description "Danio rerio miR-205 stem-loop"@en ;
+  rdfs:label "dre-mir-205"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628642 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001379
+  dcterms:identifier "MI0001379" ;
+  dcterms:description "Danio rerio miR-210 stem-loop"@en ;
+  rdfs:label "dre-mir-210"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628889 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001380
+  dcterms:identifier "MI0001380" ;
+  dcterms:description "Danio rerio miR-181a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-181a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628849 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001381
+  dcterms:identifier "MI0001381" ;
+  dcterms:description "Danio rerio miR-214 stem-loop"@en ;
+  rdfs:label "dre-mir-214"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001382
+  dcterms:identifier "MI0001382" ;
+  dcterms:description "Danio rerio miR-216a stem-loop"@en ;
+  rdfs:label "dre-mir-216a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628643 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001383
+  dcterms:identifier "MI0001383" ;
+  dcterms:description "Danio rerio miR-217 stem-loop"@en ;
+  rdfs:label "dre-mir-217"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628644 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001384
+  dcterms:identifier "MI0001384" ;
+  dcterms:description "Danio rerio miR-219-1 stem-loop"@en ;
+  rdfs:label "dre-mir-219-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628890 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001385
+  dcterms:identifier "MI0001385" ;
+  dcterms:description "Danio rerio miR-219-2 stem-loop"@en ;
+  rdfs:label "dre-mir-219-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628645 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001387
+  dcterms:identifier "MI0001387" ;
+  dcterms:description "Danio rerio miR-221 stem-loop"@en ;
+  rdfs:label "dre-mir-221"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033780 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001388
+  dcterms:identifier "MI0001388" ;
+  dcterms:description "Danio rerio miR-222 stem-loop"@en ;
+  rdfs:label "dre-mir-222a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033781 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12624257, pmid:12624257, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001389
+  dcterms:identifier "MI0001389" ;
+  dcterms:description "Danio rerio miR-223 stem-loop"@en ;
+  rdfs:label "dre-mir-223"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628647 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001527
+  dcterms:identifier "MI0001527" ;
+  dcterms:description "Danio rerio miR-430a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628850 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001528
+  dcterms:identifier "MI0001528" ;
+  dcterms:description "Danio rerio miR-430b-1 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628891 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001529
+  dcterms:identifier "MI0001529" ;
+  dcterms:description "Danio rerio miR-430c-1 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033785 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001720
+  dcterms:identifier "MI0001720" ;
+  dcterms:description "Danio rerio miR-429 stem-loop"@en ;
+  rdfs:label "dre-mir-429a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628648 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15891114, pmid:15891114 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:18353984, pmid:18353984 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18353984, pmid:18353984 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001732
+  dcterms:identifier "MI0001732" ;
+  dcterms:description "Danio rerio miR-451 stem-loop"@en ;
+  rdfs:label "dre-mir-451"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628649 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001857
+  dcterms:identifier "MI0001857" ;
+  dcterms:description "Danio rerio let-7a-1 stem-loop"@en ;
+  rdfs:label "dre-let-7a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628813 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001858
+  dcterms:identifier "MI0001858" ;
+  dcterms:description "Danio rerio let-7a-2 stem-loop"@en ;
+  rdfs:label "dre-let-7a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628650 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001860
+  dcterms:identifier "MI0001860" ;
+  dcterms:description "Danio rerio let-7a-3 stem-loop"@en ;
+  rdfs:label "dre-let-7a-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628892 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001861
+  dcterms:identifier "MI0001861" ;
+  dcterms:description "Danio rerio let-7a-4 stem-loop"@en ;
+  rdfs:label "dre-let-7a-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628851 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001862
+  dcterms:identifier "MI0001862" ;
+  dcterms:description "Danio rerio let-7a-5 stem-loop"@en ;
+  rdfs:label "dre-let-7a-5"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628651 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001863
+  dcterms:identifier "MI0001863" ;
+  dcterms:description "Danio rerio let-7a-6 stem-loop"@en ;
+  rdfs:label "dre-let-7a-6"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628652 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001865
+  dcterms:identifier "MI0001865" ;
+  dcterms:description "Danio rerio let-7b stem-loop"@en ;
+  rdfs:label "dre-let-7b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628814 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001866
+  dcterms:identifier "MI0001866" ;
+  dcterms:description "Danio rerio let-7c-1 stem-loop"@en ;
+  rdfs:label "dre-let-7c-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628653 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001867
+  dcterms:identifier "MI0001867" ;
+  dcterms:description "Danio rerio let-7c-2 stem-loop"@en ;
+  rdfs:label "dre-let-7c-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628893 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001868
+  dcterms:identifier "MI0001868" ;
+  dcterms:description "Danio rerio let-7d-1 stem-loop"@en ;
+  rdfs:label "dre-let-7d-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628963 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001870
+  dcterms:identifier "MI0001870" ;
+  dcterms:description "Danio rerio let-7d-2 stem-loop"@en ;
+  rdfs:label "dre-let-7d-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628654 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001871
+  dcterms:identifier "MI0001871" ;
+  dcterms:description "Danio rerio let-7e stem-loop"@en ;
+  rdfs:label "dre-let-7e"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033544 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001872
+  dcterms:identifier "MI0001872" ;
+  dcterms:description "Danio rerio let-7f stem-loop"@en ;
+  rdfs:label "dre-let-7f"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628815 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001873
+  dcterms:identifier "MI0001873" ;
+  dcterms:description "Danio rerio let-7g-1 stem-loop"@en ;
+  rdfs:label "dre-let-7g-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628656 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001874
+  dcterms:identifier "MI0001874" ;
+  dcterms:description "Danio rerio let-7g-2 stem-loop"@en ;
+  rdfs:label "dre-let-7g-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628894 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001875
+  dcterms:identifier "MI0001875" ;
+  dcterms:description "Danio rerio let-7h stem-loop"@en ;
+  rdfs:label "dre-let-7h"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628657 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001876
+  dcterms:identifier "MI0001876" ;
+  dcterms:description "Danio rerio let-7i stem-loop"@en ;
+  rdfs:label "dre-let-7i"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628852 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001877
+  dcterms:identifier "MI0001877" ;
+  dcterms:description "Danio rerio miR-1-2 stem-loop"@en ;
+  rdfs:label "dre-mir-1-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628658 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001878
+  dcterms:identifier "MI0001878" ;
+  dcterms:description "Danio rerio miR-1-1 stem-loop"@en ;
+  rdfs:label "dre-mir-1-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033551 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001879
+  dcterms:identifier "MI0001879" ;
+  dcterms:description "Danio rerio miR-7a-3 stem-loop"@en ;
+  rdfs:label "dre-mir-7a-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628951 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001880
+  dcterms:identifier "MI0001880" ;
+  dcterms:description "Danio rerio miR-9-1 stem-loop"@en ;
+  rdfs:label "dre-mir-9-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628659 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001881
+  dcterms:identifier "MI0001881" ;
+  dcterms:description "Danio rerio miR-9-2 stem-loop"@en ;
+  rdfs:label "dre-mir-9-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033554 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001882
+  dcterms:identifier "MI0001882" ;
+  dcterms:description "Danio rerio miR-9-4 stem-loop"@en ;
+  rdfs:label "dre-mir-9-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628660 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001883
+  dcterms:identifier "MI0001883" ;
+  dcterms:description "Danio rerio miR-9-3 stem-loop"@en ;
+  rdfs:label "dre-mir-9-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628895 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001884
+  dcterms:identifier "MI0001884" ;
+  dcterms:description "Danio rerio miR-9-5 stem-loop"@en ;
+  rdfs:label "dre-mir-9-5"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628896 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001885
+  dcterms:identifier "MI0001885" ;
+  dcterms:description "Danio rerio miR-9-6 stem-loop"@en ;
+  rdfs:label "dre-mir-9-6"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033558 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001886
+  dcterms:identifier "MI0001886" ;
+  dcterms:description "Danio rerio miR-9-7 stem-loop"@en ;
+  rdfs:label "dre-mir-9-7"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628661 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001887
+  dcterms:identifier "MI0001887" ;
+  dcterms:description "Danio rerio miR-10b-2 stem-loop"@en ;
+  rdfs:label "dre-mir-10b-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628816 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001888
+  dcterms:identifier "MI0001888" ;
+  dcterms:description "Danio rerio miR-10c stem-loop"@en ;
+  rdfs:label "dre-mir-10c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628662 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001889
+  dcterms:identifier "MI0001889" ;
+  dcterms:description "Danio rerio miR-10d stem-loop"@en ;
+  rdfs:label "dre-mir-10d"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628853 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001891
+  dcterms:identifier "MI0001891" ;
+  dcterms:description "Danio rerio miR-15a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-15a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628663 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001892
+  dcterms:identifier "MI0001892" ;
+  dcterms:description "Danio rerio miR-15a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-15a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033565 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001893
+  dcterms:identifier "MI0001893" ;
+  dcterms:description "Danio rerio miR-15b stem-loop"@en ;
+  rdfs:label "dre-mir-15b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628897 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001894
+  dcterms:identifier "MI0001894" ;
+  dcterms:description "Danio rerio miR-16a stem-loop"@en ;
+  rdfs:label "dre-mir-16a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628664 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001895
+  dcterms:identifier "MI0001895" ;
+  dcterms:description "Danio rerio miR-16b stem-loop"@en ;
+  rdfs:label "dre-mir-16b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628884 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001896
+  dcterms:identifier "MI0001896" ;
+  dcterms:description "Danio rerio miR-16c stem-loop"@en ;
+  rdfs:label "dre-mir-16c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033569 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001897
+  dcterms:identifier "MI0001897" ;
+  dcterms:description "Danio rerio miR-17a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-17a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628665 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001898
+  dcterms:identifier "MI0001898" ;
+  dcterms:description "Danio rerio miR-17a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-17a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628666 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001899
+  dcterms:identifier "MI0001899" ;
+  dcterms:description "Danio rerio miR-20b stem-loop"@en ;
+  rdfs:label "dre-mir-20b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628898 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001900
+  dcterms:identifier "MI0001900" ;
+  dcterms:description "Danio rerio miR-18a stem-loop"@en ;
+  rdfs:label "dre-mir-18a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628854 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001901
+  dcterms:identifier "MI0001901" ;
+  dcterms:description "Danio rerio miR-18b stem-loop"@en ;
+  rdfs:label "dre-mir-18b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628667 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001902
+  dcterms:identifier "MI0001902" ;
+  dcterms:description "Danio rerio miR-18c stem-loop"@en ;
+  rdfs:label "dre-mir-18c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628817 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001903
+  dcterms:identifier "MI0001903" ;
+  dcterms:description "Danio rerio miR-19a stem-loop"@en ;
+  rdfs:label "dre-mir-19a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628668 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001904
+  dcterms:identifier "MI0001904" ;
+  dcterms:description "Danio rerio miR-19b stem-loop"@en ;
+  rdfs:label "dre-mir-19b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628669 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001905
+  dcterms:identifier "MI0001905" ;
+  dcterms:description "Danio rerio miR-19c stem-loop"@en ;
+  rdfs:label "dre-mir-19c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628899 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001906
+  dcterms:identifier "MI0001906" ;
+  dcterms:description "Danio rerio miR-19d stem-loop"@en ;
+  rdfs:label "dre-mir-19d"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628670 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001907
+  dcterms:identifier "MI0001907" ;
+  dcterms:description "Danio rerio miR-20a stem-loop"@en ;
+  rdfs:label "dre-mir-20a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628671 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001908
+  dcterms:identifier "MI0001908" ;
+  dcterms:description "Danio rerio miR-21-1 stem-loop"@en ;
+  rdfs:label "dre-mir-21-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628952 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001909
+  dcterms:identifier "MI0001909" ;
+  dcterms:description "Danio rerio miR-21-2 stem-loop"@en ;
+  rdfs:label "dre-mir-21-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628964 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001910
+  dcterms:identifier "MI0001910" ;
+  dcterms:description "Danio rerio miR-22a stem-loop"@en ;
+  rdfs:label "dre-mir-22a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628672 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001912
+  dcterms:identifier "MI0001912" ;
+  dcterms:description "Danio rerio miR-22b stem-loop"@en ;
+  rdfs:label "dre-mir-22b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628900 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001913
+  dcterms:identifier "MI0001913" ;
+  dcterms:description "Danio rerio miR-23a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-23a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628673 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001915
+  dcterms:identifier "MI0001915" ;
+  dcterms:description "Danio rerio miR-23a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-23a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001916
+  dcterms:identifier "MI0001916" ;
+  dcterms:description "Danio rerio miR-23a-3 stem-loop"@en ;
+  rdfs:label "dre-mir-23a-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628818 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001917
+  dcterms:identifier "MI0001917" ;
+  dcterms:description "Danio rerio miR-23b stem-loop"@en ;
+  rdfs:label "dre-mir-23b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628675 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001918
+  dcterms:identifier "MI0001918" ;
+  dcterms:description "Danio rerio miR-24-4 stem-loop"@en ;
+  rdfs:label "dre-mir-24-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033590 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001919
+  dcterms:identifier "MI0001919" ;
+  dcterms:description "Danio rerio miR-24-2 stem-loop"@en ;
+  rdfs:label "dre-mir-24-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628901 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001920
+  dcterms:identifier "MI0001920" ;
+  dcterms:description "Danio rerio miR-24-3 stem-loop"@en ;
+  rdfs:label "dre-mir-24-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628676 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001921
+  dcterms:identifier "MI0001921" ;
+  dcterms:description "Danio rerio miR-24-1 stem-loop"@en ;
+  rdfs:label "dre-mir-24-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628855 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001922
+  dcterms:identifier "MI0001922" ;
+  dcterms:description "Danio rerio miR-25 stem-loop"@en ;
+  rdfs:label "dre-mir-25"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628677 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001923
+  dcterms:identifier "MI0001923" ;
+  dcterms:description "Danio rerio miR-26a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-26a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628819 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001925
+  dcterms:identifier "MI0001925" ;
+  dcterms:description "Danio rerio miR-26a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-26a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033596 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001926
+  dcterms:identifier "MI0001926" ;
+  dcterms:description "Danio rerio miR-26a-3 stem-loop"@en ;
+  rdfs:label "dre-mir-26a-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628902 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001927
+  dcterms:identifier "MI0001927" ;
+  dcterms:description "Danio rerio miR-26b stem-loop"@en ;
+  rdfs:label "dre-mir-26b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628679 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001928
+  dcterms:identifier "MI0001928" ;
+  dcterms:description "Danio rerio miR-27a stem-loop"@en ;
+  rdfs:label "dre-mir-27a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628680 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001929
+  dcterms:identifier "MI0001929" ;
+  dcterms:description "Danio rerio miR-27b stem-loop"@en ;
+  rdfs:label "dre-mir-27b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628681 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001930
+  dcterms:identifier "MI0001930" ;
+  dcterms:description "Danio rerio miR-27c stem-loop"@en ;
+  rdfs:label "dre-mir-27c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628820 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001931
+  dcterms:identifier "MI0001931" ;
+  dcterms:description "Danio rerio miR-27d stem-loop"@en ;
+  rdfs:label "dre-mir-27d"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628856 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001932
+  dcterms:identifier "MI0001932" ;
+  dcterms:description "Danio rerio miR-27e stem-loop"@en ;
+  rdfs:label "dre-mir-27e"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033604 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001933
+  dcterms:identifier "MI0001933" ;
+  dcterms:description "Danio rerio miR-29b-1 stem-loop"@en ;
+  rdfs:label "dre-mir-29b-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628903 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001934
+  dcterms:identifier "MI0001934" ;
+  dcterms:description "Danio rerio miR-29b-2 stem-loop"@en ;
+  rdfs:label "dre-mir-29b-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628682 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001938
+  dcterms:identifier "MI0001938" ;
+  dcterms:description "Danio rerio miR-29a stem-loop"@en ;
+  rdfs:label "dre-mir-29a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628904 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001940
+  dcterms:identifier "MI0001940" ;
+  dcterms:description "Danio rerio miR-30a stem-loop"@en ;
+  rdfs:label "dre-mir-30a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033609 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001941
+  dcterms:identifier "MI0001941" ;
+  dcterms:description "Danio rerio miR-30b stem-loop"@en ;
+  rdfs:label "dre-mir-30b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628684 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001944
+  dcterms:identifier "MI0001944" ;
+  dcterms:description "Danio rerio miR-30c stem-loop"@en ;
+  rdfs:label "dre-mir-30c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628685 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001946
+  dcterms:identifier "MI0001946" ;
+  dcterms:description "Danio rerio miR-30d stem-loop"@en ;
+  rdfs:label "dre-mir-30d"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628857 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001950
+  dcterms:identifier "MI0001950" ;
+  dcterms:description "Danio rerio miR-30e-2 stem-loop"@en ;
+  rdfs:label "dre-mir-30e-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628686 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001951
+  dcterms:identifier "MI0001951" ;
+  dcterms:description "Danio rerio miR-92a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-92a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628905 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001952
+  dcterms:identifier "MI0001952" ;
+  dcterms:description "Danio rerio miR-92a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-92a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628971 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001953
+  dcterms:identifier "MI0001953" ;
+  dcterms:description "Danio rerio miR-92b stem-loop"@en ;
+  rdfs:label "dre-mir-92b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628687 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001954
+  dcterms:identifier "MI0001954" ;
+  dcterms:description "Danio rerio miR-93 stem-loop"@en ;
+  rdfs:label "dre-mir-93"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628688 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001955
+  dcterms:identifier "MI0001955" ;
+  dcterms:description "Danio rerio miR-96 stem-loop"@en ;
+  rdfs:label "dre-mir-96"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628689 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001956
+  dcterms:identifier "MI0001956" ;
+  dcterms:description "Danio rerio miR-99-1 stem-loop"@en ;
+  rdfs:label "dre-mir-99-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628690 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001957
+  dcterms:identifier "MI0001957" ;
+  dcterms:description "Danio rerio miR-99-2 stem-loop"@en ;
+  rdfs:label "dre-mir-99-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033620 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001958
+  dcterms:identifier "MI0001958" ;
+  dcterms:description "Danio rerio miR-100-1 stem-loop"@en ;
+  rdfs:label "dre-mir-100-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628906 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001959
+  dcterms:identifier "MI0001959" ;
+  dcterms:description "Danio rerio miR-100-2 stem-loop"@en ;
+  rdfs:label "dre-mir-100-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628821 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001960
+  dcterms:identifier "MI0001960" ;
+  dcterms:description "Danio rerio miR-101a stem-loop"@en ;
+  rdfs:label "dre-mir-101a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628965 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001961
+  dcterms:identifier "MI0001961" ;
+  dcterms:description "Danio rerio miR-101b stem-loop"@en ;
+  rdfs:label "dre-mir-101b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033624 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001962
+  dcterms:identifier "MI0001962" ;
+  dcterms:description "Danio rerio miR-103 stem-loop"@en ;
+  rdfs:label "dre-mir-103"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628692 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001963
+  dcterms:identifier "MI0001963" ;
+  dcterms:description "Danio rerio miR-107 stem-loop"@en ;
+  rdfs:label "dre-mir-107a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628693 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001965
+  dcterms:identifier "MI0001965" ;
+  dcterms:description "Danio rerio miR-122 stem-loop"@en ;
+  rdfs:label "dre-mir-122"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628907 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001966
+  dcterms:identifier "MI0001966" ;
+  dcterms:description "Danio rerio miR-124-1 stem-loop"@en ;
+  rdfs:label "dre-mir-124-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628822 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001967
+  dcterms:identifier "MI0001967" ;
+  dcterms:description "Danio rerio miR-124-2 stem-loop"@en ;
+  rdfs:label "dre-mir-124-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001968
+  dcterms:identifier "MI0001968" ;
+  dcterms:description "Danio rerio miR-124-3 stem-loop"@en ;
+  rdfs:label "dre-mir-124-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628695 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001969
+  dcterms:identifier "MI0001969" ;
+  dcterms:description "Danio rerio miR-124-4 stem-loop"@en ;
+  rdfs:label "dre-mir-124-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033631 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001970
+  dcterms:identifier "MI0001970" ;
+  dcterms:description "Danio rerio miR-124-5 stem-loop"@en ;
+  rdfs:label "dre-mir-124-5"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628858 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001971
+  dcterms:identifier "MI0001971" ;
+  dcterms:description "Danio rerio miR-124-6 stem-loop"@en ;
+  rdfs:label "dre-mir-124-6"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628908 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001972
+  dcterms:identifier "MI0001972" ;
+  dcterms:description "Danio rerio miR-125a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-125a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628696 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001973
+  dcterms:identifier "MI0001973" ;
+  dcterms:description "Danio rerio miR-125a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-125a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628823 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001975
+  dcterms:identifier "MI0001975" ;
+  dcterms:description "Danio rerio miR-125b-1 stem-loop"@en ;
+  rdfs:label "dre-mir-125b-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628697 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001976
+  dcterms:identifier "MI0001976" ;
+  dcterms:description "Danio rerio miR-125b-2 stem-loop"@en ;
+  rdfs:label "dre-mir-125b-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628698 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001977
+  dcterms:identifier "MI0001977" ;
+  dcterms:description "Danio rerio miR-125b-3 stem-loop"@en ;
+  rdfs:label "dre-mir-125b-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628909 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001978
+  dcterms:identifier "MI0001978" ;
+  dcterms:description "Danio rerio miR-125c stem-loop"@en ;
+  rdfs:label "dre-mir-125c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628859 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001979
+  dcterms:identifier "MI0001979" ;
+  dcterms:description "Danio rerio miR-126a stem-loop"@en ;
+  rdfs:label "dre-mir-126a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628699 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001980
+  dcterms:identifier "MI0001980" ;
+  dcterms:description "Danio rerio miR-128-1 stem-loop"@en ;
+  rdfs:label "dre-mir-128-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033641 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001981
+  dcterms:identifier "MI0001981" ;
+  dcterms:description "Danio rerio miR-128-2 stem-loop"@en ;
+  rdfs:label "dre-mir-128-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628954 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001982
+  dcterms:identifier "MI0001982" ;
+  dcterms:description "Danio rerio miR-129-2 stem-loop"@en ;
+  rdfs:label "dre-mir-129-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628700 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001983
+  dcterms:identifier "MI0001983" ;
+  dcterms:description "Danio rerio miR-129-1 stem-loop"@en ;
+  rdfs:label "dre-mir-129-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628701 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001984
+  dcterms:identifier "MI0001984" ;
+  dcterms:description "Danio rerio miR-130a stem-loop"@en ;
+  rdfs:label "dre-mir-130a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033645 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001986
+  dcterms:identifier "MI0001986" ;
+  dcterms:description "Danio rerio miR-130b stem-loop"@en ;
+  rdfs:label "dre-mir-130b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001987
+  dcterms:identifier "MI0001987" ;
+  dcterms:description "Danio rerio miR-130c-1 stem-loop"@en ;
+  rdfs:label "dre-mir-130c-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628860 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001988
+  dcterms:identifier "MI0001988" ;
+  dcterms:description "Danio rerio miR-130c-2 stem-loop"@en ;
+  rdfs:label "dre-mir-130c-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628824 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001989
+  dcterms:identifier "MI0001989" ;
+  dcterms:description "Danio rerio miR-132-1 stem-loop"@en ;
+  rdfs:label "dre-mir-132-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628703 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001991
+  dcterms:identifier "MI0001991" ;
+  dcterms:description "Danio rerio miR-132-2 stem-loop"@en ;
+  rdfs:label "dre-mir-132-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628704 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001992
+  dcterms:identifier "MI0001992" ;
+  dcterms:description "Danio rerio miR-133a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-133a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628911 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001993
+  dcterms:identifier "MI0001993" ;
+  dcterms:description "Danio rerio miR-133a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-133a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628705 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001994
+  dcterms:identifier "MI0001994" ;
+  dcterms:description "Danio rerio miR-133b stem-loop"@en ;
+  rdfs:label "dre-mir-133b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628706 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001995
+  dcterms:identifier "MI0001995" ;
+  dcterms:description "Danio rerio miR-133c stem-loop"@en ;
+  rdfs:label "dre-mir-133c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628885 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001996
+  dcterms:identifier "MI0001996" ;
+  dcterms:description "Danio rerio miR-135c-1 stem-loop"@en ;
+  rdfs:label "dre-mir-135c-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628861 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001997
+  dcterms:identifier "MI0001997" ;
+  dcterms:description "Danio rerio miR-135c-2 stem-loop"@en ;
+  rdfs:label "dre-mir-135c-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628912 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002000
+  dcterms:identifier "MI0002000" ;
+  dcterms:description "Danio rerio miR-137-1 stem-loop"@en ;
+  rdfs:label "dre-mir-137-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628708 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002001
+  dcterms:identifier "MI0002001" ;
+  dcterms:description "Danio rerio miR-137-2 stem-loop"@en ;
+  rdfs:label "dre-mir-137-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628709 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002002
+  dcterms:identifier "MI0002002" ;
+  dcterms:description "Danio rerio miR-138-1 stem-loop"@en ;
+  rdfs:label "dre-mir-138-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628825 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002003
+  dcterms:identifier "MI0002003" ;
+  dcterms:description "Danio rerio miR-140 stem-loop"@en ;
+  rdfs:label "dre-mir-140"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033662 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002004
+  dcterms:identifier "MI0002004" ;
+  dcterms:description "Danio rerio miR-141 stem-loop"@en ;
+  rdfs:label "dre-mir-141"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033663 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002005
+  dcterms:identifier "MI0002005" ;
+  dcterms:description "Danio rerio miR-142a stem-loop"@en ;
+  rdfs:label "dre-mir-142a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628913 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002006
+  dcterms:identifier "MI0002006" ;
+  dcterms:description "Danio rerio miR-142b stem-loop"@en ;
+  rdfs:label "dre-mir-142b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628710 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002007
+  dcterms:identifier "MI0002007" ;
+  dcterms:description "Danio rerio miR-143 stem-loop"@en ;
+  rdfs:label "dre-mir-143"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628862 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002009
+  dcterms:identifier "MI0002009" ;
+  dcterms:description "Danio rerio miR-144 stem-loop"@en ;
+  rdfs:label "dre-mir-144"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628712 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002010
+  dcterms:identifier "MI0002010" ;
+  dcterms:description "Danio rerio miR-145 stem-loop"@en ;
+  rdfs:label "dre-mir-145"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033669 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002012
+  dcterms:identifier "MI0002012" ;
+  dcterms:description "Danio rerio miR-146a stem-loop"@en ;
+  rdfs:label "dre-mir-146a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033670 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002013
+  dcterms:identifier "MI0002013" ;
+  dcterms:description "Danio rerio miR-146b stem-loop"@en ;
+  rdfs:label "dre-mir-146b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628713 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002015
+  dcterms:identifier "MI0002015" ;
+  dcterms:description "Danio rerio miR-148 stem-loop"@en ;
+  rdfs:label "dre-mir-148"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628863 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002016
+  dcterms:identifier "MI0002016" ;
+  dcterms:description "Danio rerio miR-150 stem-loop"@en ;
+  rdfs:label "dre-mir-150"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628715 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002017
+  dcterms:identifier "MI0002017" ;
+  dcterms:description "Danio rerio miR-152 stem-loop"@en ;
+  rdfs:label "dre-mir-152"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628955 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002019
+  dcterms:identifier "MI0002019" ;
+  dcterms:description "Danio rerio miR-153b stem-loop"@en ;
+  rdfs:label "dre-mir-153b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628915 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002021
+  dcterms:identifier "MI0002021" ;
+  dcterms:description "Danio rerio miR-153a stem-loop"@en ;
+  rdfs:label "dre-mir-153a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628716 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002022
+  dcterms:identifier "MI0002022" ;
+  dcterms:description "Danio rerio miR-153c stem-loop"@en ;
+  rdfs:label "dre-mir-153c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628717 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002023
+  dcterms:identifier "MI0002023" ;
+  dcterms:description "Danio rerio miR-155 stem-loop"@en ;
+  rdfs:label "dre-mir-155"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628916 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002024
+  dcterms:identifier "MI0002024" ;
+  dcterms:description "Danio rerio miR-181c stem-loop"@en ;
+  rdfs:label "dre-mir-181c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628718 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002026
+  dcterms:identifier "MI0002026" ;
+  dcterms:description "Danio rerio miR-184 stem-loop"@en ;
+  rdfs:label "dre-mir-184-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628827 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002027
+  dcterms:identifier "MI0002027" ;
+  dcterms:description "Danio rerio miR-190 stem-loop"@en ;
+  rdfs:label "dre-mir-190a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628864 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002028
+  dcterms:identifier "MI0002028" ;
+  dcterms:description "Danio rerio miR-462 stem-loop"@en ;
+  rdfs:label "dre-mir-462"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628719 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002029
+  dcterms:identifier "MI0002029" ;
+  dcterms:description "Danio rerio miR-193a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-193a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628720 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002030
+  dcterms:identifier "MI0002030" ;
+  dcterms:description "Danio rerio miR-193a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-193a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628917 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002032
+  dcterms:identifier "MI0002032" ;
+  dcterms:description "Danio rerio miR-193b stem-loop"@en ;
+  rdfs:label "dre-mir-193b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628828 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002033
+  dcterms:identifier "MI0002033" ;
+  dcterms:description "Danio rerio miR-194a stem-loop"@en ;
+  rdfs:label "dre-mir-194a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628722 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002034
+  dcterms:identifier "MI0002034" ;
+  dcterms:description "Danio rerio miR-194b stem-loop"@en ;
+  rdfs:label "dre-mir-194b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033689 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002035
+  dcterms:identifier "MI0002035" ;
+  dcterms:description "Danio rerio miR-196a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-196a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033690 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002036
+  dcterms:identifier "MI0002036" ;
+  dcterms:description "Danio rerio miR-196b stem-loop"@en ;
+  rdfs:label "dre-mir-196b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628865 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002037
+  dcterms:identifier "MI0002037" ;
+  dcterms:description "Danio rerio miR-200a stem-loop"@en ;
+  rdfs:label "dre-mir-200a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628918 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002038
+  dcterms:identifier "MI0002038" ;
+  dcterms:description "Danio rerio miR-200b stem-loop"@en ;
+  rdfs:label "dre-mir-200b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628724 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002039
+  dcterms:identifier "MI0002039" ;
+  dcterms:description "Danio rerio miR-200c stem-loop"@en ;
+  rdfs:label "dre-mir-200c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628829 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002040
+  dcterms:identifier "MI0002040" ;
+  dcterms:description "Danio rerio miR-202 stem-loop"@en ;
+  rdfs:label "dre-mir-202"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628725 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002041
+  dcterms:identifier "MI0002041" ;
+  dcterms:description "Danio rerio miR-203b stem-loop"@en ;
+  rdfs:label "dre-mir-203b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628726 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002042
+  dcterms:identifier "MI0002042" ;
+  dcterms:description "Danio rerio miR-204-2 stem-loop"@en ;
+  rdfs:label "dre-mir-204-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628919 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002045
+  dcterms:identifier "MI0002045" ;
+  dcterms:description "Danio rerio miR-206-1 stem-loop"@en ;
+  rdfs:label "dre-mir-206-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628866 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002046
+  dcterms:identifier "MI0002046" ;
+  dcterms:description "Danio rerio miR-206-2 stem-loop"@en ;
+  rdfs:label "dre-mir-206-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628727 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002048
+  dcterms:identifier "MI0002048" ;
+  dcterms:description "Danio rerio miR-216b stem-loop"@en ;
+  rdfs:label "dre-mir-216b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628728 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002051
+  dcterms:identifier "MI0002051" ;
+  dcterms:description "Danio rerio miR-218a-1 stem-loop"@en ;
+  rdfs:label "dre-mir-218a-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628730 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002052
+  dcterms:identifier "MI0002052" ;
+  dcterms:description "Danio rerio miR-218a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-218a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628867 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002053
+  dcterms:identifier "MI0002053" ;
+  dcterms:description "Danio rerio miR-218b stem-loop"@en ;
+  rdfs:label "dre-mir-218b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628831 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002054
+  dcterms:identifier "MI0002054" ;
+  dcterms:description "Danio rerio miR-219-3 stem-loop"@en ;
+  rdfs:label "dre-mir-219-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628731 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002059
+  dcterms:identifier "MI0002059" ;
+  dcterms:description "Danio rerio miR-301a stem-loop"@en ;
+  rdfs:label "dre-mir-301a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628921 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002061
+  dcterms:identifier "MI0002061" ;
+  dcterms:description "Danio rerio miR-301b stem-loop"@en ;
+  rdfs:label "dre-mir-301b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628733 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002062
+  dcterms:identifier "MI0002062" ;
+  dcterms:description "Danio rerio miR-301c stem-loop"@en ;
+  rdfs:label "dre-mir-301c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628734 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002063
+  dcterms:identifier "MI0002063" ;
+  dcterms:description "Danio rerio miR-338-1 stem-loop"@en ;
+  rdfs:label "dre-mir-338-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628956 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002064
+  dcterms:identifier "MI0002064" ;
+  dcterms:description "Danio rerio miR-338-2 stem-loop"@en ;
+  rdfs:label "dre-mir-338-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628922 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002067
+  dcterms:identifier "MI0002067" ;
+  dcterms:description "Danio rerio miR-363 stem-loop"@en ;
+  rdfs:label "dre-mir-363"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628736 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002068
+  dcterms:identifier "MI0002068" ;
+  dcterms:description "Danio rerio miR-365-1 stem-loop"@en ;
+  rdfs:label "dre-mir-365-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628737 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002069
+  dcterms:identifier "MI0002069" ;
+  dcterms:description "Danio rerio miR-365-2 stem-loop"@en ;
+  rdfs:label "dre-mir-365-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628832 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002070
+  dcterms:identifier "MI0002070" ;
+  dcterms:description "Danio rerio miR-365-3 stem-loop"@en ;
+  rdfs:label "dre-mir-365-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628923 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002072
+  dcterms:identifier "MI0002072" ;
+  dcterms:description "Danio rerio miR-375-1 stem-loop"@en ;
+  rdfs:label "dre-mir-375-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033788 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002073
+  dcterms:identifier "MI0002073" ;
+  dcterms:description "Danio rerio miR-375-2 stem-loop"@en ;
+  rdfs:label "dre-mir-375-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628869 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002074
+  dcterms:identifier "MI0002074" ;
+  dcterms:description "Danio rerio miR-454a stem-loop"@en ;
+  rdfs:label "dre-mir-454a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628739 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002076
+  dcterms:identifier "MI0002076" ;
+  dcterms:description "Danio rerio miR-454b stem-loop"@en ;
+  rdfs:label "dre-mir-454b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628740 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002077
+  dcterms:identifier "MI0002077" ;
+  dcterms:description "Danio rerio miR-455-1 stem-loop"@en ;
+  rdfs:label "dre-mir-455-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628833 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002079
+  dcterms:identifier "MI0002079" ;
+  dcterms:description "Danio rerio miR-430c-2 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628924 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002080
+  dcterms:identifier "MI0002080" ;
+  dcterms:description "Danio rerio miR-430c-3 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628741 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002081
+  dcterms:identifier "MI0002081" ;
+  dcterms:description "Danio rerio miR-430c-4 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628742 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002082
+  dcterms:identifier "MI0002082" ;
+  dcterms:description "Danio rerio miR-430c-5 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-5"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628870 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002083
+  dcterms:identifier "MI0002083" ;
+  dcterms:description "Danio rerio miR-430c-6 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-6"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628743 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002087
+  dcterms:identifier "MI0002087" ;
+  dcterms:description "Danio rerio miR-430c-7 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-7"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628834 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002088
+  dcterms:identifier "MI0002088" ;
+  dcterms:description "Danio rerio miR-430c-8 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-8"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628925 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002089
+  dcterms:identifier "MI0002089" ;
+  dcterms:description "Danio rerio miR-430c-9 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-9"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628744 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002090
+  dcterms:identifier "MI0002090" ;
+  dcterms:description "Danio rerio miR-430c-10 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-10"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628745 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002091
+  dcterms:identifier "MI0002091" ;
+  dcterms:description "Danio rerio miR-430c-11 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-11"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628746 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002092
+  dcterms:identifier "MI0002092" ;
+  dcterms:description "Danio rerio miR-430c-12 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-12"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628966 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002093
+  dcterms:identifier "MI0002093" ;
+  dcterms:description "Danio rerio miR-430c-13 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-13"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628957 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002094
+  dcterms:identifier "MI0002094" ;
+  dcterms:description "Danio rerio miR-430c-14 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-14"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628747 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002095
+  dcterms:identifier "MI0002095" ;
+  dcterms:description "Danio rerio miR-430c-15 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-15"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628926 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002096
+  dcterms:identifier "MI0002096" ;
+  dcterms:description "Danio rerio miR-430c-16 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-16"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628748 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002097
+  dcterms:identifier "MI0002097" ;
+  dcterms:description "Danio rerio miR-430c-17 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-17"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628749 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002098
+  dcterms:identifier "MI0002098" ;
+  dcterms:description "Danio rerio miR-430c-18 stem-loop"@en ;
+  rdfs:label "dre-mir-430c-18"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628750 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002111
+  dcterms:identifier "MI0002111" ;
+  dcterms:description "Danio rerio miR-430a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628751 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002112
+  dcterms:identifier "MI0002112" ;
+  dcterms:description "Danio rerio miR-430a-3 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628752 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002113
+  dcterms:identifier "MI0002113" ;
+  dcterms:description "Danio rerio miR-430a-4 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628928 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002114
+  dcterms:identifier "MI0002114" ;
+  dcterms:description "Danio rerio miR-430a-5 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-5"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033480 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002115
+  dcterms:identifier "MI0002115" ;
+  dcterms:description "Danio rerio miR-430a-6 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-6"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628836 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002116
+  dcterms:identifier "MI0002116" ;
+  dcterms:description "Danio rerio miR-430a-7 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-7"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628872 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002117
+  dcterms:identifier "MI0002117" ;
+  dcterms:description "Danio rerio miR-430a-8 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-8"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628753 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002118
+  dcterms:identifier "MI0002118" ;
+  dcterms:description "Danio rerio miR-430a-9 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-9"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628754 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002119
+  dcterms:identifier "MI0002119" ;
+  dcterms:description "Danio rerio miR-430a-10 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-10"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628755 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002120
+  dcterms:identifier "MI0002120" ;
+  dcterms:description "Danio rerio miR-430a-11 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-11"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628929 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002121
+  dcterms:identifier "MI0002121" ;
+  dcterms:description "Danio rerio miR-430a-12 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-12"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628837 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002122
+  dcterms:identifier "MI0002122" ;
+  dcterms:description "Danio rerio miR-430a-13 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-13"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628873 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002123
+  dcterms:identifier "MI0002123" ;
+  dcterms:description "Danio rerio miR-430a-14 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-14"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628756 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002124
+  dcterms:identifier "MI0002124" ;
+  dcterms:description "Danio rerio miR-430a-15 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-15"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628757 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002125
+  dcterms:identifier "MI0002125" ;
+  dcterms:description "Danio rerio miR-430a-16 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-16"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628758 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002126
+  dcterms:identifier "MI0002126" ;
+  dcterms:description "Danio rerio miR-430a-17 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-17"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628930 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002131
+  dcterms:identifier "MI0002131" ;
+  dcterms:description "Danio rerio miR-430a-18 stem-loop"@en ;
+  rdfs:label "dre-mir-430a-18"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628958 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002139
+  dcterms:identifier "MI0002139" ;
+  dcterms:description "Danio rerio miR-430i-1 stem-loop"@en ;
+  rdfs:label "dre-mir-430i-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628838 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002140
+  dcterms:identifier "MI0002140" ;
+  dcterms:description "Danio rerio miR-430i-2 stem-loop"@en ;
+  rdfs:label "dre-mir-430i-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628762 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002141
+  dcterms:identifier "MI0002141" ;
+  dcterms:description "Danio rerio miR-430i-3 stem-loop"@en ;
+  rdfs:label "dre-mir-430i-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628874 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002142
+  dcterms:identifier "MI0002142" ;
+  dcterms:description "Danio rerio miR-430b-2 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628763 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002143
+  dcterms:identifier "MI0002143" ;
+  dcterms:description "Danio rerio miR-430b-3 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628932 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002144
+  dcterms:identifier "MI0002144" ;
+  dcterms:description "Danio rerio miR-430b-4 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628764 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002146
+  dcterms:identifier "MI0002146" ;
+  dcterms:description "Danio rerio miR-430b-6 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-6"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628839 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002147
+  dcterms:identifier "MI0002147" ;
+  dcterms:description "Danio rerio miR-430b-7 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-7"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628765 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002148
+  dcterms:identifier "MI0002148" ;
+  dcterms:description "Danio rerio miR-430b-8 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-8"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628766 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002149
+  dcterms:identifier "MI0002149" ;
+  dcterms:description "Danio rerio miR-430b-9 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-9"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628875 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002150
+  dcterms:identifier "MI0002150" ;
+  dcterms:description "Danio rerio miR-430b-10 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-10"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033509 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002151
+  dcterms:identifier "MI0002151" ;
+  dcterms:description "Danio rerio miR-430b-11 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-11"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628933 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002152
+  dcterms:identifier "MI0002152" ;
+  dcterms:description "Danio rerio miR-430b-12 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-12"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628767 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002153
+  dcterms:identifier "MI0002153" ;
+  dcterms:description "Danio rerio miR-430b-13 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-13"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628959 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002154
+  dcterms:identifier "MI0002154" ;
+  dcterms:description "Danio rerio miR-430b-14 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-14"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628768 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002155
+  dcterms:identifier "MI0002155" ;
+  dcterms:description "Danio rerio miR-430b-15 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-15"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628934 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002156
+  dcterms:identifier "MI0002156" ;
+  dcterms:description "Danio rerio miR-430b-16 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-16"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628876 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002157
+  dcterms:identifier "MI0002157" ;
+  dcterms:description "Danio rerio miR-430b-17 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-17"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628769 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002158
+  dcterms:identifier "MI0002158" ;
+  dcterms:description "Danio rerio miR-430b-18 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-18"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628770 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002166
+  dcterms:identifier "MI0002166" ;
+  dcterms:description "Danio rerio miR-430b-5 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-5"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628840 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002170
+  dcterms:identifier "MI0002170" ;
+  dcterms:description "Danio rerio miR-430b-19 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-19"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628771 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002171
+  dcterms:identifier "MI0002171" ;
+  dcterms:description "Danio rerio miR-430b-20 stem-loop"@en ;
+  rdfs:label "dre-mir-430b-20"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628935 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15774722, pmid:15774722, pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002176
+  dcterms:identifier "MI0002176" ;
+  dcterms:description "Danio rerio miR-456 stem-loop"@en ;
+  rdfs:label "dre-mir-456"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628772 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002177
+  dcterms:identifier "MI0002177" ;
+  dcterms:description "Danio rerio miR-457a stem-loop"@en ;
+  rdfs:label "dre-mir-457a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628773 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002178
+  dcterms:identifier "MI0002178" ;
+  dcterms:description "Danio rerio miR-457b stem-loop"@en ;
+  rdfs:label "dre-mir-457b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628774 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002179
+  dcterms:identifier "MI0002179" ;
+  dcterms:description "Danio rerio miR-458 stem-loop"@en ;
+  rdfs:label "dre-mir-458"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628937 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002180
+  dcterms:identifier "MI0002180" ;
+  dcterms:description "Danio rerio miR-459 stem-loop"@en ;
+  rdfs:label "dre-mir-459"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033529 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002181
+  dcterms:identifier "MI0002181" ;
+  dcterms:description "Danio rerio miR-460 stem-loop"@en ;
+  rdfs:label "dre-mir-460"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628842 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002183
+  dcterms:identifier "MI0002183" ;
+  dcterms:description "Danio rerio miR-461 stem-loop"@en ;
+  rdfs:label "dre-mir-461"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628776 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15937218, pmid:15937218 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003243
+  dcterms:identifier "MI0003243" ;
+  dcterms:description "Danio rerio miR-184-2 stem-loop"@en ;
+  rdfs:label "dre-mir-184-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628777 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003256
+  dcterms:identifier "MI0003256" ;
+  dcterms:description "Danio rerio miR-489 stem-loop"@en ;
+  rdfs:label "dre-mir-489"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628878 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003343
+  dcterms:identifier "MI0003343" ;
+  dcterms:description "Danio rerio let-7j stem-loop"@en ;
+  rdfs:label "dre-let-7j"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628938 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003364
+  dcterms:identifier "MI0003364" ;
+  dcterms:description "Danio rerio miR-135b stem-loop"@en ;
+  rdfs:label "dre-mir-135b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628778 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003385
+  dcterms:identifier "MI0003385" ;
+  dcterms:description "Danio rerio miR-212 stem-loop"@en ;
+  rdfs:label "dre-mir-212"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628960 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003387
+  dcterms:identifier "MI0003387" ;
+  dcterms:description "Danio rerio miR-181a-2 stem-loop"@en ;
+  rdfs:label "dre-mir-181a-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033726 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003690
+  dcterms:identifier "MI0003690" ;
+  dcterms:description "Danio rerio miR-34b stem-loop"@en ;
+  rdfs:label "dre-mir-34b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628939 ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003691
+  dcterms:identifier "MI0003691" ;
+  dcterms:description "Danio rerio miR-31 stem-loop"@en ;
+  rdfs:label "dre-mir-31"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628781 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003692
+  dcterms:identifier "MI0003692" ;
+  dcterms:description "Danio rerio miR-135a stem-loop"@en ;
+  rdfs:label "dre-mir-135a"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628879 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003693
+  dcterms:identifier "MI0003693" ;
+  dcterms:description "Danio rerio miR-139 stem-loop"@en ;
+  rdfs:label "dre-mir-139"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628843 ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:15919954, pmid:15919954 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004764
+  dcterms:identifier "MI0004764" ;
+  dcterms:description "Danio rerio miR-190b stem-loop"@en ;
+  rdfs:label "dre-mir-190b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628782 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004765
+  dcterms:identifier "MI0004765" ;
+  dcterms:description "Danio rerio miR-722 stem-loop"@en ;
+  rdfs:label "dre-mir-722"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628783 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004766
+  dcterms:identifier "MI0004766" ;
+  dcterms:description "Danio rerio miR-499 stem-loop"@en ;
+  rdfs:label "dre-mir-499"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628940 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004767
+  dcterms:identifier "MI0004767" ;
+  dcterms:description "Danio rerio miR-723 stem-loop"@en ;
+  rdfs:label "dre-mir-723"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628784 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004768
+  dcterms:identifier "MI0004768" ;
+  dcterms:description "Danio rerio miR-724 stem-loop"@en ;
+  rdfs:label "dre-mir-724"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628785 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004769
+  dcterms:identifier "MI0004769" ;
+  dcterms:description "Danio rerio miR-725 stem-loop"@en ;
+  rdfs:label "dre-mir-725"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628844 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004770
+  dcterms:identifier "MI0004770" ;
+  dcterms:description "Danio rerio miR-726 stem-loop"@en ;
+  rdfs:label "dre-mir-726"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628786 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004771
+  dcterms:identifier "MI0004771" ;
+  dcterms:description "Danio rerio miR-727 stem-loop"@en ;
+  rdfs:label "dre-mir-727"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628941 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004772
+  dcterms:identifier "MI0004772" ;
+  dcterms:description "Danio rerio miR-728 stem-loop"@en ;
+  rdfs:label "dre-mir-728"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628969 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004773
+  dcterms:identifier "MI0004773" ;
+  dcterms:description "Danio rerio miR-729 stem-loop"@en ;
+  rdfs:label "dre-mir-729"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628787 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004774
+  dcterms:identifier "MI0004774" ;
+  dcterms:description "Danio rerio miR-34c stem-loop"@en ;
+  rdfs:label "dre-mir-34c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628788 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004775
+  dcterms:identifier "MI0004775" ;
+  dcterms:description "Danio rerio miR-730 stem-loop"@en ;
+  rdfs:label "dre-mir-730"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628845 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004776
+  dcterms:identifier "MI0004776" ;
+  dcterms:description "Danio rerio miR-731 stem-loop"@en ;
+  rdfs:label "dre-mir-731"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628789 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004777
+  dcterms:identifier "MI0004777" ;
+  dcterms:description "Danio rerio miR-732 stem-loop"@en ;
+  rdfs:label "dre-mir-732"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628942 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004778
+  dcterms:identifier "MI0004778" ;
+  dcterms:description "Danio rerio miR-733 stem-loop"@en ;
+  rdfs:label "dre-mir-733"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033745 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004779
+  dcterms:identifier "MI0004779" ;
+  dcterms:description "Danio rerio miR-15c stem-loop"@en ;
+  rdfs:label "dre-mir-15c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628791 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004780
+  dcterms:identifier "MI0004780" ;
+  dcterms:description "Danio rerio miR-734 stem-loop"@en ;
+  rdfs:label "dre-mir-734"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628792 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004781
+  dcterms:identifier "MI0004781" ;
+  dcterms:description "Danio rerio miR-735 stem-loop"@en ;
+  rdfs:label "dre-mir-735"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628961 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004782
+  dcterms:identifier "MI0004782" ;
+  dcterms:description "Danio rerio miR-736 stem-loop"@en ;
+  rdfs:label "dre-mir-736"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628880 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004783
+  dcterms:identifier "MI0004783" ;
+  dcterms:description "Danio rerio miR-737 stem-loop"@en ;
+  rdfs:label "dre-mir-737"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100033750 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004784
+  dcterms:identifier "MI0004784" ;
+  dcterms:description "Danio rerio miR-738 stem-loop"@en ;
+  rdfs:label "dre-mir-738"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628793 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004786
+  dcterms:identifier "MI0004786" ;
+  dcterms:description "Danio rerio miR-740 stem-loop"@en ;
+  rdfs:label "dre-mir-740"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628794 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010834
+  dcterms:identifier "MI0010834" ;
+  dcterms:description "Danio rerio miR-2184 stem-loop"@en ;
+  rdfs:label "dre-mir-2184"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628795 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010835
+  dcterms:identifier "MI0010835" ;
+  dcterms:description "Danio rerio miR-2185-1 stem-loop"@en ;
+  rdfs:label "dre-mir-2185-1"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628846 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010836
+  dcterms:identifier "MI0010836" ;
+  dcterms:description "Danio rerio miR-429b stem-loop"@en ;
+  rdfs:label "dre-mir-429b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628944 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010837
+  dcterms:identifier "MI0010837" ;
+  dcterms:description "Danio rerio miR-1388 stem-loop"@en ;
+  rdfs:label "dre-mir-1388"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628796 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010838
+  dcterms:identifier "MI0010838" ;
+  dcterms:description "Danio rerio miR-1788 stem-loop"@en ;
+  rdfs:label "dre-mir-1788"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628881 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010839
+  dcterms:identifier "MI0010839" ;
+  dcterms:description "Danio rerio miR-2187 stem-loop"@en ;
+  rdfs:label "dre-mir-2187"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628797 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010840
+  dcterms:identifier "MI0010840" ;
+  dcterms:description "Danio rerio miR-196c stem-loop"@en ;
+  rdfs:label "dre-mir-196c"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628798 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010842
+  dcterms:identifier "MI0010842" ;
+  dcterms:description "Danio rerio miR-2191 stem-loop"@en ;
+  rdfs:label "dre-mir-2191"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628945 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010843
+  dcterms:identifier "MI0010843" ;
+  dcterms:description "Danio rerio miR-107b stem-loop"@en ;
+  rdfs:label "dre-mir-107b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628799 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010844
+  dcterms:identifier "MI0010844" ;
+  dcterms:description "Danio rerio miR-455b-2 stem-loop"@en ;
+  rdfs:label "dre-mir-455-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628800 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010845
+  dcterms:identifier "MI0010845" ;
+  dcterms:description "Danio rerio miR-222b stem-loop"@en ;
+  rdfs:label "dre-mir-222b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628946 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010846
+  dcterms:identifier "MI0010846" ;
+  dcterms:description "Danio rerio miR-2196 stem-loop"@en ;
+  rdfs:label "dre-mir-2196"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628801 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010847
+  dcterms:identifier "MI0010847" ;
+  dcterms:description "Danio rerio miR-2198 stem-loop"@en ;
+  rdfs:label "dre-mir-2198"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628802 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010848
+  dcterms:identifier "MI0010848" ;
+  dcterms:description "Danio rerio miR-126b stem-loop"@en ;
+  rdfs:label "dre-mir-126b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628803 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010849
+  dcterms:identifier "MI0010849" ;
+  dcterms:description "Danio rerio miR-2186 stem-loop"@en ;
+  rdfs:label "dre-mir-2186"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628947 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010850
+  dcterms:identifier "MI0010850" ;
+  dcterms:description "Danio rerio miR-2188 stem-loop"@en ;
+  rdfs:label "dre-mir-2188"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100310776 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010851
+  dcterms:identifier "MI0010851" ;
+  dcterms:description "Danio rerio miR-2189 stem-loop"@en ;
+  rdfs:label "dre-mir-2189"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100310777 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010852
+  dcterms:identifier "MI0010852" ;
+  dcterms:description "Danio rerio miR-2192 stem-loop"@en ;
+  rdfs:label "dre-mir-2192"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628805 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010853
+  dcterms:identifier "MI0010853" ;
+  dcterms:description "Danio rerio miR-196d stem-loop"@en ;
+  rdfs:label "dre-mir-196d"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628806 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010854
+  dcterms:identifier "MI0010854" ;
+  dcterms:description "Danio rerio miR-2193 stem-loop"@en ;
+  rdfs:label "dre-mir-2193"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628948 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010855
+  dcterms:identifier "MI0010855" ;
+  dcterms:description "Danio rerio miR-2194 stem-loop"@en ;
+  rdfs:label "dre-mir-2194"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628807 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010856
+  dcterms:identifier "MI0010856" ;
+  dcterms:description "Danio rerio miR-2195 stem-loop"@en ;
+  rdfs:label "dre-mir-2195"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628808 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010857
+  dcterms:identifier "MI0010857" ;
+  dcterms:description "Danio rerio miR-2197 stem-loop"@en ;
+  rdfs:label "dre-mir-2197"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628970 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016407
+  dcterms:identifier "MI0016407" ;
+  dcterms:description "Danio rerio miR-3906 stem-loop"@en ;
+  rdfs:label "dre-mir-3906"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  rdfs:seeAlso ncbigene:100628809 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:20236986, pmid:20236986 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019584
+  dcterms:identifier "MI0019584" ;
+  dcterms:description "Danio rerio miR-2185-2 stem-loop"@en ;
+  rdfs:label "dre-mir-2185-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019585
+  dcterms:identifier "MI0019585" ;
+  dcterms:description "Danio rerio miR-2185-3 stem-loop"@en ;
+  rdfs:label "dre-mir-2185-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19397817, pmid:19397817 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0023604
+  dcterms:identifier "MI0023604" ;
+  dcterms:description "Danio rerio miR-7145 stem-loop"@en ;
+  rdfs:label "dre-mir-7145"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22408181, pmid:22408181 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0023605
+  dcterms:identifier "MI0023605" ;
+  dcterms:description "Danio rerio miR-7146 stem-loop"@en ;
+  rdfs:label "dre-mir-7146"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22408181, pmid:22408181 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0023606
+  dcterms:identifier "MI0023606" ;
+  dcterms:description "Danio rerio miR-7147 stem-loop"@en ;
+  rdfs:label "dre-mir-7147"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22408181, pmid:22408181 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0023607
+  dcterms:identifier "MI0023607" ;
+  dcterms:description "Danio rerio miR-7148 stem-loop"@en ;
+  rdfs:label "dre-mir-7148"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22408181, pmid:22408181 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0023608
+  dcterms:identifier "MI0023608" ;
+  dcterms:description "Danio rerio miR-7149 stem-loop"@en ;
+  rdfs:label "dre-mir-7149"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22408181, pmid:22408181 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0023609
+  dcterms:identifier "MI0023609" ;
+  dcterms:description "Danio rerio miR-1306 stem-loop"@en ;
+  rdfs:label "dre-mir-1306"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22408181, pmid:22408181 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039507
+  dcterms:identifier "MI0039507" ;
+  dcterms:description "Danio rerio miR-129-3 stem-loop"@en ;
+  rdfs:label "dre-mir-129-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039508
+  dcterms:identifier "MI0039508" ;
+  dcterms:description "Danio rerio miR-129-4 stem-loop"@en ;
+  rdfs:label "dre-mir-129-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039509
+  dcterms:identifier "MI0039509" ;
+  dcterms:description "Danio rerio miR-212-2 stem-loop"@en ;
+  rdfs:label "dre-mir-212-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039510
+  dcterms:identifier "MI0039510" ;
+  dcterms:description "Danio rerio miR-138-2 stem-loop"@en ;
+  rdfs:label "dre-mir-138-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039511
+  dcterms:identifier "MI0039511" ;
+  dcterms:description "Danio rerio miR-181a-4 stem-loop"@en ;
+  rdfs:label "dre-mir-181a-4"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039512
+  dcterms:identifier "MI0039512" ;
+  dcterms:description "Danio rerio miR-181a-3 stem-loop"@en ;
+  rdfs:label "dre-mir-181a-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039513
+  dcterms:identifier "MI0039513" ;
+  dcterms:description "Danio rerio miR-181a-5 stem-loop"@en ;
+  rdfs:label "dre-mir-181a-5"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039514
+  dcterms:identifier "MI0039514" ;
+  dcterms:description "Danio rerio miR-181b-3 stem-loop"@en ;
+  rdfs:label "dre-mir-181b-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039515
+  dcterms:identifier "MI0039515" ;
+  dcterms:description "Danio rerio miR-181d stem-loop"@en ;
+  rdfs:label "dre-mir-181d"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039516
+  dcterms:identifier "MI0039516" ;
+  dcterms:description "Danio rerio miR-204-3 stem-loop"@en ;
+  rdfs:label "dre-mir-204-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039517
+  dcterms:identifier "MI0039517" ;
+  dcterms:description "Danio rerio miR-23b-2 stem-loop"@en ;
+  rdfs:label "dre-mir-23b-2"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039518
+  dcterms:identifier "MI0039518" ;
+  dcterms:description "Danio rerio miR-24b stem-loop"@en ;
+  rdfs:label "dre-mir-24b"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039519
+  dcterms:identifier "MI0039519" ;
+  dcterms:description "Danio rerio miR-7133 stem-loop"@en ;
+  rdfs:label "dre-mir-7133"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039520
+  dcterms:identifier "MI0039520" ;
+  dcterms:description "Danio rerio miR-128-3 stem-loop"@en ;
+  rdfs:label "dre-mir-128-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039521
+  dcterms:identifier "MI0039521" ;
+  dcterms:description "Danio rerio miR-29b3 stem-loop"@en ;
+  rdfs:label "dre-mir-29b3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039522
+  dcterms:identifier "MI0039522" ;
+  dcterms:description "Danio rerio miR-7132 stem-loop"@en ;
+  rdfs:label "dre-mir-7132"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039524
+  dcterms:identifier "MI0039524" ;
+  dcterms:description "Danio rerio miR-338-3 stem-loop"@en ;
+  rdfs:label "dre-mir-338-3"@en ;
+  obo:RO_0002162 taxonomy:7955 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:29079676, pmid:29079676 ;
+  ] ;
+  a :MicroRNA .
+

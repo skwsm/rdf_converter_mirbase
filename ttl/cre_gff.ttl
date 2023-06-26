@@ -1,0 +1,2203 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0005699
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005699" ;
+  dcterms:identifier "MI0005699" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 186394 ; 
+      faldo:reference "scaffold_1"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 186537 ;
+      faldo:reference "scaffold_1"
+    ] 
+  ] .
+
+mirbase:MIMAT0004387
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004387" ;
+  dcterms:identifier "MIMAT0004387" ;
+
+  :derives_from mirbase:MI0005699 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 186404 ; 
+      faldo:reference "scaffold_1"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 186424 ;
+      faldo:reference "scaffold_1"
+    ] 
+  ] .
+
+mirbase:MIMAT0004388
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004388" ;
+  dcterms:identifier "MIMAT0004388" ;
+
+  :derives_from mirbase:MI0005699 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 186488 ; 
+      faldo:reference "scaffold_1"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 186508 ;
+      faldo:reference "scaffold_1"
+    ] 
+  ] .
+
+mirbase:MI0006210
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006210" ;
+  dcterms:identifier "MI0006210" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 5256729 ; 
+      faldo:reference "scaffold_1"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 5256842 ;
+      faldo:reference "scaffold_1"
+    ] 
+  ] .
+
+mirbase:MIMAT0005388
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005388" ;
+  dcterms:identifier "MIMAT0005388" ;
+
+  :derives_from mirbase:MI0006210 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 5256751 ; 
+      faldo:reference "scaffold_1"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 5256772 ;
+      faldo:reference "scaffold_1"
+    ] 
+  ] .
+
+mirbase:MIMAT0005389
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005389" ;
+  dcterms:identifier "MIMAT0005389" ;
+
+  :derives_from mirbase:MI0006210 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 5256811 ; 
+      faldo:reference "scaffold_1"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 5256831 ;
+      faldo:reference "scaffold_1"
+    ] 
+  ] .
+
+mirbase:MI0005710
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005710" ;
+  dcterms:identifier "MI0005710" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1416466 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1417010 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0004404
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004404" ;
+  dcterms:identifier "MIMAT0004404" ;
+
+  :derives_from mirbase:MI0005710 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1416668 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1416687 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MI0006211
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006211" ;
+  dcterms:identifier "MI0006211" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1711645 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1712042 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0005390
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005390" ;
+  dcterms:identifier "MIMAT0005390" ;
+
+  :derives_from mirbase:MI0006211 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1711939 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1711959 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0005391
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005391" ;
+  dcterms:identifier "MIMAT0005391" ;
+
+  :derives_from mirbase:MI0006211 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1711975 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1711994 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0005392
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005392" ;
+  dcterms:identifier "MIMAT0005392" ;
+
+  :derives_from mirbase:MI0006211 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1711981 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1712001 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MI0006212
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006212" ;
+  dcterms:identifier "MI0006212" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1934033 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1934142 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0005393
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005393" ;
+  dcterms:identifier "MIMAT0005393" ;
+
+  :derives_from mirbase:MI0006212 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1934046 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1934066 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0005394
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005394" ;
+  dcterms:identifier "MIMAT0005394" ;
+
+  :derives_from mirbase:MI0006212 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1934111 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1934128 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MI0006213
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006213" ;
+  dcterms:identifier "MI0006213" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1935781 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1935924 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0005395
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005395" ;
+  dcterms:identifier "MIMAT0005395" ;
+
+  :derives_from mirbase:MI0006213 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1935811 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1935831 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0005396
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005396" ;
+  dcterms:identifier "MIMAT0005396" ;
+
+  :derives_from mirbase:MI0006213 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1935876 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1935895 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MI0006234
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006234" ;
+  dcterms:identifier "MI0006234" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 2068926 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 2069014 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MIMAT0005434
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005434" ;
+  dcterms:identifier "MIMAT0005434" ;
+
+  :derives_from mirbase:MI0006234 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 2068928 ; 
+      faldo:reference "scaffold_10"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 2068947 ;
+      faldo:reference "scaffold_10"
+    ] 
+  ] .
+
+mirbase:MI0006214
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006214" ;
+  dcterms:identifier "MI0006214" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1998777 ; 
+      faldo:reference "scaffold_12"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1998906 ;
+      faldo:reference "scaffold_12"
+    ] 
+  ] .
+
+mirbase:MIMAT0005397
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005397" ;
+  dcterms:identifier "MIMAT0005397" ;
+
+  :derives_from mirbase:MI0006214 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1998867 ; 
+      faldo:reference "scaffold_12"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1998887 ;
+      faldo:reference "scaffold_12"
+    ] 
+  ] .
+
+mirbase:MI0006215
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006215" ;
+  dcterms:identifier "MI0006215" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1291877 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1292010 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MIMAT0005398
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005398" ;
+  dcterms:identifier "MIMAT0005398" ;
+
+  :derives_from mirbase:MI0006215 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1291881 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1291902 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MIMAT0005399
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005399" ;
+  dcterms:identifier "MIMAT0005399" ;
+
+  :derives_from mirbase:MI0006215 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1291901 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1291921 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MIMAT0005400
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005400" ;
+  dcterms:identifier "MIMAT0005400" ;
+
+  :derives_from mirbase:MI0006215 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1291967 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1291988 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MIMAT0005401
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005401" ;
+  dcterms:identifier "MIMAT0005401" ;
+
+  :derives_from mirbase:MI0006215 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1291987 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1292005 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MI0006216
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006216" ;
+  dcterms:identifier "MI0006216" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1918568 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1918688 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MIMAT0005402
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005402" ;
+  dcterms:identifier "MIMAT0005402" ;
+
+  :derives_from mirbase:MI0006216 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1918649 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1918668 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MIMAT0005403
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005403" ;
+  dcterms:identifier "MIMAT0005403" ;
+
+  :derives_from mirbase:MI0006216 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1918588 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1918606 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MI0006217
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006217" ;
+  dcterms:identifier "MI0006217" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 2058507 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 2058606 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MIMAT0005404
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005404" ;
+  dcterms:identifier "MIMAT0005404" ;
+
+  :derives_from mirbase:MI0006217 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 2058581 ; 
+      faldo:reference "scaffold_15"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 2058602 ;
+      faldo:reference "scaffold_15"
+    ] 
+  ] .
+
+mirbase:MI0006218
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006218" ;
+  dcterms:identifier "MI0006218" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1919702 ; 
+      faldo:reference "scaffold_16"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1919968 ;
+      faldo:reference "scaffold_16"
+    ] 
+  ] .
+
+mirbase:MIMAT0005405
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005405" ;
+  dcterms:identifier "MIMAT0005405" ;
+
+  :derives_from mirbase:MI0006218 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1919897 ; 
+      faldo:reference "scaffold_16"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1919917 ;
+      faldo:reference "scaffold_16"
+    ] 
+  ] .
+
+mirbase:MIMAT0005406
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005406" ;
+  dcterms:identifier "MIMAT0005406" ;
+
+  :derives_from mirbase:MI0006218 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1919942 ; 
+      faldo:reference "scaffold_16"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1919962 ;
+      faldo:reference "scaffold_16"
+    ] 
+  ] .
+
+mirbase:MI0005703
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005703" ;
+  dcterms:identifier "MI0005703" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 966108 ; 
+      faldo:reference "scaffold_17"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 966334 ;
+      faldo:reference "scaffold_17"
+    ] 
+  ] .
+
+mirbase:MIMAT0004393
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004393" ;
+  dcterms:identifier "MIMAT0004393" ;
+
+  :derives_from mirbase:MI0005703 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 966241 ; 
+      faldo:reference "scaffold_17"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 966261 ;
+      faldo:reference "scaffold_17"
+    ] 
+  ] .
+
+mirbase:MI0006219
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006219" ;
+  dcterms:identifier "MI0006219" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 251268 ; 
+      faldo:reference "scaffold_18"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 251404 ;
+      faldo:reference "scaffold_18"
+    ] 
+  ] .
+
+mirbase:MIMAT0005407
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005407" ;
+  dcterms:identifier "MIMAT0005407" ;
+
+  :derives_from mirbase:MI0006219 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 251297 ; 
+      faldo:reference "scaffold_18"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 251318 ;
+      faldo:reference "scaffold_18"
+    ] 
+  ] .
+
+mirbase:MIMAT0005408
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005408" ;
+  dcterms:identifier "MIMAT0005408" ;
+
+  :derives_from mirbase:MI0006219 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 251359 ; 
+      faldo:reference "scaffold_18"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 251379 ;
+      faldo:reference "scaffold_18"
+    ] 
+  ] .
+
+mirbase:MI0005701
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005701" ;
+  dcterms:identifier "MI0005701" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 20092 ; 
+      faldo:reference "scaffold_213"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 20321 ;
+      faldo:reference "scaffold_213"
+    ] 
+  ] .
+
+mirbase:MIMAT0004965
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004965" ;
+  dcterms:identifier "MIMAT0004965" ;
+
+  :derives_from mirbase:MI0005701 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 20100 ; 
+      faldo:reference "scaffold_213"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 20121 ;
+      faldo:reference "scaffold_213"
+    ] 
+  ] .
+
+mirbase:MIMAT0004390
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004390" ;
+  dcterms:identifier "MIMAT0004390" ;
+
+  :derives_from mirbase:MI0005701 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 20162 ; 
+      faldo:reference "scaffold_213"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 20183 ;
+      faldo:reference "scaffold_213"
+    ] 
+  ] .
+
+mirbase:MIMAT0004966
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004966" ;
+  dcterms:identifier "MIMAT0004966" ;
+
+  :derives_from mirbase:MI0005701 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 20252 ; 
+      faldo:reference "scaffold_213"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 20270 ;
+      faldo:reference "scaffold_213"
+    ] 
+  ] .
+
+mirbase:MI0005708
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005708" ;
+  dcterms:identifier "MI0005708" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1270775 ; 
+      faldo:reference "scaffold_23"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1271060 ;
+      faldo:reference "scaffold_23"
+    ] 
+  ] .
+
+mirbase:MIMAT0004398
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004398" ;
+  dcterms:identifier "MIMAT0004398" ;
+
+  :derives_from mirbase:MI0005708 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1270932 ; 
+      faldo:reference "scaffold_23"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1270952 ;
+      faldo:reference "scaffold_23"
+    ] 
+  ] .
+
+mirbase:MI0006221
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006221" ;
+  dcterms:identifier "MI0006221" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 727941 ; 
+      faldo:reference "scaffold_26"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 728377 ;
+      faldo:reference "scaffold_26"
+    ] 
+  ] .
+
+mirbase:MIMAT0005410
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005410" ;
+  dcterms:identifier "MIMAT0005410" ;
+
+  :derives_from mirbase:MI0006221 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 728242 ; 
+      faldo:reference "scaffold_26"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 728262 ;
+      faldo:reference "scaffold_26"
+    ] 
+  ] .
+
+mirbase:MIMAT0005411
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005411" ;
+  dcterms:identifier "MIMAT0005411" ;
+
+  :derives_from mirbase:MI0006221 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 728027 ; 
+      faldo:reference "scaffold_26"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 728046 ;
+      faldo:reference "scaffold_26"
+    ] 
+  ] .
+
+mirbase:MIMAT0005412
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005412" ;
+  dcterms:identifier "MIMAT0005412" ;
+
+  :derives_from mirbase:MI0006221 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 727985 ; 
+      faldo:reference "scaffold_26"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 728005 ;
+      faldo:reference "scaffold_26"
+    ] 
+  ] .
+
+mirbase:MI0006222
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006222" ;
+  dcterms:identifier "MI0006222" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 3447 ; 
+      faldo:reference "scaffold_270"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 3537 ;
+      faldo:reference "scaffold_270"
+    ] 
+  ] .
+
+mirbase:MIMAT0005413
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005413" ;
+  dcterms:identifier "MIMAT0005413" ;
+
+  :derives_from mirbase:MI0006222 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 3462 ; 
+      faldo:reference "scaffold_270"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 3480 ;
+      faldo:reference "scaffold_270"
+    ] 
+  ] .
+
+mirbase:MI0006223
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006223" ;
+  dcterms:identifier "MI0006223" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 167785 ; 
+      faldo:reference "scaffold_3"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 167927 ;
+      faldo:reference "scaffold_3"
+    ] 
+  ] .
+
+mirbase:MIMAT0005415
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005415" ;
+  dcterms:identifier "MIMAT0005415" ;
+
+  :derives_from mirbase:MI0006223 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 167879 ; 
+      faldo:reference "scaffold_3"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 167900 ;
+      faldo:reference "scaffold_3"
+    ] 
+  ] .
+
+mirbase:MIMAT0005416
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005416" ;
+  dcterms:identifier "MIMAT0005416" ;
+
+  :derives_from mirbase:MI0006223 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 167812 ; 
+      faldo:reference "scaffold_3"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 167833 ;
+      faldo:reference "scaffold_3"
+    ] 
+  ] .
+
+mirbase:MI0006224
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006224" ;
+  dcterms:identifier "MI0006224" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 330020 ; 
+      faldo:reference "scaffold_31"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 330419 ;
+      faldo:reference "scaffold_31"
+    ] 
+  ] .
+
+mirbase:MIMAT0005417
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005417" ;
+  dcterms:identifier "MIMAT0005417" ;
+
+  :derives_from mirbase:MI0006224 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 330120 ; 
+      faldo:reference "scaffold_31"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 330140 ;
+      faldo:reference "scaffold_31"
+    ] 
+  ] .
+
+mirbase:MIMAT0005418
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005418" ;
+  dcterms:identifier "MIMAT0005418" ;
+
+  :derives_from mirbase:MI0006224 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 330292 ; 
+      faldo:reference "scaffold_31"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 330312 ;
+      faldo:reference "scaffold_31"
+    ] 
+  ] .
+
+mirbase:MI0006225
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006225" ;
+  dcterms:identifier "MI0006225" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 259603 ; 
+      faldo:reference "scaffold_32"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 259766 ;
+      faldo:reference "scaffold_32"
+    ] 
+  ] .
+
+mirbase:MIMAT0005419
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005419" ;
+  dcterms:identifier "MIMAT0005419" ;
+
+  :derives_from mirbase:MI0006225 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 259613 ; 
+      faldo:reference "scaffold_32"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 259633 ;
+      faldo:reference "scaffold_32"
+    ] 
+  ] .
+
+mirbase:MI0005705
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005705" ;
+  dcterms:identifier "MI0005705" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 929764 ; 
+      faldo:reference "scaffold_35"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 930115 ;
+      faldo:reference "scaffold_35"
+    ] 
+  ] .
+
+mirbase:MIMAT0004395
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004395" ;
+  dcterms:identifier "MIMAT0004395" ;
+
+  :derives_from mirbase:MI0005705 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 929881 ; 
+      faldo:reference "scaffold_35"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 929900 ;
+      faldo:reference "scaffold_35"
+    ] 
+  ] .
+
+mirbase:MI0006227
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006227" ;
+  dcterms:identifier "MI0006227" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 577911 ; 
+      faldo:reference "scaffold_36"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 578282 ;
+      faldo:reference "scaffold_36"
+    ] 
+  ] .
+
+mirbase:MIMAT0005422
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005422" ;
+  dcterms:identifier "MIMAT0005422" ;
+
+  :derives_from mirbase:MI0006227 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 578140 ; 
+      faldo:reference "scaffold_36"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 578160 ;
+      faldo:reference "scaffold_36"
+    ] 
+  ] .
+
+mirbase:MIMAT0005423
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005423" ;
+  dcterms:identifier "MIMAT0005423" ;
+
+  :derives_from mirbase:MI0006227 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 578025 ; 
+      faldo:reference "scaffold_36"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 578043 ;
+      faldo:reference "scaffold_36"
+    ] 
+  ] .
+
+mirbase:MI0006228
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006228" ;
+  dcterms:identifier "MI0006228" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 432487 ; 
+      faldo:reference "scaffold_40"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 432679 ;
+      faldo:reference "scaffold_40"
+    ] 
+  ] .
+
+mirbase:MIMAT0005424
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005424" ;
+  dcterms:identifier "MIMAT0005424" ;
+
+  :derives_from mirbase:MI0006228 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 432546 ; 
+      faldo:reference "scaffold_40"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 432566 ;
+      faldo:reference "scaffold_40"
+    ] 
+  ] .
+
+mirbase:MIMAT0005425
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005425" ;
+  dcterms:identifier "MIMAT0005425" ;
+
+  :derives_from mirbase:MI0006228 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 432529 ; 
+      faldo:reference "scaffold_40"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 432545 ;
+      faldo:reference "scaffold_40"
+    ] 
+  ] .
+
+mirbase:MI0006229
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006229" ;
+  dcterms:identifier "MI0006229" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 613349 ; 
+      faldo:reference "scaffold_46"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 613444 ;
+      faldo:reference "scaffold_46"
+    ] 
+  ] .
+
+mirbase:MIMAT0005426
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005426" ;
+  dcterms:identifier "MIMAT0005426" ;
+
+  :derives_from mirbase:MI0006229 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 613354 ; 
+      faldo:reference "scaffold_46"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 613375 ;
+      faldo:reference "scaffold_46"
+    ] 
+  ] .
+
+mirbase:MIMAT0005427
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005427" ;
+  dcterms:identifier "MIMAT0005427" ;
+
+  :derives_from mirbase:MI0006229 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 613418 ; 
+      faldo:reference "scaffold_46"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 613438 ;
+      faldo:reference "scaffold_46"
+    ] 
+  ] .
+
+mirbase:MI0006230
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006230" ;
+  dcterms:identifier "MI0006230" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 4560 ; 
+      faldo:reference "scaffold_5"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 4725 ;
+      faldo:reference "scaffold_5"
+    ] 
+  ] .
+
+mirbase:MIMAT0005428
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005428" ;
+  dcterms:identifier "MIMAT0005428" ;
+
+  :derives_from mirbase:MI0006230 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 4661 ; 
+      faldo:reference "scaffold_5"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 4680 ;
+      faldo:reference "scaffold_5"
+    ] 
+  ] .
+
+mirbase:MIMAT0005429
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005429" ;
+  dcterms:identifier "MIMAT0005429" ;
+
+  :derives_from mirbase:MI0006230 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 4688 ; 
+      faldo:reference "scaffold_5"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 4708 ;
+      faldo:reference "scaffold_5"
+    ] 
+  ] .
+
+mirbase:MI0006231
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006231" ;
+  dcterms:identifier "MI0006231" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 419396 ; 
+      faldo:reference "scaffold_51"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 419582 ;
+      faldo:reference "scaffold_51"
+    ] 
+  ] .
+
+mirbase:MIMAT0005430
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005430" ;
+  dcterms:identifier "MIMAT0005430" ;
+
+  :derives_from mirbase:MI0006231 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 419545 ; 
+      faldo:reference "scaffold_51"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 419567 ;
+      faldo:reference "scaffold_51"
+    ] 
+  ] .
+
+mirbase:MI0005706
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005706" ;
+  dcterms:identifier "MI0005706" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 118495 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 118743 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MIMAT0004968
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004968" ;
+  dcterms:identifier "MIMAT0004968" ;
+
+  :derives_from mirbase:MI0005706 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 118663 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 118683 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MIMAT0004396
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004396" ;
+  dcterms:identifier "MIMAT0004396" ;
+
+  :derives_from mirbase:MI0005706 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 118553 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 118573 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MI0005697
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005697" ;
+  dcterms:identifier "MI0005697" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1014118 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1014386 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MIMAT0004385
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004385" ;
+  dcterms:identifier "MIMAT0004385" ;
+
+  :derives_from mirbase:MI0005697 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1014274 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1014294 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MI0005709
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005709" ;
+  dcterms:identifier "MI0005709" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1014120 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1014384 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MIMAT0004399
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004399" ;
+  dcterms:identifier "MIMAT0004399" ;
+
+  :derives_from mirbase:MI0005709 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1014338 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1014358 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MIMAT0004969
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004969" ;
+  dcterms:identifier "MIMAT0004969" ;
+
+  :derives_from mirbase:MI0005709 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1014188 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1014208 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MI0006232
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006232" ;
+  dcterms:identifier "MI0006232" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1969701 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1970232 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MIMAT0005431
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005431" ;
+  dcterms:identifier "MIMAT0005431" ;
+
+  :derives_from mirbase:MI0006232 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 1969876 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 1969896 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MI0005707
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005707" ;
+  dcterms:identifier "MI0005707" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 2839823 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 2840716 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MIMAT0004397
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004397" ;
+  dcterms:identifier "MIMAT0004397" ;
+
+  :derives_from mirbase:MI0005707 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 2840383 ; 
+      faldo:reference "scaffold_6"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 2840403 ;
+      faldo:reference "scaffold_6"
+    ] 
+  ] .
+
+mirbase:MI0015964
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0015964" ;
+  dcterms:identifier "MI0015964" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 450945 ; 
+      faldo:reference "scaffold_60"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 451035 ;
+      faldo:reference "scaffold_60"
+    ] 
+  ] .
+
+mirbase:MIMAT0018505
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0018505" ;
+  dcterms:identifier "MIMAT0018505" ;
+
+  :derives_from mirbase:MI0015964 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 451002 ; 
+      faldo:reference "scaffold_60"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 451020 ;
+      faldo:reference "scaffold_60"
+    ] 
+  ] .
+
+mirbase:MI0005704
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005704" ;
+  dcterms:identifier "MI0005704" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 773096 ; 
+      faldo:reference "scaffold_7"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 773178 ;
+      faldo:reference "scaffold_7"
+    ] 
+  ] .
+
+mirbase:MIMAT0004394
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004394" ;
+  dcterms:identifier "MIMAT0004394" ;
+
+  :derives_from mirbase:MI0005704 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 773096 ; 
+      faldo:reference "scaffold_7"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 773116 ;
+      faldo:reference "scaffold_7"
+    ] 
+  ] .
+
+mirbase:MI0005698
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0005698" ;
+  dcterms:identifier "MI0005698" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 370850 ; 
+      faldo:reference "scaffold_75"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 371142 ;
+      faldo:reference "scaffold_75"
+    ] 
+  ] .
+
+mirbase:MIMAT0004964
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004964" ;
+  dcterms:identifier "MIMAT0004964" ;
+
+  :derives_from mirbase:MI0005698 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 370887 ; 
+      faldo:reference "scaffold_75"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 370906 ;
+      faldo:reference "scaffold_75"
+    ] 
+  ] .
+
+mirbase:MIMAT0004386
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0004386" ;
+  dcterms:identifier "MIMAT0004386" ;
+
+  :derives_from mirbase:MI0005698 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 371084 ; 
+      faldo:reference "scaffold_75"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 371104 ;
+      faldo:reference "scaffold_75"
+    ] 
+  ] .
+
+mirbase:MI0006233
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MI0006233" ;
+  dcterms:identifier "MI0006233" ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 233228 ; 
+      faldo:reference "scaffold_76"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 233363 ;
+      faldo:reference "scaffold_76"
+    ] 
+  ] .
+
+mirbase:MIMAT0005432
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005432" ;
+  dcterms:identifier "MIMAT0005432" ;
+
+  :derives_from mirbase:MI0006233 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 233231 ; 
+      faldo:reference "scaffold_76"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 233251 ;
+      faldo:reference "scaffold_76"
+    ] 
+  ] .
+
+mirbase:MIMAT0005433
+  a :MatureMicroRNA ;
+  a obo:SO_0000276 ;
+  a :MicroRNA ;
+  a obo:SO_0001265 ;
+  skos:altLabel "MIMAT0005433" ;
+  dcterms:identifier "MIMAT0005433" ;
+
+  :derives_from mirbase:MI0006233 ;
+  faldo:location [
+    a faldo:Region ;
+    faldo:begin [
+      a faldo:ExactPosition ;
+      faldo:position 233318 ; 
+      faldo:reference "scaffold_76"
+    ] ;
+    faldo:end [
+      a faldo:ExactPosition ;
+      faldo:position 233339 ;
+      faldo:reference "scaffold_76"
+    ] 
+  ] .
+

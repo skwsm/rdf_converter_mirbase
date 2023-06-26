@@ -1,0 +1,1826 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0003208
+  dcterms:identifier "MI0003208" ;
+  dcterms:description "Tetraodon nigroviridis let-7h stem-loop"@en ;
+  rdfs:label "tni-let-7h"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003210
+  dcterms:identifier "MI0003210" ;
+  dcterms:description "Tetraodon nigroviridis miR-223 stem-loop"@en ;
+  rdfs:label "tni-mir-223"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003212
+  dcterms:identifier "MI0003212" ;
+  dcterms:description "Tetraodon nigroviridis miR-124-3 stem-loop"@en ;
+  rdfs:label "tni-mir-124-3"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003214
+  dcterms:identifier "MI0003214" ;
+  dcterms:description "Tetraodon nigroviridis let-7e stem-loop"@en ;
+  rdfs:label "tni-let-7e"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003216
+  dcterms:identifier "MI0003216" ;
+  dcterms:description "Tetraodon nigroviridis miR-219-2 stem-loop"@en ;
+  rdfs:label "tni-mir-219-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003218
+  dcterms:identifier "MI0003218" ;
+  dcterms:description "Tetraodon nigroviridis miR-101a stem-loop"@en ;
+  rdfs:label "tni-mir-101a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003220
+  dcterms:identifier "MI0003220" ;
+  dcterms:description "Tetraodon nigroviridis miR-222 stem-loop"@en ;
+  rdfs:label "tni-mir-222"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003222
+  dcterms:identifier "MI0003222" ;
+  dcterms:description "Tetraodon nigroviridis miR-221 stem-loop"@en ;
+  rdfs:label "tni-mir-221"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003224
+  dcterms:identifier "MI0003224" ;
+  dcterms:description "Tetraodon nigroviridis miR-142a stem-loop"@en ;
+  rdfs:label "tni-mir-142a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003226
+  dcterms:identifier "MI0003226" ;
+  dcterms:description "Tetraodon nigroviridis miR-9-1 stem-loop"@en ;
+  rdfs:label "tni-mir-9-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003228
+  dcterms:identifier "MI0003228" ;
+  dcterms:description "Tetraodon nigroviridis miR-23a-2 stem-loop"@en ;
+  rdfs:label "tni-mir-23a-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003230
+  dcterms:identifier "MI0003230" ;
+  dcterms:description "Tetraodon nigroviridis miR-25 stem-loop"@en ;
+  rdfs:label "tni-mir-25"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003232
+  dcterms:identifier "MI0003232" ;
+  dcterms:description "Tetraodon nigroviridis miR-17-1 stem-loop"@en ;
+  rdfs:label "tni-mir-17-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003234
+  dcterms:identifier "MI0003234" ;
+  dcterms:description "Tetraodon nigroviridis miR-18 stem-loop"@en ;
+  rdfs:label "tni-mir-18"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003236
+  dcterms:identifier "MI0003236" ;
+  dcterms:description "Tetraodon nigroviridis miR-19a stem-loop"@en ;
+  rdfs:label "tni-mir-19a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003238
+  dcterms:identifier "MI0003238" ;
+  dcterms:description "Tetraodon nigroviridis miR-19b stem-loop"@en ;
+  rdfs:label "tni-mir-19b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003240
+  dcterms:identifier "MI0003240" ;
+  dcterms:description "Tetraodon nigroviridis miR-92-2 stem-loop"@en ;
+  rdfs:label "tni-mir-92-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003242
+  dcterms:identifier "MI0003242" ;
+  dcterms:description "Tetraodon nigroviridis miR-184 stem-loop"@en ;
+  rdfs:label "tni-mir-184"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003245
+  dcterms:identifier "MI0003245" ;
+  dcterms:description "Tetraodon nigroviridis let-7a-3 stem-loop"@en ;
+  rdfs:label "tni-let-7a-3"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003247
+  dcterms:identifier "MI0003247" ;
+  dcterms:description "Tetraodon nigroviridis miR-187 stem-loop"@en ;
+  rdfs:label "tni-mir-187"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003249
+  dcterms:identifier "MI0003249" ;
+  dcterms:description "Tetraodon nigroviridis miR-137 stem-loop"@en ;
+  rdfs:label "tni-mir-137"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003251
+  dcterms:identifier "MI0003251" ;
+  dcterms:description "Tetraodon nigroviridis miR-204b stem-loop"@en ;
+  rdfs:label "tni-mir-204b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003253
+  dcterms:identifier "MI0003253" ;
+  dcterms:description "Tetraodon nigroviridis miR-458 stem-loop"@en ;
+  rdfs:label "tni-mir-458"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003255
+  dcterms:identifier "MI0003255" ;
+  dcterms:description "Tetraodon nigroviridis miR-489 stem-loop"@en ;
+  rdfs:label "tni-mir-489"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003258
+  dcterms:identifier "MI0003258" ;
+  dcterms:description "Tetraodon nigroviridis miR-192 stem-loop"@en ;
+  rdfs:label "tni-mir-192"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003260
+  dcterms:identifier "MI0003260" ;
+  dcterms:description "Tetraodon nigroviridis miR-194 stem-loop"@en ;
+  rdfs:label "tni-mir-194"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003262
+  dcterms:identifier "MI0003262" ;
+  dcterms:description "Tetraodon nigroviridis miR-142b stem-loop"@en ;
+  rdfs:label "tni-mir-142b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003264
+  dcterms:identifier "MI0003264" ;
+  dcterms:description "Tetraodon nigroviridis miR-30b stem-loop"@en ;
+  rdfs:label "tni-mir-30b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003266
+  dcterms:identifier "MI0003266" ;
+  dcterms:description "Tetraodon nigroviridis miR-30d stem-loop"@en ;
+  rdfs:label "tni-mir-30d"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003268
+  dcterms:identifier "MI0003268" ;
+  dcterms:description "Tetraodon nigroviridis miR-27b stem-loop"@en ;
+  rdfs:label "tni-mir-27b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003270
+  dcterms:identifier "MI0003270" ;
+  dcterms:description "Tetraodon nigroviridis miR-23b stem-loop"@en ;
+  rdfs:label "tni-mir-23b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003272
+  dcterms:identifier "MI0003272" ;
+  dcterms:description "Tetraodon nigroviridis miR-196a-2 stem-loop"@en ;
+  rdfs:label "tni-mir-196a-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003274
+  dcterms:identifier "MI0003274" ;
+  dcterms:description "Tetraodon nigroviridis miR-126 stem-loop"@en ;
+  rdfs:label "tni-mir-126"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003276
+  dcterms:identifier "MI0003276" ;
+  dcterms:description "Tetraodon nigroviridis miR-199-3 stem-loop"@en ;
+  rdfs:label "tni-mir-199-3"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003278
+  dcterms:identifier "MI0003278" ;
+  dcterms:description "Tetraodon nigroviridis miR-148 stem-loop"@en ;
+  rdfs:label "tni-mir-148"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003280
+  dcterms:identifier "MI0003280" ;
+  dcterms:description "Tetraodon nigroviridis miR-10b-2 stem-loop"@en ;
+  rdfs:label "tni-mir-10b-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003282
+  dcterms:identifier "MI0003282" ;
+  dcterms:description "Tetraodon nigroviridis miR-205 stem-loop"@en ;
+  rdfs:label "tni-mir-205"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003284
+  dcterms:identifier "MI0003284" ;
+  dcterms:description "Tetraodon nigroviridis miR-365 stem-loop"@en ;
+  rdfs:label "tni-mir-365"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003286
+  dcterms:identifier "MI0003286" ;
+  dcterms:description "Tetraodon nigroviridis miR-193 stem-loop"@en ;
+  rdfs:label "tni-mir-193"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003288
+  dcterms:identifier "MI0003288" ;
+  dcterms:description "Tetraodon nigroviridis miR-124-1 stem-loop"@en ;
+  rdfs:label "tni-mir-124-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003290
+  dcterms:identifier "MI0003290" ;
+  dcterms:description "Tetraodon nigroviridis miR-217 stem-loop"@en ;
+  rdfs:label "tni-mir-217"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003292
+  dcterms:identifier "MI0003292" ;
+  dcterms:description "Tetraodon nigroviridis miR-216a stem-loop"@en ;
+  rdfs:label "tni-mir-216a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003294
+  dcterms:identifier "MI0003294" ;
+  dcterms:description "Tetraodon nigroviridis miR-216b stem-loop"@en ;
+  rdfs:label "tni-mir-216b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003296
+  dcterms:identifier "MI0003296" ;
+  dcterms:description "Tetraodon nigroviridis let-7i stem-loop"@en ;
+  rdfs:label "tni-let-7i"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003298
+  dcterms:identifier "MI0003298" ;
+  dcterms:description "Tetraodon nigroviridis miR-10b-1 stem-loop"@en ;
+  rdfs:label "tni-mir-10b-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003300
+  dcterms:identifier "MI0003300" ;
+  dcterms:description "Tetraodon nigroviridis miR-196a-1 stem-loop"@en ;
+  rdfs:label "tni-mir-196a-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003302
+  dcterms:identifier "MI0003302" ;
+  dcterms:description "Tetraodon nigroviridis miR-429 stem-loop"@en ;
+  rdfs:label "tni-mir-429"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003304
+  dcterms:identifier "MI0003304" ;
+  dcterms:description "Tetraodon nigroviridis miR-200a stem-loop"@en ;
+  rdfs:label "tni-mir-200a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003306
+  dcterms:identifier "MI0003306" ;
+  dcterms:description "Tetraodon nigroviridis miR-200b stem-loop"@en ;
+  rdfs:label "tni-mir-200b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003308
+  dcterms:identifier "MI0003308" ;
+  dcterms:description "Tetraodon nigroviridis miR-218b stem-loop"@en ;
+  rdfs:label "tni-mir-218b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003310
+  dcterms:identifier "MI0003310" ;
+  dcterms:description "Tetraodon nigroviridis miR-301 stem-loop"@en ;
+  rdfs:label "tni-mir-301"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003312
+  dcterms:identifier "MI0003312" ;
+  dcterms:description "Tetraodon nigroviridis miR-130 stem-loop"@en ;
+  rdfs:label "tni-mir-130"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003314
+  dcterms:identifier "MI0003314" ;
+  dcterms:description "Tetraodon nigroviridis let-7a-2 stem-loop"@en ;
+  rdfs:label "tni-let-7a-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003316
+  dcterms:identifier "MI0003316" ;
+  dcterms:description "Tetraodon nigroviridis miR-122 stem-loop"@en ;
+  rdfs:label "tni-mir-122"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003318
+  dcterms:identifier "MI0003318" ;
+  dcterms:description "Tetraodon nigroviridis miR-218a-1 stem-loop"@en ;
+  rdfs:label "tni-mir-218a-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003320
+  dcterms:identifier "MI0003320" ;
+  dcterms:description "Tetraodon nigroviridis let-7d stem-loop"@en ;
+  rdfs:label "tni-let-7d"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003322
+  dcterms:identifier "MI0003322" ;
+  dcterms:description "Tetraodon nigroviridis miR-9-2 stem-loop"@en ;
+  rdfs:label "tni-mir-9-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003324
+  dcterms:identifier "MI0003324" ;
+  dcterms:description "Tetraodon nigroviridis miR-460 stem-loop"@en ;
+  rdfs:label "tni-mir-460"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003326
+  dcterms:identifier "MI0003326" ;
+  dcterms:description "Tetraodon nigroviridis miR-21 stem-loop"@en ;
+  rdfs:label "tni-mir-21"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003328
+  dcterms:identifier "MI0003328" ;
+  dcterms:description "Tetraodon nigroviridis miR-153b stem-loop"@en ;
+  rdfs:label "tni-mir-153b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003330
+  dcterms:identifier "MI0003330" ;
+  dcterms:description "Tetraodon nigroviridis miR-199-2 stem-loop"@en ;
+  rdfs:label "tni-mir-199-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003332
+  dcterms:identifier "MI0003332" ;
+  dcterms:description "Tetraodon nigroviridis miR-181b-1 stem-loop"@en ;
+  rdfs:label "tni-mir-181b-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003334
+  dcterms:identifier "MI0003334" ;
+  dcterms:description "Tetraodon nigroviridis miR-181-1 stem-loop"@en ;
+  rdfs:label "tni-mir-181a-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003336
+  dcterms:identifier "MI0003336" ;
+  dcterms:description "Tetraodon nigroviridis miR-338 stem-loop"@en ;
+  rdfs:label "tni-mir-338"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003338
+  dcterms:identifier "MI0003338" ;
+  dcterms:description "Tetraodon nigroviridis miR-7 stem-loop"@en ;
+  rdfs:label "tni-mir-7"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003340
+  dcterms:identifier "MI0003340" ;
+  dcterms:description "Tetraodon nigroviridis miR-153a stem-loop"@en ;
+  rdfs:label "tni-mir-153a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003342
+  dcterms:identifier "MI0003342" ;
+  dcterms:description "Tetraodon nigroviridis let-7j stem-loop"@en ;
+  rdfs:label "tni-let-7j"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003345
+  dcterms:identifier "MI0003345" ;
+  dcterms:description "Tetraodon nigroviridis let-7b stem-loop"@en ;
+  rdfs:label "tni-let-7b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003347
+  dcterms:identifier "MI0003347" ;
+  dcterms:description "Tetraodon nigroviridis miR-128-2 stem-loop"@en ;
+  rdfs:label "tni-mir-128-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003349
+  dcterms:identifier "MI0003349" ;
+  dcterms:description "Tetraodon nigroviridis miR-144 stem-loop"@en ;
+  rdfs:label "tni-mir-144"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003351
+  dcterms:identifier "MI0003351" ;
+  dcterms:description "Tetraodon nigroviridis miR-30c stem-loop"@en ;
+  rdfs:label "tni-mir-30c"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003353
+  dcterms:identifier "MI0003353" ;
+  dcterms:description "Tetraodon nigroviridis miR-140 stem-loop"@en ;
+  rdfs:label "tni-mir-140"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003355
+  dcterms:identifier "MI0003355" ;
+  dcterms:description "Tetraodon nigroviridis miR-124-2 stem-loop"@en ;
+  rdfs:label "tni-mir-124-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003357
+  dcterms:identifier "MI0003357" ;
+  dcterms:description "Tetraodon nigroviridis miR-214 stem-loop"@en ;
+  rdfs:label "tni-mir-214"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003359
+  dcterms:identifier "MI0003359" ;
+  dcterms:description "Tetraodon nigroviridis miR-199-1 stem-loop"@en ;
+  rdfs:label "tni-mir-199-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003361
+  dcterms:identifier "MI0003361" ;
+  dcterms:description "Tetraodon nigroviridis miR-455 stem-loop"@en ;
+  rdfs:label "tni-mir-455"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003363
+  dcterms:identifier "MI0003363" ;
+  dcterms:description "Tetraodon nigroviridis miR-135b stem-loop"@en ;
+  rdfs:label "tni-mir-135b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003366
+  dcterms:identifier "MI0003366" ;
+  dcterms:description "Tetraodon nigroviridis miR-196b stem-loop"@en ;
+  rdfs:label "tni-mir-196b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003368
+  dcterms:identifier "MI0003368" ;
+  dcterms:description "Tetraodon nigroviridis miR-129-1 stem-loop"@en ;
+  rdfs:label "tni-mir-129-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003370
+  dcterms:identifier "MI0003370" ;
+  dcterms:description "Tetraodon nigroviridis miR-26 stem-loop"@en ;
+  rdfs:label "tni-mir-26"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003372
+  dcterms:identifier "MI0003372" ;
+  dcterms:description "Tetraodon nigroviridis miR-101b stem-loop"@en ;
+  rdfs:label "tni-mir-101b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003374
+  dcterms:identifier "MI0003374" ;
+  dcterms:description "Tetraodon nigroviridis miR-9-4 stem-loop"@en ;
+  rdfs:label "tni-mir-9-4"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003376
+  dcterms:identifier "MI0003376" ;
+  dcterms:description "Tetraodon nigroviridis miR-181b-2 stem-loop"@en ;
+  rdfs:label "tni-mir-181b-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003378
+  dcterms:identifier "MI0003378" ;
+  dcterms:description "Tetraodon nigroviridis miR-103 stem-loop"@en ;
+  rdfs:label "tni-mir-103"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003380
+  dcterms:identifier "MI0003380" ;
+  dcterms:description "Tetraodon nigroviridis miR-107 stem-loop"@en ;
+  rdfs:label "tni-mir-107"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003382
+  dcterms:identifier "MI0003382" ;
+  dcterms:description "Tetraodon nigroviridis miR-22b stem-loop"@en ;
+  rdfs:label "tni-mir-22b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003384
+  dcterms:identifier "MI0003384" ;
+  dcterms:description "Tetraodon nigroviridis miR-212 stem-loop"@en ;
+  rdfs:label "tni-mir-212"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003386
+  dcterms:identifier "MI0003386" ;
+  dcterms:description "Tetraodon nigroviridis miR-181a-2 stem-loop"@en ;
+  rdfs:label "tni-mir-181a-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003389
+  dcterms:identifier "MI0003389" ;
+  dcterms:description "Tetraodon nigroviridis miR-135a stem-loop"@en ;
+  rdfs:label "tni-mir-135a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003391
+  dcterms:identifier "MI0003391" ;
+  dcterms:description "Tetraodon nigroviridis miR-218a-2 stem-loop"@en ;
+  rdfs:label "tni-mir-218a-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003393
+  dcterms:identifier "MI0003393" ;
+  dcterms:description "Tetraodon nigroviridis miR-29a-1 stem-loop"@en ;
+  rdfs:label "tni-mir-29a-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003396
+  dcterms:identifier "MI0003396" ;
+  dcterms:description "Tetraodon nigroviridis miR-29b-2 stem-loop"@en ;
+  rdfs:label "tni-mir-29b-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003398
+  dcterms:identifier "MI0003398" ;
+  dcterms:description "Tetraodon nigroviridis miR-133 stem-loop"@en ;
+  rdfs:label "tni-mir-133"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003400
+  dcterms:identifier "MI0003400" ;
+  dcterms:description "Tetraodon nigroviridis miR-132 stem-loop"@en ;
+  rdfs:label "tni-mir-132"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003402
+  dcterms:identifier "MI0003402" ;
+  dcterms:description "Tetraodon nigroviridis miR-125b stem-loop"@en ;
+  rdfs:label "tni-mir-125b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003404
+  dcterms:identifier "MI0003404" ;
+  dcterms:description "Tetraodon nigroviridis miR-29a-2 stem-loop"@en ;
+  rdfs:label "tni-mir-29a-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003406
+  dcterms:identifier "MI0003406" ;
+  dcterms:description "Tetraodon nigroviridis miR-29b-1 stem-loop"@en ;
+  rdfs:label "tni-mir-29b-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003408
+  dcterms:identifier "MI0003408" ;
+  dcterms:description "Tetraodon nigroviridis let-7a-1 stem-loop"@en ;
+  rdfs:label "tni-let-7a-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003410
+  dcterms:identifier "MI0003410" ;
+  dcterms:description "Tetraodon nigroviridis miR-100 stem-loop"@en ;
+  rdfs:label "tni-mir-100"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003412
+  dcterms:identifier "MI0003412" ;
+  dcterms:description "Tetraodon nigroviridis miR-219-1 stem-loop"@en ;
+  rdfs:label "tni-mir-219-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003414
+  dcterms:identifier "MI0003414" ;
+  dcterms:description "Tetraodon nigroviridis miR-24-1 stem-loop"@en ;
+  rdfs:label "tni-mir-24-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003416
+  dcterms:identifier "MI0003416" ;
+  dcterms:description "Tetraodon nigroviridis miR-23a-1 stem-loop"@en ;
+  rdfs:label "tni-mir-23a-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003418
+  dcterms:identifier "MI0003418" ;
+  dcterms:description "Tetraodon nigroviridis miR-27e stem-loop"@en ;
+  rdfs:label "tni-mir-27e"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003420
+  dcterms:identifier "MI0003420" ;
+  dcterms:description "Tetraodon nigroviridis miR-375 stem-loop"@en ;
+  rdfs:label "tni-mir-375"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003422
+  dcterms:identifier "MI0003422" ;
+  dcterms:description "Tetraodon nigroviridis miR-128-1 stem-loop"@en ;
+  rdfs:label "tni-mir-128-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003424
+  dcterms:identifier "MI0003424" ;
+  dcterms:description "Tetraodon nigroviridis miR-1 stem-loop"@en ;
+  rdfs:label "tni-mir-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003426
+  dcterms:identifier "MI0003426" ;
+  dcterms:description "Tetraodon nigroviridis miR-202 stem-loop"@en ;
+  rdfs:label "tni-mir-202"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003428
+  dcterms:identifier "MI0003428" ;
+  dcterms:description "Tetraodon nigroviridis miR-203 stem-loop"@en ;
+  rdfs:label "tni-mir-203"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003430
+  dcterms:identifier "MI0003430" ;
+  dcterms:description "Tetraodon nigroviridis miR-23a-3 stem-loop"@en ;
+  rdfs:label "tni-mir-23a-3"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003432
+  dcterms:identifier "MI0003432" ;
+  dcterms:description "Tetraodon nigroviridis miR-27c stem-loop"@en ;
+  rdfs:label "tni-mir-27c"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003434
+  dcterms:identifier "MI0003434" ;
+  dcterms:description "Tetraodon nigroviridis miR-24-2 stem-loop"@en ;
+  rdfs:label "tni-mir-24-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003436
+  dcterms:identifier "MI0003436" ;
+  dcterms:description "Tetraodon nigroviridis miR-138 stem-loop"@en ;
+  rdfs:label "tni-mir-138"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003438
+  dcterms:identifier "MI0003438" ;
+  dcterms:description "Tetraodon nigroviridis miR-129-2 stem-loop"@en ;
+  rdfs:label "tni-mir-129-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003440
+  dcterms:identifier "MI0003440" ;
+  dcterms:description "Tetraodon nigroviridis miR-125a stem-loop"@en ;
+  rdfs:label "tni-mir-125a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003442
+  dcterms:identifier "MI0003442" ;
+  dcterms:description "Tetraodon nigroviridis miR-17-2 stem-loop"@en ;
+  rdfs:label "tni-mir-17-2"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003444
+  dcterms:identifier "MI0003444" ;
+  dcterms:description "Tetraodon nigroviridis miR-20 stem-loop"@en ;
+  rdfs:label "tni-mir-20"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003446
+  dcterms:identifier "MI0003446" ;
+  dcterms:description "Tetraodon nigroviridis miR-92-1 stem-loop"@en ;
+  rdfs:label "tni-mir-92-1"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003448
+  dcterms:identifier "MI0003448" ;
+  dcterms:description "Tetraodon nigroviridis miR-15b stem-loop"@en ;
+  rdfs:label "tni-mir-15b"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003450
+  dcterms:identifier "MI0003450" ;
+  dcterms:description "Tetraodon nigroviridis miR-10c stem-loop"@en ;
+  rdfs:label "tni-mir-10c"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003452
+  dcterms:identifier "MI0003452" ;
+  dcterms:description "Tetraodon nigroviridis miR-9-3 stem-loop"@en ;
+  rdfs:label "tni-mir-9-3"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003454
+  dcterms:identifier "MI0003454" ;
+  dcterms:description "Tetraodon nigroviridis miR-183 stem-loop"@en ;
+  rdfs:label "tni-mir-183"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003456
+  dcterms:identifier "MI0003456" ;
+  dcterms:description "Tetraodon nigroviridis miR-96 stem-loop"@en ;
+  rdfs:label "tni-mir-96"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003458
+  dcterms:identifier "MI0003458" ;
+  dcterms:description "Tetraodon nigroviridis miR-182 stem-loop"@en ;
+  rdfs:label "tni-mir-182"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003460
+  dcterms:identifier "MI0003460" ;
+  dcterms:description "Tetraodon nigroviridis miR-210 stem-loop"@en ;
+  rdfs:label "tni-mir-210"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003462
+  dcterms:identifier "MI0003462" ;
+  dcterms:description "Tetraodon nigroviridis let-7g stem-loop"@en ;
+  rdfs:label "tni-let-7g"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003464
+  dcterms:identifier "MI0003464" ;
+  dcterms:description "Tetraodon nigroviridis miR-22a stem-loop"@en ;
+  rdfs:label "tni-mir-22a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003466
+  dcterms:identifier "MI0003466" ;
+  dcterms:description "Tetraodon nigroviridis miR-204a stem-loop"@en ;
+  rdfs:label "tni-mir-204a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003468
+  dcterms:identifier "MI0003468" ;
+  dcterms:description "Tetraodon nigroviridis miR-152 stem-loop"@en ;
+  rdfs:label "tni-mir-152"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003470
+  dcterms:identifier "MI0003470" ;
+  dcterms:description "Tetraodon nigroviridis miR-15a stem-loop"@en ;
+  rdfs:label "tni-mir-15a"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003472
+  dcterms:identifier "MI0003472" ;
+  dcterms:description "Tetraodon nigroviridis miR-16 stem-loop"@en ;
+  rdfs:label "tni-mir-16"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003474
+  dcterms:identifier "MI0003474" ;
+  dcterms:description "Tetraodon nigroviridis miR-190 stem-loop"@en ;
+  rdfs:label "tni-mir-190"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12624257, pmid:12624257 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004966
+  dcterms:identifier "MI0004966" ;
+  dcterms:description "Tetraodon nigroviridis miR-10d stem-loop"@en ;
+  rdfs:label "tni-mir-10d"@en ;
+  obo:RO_0002162 taxonomy:99883 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+

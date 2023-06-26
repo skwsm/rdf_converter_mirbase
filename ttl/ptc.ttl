@@ -1,0 +1,4146 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0002184
+  dcterms:identifier "MI0002184" ;
+  dcterms:description "Populus trichocarpa miR156a stem-loop"@en ;
+  rdfs:label "ptc-MIR156a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002185
+  dcterms:identifier "MI0002185" ;
+  dcterms:description "Populus trichocarpa miR156b stem-loop"@en ;
+  rdfs:label "ptc-MIR156b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002186
+  dcterms:identifier "MI0002186" ;
+  dcterms:description "Populus trichocarpa miR156c stem-loop"@en ;
+  rdfs:label "ptc-MIR156c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002187
+  dcterms:identifier "MI0002187" ;
+  dcterms:description "Populus trichocarpa miR156d stem-loop"@en ;
+  rdfs:label "ptc-MIR156d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002188
+  dcterms:identifier "MI0002188" ;
+  dcterms:description "Populus trichocarpa miR156e stem-loop"@en ;
+  rdfs:label "ptc-MIR156e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002189
+  dcterms:identifier "MI0002189" ;
+  dcterms:description "Populus trichocarpa miR156f stem-loop"@en ;
+  rdfs:label "ptc-MIR156f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002190
+  dcterms:identifier "MI0002190" ;
+  dcterms:description "Populus trichocarpa miR156g stem-loop"@en ;
+  rdfs:label "ptc-MIR156g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002191
+  dcterms:identifier "MI0002191" ;
+  dcterms:description "Populus trichocarpa miR156h stem-loop"@en ;
+  rdfs:label "ptc-MIR156h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002192
+  dcterms:identifier "MI0002192" ;
+  dcterms:description "Populus trichocarpa miR156i stem-loop"@en ;
+  rdfs:label "ptc-MIR156i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002193
+  dcterms:identifier "MI0002193" ;
+  dcterms:description "Populus trichocarpa miR156j stem-loop"@en ;
+  rdfs:label "ptc-MIR156j"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002194
+  dcterms:identifier "MI0002194" ;
+  dcterms:description "Populus trichocarpa miR156k stem-loop"@en ;
+  rdfs:label "ptc-MIR156k"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002195
+  dcterms:identifier "MI0002195" ;
+  dcterms:description "Populus trichocarpa miR159a stem-loop"@en ;
+  rdfs:label "ptc-MIR159a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002196
+  dcterms:identifier "MI0002196" ;
+  dcterms:description "Populus trichocarpa miR159b stem-loop"@en ;
+  rdfs:label "ptc-MIR159b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002198
+  dcterms:identifier "MI0002198" ;
+  dcterms:description "Populus trichocarpa miR159d stem-loop"@en ;
+  rdfs:label "ptc-MIR159d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002199
+  dcterms:identifier "MI0002199" ;
+  dcterms:description "Populus trichocarpa miR159e stem-loop"@en ;
+  rdfs:label "ptc-MIR159e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002200
+  dcterms:identifier "MI0002200" ;
+  dcterms:description "Populus trichocarpa miR159c stem-loop"@en ;
+  rdfs:label "ptc-MIR159c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002201
+  dcterms:identifier "MI0002201" ;
+  dcterms:description "Populus trichocarpa miR160a stem-loop"@en ;
+  rdfs:label "ptc-MIR160a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002202
+  dcterms:identifier "MI0002202" ;
+  dcterms:description "Populus trichocarpa miR160b stem-loop"@en ;
+  rdfs:label "ptc-MIR160b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002203
+  dcterms:identifier "MI0002203" ;
+  dcterms:description "Populus trichocarpa miR160c stem-loop"@en ;
+  rdfs:label "ptc-MIR160c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002204
+  dcterms:identifier "MI0002204" ;
+  dcterms:description "Populus trichocarpa miR160d stem-loop"@en ;
+  rdfs:label "ptc-MIR160d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002205
+  dcterms:identifier "MI0002205" ;
+  dcterms:description "Populus trichocarpa miR160e stem-loop"@en ;
+  rdfs:label "ptc-MIR160e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002206
+  dcterms:identifier "MI0002206" ;
+  dcterms:description "Populus trichocarpa miR160f stem-loop"@en ;
+  rdfs:label "ptc-MIR160f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002207
+  dcterms:identifier "MI0002207" ;
+  dcterms:description "Populus trichocarpa miR160g stem-loop"@en ;
+  rdfs:label "ptc-MIR160g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002208
+  dcterms:identifier "MI0002208" ;
+  dcterms:description "Populus trichocarpa miR160h stem-loop"@en ;
+  rdfs:label "ptc-MIR160h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002209
+  dcterms:identifier "MI0002209" ;
+  dcterms:description "Populus trichocarpa miR162a stem-loop"@en ;
+  rdfs:label "ptc-MIR162a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002210
+  dcterms:identifier "MI0002210" ;
+  dcterms:description "Populus trichocarpa miR162b stem-loop"@en ;
+  rdfs:label "ptc-MIR162b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002212
+  dcterms:identifier "MI0002212" ;
+  dcterms:description "Populus trichocarpa miR164a stem-loop"@en ;
+  rdfs:label "ptc-MIR164a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002213
+  dcterms:identifier "MI0002213" ;
+  dcterms:description "Populus trichocarpa miR164b stem-loop"@en ;
+  rdfs:label "ptc-MIR164b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002214
+  dcterms:identifier "MI0002214" ;
+  dcterms:description "Populus trichocarpa miR164c stem-loop"@en ;
+  rdfs:label "ptc-MIR164c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002215
+  dcterms:identifier "MI0002215" ;
+  dcterms:description "Populus trichocarpa miR164d stem-loop"@en ;
+  rdfs:label "ptc-MIR164d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002216
+  dcterms:identifier "MI0002216" ;
+  dcterms:description "Populus trichocarpa miR164e stem-loop"@en ;
+  rdfs:label "ptc-MIR164e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002217
+  dcterms:identifier "MI0002217" ;
+  dcterms:description "Populus trichocarpa miR164f stem-loop"@en ;
+  rdfs:label "ptc-MIR164f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002218
+  dcterms:identifier "MI0002218" ;
+  dcterms:description "Populus trichocarpa miR166a stem-loop"@en ;
+  rdfs:label "ptc-MIR166a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002219
+  dcterms:identifier "MI0002219" ;
+  dcterms:description "Populus trichocarpa miR166b stem-loop"@en ;
+  rdfs:label "ptc-MIR166b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002220
+  dcterms:identifier "MI0002220" ;
+  dcterms:description "Populus trichocarpa miR166c stem-loop"@en ;
+  rdfs:label "ptc-MIR166c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002221
+  dcterms:identifier "MI0002221" ;
+  dcterms:description "Populus trichocarpa miR166d stem-loop"@en ;
+  rdfs:label "ptc-MIR166d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002222
+  dcterms:identifier "MI0002222" ;
+  dcterms:description "Populus trichocarpa miR166e stem-loop"@en ;
+  rdfs:label "ptc-MIR166e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002223
+  dcterms:identifier "MI0002223" ;
+  dcterms:description "Populus trichocarpa miR166f stem-loop"@en ;
+  rdfs:label "ptc-MIR166f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002224
+  dcterms:identifier "MI0002224" ;
+  dcterms:description "Populus trichocarpa miR166g stem-loop"@en ;
+  rdfs:label "ptc-MIR166g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002225
+  dcterms:identifier "MI0002225" ;
+  dcterms:description "Populus trichocarpa miR166h stem-loop"@en ;
+  rdfs:label "ptc-MIR166h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002226
+  dcterms:identifier "MI0002226" ;
+  dcterms:description "Populus trichocarpa miR166i stem-loop"@en ;
+  rdfs:label "ptc-MIR166i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002227
+  dcterms:identifier "MI0002227" ;
+  dcterms:description "Populus trichocarpa miR166j stem-loop"@en ;
+  rdfs:label "ptc-MIR166j"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002228
+  dcterms:identifier "MI0002228" ;
+  dcterms:description "Populus trichocarpa miR166k stem-loop"@en ;
+  rdfs:label "ptc-MIR166k"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002229
+  dcterms:identifier "MI0002229" ;
+  dcterms:description "Populus trichocarpa miR166l stem-loop"@en ;
+  rdfs:label "ptc-MIR166l"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002230
+  dcterms:identifier "MI0002230" ;
+  dcterms:description "Populus trichocarpa miR166m stem-loop"@en ;
+  rdfs:label "ptc-MIR166m"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002231
+  dcterms:identifier "MI0002231" ;
+  dcterms:description "Populus trichocarpa miR166n stem-loop"@en ;
+  rdfs:label "ptc-MIR166n"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002232
+  dcterms:identifier "MI0002232" ;
+  dcterms:description "Populus trichocarpa miR166o stem-loop"@en ;
+  rdfs:label "ptc-MIR166o"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002233
+  dcterms:identifier "MI0002233" ;
+  dcterms:description "Populus trichocarpa miR166p stem-loop"@en ;
+  rdfs:label "ptc-MIR166p"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002234
+  dcterms:identifier "MI0002234" ;
+  dcterms:description "Populus trichocarpa miR166q stem-loop"@en ;
+  rdfs:label "ptc-MIR166q"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002235
+  dcterms:identifier "MI0002235" ;
+  dcterms:description "Populus trichocarpa miR167a stem-loop"@en ;
+  rdfs:label "ptc-MIR167a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002236
+  dcterms:identifier "MI0002236" ;
+  dcterms:description "Populus trichocarpa miR167b stem-loop"@en ;
+  rdfs:label "ptc-MIR167b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002237
+  dcterms:identifier "MI0002237" ;
+  dcterms:description "Populus trichocarpa miR167c stem-loop"@en ;
+  rdfs:label "ptc-MIR167c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002238
+  dcterms:identifier "MI0002238" ;
+  dcterms:description "Populus trichocarpa miR167d stem-loop"@en ;
+  rdfs:label "ptc-MIR167d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002239
+  dcterms:identifier "MI0002239" ;
+  dcterms:description "Populus trichocarpa miR167e stem-loop"@en ;
+  rdfs:label "ptc-MIR167e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002240
+  dcterms:identifier "MI0002240" ;
+  dcterms:description "Populus trichocarpa miR167f stem-loop"@en ;
+  rdfs:label "ptc-MIR167f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002241
+  dcterms:identifier "MI0002241" ;
+  dcterms:description "Populus trichocarpa miR167g stem-loop"@en ;
+  rdfs:label "ptc-MIR167g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002242
+  dcterms:identifier "MI0002242" ;
+  dcterms:description "Populus trichocarpa miR167h stem-loop"@en ;
+  rdfs:label "ptc-MIR167h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002243
+  dcterms:identifier "MI0002243" ;
+  dcterms:description "Populus trichocarpa miR168a stem-loop"@en ;
+  rdfs:label "ptc-MIR168a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002244
+  dcterms:identifier "MI0002244" ;
+  dcterms:description "Populus trichocarpa miR168b stem-loop"@en ;
+  rdfs:label "ptc-MIR168b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002245
+  dcterms:identifier "MI0002245" ;
+  dcterms:description "Populus trichocarpa miR169a stem-loop"@en ;
+  rdfs:label "ptc-MIR169a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002246
+  dcterms:identifier "MI0002246" ;
+  dcterms:description "Populus trichocarpa miR169aa stem-loop"@en ;
+  rdfs:label "ptc-MIR169aa"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002247
+  dcterms:identifier "MI0002247" ;
+  dcterms:description "Populus trichocarpa miR169ab stem-loop"@en ;
+  rdfs:label "ptc-MIR169ab"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002248
+  dcterms:identifier "MI0002248" ;
+  dcterms:description "Populus trichocarpa miR169ac stem-loop"@en ;
+  rdfs:label "ptc-MIR169ac"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002249
+  dcterms:identifier "MI0002249" ;
+  dcterms:description "Populus trichocarpa miR169ad stem-loop"@en ;
+  rdfs:label "ptc-MIR169ad"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002250
+  dcterms:identifier "MI0002250" ;
+  dcterms:description "Populus trichocarpa miR169ae stem-loop"@en ;
+  rdfs:label "ptc-MIR169ae"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002251
+  dcterms:identifier "MI0002251" ;
+  dcterms:description "Populus trichocarpa miR169af stem-loop"@en ;
+  rdfs:label "ptc-MIR169af"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002252
+  dcterms:identifier "MI0002252" ;
+  dcterms:description "Populus trichocarpa miR169b stem-loop"@en ;
+  rdfs:label "ptc-MIR169b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002253
+  dcterms:identifier "MI0002253" ;
+  dcterms:description "Populus trichocarpa miR169c stem-loop"@en ;
+  rdfs:label "ptc-MIR169c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002254
+  dcterms:identifier "MI0002254" ;
+  dcterms:description "Populus trichocarpa miR169d stem-loop"@en ;
+  rdfs:label "ptc-MIR169d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002255
+  dcterms:identifier "MI0002255" ;
+  dcterms:description "Populus trichocarpa miR169e stem-loop"@en ;
+  rdfs:label "ptc-MIR169e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002256
+  dcterms:identifier "MI0002256" ;
+  dcterms:description "Populus trichocarpa miR169f stem-loop"@en ;
+  rdfs:label "ptc-MIR169f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002257
+  dcterms:identifier "MI0002257" ;
+  dcterms:description "Populus trichocarpa miR169g stem-loop"@en ;
+  rdfs:label "ptc-MIR169g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002258
+  dcterms:identifier "MI0002258" ;
+  dcterms:description "Populus trichocarpa miR169h stem-loop"@en ;
+  rdfs:label "ptc-MIR169h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002259
+  dcterms:identifier "MI0002259" ;
+  dcterms:description "Populus trichocarpa miR169i stem-loop"@en ;
+  rdfs:label "ptc-MIR169i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002260
+  dcterms:identifier "MI0002260" ;
+  dcterms:description "Populus trichocarpa miR169j stem-loop"@en ;
+  rdfs:label "ptc-MIR169j"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002261
+  dcterms:identifier "MI0002261" ;
+  dcterms:description "Populus trichocarpa miR169k stem-loop"@en ;
+  rdfs:label "ptc-MIR169k"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002262
+  dcterms:identifier "MI0002262" ;
+  dcterms:description "Populus trichocarpa miR169l stem-loop"@en ;
+  rdfs:label "ptc-MIR169l"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002263
+  dcterms:identifier "MI0002263" ;
+  dcterms:description "Populus trichocarpa miR169m stem-loop"@en ;
+  rdfs:label "ptc-MIR169m"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002264
+  dcterms:identifier "MI0002264" ;
+  dcterms:description "Populus trichocarpa miR169n stem-loop"@en ;
+  rdfs:label "ptc-MIR169n"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002265
+  dcterms:identifier "MI0002265" ;
+  dcterms:description "Populus trichocarpa miR169o stem-loop"@en ;
+  rdfs:label "ptc-MIR169o"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002266
+  dcterms:identifier "MI0002266" ;
+  dcterms:description "Populus trichocarpa miR169p stem-loop"@en ;
+  rdfs:label "ptc-MIR169p"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002267
+  dcterms:identifier "MI0002267" ;
+  dcterms:description "Populus trichocarpa miR169q stem-loop"@en ;
+  rdfs:label "ptc-MIR169q"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002268
+  dcterms:identifier "MI0002268" ;
+  dcterms:description "Populus trichocarpa miR169r stem-loop"@en ;
+  rdfs:label "ptc-MIR169r"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002269
+  dcterms:identifier "MI0002269" ;
+  dcterms:description "Populus trichocarpa miR169s stem-loop"@en ;
+  rdfs:label "ptc-MIR169s"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002270
+  dcterms:identifier "MI0002270" ;
+  dcterms:description "Populus trichocarpa miR169t stem-loop"@en ;
+  rdfs:label "ptc-MIR169t"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002271
+  dcterms:identifier "MI0002271" ;
+  dcterms:description "Populus trichocarpa miR169u stem-loop"@en ;
+  rdfs:label "ptc-MIR169u"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002272
+  dcterms:identifier "MI0002272" ;
+  dcterms:description "Populus trichocarpa miR169v stem-loop"@en ;
+  rdfs:label "ptc-MIR169v"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002273
+  dcterms:identifier "MI0002273" ;
+  dcterms:description "Populus trichocarpa miR169w stem-loop"@en ;
+  rdfs:label "ptc-MIR169w"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002274
+  dcterms:identifier "MI0002274" ;
+  dcterms:description "Populus trichocarpa miR169x stem-loop"@en ;
+  rdfs:label "ptc-MIR169x"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002275
+  dcterms:identifier "MI0002275" ;
+  dcterms:description "Populus trichocarpa miR169y stem-loop"@en ;
+  rdfs:label "ptc-MIR169y"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002276
+  dcterms:identifier "MI0002276" ;
+  dcterms:description "Populus trichocarpa miR169z stem-loop"@en ;
+  rdfs:label "ptc-MIR169z"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002277
+  dcterms:identifier "MI0002277" ;
+  dcterms:description "Populus trichocarpa miR171a stem-loop"@en ;
+  rdfs:label "ptc-MIR171a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002278
+  dcterms:identifier "MI0002278" ;
+  dcterms:description "Populus trichocarpa miR171b stem-loop"@en ;
+  rdfs:label "ptc-MIR171b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002279
+  dcterms:identifier "MI0002279" ;
+  dcterms:description "Populus trichocarpa miR171c stem-loop"@en ;
+  rdfs:label "ptc-MIR171c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002280
+  dcterms:identifier "MI0002280" ;
+  dcterms:description "Populus trichocarpa miR171d stem-loop"@en ;
+  rdfs:label "ptc-MIR171d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002281
+  dcterms:identifier "MI0002281" ;
+  dcterms:description "Populus trichocarpa miR171e stem-loop"@en ;
+  rdfs:label "ptc-MIR171e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002282
+  dcterms:identifier "MI0002282" ;
+  dcterms:description "Populus trichocarpa miR171f stem-loop"@en ;
+  rdfs:label "ptc-MIR171f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002283
+  dcterms:identifier "MI0002283" ;
+  dcterms:description "Populus trichocarpa miR171g stem-loop"@en ;
+  rdfs:label "ptc-MIR171g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002284
+  dcterms:identifier "MI0002284" ;
+  dcterms:description "Populus trichocarpa miR171h stem-loop"@en ;
+  rdfs:label "ptc-MIR171h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002285
+  dcterms:identifier "MI0002285" ;
+  dcterms:description "Populus trichocarpa miR171i stem-loop"@en ;
+  rdfs:label "ptc-MIR171i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002287
+  dcterms:identifier "MI0002287" ;
+  dcterms:description "Populus trichocarpa miR172a stem-loop"@en ;
+  rdfs:label "ptc-MIR172a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002288
+  dcterms:identifier "MI0002288" ;
+  dcterms:description "Populus trichocarpa miR172b stem-loop"@en ;
+  rdfs:label "ptc-MIR172b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002289
+  dcterms:identifier "MI0002289" ;
+  dcterms:description "Populus trichocarpa miR172c stem-loop"@en ;
+  rdfs:label "ptc-MIR172c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002290
+  dcterms:identifier "MI0002290" ;
+  dcterms:description "Populus trichocarpa miR172d stem-loop"@en ;
+  rdfs:label "ptc-MIR172d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002291
+  dcterms:identifier "MI0002291" ;
+  dcterms:description "Populus trichocarpa miR172e stem-loop"@en ;
+  rdfs:label "ptc-MIR172e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002292
+  dcterms:identifier "MI0002292" ;
+  dcterms:description "Populus trichocarpa miR172f stem-loop"@en ;
+  rdfs:label "ptc-MIR172f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002293
+  dcterms:identifier "MI0002293" ;
+  dcterms:description "Populus trichocarpa miR172g stem-loop"@en ;
+  rdfs:label "ptc-MIR172g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002294
+  dcterms:identifier "MI0002294" ;
+  dcterms:description "Populus trichocarpa miR172h stem-loop"@en ;
+  rdfs:label "ptc-MIR172h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002295
+  dcterms:identifier "MI0002295" ;
+  dcterms:description "Populus trichocarpa miR172i stem-loop"@en ;
+  rdfs:label "ptc-MIR172i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002296
+  dcterms:identifier "MI0002296" ;
+  dcterms:description "Populus trichocarpa miR319a stem-loop"@en ;
+  rdfs:label "ptc-MIR319a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002297
+  dcterms:identifier "MI0002297" ;
+  dcterms:description "Populus trichocarpa miR319b stem-loop"@en ;
+  rdfs:label "ptc-MIR319b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002298
+  dcterms:identifier "MI0002298" ;
+  dcterms:description "Populus trichocarpa miR319c stem-loop"@en ;
+  rdfs:label "ptc-MIR319c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002299
+  dcterms:identifier "MI0002299" ;
+  dcterms:description "Populus trichocarpa miR319d stem-loop"@en ;
+  rdfs:label "ptc-MIR319d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002300
+  dcterms:identifier "MI0002300" ;
+  dcterms:description "Populus trichocarpa miR319e stem-loop"@en ;
+  rdfs:label "ptc-MIR319e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002301
+  dcterms:identifier "MI0002301" ;
+  dcterms:description "Populus trichocarpa miR319f stem-loop"@en ;
+  rdfs:label "ptc-MIR319f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002302
+  dcterms:identifier "MI0002302" ;
+  dcterms:description "Populus trichocarpa miR319g stem-loop"@en ;
+  rdfs:label "ptc-MIR319g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002303
+  dcterms:identifier "MI0002303" ;
+  dcterms:description "Populus trichocarpa miR319h stem-loop"@en ;
+  rdfs:label "ptc-MIR319h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002304
+  dcterms:identifier "MI0002304" ;
+  dcterms:description "Populus trichocarpa miR319i stem-loop"@en ;
+  rdfs:label "ptc-MIR319i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002305
+  dcterms:identifier "MI0002305" ;
+  dcterms:description "Populus trichocarpa miR390a stem-loop"@en ;
+  rdfs:label "ptc-MIR390a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002306
+  dcterms:identifier "MI0002306" ;
+  dcterms:description "Populus trichocarpa miR390b stem-loop"@en ;
+  rdfs:label "ptc-MIR390b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002307
+  dcterms:identifier "MI0002307" ;
+  dcterms:description "Populus trichocarpa miR390c stem-loop"@en ;
+  rdfs:label "ptc-MIR390c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002308
+  dcterms:identifier "MI0002308" ;
+  dcterms:description "Populus trichocarpa miR390d stem-loop"@en ;
+  rdfs:label "ptc-MIR390d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002309
+  dcterms:identifier "MI0002309" ;
+  dcterms:description "Populus trichocarpa miR393a stem-loop"@en ;
+  rdfs:label "ptc-MIR393a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002310
+  dcterms:identifier "MI0002310" ;
+  dcterms:description "Populus trichocarpa miR393b stem-loop"@en ;
+  rdfs:label "ptc-MIR393b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002311
+  dcterms:identifier "MI0002311" ;
+  dcterms:description "Populus trichocarpa miR393c stem-loop"@en ;
+  rdfs:label "ptc-MIR393c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002313
+  dcterms:identifier "MI0002313" ;
+  dcterms:description "Populus trichocarpa miR394a stem-loop"@en ;
+  rdfs:label "ptc-MIR394a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002314
+  dcterms:identifier "MI0002314" ;
+  dcterms:description "Populus trichocarpa miR394b stem-loop"@en ;
+  rdfs:label "ptc-MIR394b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002315
+  dcterms:identifier "MI0002315" ;
+  dcterms:description "Populus trichocarpa miR395a stem-loop"@en ;
+  rdfs:label "ptc-MIR395a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002316
+  dcterms:identifier "MI0002316" ;
+  dcterms:description "Populus trichocarpa miR395b stem-loop"@en ;
+  rdfs:label "ptc-MIR395b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002317
+  dcterms:identifier "MI0002317" ;
+  dcterms:description "Populus trichocarpa miR395c stem-loop"@en ;
+  rdfs:label "ptc-MIR395c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002318
+  dcterms:identifier "MI0002318" ;
+  dcterms:description "Populus trichocarpa miR395d stem-loop"@en ;
+  rdfs:label "ptc-MIR395d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002319
+  dcterms:identifier "MI0002319" ;
+  dcterms:description "Populus trichocarpa miR395e stem-loop"@en ;
+  rdfs:label "ptc-MIR395e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002320
+  dcterms:identifier "MI0002320" ;
+  dcterms:description "Populus trichocarpa miR395f stem-loop"@en ;
+  rdfs:label "ptc-MIR395f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002321
+  dcterms:identifier "MI0002321" ;
+  dcterms:description "Populus trichocarpa miR395g stem-loop"@en ;
+  rdfs:label "ptc-MIR395g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002322
+  dcterms:identifier "MI0002322" ;
+  dcterms:description "Populus trichocarpa miR395h stem-loop"@en ;
+  rdfs:label "ptc-MIR395h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002323
+  dcterms:identifier "MI0002323" ;
+  dcterms:description "Populus trichocarpa miR395i stem-loop"@en ;
+  rdfs:label "ptc-MIR395i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002324
+  dcterms:identifier "MI0002324" ;
+  dcterms:description "Populus trichocarpa miR395j stem-loop"@en ;
+  rdfs:label "ptc-MIR395j"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002325
+  dcterms:identifier "MI0002325" ;
+  dcterms:description "Populus trichocarpa miR396a stem-loop"@en ;
+  rdfs:label "ptc-MIR396a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002326
+  dcterms:identifier "MI0002326" ;
+  dcterms:description "Populus trichocarpa miR396b stem-loop"@en ;
+  rdfs:label "ptc-MIR396b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002327
+  dcterms:identifier "MI0002327" ;
+  dcterms:description "Populus trichocarpa miR396c stem-loop"@en ;
+  rdfs:label "ptc-MIR396c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002328
+  dcterms:identifier "MI0002328" ;
+  dcterms:description "Populus trichocarpa miR396d stem-loop"@en ;
+  rdfs:label "ptc-MIR396d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002329
+  dcterms:identifier "MI0002329" ;
+  dcterms:description "Populus trichocarpa miR396e stem-loop"@en ;
+  rdfs:label "ptc-MIR396e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002330
+  dcterms:identifier "MI0002330" ;
+  dcterms:description "Populus trichocarpa miR396f stem-loop"@en ;
+  rdfs:label "ptc-MIR396f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002331
+  dcterms:identifier "MI0002331" ;
+  dcterms:description "Populus trichocarpa miR396g stem-loop"@en ;
+  rdfs:label "ptc-MIR396g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002332
+  dcterms:identifier "MI0002332" ;
+  dcterms:description "Populus trichocarpa miR397a stem-loop"@en ;
+  rdfs:label "ptc-MIR397a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002333
+  dcterms:identifier "MI0002333" ;
+  dcterms:description "Populus trichocarpa miR397b stem-loop"@en ;
+  rdfs:label "ptc-MIR397b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002334
+  dcterms:identifier "MI0002334" ;
+  dcterms:description "Populus trichocarpa miR397c stem-loop"@en ;
+  rdfs:label "ptc-MIR397c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002335
+  dcterms:identifier "MI0002335" ;
+  dcterms:description "Populus trichocarpa miR398a stem-loop"@en ;
+  rdfs:label "ptc-MIR398a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002336
+  dcterms:identifier "MI0002336" ;
+  dcterms:description "Populus trichocarpa miR398b stem-loop"@en ;
+  rdfs:label "ptc-MIR398b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002337
+  dcterms:identifier "MI0002337" ;
+  dcterms:description "Populus trichocarpa miR398c stem-loop"@en ;
+  rdfs:label "ptc-MIR398c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002338
+  dcterms:identifier "MI0002338" ;
+  dcterms:description "Populus trichocarpa miR399a stem-loop"@en ;
+  rdfs:label "ptc-MIR399a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002339
+  dcterms:identifier "MI0002339" ;
+  dcterms:description "Populus trichocarpa miR399b stem-loop"@en ;
+  rdfs:label "ptc-MIR399b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002341
+  dcterms:identifier "MI0002341" ;
+  dcterms:description "Populus trichocarpa miR399d stem-loop"@en ;
+  rdfs:label "ptc-MIR399d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002343
+  dcterms:identifier "MI0002343" ;
+  dcterms:description "Populus trichocarpa miR399f stem-loop"@en ;
+  rdfs:label "ptc-MIR399f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002344
+  dcterms:identifier "MI0002344" ;
+  dcterms:description "Populus trichocarpa miR399g stem-loop"@en ;
+  rdfs:label "ptc-MIR399g"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002345
+  dcterms:identifier "MI0002345" ;
+  dcterms:description "Populus trichocarpa miR399h stem-loop"@en ;
+  rdfs:label "ptc-MIR399h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002346
+  dcterms:identifier "MI0002346" ;
+  dcterms:description "Populus trichocarpa miR399i stem-loop"@en ;
+  rdfs:label "ptc-MIR399i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002347
+  dcterms:identifier "MI0002347" ;
+  dcterms:description "Populus trichocarpa miR399j stem-loop"@en ;
+  rdfs:label "ptc-MIR399j"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002348
+  dcterms:identifier "MI0002348" ;
+  dcterms:description "Populus trichocarpa miR399c stem-loop"@en ;
+  rdfs:label "ptc-MIR399c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002349
+  dcterms:identifier "MI0002349" ;
+  dcterms:description "Populus trichocarpa miR399e stem-loop"@en ;
+  rdfs:label "ptc-MIR399e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002350
+  dcterms:identifier "MI0002350" ;
+  dcterms:description "Populus trichocarpa miR403a stem-loop"@en ;
+  rdfs:label "ptc-MIR403a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002351
+  dcterms:identifier "MI0002351" ;
+  dcterms:description "Populus trichocarpa miR403b stem-loop"@en ;
+  rdfs:label "ptc-MIR403b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:16973872, pmid:16973872 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002352
+  dcterms:identifier "MI0002352" ;
+  dcterms:description "Populus trichocarpa miR408 stem-loop"@en ;
+  rdfs:label "ptc-MIR408"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002354
+  dcterms:identifier "MI0002354" ;
+  dcterms:description "Populus trichocarpa miR472a stem-loop"@en ;
+  rdfs:label "ptc-MIR472a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002355
+  dcterms:identifier "MI0002355" ;
+  dcterms:description "Populus trichocarpa miR472b stem-loop"@en ;
+  rdfs:label "ptc-MIR472b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002356
+  dcterms:identifier "MI0002356" ;
+  dcterms:description "Populus trichocarpa miR477e stem-loop"@en ;
+  rdfs:label "ptc-MIR477e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002357
+  dcterms:identifier "MI0002357" ;
+  dcterms:description "Populus trichocarpa miR477f stem-loop"@en ;
+  rdfs:label "ptc-MIR477f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002358
+  dcterms:identifier "MI0002358" ;
+  dcterms:description "Populus trichocarpa miR474a stem-loop"@en ;
+  rdfs:label "ptc-MIR474a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002359
+  dcterms:identifier "MI0002359" ;
+  dcterms:description "Populus trichocarpa miR474b stem-loop"@en ;
+  rdfs:label "ptc-MIR474b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002360
+  dcterms:identifier "MI0002360" ;
+  dcterms:description "Populus trichocarpa miR474c stem-loop"@en ;
+  rdfs:label "ptc-MIR474c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002361
+  dcterms:identifier "MI0002361" ;
+  dcterms:description "Populus trichocarpa miR475a stem-loop"@en ;
+  rdfs:label "ptc-MIR475a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002362
+  dcterms:identifier "MI0002362" ;
+  dcterms:description "Populus trichocarpa miR475b stem-loop"@en ;
+  rdfs:label "ptc-MIR475b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002363
+  dcterms:identifier "MI0002363" ;
+  dcterms:description "Populus trichocarpa miR475c stem-loop"@en ;
+  rdfs:label "ptc-MIR475c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002364
+  dcterms:identifier "MI0002364" ;
+  dcterms:description "Populus trichocarpa miR475d stem-loop"@en ;
+  rdfs:label "ptc-MIR475d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002365
+  dcterms:identifier "MI0002365" ;
+  dcterms:description "Populus trichocarpa miR476a stem-loop"@en ;
+  rdfs:label "ptc-MIR476a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002366
+  dcterms:identifier "MI0002366" ;
+  dcterms:description "Populus trichocarpa miR476b stem-loop"@en ;
+  rdfs:label "ptc-MIR476b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002368
+  dcterms:identifier "MI0002368" ;
+  dcterms:description "Populus trichocarpa miR477a stem-loop"@en ;
+  rdfs:label "ptc-MIR477a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002369
+  dcterms:identifier "MI0002369" ;
+  dcterms:description "Populus trichocarpa miR477b stem-loop"@en ;
+  rdfs:label "ptc-MIR477b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002370
+  dcterms:identifier "MI0002370" ;
+  dcterms:description "Populus trichocarpa miR478a stem-loop"@en ;
+  rdfs:label "ptc-MIR478a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002371
+  dcterms:identifier "MI0002371" ;
+  dcterms:description "Populus trichocarpa miR478b stem-loop"@en ;
+  rdfs:label "ptc-MIR478b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002372
+  dcterms:identifier "MI0002372" ;
+  dcterms:description "Populus trichocarpa miR478c stem-loop"@en ;
+  rdfs:label "ptc-MIR478c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002373
+  dcterms:identifier "MI0002373" ;
+  dcterms:description "Populus trichocarpa miR478d stem-loop"@en ;
+  rdfs:label "ptc-MIR478d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002374
+  dcterms:identifier "MI0002374" ;
+  dcterms:description "Populus trichocarpa miR478e stem-loop"@en ;
+  rdfs:label "ptc-MIR478e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002375
+  dcterms:identifier "MI0002375" ;
+  dcterms:description "Populus trichocarpa miR478f stem-loop"@en ;
+  rdfs:label "ptc-MIR478f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002376
+  dcterms:identifier "MI0002376" ;
+  dcterms:description "Populus trichocarpa miR478h stem-loop"@en ;
+  rdfs:label "ptc-MIR478h"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002377
+  dcterms:identifier "MI0002377" ;
+  dcterms:description "Populus trichocarpa miR478i stem-loop"@en ;
+  rdfs:label "ptc-MIR478i"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002378
+  dcterms:identifier "MI0002378" ;
+  dcterms:description "Populus trichocarpa miR478j stem-loop"@en ;
+  rdfs:label "ptc-MIR478j"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002379
+  dcterms:identifier "MI0002379" ;
+  dcterms:description "Populus trichocarpa miR478k stem-loop"@en ;
+  rdfs:label "ptc-MIR478k"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002380
+  dcterms:identifier "MI0002380" ;
+  dcterms:description "Populus trichocarpa miR478l stem-loop"@en ;
+  rdfs:label "ptc-MIR478l"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002381
+  dcterms:identifier "MI0002381" ;
+  dcterms:description "Populus trichocarpa miR478m stem-loop"@en ;
+  rdfs:label "ptc-MIR478m"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002383
+  dcterms:identifier "MI0002383" ;
+  dcterms:description "Populus trichocarpa miR478o stem-loop"@en ;
+  rdfs:label "ptc-MIR478o"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002384
+  dcterms:identifier "MI0002384" ;
+  dcterms:description "Populus trichocarpa miR478p stem-loop"@en ;
+  rdfs:label "ptc-MIR478p"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002385
+  dcterms:identifier "MI0002385" ;
+  dcterms:description "Populus trichocarpa miR478q stem-loop"@en ;
+  rdfs:label "ptc-MIR478q"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002386
+  dcterms:identifier "MI0002386" ;
+  dcterms:description "Populus trichocarpa miR478r stem-loop"@en ;
+  rdfs:label "ptc-MIR478r"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002387
+  dcterms:identifier "MI0002387" ;
+  dcterms:description "Populus trichocarpa miR478s stem-loop"@en ;
+  rdfs:label "ptc-MIR478s"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002388
+  dcterms:identifier "MI0002388" ;
+  dcterms:description "Populus trichocarpa miR478n stem-loop"@en ;
+  rdfs:label "ptc-MIR478n"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002390
+  dcterms:identifier "MI0002390" ;
+  dcterms:description "Populus trichocarpa miR480 stem-loop"@en ;
+  rdfs:label "ptc-MIR480"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002392
+  dcterms:identifier "MI0002392" ;
+  dcterms:description "Populus trichocarpa miR481a stem-loop"@en ;
+  rdfs:label "ptc-MIR481a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002393
+  dcterms:identifier "MI0002393" ;
+  dcterms:description "Populus trichocarpa miR481b stem-loop"@en ;
+  rdfs:label "ptc-MIR481b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002394
+  dcterms:identifier "MI0002394" ;
+  dcterms:description "Populus trichocarpa miR481c stem-loop"@en ;
+  rdfs:label "ptc-MIR481c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002396
+  dcterms:identifier "MI0002396" ;
+  dcterms:description "Populus trichocarpa miR481d stem-loop"@en ;
+  rdfs:label "ptc-MIR481d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002397
+  dcterms:identifier "MI0002397" ;
+  dcterms:description "Populus trichocarpa miR482a stem-loop"@en ;
+  rdfs:label "ptc-MIR482a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15994906, pmid:15994906 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005114
+  dcterms:identifier "MI0005114" ;
+  dcterms:description "Populus trichocarpa miR171k stem-loop"@en ;
+  rdfs:label "ptc-MIR171k"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005115
+  dcterms:identifier "MI0005115" ;
+  dcterms:description "Populus trichocarpa miR403c stem-loop"@en ;
+  rdfs:label "ptc-MIR403c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007032
+  dcterms:identifier "MI0007032" ;
+  dcterms:description "Populus trichocarpa miR171l stem-loop"@en ;
+  rdfs:label "ptc-MIR171l"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007033
+  dcterms:identifier "MI0007033" ;
+  dcterms:description "Populus trichocarpa miR171m stem-loop"@en ;
+  rdfs:label "ptc-MIR171m"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007034
+  dcterms:identifier "MI0007034" ;
+  dcterms:description "Populus trichocarpa miR171j stem-loop"@en ;
+  rdfs:label "ptc-MIR171j"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007035
+  dcterms:identifier "MI0007035" ;
+  dcterms:description "Populus trichocarpa miR530a stem-loop"@en ;
+  rdfs:label "ptc-MIR530a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007036
+  dcterms:identifier "MI0007036" ;
+  dcterms:description "Populus trichocarpa miR530b stem-loop"@en ;
+  rdfs:label "ptc-MIR530b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007037
+  dcterms:identifier "MI0007037" ;
+  dcterms:description "Populus trichocarpa miR1444a stem-loop"@en ;
+  rdfs:label "ptc-MIR1444a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007038
+  dcterms:identifier "MI0007038" ;
+  dcterms:description "Populus trichocarpa miR1444b stem-loop"@en ;
+  rdfs:label "ptc-MIR1444b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007039
+  dcterms:identifier "MI0007039" ;
+  dcterms:description "Populus trichocarpa miR1444c stem-loop"@en ;
+  rdfs:label "ptc-MIR1444c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007040
+  dcterms:identifier "MI0007040" ;
+  dcterms:description "Populus trichocarpa miR1445 stem-loop"@en ;
+  rdfs:label "ptc-MIR1445"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007041
+  dcterms:identifier "MI0007041" ;
+  dcterms:description "Populus trichocarpa miR827 stem-loop"@en ;
+  rdfs:label "ptc-MIR827"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007042
+  dcterms:identifier "MI0007042" ;
+  dcterms:description "Populus trichocarpa miR1446a stem-loop"@en ;
+  rdfs:label "ptc-MIR1446a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007043
+  dcterms:identifier "MI0007043" ;
+  dcterms:description "Populus trichocarpa miR1446b stem-loop"@en ;
+  rdfs:label "ptc-MIR1446b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007044
+  dcterms:identifier "MI0007044" ;
+  dcterms:description "Populus trichocarpa miR1446c stem-loop"@en ;
+  rdfs:label "ptc-MIR1446c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007045
+  dcterms:identifier "MI0007045" ;
+  dcterms:description "Populus trichocarpa miR1446d stem-loop"@en ;
+  rdfs:label "ptc-MIR1446d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007046
+  dcterms:identifier "MI0007046" ;
+  dcterms:description "Populus trichocarpa miR1446e stem-loop"@en ;
+  rdfs:label "ptc-MIR1446e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007047
+  dcterms:identifier "MI0007047" ;
+  dcterms:description "Populus trichocarpa miR1447 stem-loop"@en ;
+  rdfs:label "ptc-MIR1447"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007048
+  dcterms:identifier "MI0007048" ;
+  dcterms:description "Populus trichocarpa miR1448 stem-loop"@en ;
+  rdfs:label "ptc-MIR1448"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007049
+  dcterms:identifier "MI0007049" ;
+  dcterms:description "Populus trichocarpa miR1449 stem-loop"@en ;
+  rdfs:label "ptc-MIR1449"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007050
+  dcterms:identifier "MI0007050" ;
+  dcterms:description "Populus trichocarpa miR1450 stem-loop"@en ;
+  rdfs:label "ptc-MIR1450"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18363789, pmid:18363789 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021962
+  dcterms:identifier "MI0021962" ;
+  dcterms:description "Populus trichocarpa miR6421 stem-loop"@en ;
+  rdfs:label "ptc-MIR6421"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021963
+  dcterms:identifier "MI0021963" ;
+  dcterms:description "Populus trichocarpa miR6458 stem-loop"@en ;
+  rdfs:label "ptc-MIR6458"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021964
+  dcterms:identifier "MI0021964" ;
+  dcterms:description "Populus trichocarpa miR6440b stem-loop"@en ;
+  rdfs:label "ptc-MIR6440b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021965
+  dcterms:identifier "MI0021965" ;
+  dcterms:description "Populus trichocarpa miR6459a stem-loop"@en ;
+  rdfs:label "ptc-MIR6459a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021966
+  dcterms:identifier "MI0021966" ;
+  dcterms:description "Populus trichocarpa miR6460 stem-loop"@en ;
+  rdfs:label "ptc-MIR6460"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021967
+  dcterms:identifier "MI0021967" ;
+  dcterms:description "Populus trichocarpa miR6461 stem-loop"@en ;
+  rdfs:label "ptc-MIR6461"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021968
+  dcterms:identifier "MI0021968" ;
+  dcterms:description "Populus trichocarpa miR6462a stem-loop"@en ;
+  rdfs:label "ptc-MIR6462a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021969
+  dcterms:identifier "MI0021969" ;
+  dcterms:description "Populus trichocarpa miR6463 stem-loop"@en ;
+  rdfs:label "ptc-MIR6463"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021970
+  dcterms:identifier "MI0021970" ;
+  dcterms:description "Populus trichocarpa miR6425a stem-loop"@en ;
+  rdfs:label "ptc-MIR6425a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021971
+  dcterms:identifier "MI0021971" ;
+  dcterms:description "Populus trichocarpa miR6464 stem-loop"@en ;
+  rdfs:label "ptc-MIR6464"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021972
+  dcterms:identifier "MI0021972" ;
+  dcterms:description "Populus trichocarpa miR6465 stem-loop"@en ;
+  rdfs:label "ptc-MIR6465"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021973
+  dcterms:identifier "MI0021973" ;
+  dcterms:description "Populus trichocarpa miR6466 stem-loop"@en ;
+  rdfs:label "ptc-MIR6466"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021974
+  dcterms:identifier "MI0021974" ;
+  dcterms:description "Populus trichocarpa miR6467 stem-loop"@en ;
+  rdfs:label "ptc-MIR6467"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021975
+  dcterms:identifier "MI0021975" ;
+  dcterms:description "Populus trichocarpa miR6438b stem-loop"@en ;
+  rdfs:label "ptc-MIR6438b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021976
+  dcterms:identifier "MI0021976" ;
+  dcterms:description "Populus trichocarpa miR6425b stem-loop"@en ;
+  rdfs:label "ptc-MIR6425b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021977
+  dcterms:identifier "MI0021977" ;
+  dcterms:description "Populus trichocarpa miR6440c stem-loop"@en ;
+  rdfs:label "ptc-MIR6440c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021978
+  dcterms:identifier "MI0021978" ;
+  dcterms:description "Populus trichocarpa miR6468 stem-loop"@en ;
+  rdfs:label "ptc-MIR6468"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021979
+  dcterms:identifier "MI0021979" ;
+  dcterms:description "Populus trichocarpa miR6469 stem-loop"@en ;
+  rdfs:label "ptc-MIR6469"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021980
+  dcterms:identifier "MI0021980" ;
+  dcterms:description "Populus trichocarpa miR6457b stem-loop"@en ;
+  rdfs:label "ptc-MIR6457b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021981
+  dcterms:identifier "MI0021981" ;
+  dcterms:description "Populus trichocarpa miR6462b stem-loop"@en ;
+  rdfs:label "ptc-MIR6462b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021982
+  dcterms:identifier "MI0021982" ;
+  dcterms:description "Populus trichocarpa miR6462c stem-loop"@en ;
+  rdfs:label "ptc-MIR6462c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021983
+  dcterms:identifier "MI0021983" ;
+  dcterms:description "Populus trichocarpa miR6425c stem-loop"@en ;
+  rdfs:label "ptc-MIR6425c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021984
+  dcterms:identifier "MI0021984" ;
+  dcterms:description "Populus trichocarpa miR6470 stem-loop"@en ;
+  rdfs:label "ptc-MIR6470"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021985
+  dcterms:identifier "MI0021985" ;
+  dcterms:description "Populus trichocarpa miR6471 stem-loop"@en ;
+  rdfs:label "ptc-MIR6471"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021986
+  dcterms:identifier "MI0021986" ;
+  dcterms:description "Populus trichocarpa miR6472 stem-loop"@en ;
+  rdfs:label "ptc-MIR6472"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021987
+  dcterms:identifier "MI0021987" ;
+  dcterms:description "Populus trichocarpa miR6473 stem-loop"@en ;
+  rdfs:label "ptc-MIR6473"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021988
+  dcterms:identifier "MI0021988" ;
+  dcterms:description "Populus trichocarpa miR6474 stem-loop"@en ;
+  rdfs:label "ptc-MIR6474"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021989
+  dcterms:identifier "MI0021989" ;
+  dcterms:description "Populus trichocarpa miR6425d stem-loop"@en ;
+  rdfs:label "ptc-MIR6425d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021990
+  dcterms:identifier "MI0021990" ;
+  dcterms:description "Populus trichocarpa miR6475 stem-loop"@en ;
+  rdfs:label "ptc-MIR6475"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021991
+  dcterms:identifier "MI0021991" ;
+  dcterms:description "Populus trichocarpa miR6476a stem-loop"@en ;
+  rdfs:label "ptc-MIR6476a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021992
+  dcterms:identifier "MI0021992" ;
+  dcterms:description "Populus trichocarpa miR6477 stem-loop"@en ;
+  rdfs:label "ptc-MIR6477"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021993
+  dcterms:identifier "MI0021993" ;
+  dcterms:description "Populus trichocarpa miR6425e stem-loop"@en ;
+  rdfs:label "ptc-MIR6425e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021994
+  dcterms:identifier "MI0021994" ;
+  dcterms:description "Populus trichocarpa miR6478 stem-loop"@en ;
+  rdfs:label "ptc-MIR6478"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021995
+  dcterms:identifier "MI0021995" ;
+  dcterms:description "Populus trichocarpa miR6426a stem-loop"@en ;
+  rdfs:label "ptc-MIR6426a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021996
+  dcterms:identifier "MI0021996" ;
+  dcterms:description "Populus trichocarpa miR6479 stem-loop"@en ;
+  rdfs:label "ptc-MIR6479"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021997
+  dcterms:identifier "MI0021997" ;
+  dcterms:description "Populus trichocarpa miR6480 stem-loop"@en ;
+  rdfs:label "ptc-MIR6480"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021998
+  dcterms:identifier "MI0021998" ;
+  dcterms:description "Populus trichocarpa miR6462d stem-loop"@en ;
+  rdfs:label "ptc-MIR6462d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0021999
+  dcterms:identifier "MI0021999" ;
+  dcterms:description "Populus trichocarpa miR6437b stem-loop"@en ;
+  rdfs:label "ptc-MIR6437b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022000
+  dcterms:identifier "MI0022000" ;
+  dcterms:description "Populus trichocarpa miR6440d stem-loop"@en ;
+  rdfs:label "ptc-MIR6440d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022001
+  dcterms:identifier "MI0022001" ;
+  dcterms:description "Populus trichocarpa miR6427 stem-loop"@en ;
+  rdfs:label "ptc-MIR6427"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022002
+  dcterms:identifier "MI0022002" ;
+  dcterms:description "Populus trichocarpa miR6428 stem-loop"@en ;
+  rdfs:label "ptc-MIR6428"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022003
+  dcterms:identifier "MI0022003" ;
+  dcterms:description "Populus trichocarpa miR6429 stem-loop"@en ;
+  rdfs:label "ptc-MIR6429"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022004
+  dcterms:identifier "MI0022004" ;
+  dcterms:description "Populus trichocarpa miR6430 stem-loop"@en ;
+  rdfs:label "ptc-MIR6430"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022005
+  dcterms:identifier "MI0022005" ;
+  dcterms:description "Populus trichocarpa miR6431 stem-loop"@en ;
+  rdfs:label "ptc-MIR6431"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022006
+  dcterms:identifier "MI0022006" ;
+  dcterms:description "Populus trichocarpa miR6432 stem-loop"@en ;
+  rdfs:label "ptc-MIR6432"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022007
+  dcterms:identifier "MI0022007" ;
+  dcterms:description "Populus trichocarpa miR482d stem-loop"@en ;
+  rdfs:label "ptc-MIR482d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022008
+  dcterms:identifier "MI0022008" ;
+  dcterms:description "Populus trichocarpa miR6422 stem-loop"@en ;
+  rdfs:label "ptc-MIR6422"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022009
+  dcterms:identifier "MI0022009" ;
+  dcterms:description "Populus trichocarpa miR6434 stem-loop"@en ;
+  rdfs:label "ptc-MIR6434"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022010
+  dcterms:identifier "MI0022010" ;
+  dcterms:description "Populus trichocarpa miR6435 stem-loop"@en ;
+  rdfs:label "ptc-MIR6435"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022011
+  dcterms:identifier "MI0022011" ;
+  dcterms:description "Populus trichocarpa miR6436 stem-loop"@en ;
+  rdfs:label "ptc-MIR6436"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022012
+  dcterms:identifier "MI0022012" ;
+  dcterms:description "Populus trichocarpa miR6437a stem-loop"@en ;
+  rdfs:label "ptc-MIR6437a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022013
+  dcterms:identifier "MI0022013" ;
+  dcterms:description "Populus trichocarpa miR6438a stem-loop"@en ;
+  rdfs:label "ptc-MIR6438a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022014
+  dcterms:identifier "MI0022014" ;
+  dcterms:description "Populus trichocarpa miR6439a stem-loop"@en ;
+  rdfs:label "ptc-MIR6439a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022015
+  dcterms:identifier "MI0022015" ;
+  dcterms:description "Populus trichocarpa miR6440a stem-loop"@en ;
+  rdfs:label "ptc-MIR6440a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022016
+  dcterms:identifier "MI0022016" ;
+  dcterms:description "Populus trichocarpa miR6441 stem-loop"@en ;
+  rdfs:label "ptc-MIR6441"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022017
+  dcterms:identifier "MI0022017" ;
+  dcterms:description "Populus trichocarpa miR6442 stem-loop"@en ;
+  rdfs:label "ptc-MIR6442"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022018
+  dcterms:identifier "MI0022018" ;
+  dcterms:description "Populus trichocarpa miR6443 stem-loop"@en ;
+  rdfs:label "ptc-MIR6443"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022019
+  dcterms:identifier "MI0022019" ;
+  dcterms:description "Populus trichocarpa miR6444 stem-loop"@en ;
+  rdfs:label "ptc-MIR6444"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022020
+  dcterms:identifier "MI0022020" ;
+  dcterms:description "Populus trichocarpa miR6445a stem-loop"@en ;
+  rdfs:label "ptc-MIR6445a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022021
+  dcterms:identifier "MI0022021" ;
+  dcterms:description "Populus trichocarpa miR6446 stem-loop"@en ;
+  rdfs:label "ptc-MIR6446"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022022
+  dcterms:identifier "MI0022022" ;
+  dcterms:description "Populus trichocarpa miR6447 stem-loop"@en ;
+  rdfs:label "ptc-MIR6447"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022023
+  dcterms:identifier "MI0022023" ;
+  dcterms:description "Populus trichocarpa miR6448 stem-loop"@en ;
+  rdfs:label "ptc-MIR6448"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022024
+  dcterms:identifier "MI0022024" ;
+  dcterms:description "Populus trichocarpa miR6423 stem-loop"@en ;
+  rdfs:label "ptc-MIR6423"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022025
+  dcterms:identifier "MI0022025" ;
+  dcterms:description "Populus trichocarpa miR6449 stem-loop"@en ;
+  rdfs:label "ptc-MIR6449"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022026
+  dcterms:identifier "MI0022026" ;
+  dcterms:description "Populus trichocarpa miR6450a stem-loop"@en ;
+  rdfs:label "ptc-MIR6450a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022027
+  dcterms:identifier "MI0022027" ;
+  dcterms:description "Populus trichocarpa miR6451 stem-loop"@en ;
+  rdfs:label "ptc-MIR6451"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022028
+  dcterms:identifier "MI0022028" ;
+  dcterms:description "Populus trichocarpa miR6445b stem-loop"@en ;
+  rdfs:label "ptc-MIR6445b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022029
+  dcterms:identifier "MI0022029" ;
+  dcterms:description "Populus trichocarpa miR477c stem-loop"@en ;
+  rdfs:label "ptc-MIR477c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022030
+  dcterms:identifier "MI0022030" ;
+  dcterms:description "Populus trichocarpa miR6439b stem-loop"@en ;
+  rdfs:label "ptc-MIR6439b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022031
+  dcterms:identifier "MI0022031" ;
+  dcterms:description "Populus trichocarpa miR6426b stem-loop"@en ;
+  rdfs:label "ptc-MIR6426b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022032
+  dcterms:identifier "MI0022032" ;
+  dcterms:description "Populus trichocarpa miR536 stem-loop"@en ;
+  rdfs:label "ptc-MIR536"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022033
+  dcterms:identifier "MI0022033" ;
+  dcterms:description "Populus trichocarpa miR6450b stem-loop"@en ;
+  rdfs:label "ptc-MIR6450b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022034
+  dcterms:identifier "MI0022034" ;
+  dcterms:description "Populus trichocarpa miR6452 stem-loop"@en ;
+  rdfs:label "ptc-MIR6452"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022035
+  dcterms:identifier "MI0022035" ;
+  dcterms:description "Populus trichocarpa miR3627a stem-loop"@en ;
+  rdfs:label "ptc-MIR3627a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022036
+  dcterms:identifier "MI0022036" ;
+  dcterms:description "Populus trichocarpa miR6454 stem-loop"@en ;
+  rdfs:label "ptc-MIR6454"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022037
+  dcterms:identifier "MI0022037" ;
+  dcterms:description "Populus trichocarpa miR6455 stem-loop"@en ;
+  rdfs:label "ptc-MIR6455"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022038
+  dcterms:identifier "MI0022038" ;
+  dcterms:description "Populus trichocarpa miR6456 stem-loop"@en ;
+  rdfs:label "ptc-MIR6456"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022039
+  dcterms:identifier "MI0022039" ;
+  dcterms:description "Populus trichocarpa miR6457a stem-loop"@en ;
+  rdfs:label "ptc-MIR6457a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022040
+  dcterms:identifier "MI0022040" ;
+  dcterms:description "Populus trichocarpa miR156l stem-loop"@en ;
+  rdfs:label "ptc-MIR156l"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022041
+  dcterms:identifier "MI0022041" ;
+  dcterms:description "Populus trichocarpa miR169ag stem-loop"@en ;
+  rdfs:label "ptc-MIR169ag"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022042
+  dcterms:identifier "MI0022042" ;
+  dcterms:description "Populus trichocarpa miR2111a stem-loop"@en ;
+  rdfs:label "ptc-MIR2111a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022043
+  dcterms:identifier "MI0022043" ;
+  dcterms:description "Populus trichocarpa miR482b stem-loop"@en ;
+  rdfs:label "ptc-MIR482b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022044
+  dcterms:identifier "MI0022044" ;
+  dcterms:description "Populus trichocarpa miR2111b stem-loop"@en ;
+  rdfs:label "ptc-MIR2111b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022045
+  dcterms:identifier "MI0022045" ;
+  dcterms:description "Populus trichocarpa miR395k stem-loop"@en ;
+  rdfs:label "ptc-MIR395k"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022047
+  dcterms:identifier "MI0022047" ;
+  dcterms:description "Populus trichocarpa miR477d stem-loop"@en ;
+  rdfs:label "ptc-MIR477d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022048
+  dcterms:identifier "MI0022048" ;
+  dcterms:description "Populus trichocarpa miR482c stem-loop"@en ;
+  rdfs:label "ptc-MIR482c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022049
+  dcterms:identifier "MI0022049" ;
+  dcterms:description "Populus trichocarpa miR828a stem-loop"@en ;
+  rdfs:label "ptc-MIR828a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022050
+  dcterms:identifier "MI0022050" ;
+  dcterms:description "Populus trichocarpa miR828b stem-loop"@en ;
+  rdfs:label "ptc-MIR828b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025468
+  dcterms:identifier "MI0025468" ;
+  dcterms:description "Populus trichocarpa miR6476b stem-loop"@en ;
+  rdfs:label "ptc-MIR6476b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025469
+  dcterms:identifier "MI0025469" ;
+  dcterms:description "Populus trichocarpa miR6476c stem-loop"@en ;
+  rdfs:label "ptc-MIR6476c"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:22442676, pmid:22442676 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025470
+  dcterms:identifier "MI0025470" ;
+  dcterms:description "Populus trichocarpa miR403d stem-loop"@en ;
+  rdfs:label "ptc-MIR403d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "miRNAseq" ;
+    dcterms:references pubmed:15916721, pmid:15916721 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025471
+  dcterms:identifier "MI0025471" ;
+  dcterms:description "Populus trichocarpa miR7812 stem-loop"@en ;
+  rdfs:label "ptc-MIR7812"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025472
+  dcterms:identifier "MI0025472" ;
+  dcterms:description "Populus trichocarpa miR7814 stem-loop"@en ;
+  rdfs:label "ptc-MIR7814"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025473
+  dcterms:identifier "MI0025473" ;
+  dcterms:description "Populus trichocarpa miR7815 stem-loop"@en ;
+  rdfs:label "ptc-MIR7815"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025474
+  dcterms:identifier "MI0025474" ;
+  dcterms:description "Populus trichocarpa miR7816 stem-loop"@en ;
+  rdfs:label "ptc-MIR7816"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025475
+  dcterms:identifier "MI0025475" ;
+  dcterms:description "Populus trichocarpa miR6462e stem-loop"@en ;
+  rdfs:label "ptc-MIR6462e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025476
+  dcterms:identifier "MI0025476" ;
+  dcterms:description "Populus trichocarpa miR6462f stem-loop"@en ;
+  rdfs:label "ptc-MIR6462f"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025477
+  dcterms:identifier "MI0025477" ;
+  dcterms:description "Populus trichocarpa miR7817a stem-loop"@en ;
+  rdfs:label "ptc-MIR7817a"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025478
+  dcterms:identifier "MI0025478" ;
+  dcterms:description "Populus trichocarpa miR7818 stem-loop"@en ;
+  rdfs:label "ptc-MIR7818"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025479
+  dcterms:identifier "MI0025479" ;
+  dcterms:description "Populus trichocarpa miR7817b stem-loop"@en ;
+  rdfs:label "ptc-MIR7817b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025480
+  dcterms:identifier "MI0025480" ;
+  dcterms:description "Populus trichocarpa miR7820 stem-loop"@en ;
+  rdfs:label "ptc-MIR7820"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025481
+  dcterms:identifier "MI0025481" ;
+  dcterms:description "Populus trichocarpa miR7822 stem-loop"@en ;
+  rdfs:label "ptc-MIR7822"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025482
+  dcterms:identifier "MI0025482" ;
+  dcterms:description "Populus trichocarpa miR7823 stem-loop"@en ;
+  rdfs:label "ptc-MIR7823"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025483
+  dcterms:identifier "MI0025483" ;
+  dcterms:description "Populus trichocarpa miR7824 stem-loop"@en ;
+  rdfs:label "ptc-MIR7824"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025484
+  dcterms:identifier "MI0025484" ;
+  dcterms:description "Populus trichocarpa miR7825 stem-loop"@en ;
+  rdfs:label "ptc-MIR7825"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025485
+  dcterms:identifier "MI0025485" ;
+  dcterms:description "Populus trichocarpa miR1444d stem-loop"@en ;
+  rdfs:label "ptc-MIR1444d"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025486
+  dcterms:identifier "MI0025486" ;
+  dcterms:description "Populus trichocarpa miR1444e stem-loop"@en ;
+  rdfs:label "ptc-MIR1444e"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025487
+  dcterms:identifier "MI0025487" ;
+  dcterms:description "Populus trichocarpa miR7826 stem-loop"@en ;
+  rdfs:label "ptc-MIR7826"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025488
+  dcterms:identifier "MI0025488" ;
+  dcterms:description "Populus trichocarpa miR7828 stem-loop"@en ;
+  rdfs:label "ptc-MIR7828"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025489
+  dcterms:identifier "MI0025489" ;
+  dcterms:description "Populus trichocarpa miR7830 stem-loop"@en ;
+  rdfs:label "ptc-MIR7830"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025490
+  dcterms:identifier "MI0025490" ;
+  dcterms:description "Populus trichocarpa miR7831 stem-loop"@en ;
+  rdfs:label "ptc-MIR7831"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025491
+  dcterms:identifier "MI0025491" ;
+  dcterms:description "Populus trichocarpa miR3627b stem-loop"@en ;
+  rdfs:label "ptc-MIR3627b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025492
+  dcterms:identifier "MI0025492" ;
+  dcterms:description "Populus trichocarpa miR7833 stem-loop"@en ;
+  rdfs:label "ptc-MIR7833"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025493
+  dcterms:identifier "MI0025493" ;
+  dcterms:description "Populus trichocarpa miR7837 stem-loop"@en ;
+  rdfs:label "ptc-MIR7837"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025494
+  dcterms:identifier "MI0025494" ;
+  dcterms:description "Populus trichocarpa miR7838 stem-loop"@en ;
+  rdfs:label "ptc-MIR7838"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025495
+  dcterms:identifier "MI0025495" ;
+  dcterms:description "Populus trichocarpa miR7839 stem-loop"@en ;
+  rdfs:label "ptc-MIR7839"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025496
+  dcterms:identifier "MI0025496" ;
+  dcterms:description "Populus trichocarpa miR6459b stem-loop"@en ;
+  rdfs:label "ptc-MIR6459b"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025497
+  dcterms:identifier "MI0025497" ;
+  dcterms:description "Populus trichocarpa miR7840 stem-loop"@en ;
+  rdfs:label "ptc-MIR7840"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025498
+  dcterms:identifier "MI0025498" ;
+  dcterms:description "Populus trichocarpa miR7841 stem-loop"@en ;
+  rdfs:label "ptc-MIR7841"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025499
+  dcterms:identifier "MI0025499" ;
+  dcterms:description "Populus trichocarpa miR7842 stem-loop"@en ;
+  rdfs:label "ptc-MIR7842"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025500
+  dcterms:identifier "MI0025500" ;
+  dcterms:description "Populus trichocarpa miR7813 stem-loop"@en ;
+  rdfs:label "ptc-MIR7813"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025501
+  dcterms:identifier "MI0025501" ;
+  dcterms:description "Populus trichocarpa miR7819 stem-loop"@en ;
+  rdfs:label "ptc-MIR7819"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025502
+  dcterms:identifier "MI0025502" ;
+  dcterms:description "Populus trichocarpa miR7821 stem-loop"@en ;
+  rdfs:label "ptc-MIR7821"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025503
+  dcterms:identifier "MI0025503" ;
+  dcterms:description "Populus trichocarpa miR7827 stem-loop"@en ;
+  rdfs:label "ptc-MIR7827"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025504
+  dcterms:identifier "MI0025504" ;
+  dcterms:description "Populus trichocarpa miR7829 stem-loop"@en ;
+  rdfs:label "ptc-MIR7829"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025505
+  dcterms:identifier "MI0025505" ;
+  dcterms:description "Populus trichocarpa miR7832 stem-loop"@en ;
+  rdfs:label "ptc-MIR7832"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025506
+  dcterms:identifier "MI0025506" ;
+  dcterms:description "Populus trichocarpa miR7834 stem-loop"@en ;
+  rdfs:label "ptc-MIR7834"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025507
+  dcterms:identifier "MI0025507" ;
+  dcterms:description "Populus trichocarpa miR7835 stem-loop"@en ;
+  rdfs:label "ptc-MIR7835"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025508
+  dcterms:identifier "MI0025508" ;
+  dcterms:description "Populus trichocarpa miR7836 stem-loop"@en ;
+  rdfs:label "ptc-MIR7836"@en ;
+  obo:RO_0002162 taxonomy:3694 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23570526, pmid:23570526 ;
+  ] ;
+  a :MicroRNA .
+

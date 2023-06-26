@@ -1,0 +1,5723 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0004968
+  dcterms:identifier "MI0004968" ;
+  dcterms:description "Bombyx mori let-7 stem-loop"@en ;
+  rdfs:label "bmo-let-7"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004969
+  dcterms:identifier "MI0004969" ;
+  dcterms:description "Bombyx mori miR-1a stem-loop"@en ;
+  rdfs:label "bmo-mir-1a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004970
+  dcterms:identifier "MI0004970" ;
+  dcterms:description "Bombyx mori miR-7 stem-loop"@en ;
+  rdfs:label "bmo-mir-7"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004971
+  dcterms:identifier "MI0004971" ;
+  dcterms:description "Bombyx mori miR-8 stem-loop"@en ;
+  rdfs:label "bmo-mir-8"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004972
+  dcterms:identifier "MI0004972" ;
+  dcterms:description "Bombyx mori miR-9a stem-loop"@en ;
+  rdfs:label "bmo-mir-9a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004973
+  dcterms:identifier "MI0004973" ;
+  dcterms:description "Bombyx mori miR-10 stem-loop"@en ;
+  rdfs:label "bmo-mir-10"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004974
+  dcterms:identifier "MI0004974" ;
+  dcterms:description "Bombyx mori miR-14 stem-loop"@en ;
+  rdfs:label "bmo-mir-14"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004975
+  dcterms:identifier "MI0004975" ;
+  dcterms:description "Bombyx mori miR-34 stem-loop"@en ;
+  rdfs:label "bmo-mir-34"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004976
+  dcterms:identifier "MI0004976" ;
+  dcterms:description "Bombyx mori miR-124 stem-loop"@en ;
+  rdfs:label "bmo-mir-124"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004977
+  dcterms:identifier "MI0004977" ;
+  dcterms:description "Bombyx mori miR-263b stem-loop"@en ;
+  rdfs:label "bmo-mir-263b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004978
+  dcterms:identifier "MI0004978" ;
+  dcterms:description "Bombyx mori miR-263a stem-loop"@en ;
+  rdfs:label "bmo-mir-263a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004979
+  dcterms:identifier "MI0004979" ;
+  dcterms:description "Bombyx mori miR-275 stem-loop"@en ;
+  rdfs:label "bmo-mir-275"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004980
+  dcterms:identifier "MI0004980" ;
+  dcterms:description "Bombyx mori miR-276 stem-loop"@en ;
+  rdfs:label "bmo-mir-276"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004981
+  dcterms:identifier "MI0004981" ;
+  dcterms:description "Bombyx mori miR-277 stem-loop"@en ;
+  rdfs:label "bmo-mir-277"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004982
+  dcterms:identifier "MI0004982" ;
+  dcterms:description "Bombyx mori miR-279a stem-loop"@en ;
+  rdfs:label "bmo-mir-279a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004983
+  dcterms:identifier "MI0004983" ;
+  dcterms:description "Bombyx mori miR-282 stem-loop"@en ;
+  rdfs:label "bmo-mir-282"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004984
+  dcterms:identifier "MI0004984" ;
+  dcterms:description "Bombyx mori miR-283 stem-loop"@en ;
+  rdfs:label "bmo-mir-283"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004985
+  dcterms:identifier "MI0004985" ;
+  dcterms:description "Bombyx mori miR-305 stem-loop"@en ;
+  rdfs:label "bmo-mir-305"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004986
+  dcterms:identifier "MI0004986" ;
+  dcterms:description "Bombyx mori miR-307 stem-loop"@en ;
+  rdfs:label "bmo-mir-307"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005377
+  dcterms:identifier "MI0005377" ;
+  dcterms:description "Bombyx mori miR-31 stem-loop"@en ;
+  rdfs:label "bmo-mir-31"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005378
+  dcterms:identifier "MI0005378" ;
+  dcterms:description "Bombyx mori miR-71 stem-loop"@en ;
+  rdfs:label "bmo-mir-71"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008338
+  dcterms:identifier "MI0008338" ;
+  dcterms:description "Bombyx mori miR-2a-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2a-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008339
+  dcterms:identifier "MI0008339" ;
+  dcterms:description "Bombyx mori miR-2a-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2a-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008340
+  dcterms:identifier "MI0008340" ;
+  dcterms:description "Bombyx mori miR-2b stem-loop"@en ;
+  rdfs:label "bmo-mir-2b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008341
+  dcterms:identifier "MI0008341" ;
+  dcterms:description "Bombyx mori miR-13a stem-loop"@en ;
+  rdfs:label "bmo-mir-13a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008342
+  dcterms:identifier "MI0008342" ;
+  dcterms:description "Bombyx mori miR-13b stem-loop"@en ;
+  rdfs:label "bmo-mir-13b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008343
+  dcterms:identifier "MI0008343" ;
+  dcterms:description "Bombyx mori miR-79 stem-loop"@en ;
+  rdfs:label "bmo-mir-79"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008344
+  dcterms:identifier "MI0008344" ;
+  dcterms:description "Bombyx mori miR-87 stem-loop"@en ;
+  rdfs:label "bmo-mir-87"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008345
+  dcterms:identifier "MI0008345" ;
+  dcterms:description "Bombyx mori miR-133 stem-loop"@en ;
+  rdfs:label "bmo-mir-133"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008346
+  dcterms:identifier "MI0008346" ;
+  dcterms:description "Bombyx mori miR-184 stem-loop"@en ;
+  rdfs:label "bmo-mir-184"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008347
+  dcterms:identifier "MI0008347" ;
+  dcterms:description "Bombyx mori miR-210 stem-loop"@en ;
+  rdfs:label "bmo-mir-210"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008348
+  dcterms:identifier "MI0008348" ;
+  dcterms:description "Bombyx mori miR-281 stem-loop"@en ;
+  rdfs:label "bmo-mir-281"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008349
+  dcterms:identifier "MI0008349" ;
+  dcterms:description "Bombyx mori miR-317 stem-loop"@en ;
+  rdfs:label "bmo-mir-317"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008350
+  dcterms:identifier "MI0008350" ;
+  dcterms:description "Bombyx mori bantam stem-loop"@en ;
+  rdfs:label "bmo-bantam"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18507836, pmid:18507836 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:18977439, pmid:18977439 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008393
+  dcterms:identifier "MI0008393" ;
+  dcterms:description "Bombyx mori miR-1923 stem-loop"@en ;
+  rdfs:label "bmo-mir-1923"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008394
+  dcterms:identifier "MI0008394" ;
+  dcterms:description "Bombyx mori miR-1926 stem-loop"@en ;
+  rdfs:label "bmo-mir-1926"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0009994
+  dcterms:identifier "MI0009994" ;
+  dcterms:description "Bombyx mori miR-12 stem-loop"@en ;
+  rdfs:label "bmo-mir-12"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0009995
+  dcterms:identifier "MI0009995" ;
+  dcterms:description "Bombyx mori miR-137 stem-loop"@en ;
+  rdfs:label "bmo-mir-137"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0009996
+  dcterms:identifier "MI0009996" ;
+  dcterms:description "Bombyx mori miR-190 stem-loop"@en ;
+  rdfs:label "bmo-mir-190"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0009997
+  dcterms:identifier "MI0009997" ;
+  dcterms:description "Bombyx mori miR-285 stem-loop"@en ;
+  rdfs:label "bmo-mir-285"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0009998
+  dcterms:identifier "MI0009998" ;
+  dcterms:description "Bombyx mori miR-92b stem-loop"@en ;
+  rdfs:label "bmo-mir-92b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010000
+  dcterms:identifier "MI0010000" ;
+  dcterms:description "Bombyx mori miR-927 stem-loop"@en ;
+  rdfs:label "bmo-mir-927"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010001
+  dcterms:identifier "MI0010001" ;
+  dcterms:description "Bombyx mori miR-929 stem-loop"@en ;
+  rdfs:label "bmo-mir-929"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010003
+  dcterms:identifier "MI0010003" ;
+  dcterms:description "Bombyx mori miR-932 stem-loop"@en ;
+  rdfs:label "bmo-mir-932"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010004
+  dcterms:identifier "MI0010004" ;
+  dcterms:description "Bombyx mori miR-9b stem-loop"@en ;
+  rdfs:label "bmo-mir-9b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010005
+  dcterms:identifier "MI0010005" ;
+  dcterms:description "Bombyx mori miR-iab-4 stem-loop"@en ;
+  rdfs:label "bmo-mir-iab-4"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010006
+  dcterms:identifier "MI0010006" ;
+  dcterms:description "Bombyx mori miR-278 stem-loop"@en ;
+  rdfs:label "bmo-mir-278"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18714353, pmid:18714353 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010621
+  dcterms:identifier "MI0010621" ;
+  dcterms:description "Bombyx mori miR-252 stem loop"@en ;
+  rdfs:label "bmo-mir-252"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010622
+  dcterms:identifier "MI0010622" ;
+  dcterms:description "Bombyx mori miR-970 stem loop"@en ;
+  rdfs:label "bmo-mir-970"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010623
+  dcterms:identifier "MI0010623" ;
+  dcterms:description "Bombyx mori miR-965 stem loop"@en ;
+  rdfs:label "bmo-mir-965"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010624
+  dcterms:identifier "MI0010624" ;
+  dcterms:description "Bombyx mori miR-274 stem loop"@en ;
+  rdfs:label "bmo-mir-274"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010625
+  dcterms:identifier "MI0010625" ;
+  dcterms:description "Bombyx mori miR-993b stem loop"@en ;
+  rdfs:label "bmo-mir-993b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010626
+  dcterms:identifier "MI0010626" ;
+  dcterms:description "Bombyx mori miR-993a stem loop"@en ;
+  rdfs:label "bmo-mir-993a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012170
+  dcterms:identifier "MI0012170" ;
+  dcterms:description "Bombyx mori miR-2723 stem-loop"@en ;
+  rdfs:label "bmo-mir-2723"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012171
+  dcterms:identifier "MI0012171" ;
+  dcterms:description "Bombyx mori miR-2724 stem-loop"@en ;
+  rdfs:label "bmo-mir-2724"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012175
+  dcterms:identifier "MI0012175" ;
+  dcterms:description "Bombyx mori miR-2753 stem-loop"@en ;
+  rdfs:label "bmo-mir-2753"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012177
+  dcterms:identifier "MI0012177" ;
+  dcterms:description "Bombyx mori miR-2729 stem-loop"@en ;
+  rdfs:label "bmo-mir-2729"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012179
+  dcterms:identifier "MI0012179" ;
+  dcterms:description "Bombyx mori miR-2731-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2731-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012180
+  dcterms:identifier "MI0012180" ;
+  dcterms:description "Bombyx mori miR-2731-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2731-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012182
+  dcterms:identifier "MI0012182" ;
+  dcterms:description "Bombyx mori miR-2733a-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2733a-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012183
+  dcterms:identifier "MI0012183" ;
+  dcterms:description "Bombyx mori miR-2734 stem-loop"@en ;
+  rdfs:label "bmo-mir-2734"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012185
+  dcterms:identifier "MI0012185" ;
+  dcterms:description "Bombyx mori miR-2736 stem-loop"@en ;
+  rdfs:label "bmo-mir-2736"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012186
+  dcterms:identifier "MI0012186" ;
+  dcterms:description "Bombyx mori miR-2737 stem-loop"@en ;
+  rdfs:label "bmo-mir-2737"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012187
+  dcterms:identifier "MI0012187" ;
+  dcterms:description "Bombyx mori miR-2738 stem-loop"@en ;
+  rdfs:label "bmo-mir-2738"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012188
+  dcterms:identifier "MI0012188" ;
+  dcterms:description "Bombyx mori miR-2739 stem-loop"@en ;
+  rdfs:label "bmo-mir-2739"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012190
+  dcterms:identifier "MI0012190" ;
+  dcterms:description "Bombyx mori miR-2733b-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2733b-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012192
+  dcterms:identifier "MI0012192" ;
+  dcterms:description "Bombyx mori miR-2742 stem-loop"@en ;
+  rdfs:label "bmo-mir-2742"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012193
+  dcterms:identifier "MI0012193" ;
+  dcterms:description "Bombyx mori miR-9c stem-loop"@en ;
+  rdfs:label "bmo-mir-9c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012195
+  dcterms:identifier "MI0012195" ;
+  dcterms:description "Bombyx mori miR-2744 stem-loop"@en ;
+  rdfs:label "bmo-mir-2744"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012196
+  dcterms:identifier "MI0012196" ;
+  dcterms:description "Bombyx mori miR-2745 stem-loop"@en ;
+  rdfs:label "bmo-mir-2745"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012199
+  dcterms:identifier "MI0012199" ;
+  dcterms:description "Bombyx mori miR-2748 stem-loop"@en ;
+  rdfs:label "bmo-mir-2748"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012201
+  dcterms:identifier "MI0012201" ;
+  dcterms:description "Bombyx mori miR-306a stem-loop"@en ;
+  rdfs:label "bmo-mir-306a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012203
+  dcterms:identifier "MI0012203" ;
+  dcterms:description "Bombyx mori miR-2751 stem-loop"@en ;
+  rdfs:label "bmo-mir-2751"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012204
+  dcterms:identifier "MI0012204" ;
+  dcterms:description "Bombyx mori miR-2752 stem-loop"@en ;
+  rdfs:label "bmo-mir-2752"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012205
+  dcterms:identifier "MI0012205" ;
+  dcterms:description "Bombyx mori miR-989 stem-loop"@en ;
+  rdfs:label "bmo-mir-989a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19699294, pmid:19699294 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:19823945, pmid:19823945 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012291
+  dcterms:identifier "MI0012291" ;
+  dcterms:description "Bombyx mori miR-100 stem-loop"@en ;
+  rdfs:label "bmo-mir-100"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012292
+  dcterms:identifier "MI0012292" ;
+  dcterms:description "Bombyx mori miR-316 stem-loop"@en ;
+  rdfs:label "bmo-mir-316"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012293
+  dcterms:identifier "MI0012293" ;
+  dcterms:description "Bombyx mori miR-33 stem-loop"@en ;
+  rdfs:label "bmo-mir-33"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012294
+  dcterms:identifier "MI0012294" ;
+  dcterms:description "Bombyx mori miR-11 stem-loop"@en ;
+  rdfs:label "bmo-mir-11"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012295
+  dcterms:identifier "MI0012295" ;
+  dcterms:description "Bombyx mori miR-998 stem-loop"@en ;
+  rdfs:label "bmo-mir-998"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012296
+  dcterms:identifier "MI0012296" ;
+  dcterms:description "Bombyx mori miR-308 stem-loop"@en ;
+  rdfs:label "bmo-mir-308"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012297
+  dcterms:identifier "MI0012297" ;
+  dcterms:description "Bombyx mori miR-279d stem-loop"@en ;
+  rdfs:label "bmo-mir-279d"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012298
+  dcterms:identifier "MI0012298" ;
+  dcterms:description "Bombyx mori miR-279b stem-loop"@en ;
+  rdfs:label "bmo-mir-279b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012299
+  dcterms:identifier "MI0012299" ;
+  dcterms:description "Bombyx mori miR-279c stem-loop"@en ;
+  rdfs:label "bmo-mir-279c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012300
+  dcterms:identifier "MI0012300" ;
+  dcterms:description "Bombyx mori miR-1175 stem-loop"@en ;
+  rdfs:label "bmo-mir-1175"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012301
+  dcterms:identifier "MI0012301" ;
+  dcterms:description "Bombyx mori miR-2754 stem-loop"@en ;
+  rdfs:label "bmo-mir-2754"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012302
+  dcterms:identifier "MI0012302" ;
+  dcterms:description "Bombyx mori miR-2755 stem-loop"@en ;
+  rdfs:label "bmo-mir-2755"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012303
+  dcterms:identifier "MI0012303" ;
+  dcterms:description "Bombyx mori miR-2733e-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2733e-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012304
+  dcterms:identifier "MI0012304" ;
+  dcterms:description "Bombyx mori miR-2733e-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2733e-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675, pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012305
+  dcterms:identifier "MI0012305" ;
+  dcterms:description "Bombyx mori miR-2733d stem-loop"@en ;
+  rdfs:label "bmo-mir-2733d"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675, pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012306
+  dcterms:identifier "MI0012306" ;
+  dcterms:description "Bombyx mori miR-2733c stem-loop"@en ;
+  rdfs:label "bmo-mir-2733c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012307
+  dcterms:identifier "MI0012307" ;
+  dcterms:description "Bombyx mori miR-9d stem-loop"@en ;
+  rdfs:label "bmo-mir-9d"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012308
+  dcterms:identifier "MI0012308" ;
+  dcterms:description "Bombyx mori miR-2807c stem-loop"@en ;
+  rdfs:label "bmo-mir-2807c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012309
+  dcterms:identifier "MI0012309" ;
+  dcterms:description "Bombyx mori miR-2756 stem-loop"@en ;
+  rdfs:label "bmo-mir-2756"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012310
+  dcterms:identifier "MI0012310" ;
+  dcterms:description "Bombyx mori miR-745 stem-loop"@en ;
+  rdfs:label "bmo-mir-745"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012311
+  dcterms:identifier "MI0012311" ;
+  dcterms:description "Bombyx mori miR-2757 stem-loop"@en ;
+  rdfs:label "bmo-mir-2757"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012312
+  dcterms:identifier "MI0012312" ;
+  dcterms:description "Bombyx mori miR-2758 stem-loop"@en ;
+  rdfs:label "bmo-mir-2758"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012313
+  dcterms:identifier "MI0012313" ;
+  dcterms:description "Bombyx mori miR-2759 stem-loop"@en ;
+  rdfs:label "bmo-mir-2759"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012314
+  dcterms:identifier "MI0012314" ;
+  dcterms:description "Bombyx mori miR-2760 stem-loop"@en ;
+  rdfs:label "bmo-mir-2760"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012315
+  dcterms:identifier "MI0012315" ;
+  dcterms:description "Bombyx mori miR-2761 stem-loop"@en ;
+  rdfs:label "bmo-mir-2761"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012316
+  dcterms:identifier "MI0012316" ;
+  dcterms:description "Bombyx mori miR-2762 stem-loop"@en ;
+  rdfs:label "bmo-mir-2762"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012317
+  dcterms:identifier "MI0012317" ;
+  dcterms:description "Bombyx mori miR-2763 stem-loop"@en ;
+  rdfs:label "bmo-mir-2763"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675, pubmed:20089182, pmid:20089182 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012318
+  dcterms:identifier "MI0012318" ;
+  dcterms:description "Bombyx mori miR-2764 stem-loop"@en ;
+  rdfs:label "bmo-mir-2764"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012319
+  dcterms:identifier "MI0012319" ;
+  dcterms:description "Bombyx mori miR-2765 stem-loop"@en ;
+  rdfs:label "bmo-mir-2765"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012320
+  dcterms:identifier "MI0012320" ;
+  dcterms:description "Bombyx mori miR-2766 stem-loop"@en ;
+  rdfs:label "bmo-mir-2766"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675, pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012321
+  dcterms:identifier "MI0012321" ;
+  dcterms:description "Bombyx mori miR-2767 stem-loop"@en ;
+  rdfs:label "bmo-mir-2767"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012322
+  dcterms:identifier "MI0012322" ;
+  dcterms:description "Bombyx mori miR-750 stem-loop"@en ;
+  rdfs:label "bmo-mir-750"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012323
+  dcterms:identifier "MI0012323" ;
+  dcterms:description "Bombyx mori miR-2768 stem-loop"@en ;
+  rdfs:label "bmo-mir-2768"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012324
+  dcterms:identifier "MI0012324" ;
+  dcterms:description "Bombyx mori miR-375 stem-loop"@en ;
+  rdfs:label "bmo-mir-375"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675, pubmed:20089182, pmid:20089182 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012325
+  dcterms:identifier "MI0012325" ;
+  dcterms:description "Bombyx mori miR-2769 stem-loop"@en ;
+  rdfs:label "bmo-mir-2769"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012326
+  dcterms:identifier "MI0012326" ;
+  dcterms:description "Bombyx mori miR-2770 stem-loop"@en ;
+  rdfs:label "bmo-mir-2770"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012327
+  dcterms:identifier "MI0012327" ;
+  dcterms:description "Bombyx mori miR-2772b stem-loop"@en ;
+  rdfs:label "bmo-mir-2772b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012328
+  dcterms:identifier "MI0012328" ;
+  dcterms:description "Bombyx mori miR-2771 stem-loop"@en ;
+  rdfs:label "bmo-mir-2771"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012329
+  dcterms:identifier "MI0012329" ;
+  dcterms:description "Bombyx mori miR-2772a-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2772a-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012331
+  dcterms:identifier "MI0012331" ;
+  dcterms:description "Bombyx mori miR-2774a-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2774a-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012332
+  dcterms:identifier "MI0012332" ;
+  dcterms:description "Bombyx mori miR-2774a-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2774a-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012333
+  dcterms:identifier "MI0012333" ;
+  dcterms:description "Bombyx mori miR-2775a stem-loop"@en ;
+  rdfs:label "bmo-mir-2775a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012334
+  dcterms:identifier "MI0012334" ;
+  dcterms:description "Bombyx mori miR-2776 stem-loop"@en ;
+  rdfs:label "bmo-mir-2776"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012335
+  dcterms:identifier "MI0012335" ;
+  dcterms:description "Bombyx mori miR-2774b-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2774b-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012336
+  dcterms:identifier "MI0012336" ;
+  dcterms:description "Bombyx mori miR-2777 stem-loop"@en ;
+  rdfs:label "bmo-mir-2777"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012337
+  dcterms:identifier "MI0012337" ;
+  dcterms:description "Bombyx mori miR-2774a-4 stem-loop"@en ;
+  rdfs:label "bmo-mir-2774a-4"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012338
+  dcterms:identifier "MI0012338" ;
+  dcterms:description "Bombyx mori miR-2778a-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2778a-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012339
+  dcterms:identifier "MI0012339" ;
+  dcterms:description "Bombyx mori miR-2778c stem-loop"@en ;
+  rdfs:label "bmo-mir-2778c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012340
+  dcterms:identifier "MI0012340" ;
+  dcterms:description "Bombyx mori miR-2778a-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2778a-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012341
+  dcterms:identifier "MI0012341" ;
+  dcterms:description "Bombyx mori miR-2774b-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2774b-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012344
+  dcterms:identifier "MI0012344" ;
+  dcterms:description "Bombyx mori miR-2779 stem-loop"@en ;
+  rdfs:label "bmo-mir-2779"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012345
+  dcterms:identifier "MI0012345" ;
+  dcterms:description "Bombyx mori miR-2780a-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2780a-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012346
+  dcterms:identifier "MI0012346" ;
+  dcterms:description "Bombyx mori miR-2808c stem-loop"@en ;
+  rdfs:label "bmo-mir-2808c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012347
+  dcterms:identifier "MI0012347" ;
+  dcterms:description "Bombyx mori miR-2774a-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2774a-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012348
+  dcterms:identifier "MI0012348" ;
+  dcterms:description "Bombyx mori miR-2781 stem-loop"@en ;
+  rdfs:label "bmo-mir-2781"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012349
+  dcterms:identifier "MI0012349" ;
+  dcterms:description "Bombyx mori miR-2778d stem-loop"@en ;
+  rdfs:label "bmo-mir-2778d"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012350
+  dcterms:identifier "MI0012350" ;
+  dcterms:description "Bombyx mori miR-2772a-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2772a-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012351
+  dcterms:identifier "MI0012351" ;
+  dcterms:description "Bombyx mori miR-2778b stem-loop"@en ;
+  rdfs:label "bmo-mir-2778b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012352
+  dcterms:identifier "MI0012352" ;
+  dcterms:description "Bombyx mori miR-2778a-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2778a-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012353
+  dcterms:identifier "MI0012353" ;
+  dcterms:description "Bombyx mori miR-2778a-4 stem-loop"@en ;
+  rdfs:label "bmo-mir-2778a-4"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012355
+  dcterms:identifier "MI0012355" ;
+  dcterms:description "Bombyx mori miR-2782 stem-loop"@en ;
+  rdfs:label "bmo-mir-2782"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012356
+  dcterms:identifier "MI0012356" ;
+  dcterms:description "Bombyx mori miR-2783 stem-loop"@en ;
+  rdfs:label "bmo-mir-2783"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012357
+  dcterms:identifier "MI0012357" ;
+  dcterms:description "Bombyx mori miR-2784 stem-loop"@en ;
+  rdfs:label "bmo-mir-2784"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012358
+  dcterms:identifier "MI0012358" ;
+  dcterms:description "Bombyx mori miR-2785 stem-loop"@en ;
+  rdfs:label "bmo-mir-2785"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012359
+  dcterms:identifier "MI0012359" ;
+  dcterms:description "Bombyx mori miR-2786 stem-loop"@en ;
+  rdfs:label "bmo-mir-2786"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012360
+  dcterms:identifier "MI0012360" ;
+  dcterms:description "Bombyx mori miR-2787 stem-loop"@en ;
+  rdfs:label "bmo-mir-2787"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012361
+  dcterms:identifier "MI0012361" ;
+  dcterms:description "Bombyx mori miR-2788 stem-loop"@en ;
+  rdfs:label "bmo-mir-2788"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012362
+  dcterms:identifier "MI0012362" ;
+  dcterms:description "Bombyx mori miR-2789 stem-loop"@en ;
+  rdfs:label "bmo-mir-2789"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012363
+  dcterms:identifier "MI0012363" ;
+  dcterms:description "Bombyx mori miR-2790 stem-loop"@en ;
+  rdfs:label "bmo-mir-2790"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012364
+  dcterms:identifier "MI0012364" ;
+  dcterms:description "Bombyx mori miR-2791 stem-loop"@en ;
+  rdfs:label "bmo-mir-2791"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012365
+  dcterms:identifier "MI0012365" ;
+  dcterms:description "Bombyx mori miR-2792 stem-loop"@en ;
+  rdfs:label "bmo-mir-2792"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012367
+  dcterms:identifier "MI0012367" ;
+  dcterms:description "Bombyx mori miR-2794 stem-loop"@en ;
+  rdfs:label "bmo-mir-2794"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012368
+  dcterms:identifier "MI0012368" ;
+  dcterms:description "Bombyx mori miR-2795 stem-loop"@en ;
+  rdfs:label "bmo-mir-2795"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012369
+  dcterms:identifier "MI0012369" ;
+  dcterms:description "Bombyx mori miR-2796 stem-loop"@en ;
+  rdfs:label "bmo-mir-2796"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012370
+  dcterms:identifier "MI0012370" ;
+  dcterms:description "Bombyx mori miR-2797a stem-loop"@en ;
+  rdfs:label "bmo-mir-2797a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012371
+  dcterms:identifier "MI0012371" ;
+  dcterms:description "Bombyx mori miR-2797b stem-loop"@en ;
+  rdfs:label "bmo-mir-2797b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012372
+  dcterms:identifier "MI0012372" ;
+  dcterms:description "Bombyx mori miR-2797c stem-loop"@en ;
+  rdfs:label "bmo-mir-2797c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012373
+  dcterms:identifier "MI0012373" ;
+  dcterms:description "Bombyx mori miR-2797d stem-loop"@en ;
+  rdfs:label "bmo-mir-2797d"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012374
+  dcterms:identifier "MI0012374" ;
+  dcterms:description "Bombyx mori miR-2798 stem-loop"@en ;
+  rdfs:label "bmo-mir-2798"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012375
+  dcterms:identifier "MI0012375" ;
+  dcterms:description "Bombyx mori miR-2799 stem-loop"@en ;
+  rdfs:label "bmo-mir-2799"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012376
+  dcterms:identifier "MI0012376" ;
+  dcterms:description "Bombyx mori miR-2800 stem-loop"@en ;
+  rdfs:label "bmo-mir-2800"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012377
+  dcterms:identifier "MI0012377" ;
+  dcterms:description "Bombyx mori miR-2801 stem-loop"@en ;
+  rdfs:label "bmo-mir-2801"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012379
+  dcterms:identifier "MI0012379" ;
+  dcterms:description "Bombyx mori miR-2803 stem-loop"@en ;
+  rdfs:label "bmo-mir-2803"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012380
+  dcterms:identifier "MI0012380" ;
+  dcterms:description "Bombyx mori miR-2804-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2804-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012381
+  dcterms:identifier "MI0012381" ;
+  dcterms:description "Bombyx mori miR-2808a-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2808a-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012382
+  dcterms:identifier "MI0012382" ;
+  dcterms:description "Bombyx mori miR-2805 stem-loop"@en ;
+  rdfs:label "bmo-mir-2805"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012385
+  dcterms:identifier "MI0012385" ;
+  dcterms:description "Bombyx mori miR-2807a-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2807a-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012386
+  dcterms:identifier "MI0012386" ;
+  dcterms:description "Bombyx mori miR-2780a-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2780a-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012388
+  dcterms:identifier "MI0012388" ;
+  dcterms:description "Bombyx mori miR-2808a-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2808a-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012389
+  dcterms:identifier "MI0012389" ;
+  dcterms:description "Bombyx mori miR-2809 stem-loop"@en ;
+  rdfs:label "bmo-mir-2809"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012390
+  dcterms:identifier "MI0012390" ;
+  dcterms:description "Bombyx mori miR-2810 stem-loop"@en ;
+  rdfs:label "bmo-mir-2810"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012391
+  dcterms:identifier "MI0012391" ;
+  dcterms:description "Bombyx mori miR-2804-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2804-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012393
+  dcterms:identifier "MI0012393" ;
+  dcterms:description "Bombyx mori miR-2812 stem-loop"@en ;
+  rdfs:label "bmo-mir-2812"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012394
+  dcterms:identifier "MI0012394" ;
+  dcterms:description "Bombyx mori miR-2813-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2813-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012395
+  dcterms:identifier "MI0012395" ;
+  dcterms:description "Bombyx mori miR-2807a-5 stem-loop"@en ;
+  rdfs:label "bmo-mir-2807a-5"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012396
+  dcterms:identifier "MI0012396" ;
+  dcterms:description "Bombyx mori miR-2807a-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2807a-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012400
+  dcterms:identifier "MI0012400" ;
+  dcterms:description "Bombyx mori miR-2816-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2816-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012401
+  dcterms:identifier "MI0012401" ;
+  dcterms:description "Bombyx mori miR-2817 stem-loop"@en ;
+  rdfs:label "bmo-mir-2817"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012402
+  dcterms:identifier "MI0012402" ;
+  dcterms:description "Bombyx mori miR-2818-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2818-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012403
+  dcterms:identifier "MI0012403" ;
+  dcterms:description "Bombyx mori miR-2819 stem-loop"@en ;
+  rdfs:label "bmo-mir-2819"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012404
+  dcterms:identifier "MI0012404" ;
+  dcterms:description "Bombyx mori miR-2820-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2820-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012405
+  dcterms:identifier "MI0012405" ;
+  dcterms:description "Bombyx mori miR-2821 stem-loop"@en ;
+  rdfs:label "bmo-mir-2821"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012406
+  dcterms:identifier "MI0012406" ;
+  dcterms:description "Bombyx mori miR-2780a-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2780a-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012407
+  dcterms:identifier "MI0012407" ;
+  dcterms:description "Bombyx mori miR-2780b-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2780b-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012408
+  dcterms:identifier "MI0012408" ;
+  dcterms:description "Bombyx mori miR-2822-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2822-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012409
+  dcterms:identifier "MI0012409" ;
+  dcterms:description "Bombyx mori miR-2814-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2814-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012410
+  dcterms:identifier "MI0012410" ;
+  dcterms:description "Bombyx mori miR-2804-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2804-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012411
+  dcterms:identifier "MI0012411" ;
+  dcterms:description "Bombyx mori miR-2816-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2816-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012413
+  dcterms:identifier "MI0012413" ;
+  dcterms:description "Bombyx mori miR-2816-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2816-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012414
+  dcterms:identifier "MI0012414" ;
+  dcterms:description "Bombyx mori miR-2818-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2818-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012415
+  dcterms:identifier "MI0012415" ;
+  dcterms:description "Bombyx mori miR-2780b-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2780b-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012416
+  dcterms:identifier "MI0012416" ;
+  dcterms:description "Bombyx mori miR-2807a-6 stem-loop"@en ;
+  rdfs:label "bmo-mir-2807a-6"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012419
+  dcterms:identifier "MI0012419" ;
+  dcterms:description "Bombyx mori miR-2824 stem-loop"@en ;
+  rdfs:label "bmo-mir-2824"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012420
+  dcterms:identifier "MI0012420" ;
+  dcterms:description "Bombyx mori miR-2825 stem-loop"@en ;
+  rdfs:label "bmo-mir-2825"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012421
+  dcterms:identifier "MI0012421" ;
+  dcterms:description "Bombyx mori miR-2826 stem-loop"@en ;
+  rdfs:label "bmo-mir-2826"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012422
+  dcterms:identifier "MI0012422" ;
+  dcterms:description "Bombyx mori miR-2827 stem-loop"@en ;
+  rdfs:label "bmo-mir-2827"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012423
+  dcterms:identifier "MI0012423" ;
+  dcterms:description "Bombyx mori miR-2808b stem-loop"@en ;
+  rdfs:label "bmo-mir-2808b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012424
+  dcterms:identifier "MI0012424" ;
+  dcterms:description "Bombyx mori miR-2828 stem-loop"@en ;
+  rdfs:label "bmo-mir-2828"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012426
+  dcterms:identifier "MI0012426" ;
+  dcterms:description "Bombyx mori miR-2807b stem-loop"@en ;
+  rdfs:label "bmo-mir-2807b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012427
+  dcterms:identifier "MI0012427" ;
+  dcterms:description "Bombyx mori miR-2830-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2830-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012428
+  dcterms:identifier "MI0012428" ;
+  dcterms:description "Bombyx mori miR-2831-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2831-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012429
+  dcterms:identifier "MI0012429" ;
+  dcterms:description "Bombyx mori miR-2775b stem-loop"@en ;
+  rdfs:label "bmo-mir-2775b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012430
+  dcterms:identifier "MI0012430" ;
+  dcterms:description "Bombyx mori miR-2832 stem-loop"@en ;
+  rdfs:label "bmo-mir-2832"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012433
+  dcterms:identifier "MI0012433" ;
+  dcterms:description "Bombyx mori miR-2833-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2833-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012434
+  dcterms:identifier "MI0012434" ;
+  dcterms:description "Bombyx mori miR-2831-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2831-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012435
+  dcterms:identifier "MI0012435" ;
+  dcterms:description "Bombyx mori miR-2834-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2834-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012436
+  dcterms:identifier "MI0012436" ;
+  dcterms:description "Bombyx mori miR-2813-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2813-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012437
+  dcterms:identifier "MI0012437" ;
+  dcterms:description "Bombyx mori miR-2835 stem-loop"@en ;
+  rdfs:label "bmo-mir-2835"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012438
+  dcterms:identifier "MI0012438" ;
+  dcterms:description "Bombyx mori miR-2836 stem-loop"@en ;
+  rdfs:label "bmo-mir-2836"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012439
+  dcterms:identifier "MI0012439" ;
+  dcterms:description "Bombyx mori miR-2822-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2822-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012440
+  dcterms:identifier "MI0012440" ;
+  dcterms:description "Bombyx mori miR-2820-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2820-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012441
+  dcterms:identifier "MI0012441" ;
+  dcterms:description "Bombyx mori miR-2837 stem-loop"@en ;
+  rdfs:label "bmo-mir-2837"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012444
+  dcterms:identifier "MI0012444" ;
+  dcterms:description "Bombyx mori miR-2807a-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2807a-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012445
+  dcterms:identifier "MI0012445" ;
+  dcterms:description "Bombyx mori miR-2838 stem-loop"@en ;
+  rdfs:label "bmo-mir-2838"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012446
+  dcterms:identifier "MI0012446" ;
+  dcterms:description "Bombyx mori miR-2839 stem-loop"@en ;
+  rdfs:label "bmo-mir-2839"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012448
+  dcterms:identifier "MI0012448" ;
+  dcterms:description "Bombyx mori miR-2840 stem-loop"@en ;
+  rdfs:label "bmo-mir-2840"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012449
+  dcterms:identifier "MI0012449" ;
+  dcterms:description "Bombyx mori miR-2841 stem-loop"@en ;
+  rdfs:label "bmo-mir-2841"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012450
+  dcterms:identifier "MI0012450" ;
+  dcterms:description "Bombyx mori miR-2774c stem-loop"@en ;
+  rdfs:label "bmo-mir-2774c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012451
+  dcterms:identifier "MI0012451" ;
+  dcterms:description "Bombyx mori miR-2780c stem-loop"@en ;
+  rdfs:label "bmo-mir-2780c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012452
+  dcterms:identifier "MI0012452" ;
+  dcterms:description "Bombyx mori miR-2807a-4 stem-loop"@en ;
+  rdfs:label "bmo-mir-2807a-4"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012453
+  dcterms:identifier "MI0012453" ;
+  dcterms:description "Bombyx mori miR-2833-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2833-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012454
+  dcterms:identifier "MI0012454" ;
+  dcterms:description "Bombyx mori miR-2842 stem-loop"@en ;
+  rdfs:label "bmo-mir-2842"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012455
+  dcterms:identifier "MI0012455" ;
+  dcterms:description "Bombyx mori miR-2806-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2806-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012456
+  dcterms:identifier "MI0012456" ;
+  dcterms:description "Bombyx mori miR-2843-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2843-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012457
+  dcterms:identifier "MI0012457" ;
+  dcterms:description "Bombyx mori miR-2814-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2814-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012460
+  dcterms:identifier "MI0012460" ;
+  dcterms:description "Bombyx mori miR-2834-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2834-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012461
+  dcterms:identifier "MI0012461" ;
+  dcterms:description "Bombyx mori miR-2830-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2830-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012462
+  dcterms:identifier "MI0012462" ;
+  dcterms:description "Bombyx mori miR-2780d stem-loop"@en ;
+  rdfs:label "bmo-mir-2780d"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012463
+  dcterms:identifier "MI0012463" ;
+  dcterms:description "Bombyx mori miR-2804-4 stem-loop"@en ;
+  rdfs:label "bmo-mir-2804-4"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012464
+  dcterms:identifier "MI0012464" ;
+  dcterms:description "Bombyx mori miR-2843-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2843-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012465
+  dcterms:identifier "MI0012465" ;
+  dcterms:description "Bombyx mori miR-2845 stem-loop"@en ;
+  rdfs:label "bmo-mir-2845"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012466
+  dcterms:identifier "MI0012466" ;
+  dcterms:description "Bombyx mori miR-2846 stem-loop"@en ;
+  rdfs:label "bmo-mir-2846"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012467
+  dcterms:identifier "MI0012467" ;
+  dcterms:description "Bombyx mori miR-2847 stem-loop"@en ;
+  rdfs:label "bmo-mir-2847"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012468
+  dcterms:identifier "MI0012468" ;
+  dcterms:description "Bombyx mori miR-2849-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2849-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012469
+  dcterms:identifier "MI0012469" ;
+  dcterms:description "Bombyx mori miR-2848 stem-loop"@en ;
+  rdfs:label "bmo-mir-2848"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012471
+  dcterms:identifier "MI0012471" ;
+  dcterms:description "Bombyx mori miR-2849-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2849-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012472
+  dcterms:identifier "MI0012472" ;
+  dcterms:description "Bombyx mori miR-2849-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2849-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012989
+  dcterms:identifier "MI0012989" ;
+  dcterms:description "Bombyx mori miR-306b stem-loop"@en ;
+  rdfs:label "bmo-mir-306b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012990
+  dcterms:identifier "MI0012990" ;
+  dcterms:description "Bombyx mori miR-2851-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2851-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012991
+  dcterms:identifier "MI0012991" ;
+  dcterms:description "Bombyx mori miR-2851-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2851-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012992
+  dcterms:identifier "MI0012992" ;
+  dcterms:description "Bombyx mori miR-2852 stem-loop"@en ;
+  rdfs:label "bmo-mir-2852"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012994
+  dcterms:identifier "MI0012994" ;
+  dcterms:description "Bombyx mori miR-1b stem-loop"@en ;
+  rdfs:label "bmo-mir-1b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012995
+  dcterms:identifier "MI0012995" ;
+  dcterms:description "Bombyx mori miR-2854 stem-loop"@en ;
+  rdfs:label "bmo-mir-2854"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012996
+  dcterms:identifier "MI0012996" ;
+  dcterms:description "Bombyx mori miR-2855 stem-loop"@en ;
+  rdfs:label "bmo-mir-2855"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012997
+  dcterms:identifier "MI0012997" ;
+  dcterms:description "Bombyx mori miR-2833b stem-loop"@en ;
+  rdfs:label "bmo-mir-2833b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012998
+  dcterms:identifier "MI0012998" ;
+  dcterms:description "Bombyx mori miR-2856-1 stem-loop"@en ;
+  rdfs:label "bmo-mir-2856-1"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0012999
+  dcterms:identifier "MI0012999" ;
+  dcterms:description "Bombyx mori miR-2856-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2856-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013000
+  dcterms:identifier "MI0013000" ;
+  dcterms:description "Bombyx mori miR-2857 stem-loop"@en ;
+  rdfs:label "bmo-mir-2857"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013002
+  dcterms:identifier "MI0013002" ;
+  dcterms:description "Bombyx mori miR-2859 stem-loop"@en ;
+  rdfs:label "bmo-mir-2859"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013003
+  dcterms:identifier "MI0013003" ;
+  dcterms:description "Bombyx mori miR-2860 stem-loop"@en ;
+  rdfs:label "bmo-mir-2860"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013533
+  dcterms:identifier "MI0013533" ;
+  dcterms:description "Bombyx mori miR-1000 stem-loop"@en ;
+  rdfs:label "bmo-mir-1000"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:19823945, pmid:19823945 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013534
+  dcterms:identifier "MI0013534" ;
+  dcterms:description "Bombyx mori miR-iab-8 stem-loop"@en ;
+  rdfs:label "bmo-mir-iab-8"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:19823945, pmid:19823945 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013854
+  dcterms:identifier "MI0013854" ;
+  dcterms:description "Bombyx mori miR-2998 stem-loop"@en ;
+  rdfs:label "bmo-mir-2998"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013855
+  dcterms:identifier "MI0013855" ;
+  dcterms:description "Bombyx mori miR-2999 stem-loop"@en ;
+  rdfs:label "bmo-mir-2999"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013856
+  dcterms:identifier "MI0013856" ;
+  dcterms:description "Bombyx mori miR-2733f stem-loop"@en ;
+  rdfs:label "bmo-mir-2733f"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013857
+  dcterms:identifier "MI0013857" ;
+  dcterms:description "Bombyx mori miR-2733g stem-loop"@en ;
+  rdfs:label "bmo-mir-2733g"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013858
+  dcterms:identifier "MI0013858" ;
+  dcterms:description "Bombyx mori miR-2733a-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2733a-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013859
+  dcterms:identifier "MI0013859" ;
+  dcterms:description "Bombyx mori miR-2733h stem-loop"@en ;
+  rdfs:label "bmo-mir-2733h"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013860
+  dcterms:identifier "MI0013860" ;
+  dcterms:description "Bombyx mori miR-3000 stem-loop"@en ;
+  rdfs:label "bmo-mir-3000"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013861
+  dcterms:identifier "MI0013861" ;
+  dcterms:description "Bombyx mori miR-3001 stem-loop"@en ;
+  rdfs:label "bmo-mir-3001"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014255
+  dcterms:identifier "MI0014255" ;
+  dcterms:description "Bombyx mori miR-3203 stem-loop"@en ;
+  rdfs:label "bmo-mir-3203"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014256
+  dcterms:identifier "MI0014256" ;
+  dcterms:description "Bombyx mori miR-3204a stem-loop"@en ;
+  rdfs:label "bmo-mir-3204a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014257
+  dcterms:identifier "MI0014257" ;
+  dcterms:description "Bombyx mori miR-3205 stem-loop"@en ;
+  rdfs:label "bmo-mir-3205"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014258
+  dcterms:identifier "MI0014258" ;
+  dcterms:description "Bombyx mori miR-3206 stem-loop"@en ;
+  rdfs:label "bmo-mir-3206"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014259
+  dcterms:identifier "MI0014259" ;
+  dcterms:description "Bombyx mori miR-3207 stem-loop"@en ;
+  rdfs:label "bmo-mir-3207"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014260
+  dcterms:identifier "MI0014260" ;
+  dcterms:description "Bombyx mori miR-2808d stem-loop"@en ;
+  rdfs:label "bmo-mir-2808d"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014261
+  dcterms:identifier "MI0014261" ;
+  dcterms:description "Bombyx mori miR-3208 stem-loop"@en ;
+  rdfs:label "bmo-mir-3208"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014262
+  dcterms:identifier "MI0014262" ;
+  dcterms:description "Bombyx mori miR-3209 stem-loop"@en ;
+  rdfs:label "bmo-mir-3209"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014263
+  dcterms:identifier "MI0014263" ;
+  dcterms:description "Bombyx mori miR-3210 stem-loop"@en ;
+  rdfs:label "bmo-mir-3210"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014264
+  dcterms:identifier "MI0014264" ;
+  dcterms:description "Bombyx mori miR-3211 stem-loop"@en ;
+  rdfs:label "bmo-mir-3211"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014265
+  dcterms:identifier "MI0014265" ;
+  dcterms:description "Bombyx mori miR-3212 stem-loop"@en ;
+  rdfs:label "bmo-mir-3212"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014266
+  dcterms:identifier "MI0014266" ;
+  dcterms:description "Bombyx mori miR-3213 stem-loop"@en ;
+  rdfs:label "bmo-mir-3213"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014267
+  dcterms:identifier "MI0014267" ;
+  dcterms:description "Bombyx mori miR-3214 stem-loop"@en ;
+  rdfs:label "bmo-mir-3214"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014268
+  dcterms:identifier "MI0014268" ;
+  dcterms:description "Bombyx mori miR-3215 stem-loop"@en ;
+  rdfs:label "bmo-mir-3215"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014269
+  dcterms:identifier "MI0014269" ;
+  dcterms:description "Bombyx mori miR-3216 stem-loop"@en ;
+  rdfs:label "bmo-mir-3216"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014270
+  dcterms:identifier "MI0014270" ;
+  dcterms:description "Bombyx mori miR-3217 stem-loop"@en ;
+  rdfs:label "bmo-mir-3217"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014271
+  dcterms:identifier "MI0014271" ;
+  dcterms:description "Bombyx mori miR-3218 stem-loop"@en ;
+  rdfs:label "bmo-mir-3218"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014272
+  dcterms:identifier "MI0014272" ;
+  dcterms:description "Bombyx mori miR-3219 stem-loop"@en ;
+  rdfs:label "bmo-mir-3219"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014273
+  dcterms:identifier "MI0014273" ;
+  dcterms:description "Bombyx mori miR-3220 stem-loop"@en ;
+  rdfs:label "bmo-mir-3220"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014274
+  dcterms:identifier "MI0014274" ;
+  dcterms:description "Bombyx mori miR-3221 stem-loop"@en ;
+  rdfs:label "bmo-mir-3221"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014275
+  dcterms:identifier "MI0014275" ;
+  dcterms:description "Bombyx mori miR-3222 stem-loop"@en ;
+  rdfs:label "bmo-mir-3222"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014276
+  dcterms:identifier "MI0014276" ;
+  dcterms:description "Bombyx mori miR-3223 stem-loop"@en ;
+  rdfs:label "bmo-mir-3223"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014277
+  dcterms:identifier "MI0014277" ;
+  dcterms:description "Bombyx mori miR-3224 stem-loop"@en ;
+  rdfs:label "bmo-mir-3224"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014278
+  dcterms:identifier "MI0014278" ;
+  dcterms:description "Bombyx mori miR-279e stem-loop"@en ;
+  rdfs:label "bmo-mir-279e"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014279
+  dcterms:identifier "MI0014279" ;
+  dcterms:description "Bombyx mori miR-3225 stem-loop"@en ;
+  rdfs:label "bmo-mir-3225"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014280
+  dcterms:identifier "MI0014280" ;
+  dcterms:description "Bombyx mori miR-3226 stem-loop"@en ;
+  rdfs:label "bmo-mir-3226"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014281
+  dcterms:identifier "MI0014281" ;
+  dcterms:description "Bombyx mori miR-3227 stem-loop"@en ;
+  rdfs:label "bmo-mir-3227"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014282
+  dcterms:identifier "MI0014282" ;
+  dcterms:description "Bombyx mori miR-3228 stem-loop"@en ;
+  rdfs:label "bmo-mir-3228"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014283
+  dcterms:identifier "MI0014283" ;
+  dcterms:description "Bombyx mori miR-3229 stem-loop"@en ;
+  rdfs:label "bmo-mir-3229"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014284
+  dcterms:identifier "MI0014284" ;
+  dcterms:description "Bombyx mori miR-3230 stem-loop"@en ;
+  rdfs:label "bmo-mir-3230"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014285
+  dcterms:identifier "MI0014285" ;
+  dcterms:description "Bombyx mori miR-3231 stem-loop"@en ;
+  rdfs:label "bmo-mir-3231"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014286
+  dcterms:identifier "MI0014286" ;
+  dcterms:description "Bombyx mori miR-3232 stem-loop"@en ;
+  rdfs:label "bmo-mir-3232"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014287
+  dcterms:identifier "MI0014287" ;
+  dcterms:description "Bombyx mori miR-3233 stem-loop"@en ;
+  rdfs:label "bmo-mir-3233"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014288
+  dcterms:identifier "MI0014288" ;
+  dcterms:description "Bombyx mori miR-3234 stem-loop"@en ;
+  rdfs:label "bmo-mir-3234"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014289
+  dcterms:identifier "MI0014289" ;
+  dcterms:description "Bombyx mori miR-2808e stem-loop"@en ;
+  rdfs:label "bmo-mir-2808e"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014290
+  dcterms:identifier "MI0014290" ;
+  dcterms:description "Bombyx mori miR-3235 stem-loop"@en ;
+  rdfs:label "bmo-mir-3235"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014291
+  dcterms:identifier "MI0014291" ;
+  dcterms:description "Bombyx mori miR-3236 stem-loop"@en ;
+  rdfs:label "bmo-mir-3236"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014292
+  dcterms:identifier "MI0014292" ;
+  dcterms:description "Bombyx mori miR-3237 stem-loop"@en ;
+  rdfs:label "bmo-mir-3237"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014293
+  dcterms:identifier "MI0014293" ;
+  dcterms:description "Bombyx mori miR-3238 stem-loop"@en ;
+  rdfs:label "bmo-mir-3238"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014294
+  dcterms:identifier "MI0014294" ;
+  dcterms:description "Bombyx mori miR-3239 stem-loop"@en ;
+  rdfs:label "bmo-mir-3239"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014296
+  dcterms:identifier "MI0014296" ;
+  dcterms:description "Bombyx mori miR-3241 stem-loop"@en ;
+  rdfs:label "bmo-mir-3241"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014297
+  dcterms:identifier "MI0014297" ;
+  dcterms:description "Bombyx mori miR-3242 stem-loop"@en ;
+  rdfs:label "bmo-mir-3242"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014298
+  dcterms:identifier "MI0014298" ;
+  dcterms:description "Bombyx mori miR-3243 stem-loop"@en ;
+  rdfs:label "bmo-mir-3243"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014299
+  dcterms:identifier "MI0014299" ;
+  dcterms:description "Bombyx mori miR-3244 stem-loop"@en ;
+  rdfs:label "bmo-mir-3244"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014300
+  dcterms:identifier "MI0014300" ;
+  dcterms:description "Bombyx mori miR-3245 stem-loop"@en ;
+  rdfs:label "bmo-mir-3245"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014301
+  dcterms:identifier "MI0014301" ;
+  dcterms:description "Bombyx mori miR-3246 stem-loop"@en ;
+  rdfs:label "bmo-mir-3246"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014302
+  dcterms:identifier "MI0014302" ;
+  dcterms:description "Bombyx mori miR-3247 stem-loop"@en ;
+  rdfs:label "bmo-mir-3247"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014303
+  dcterms:identifier "MI0014303" ;
+  dcterms:description "Bombyx mori miR-3248 stem-loop"@en ;
+  rdfs:label "bmo-mir-3248"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014304
+  dcterms:identifier "MI0014304" ;
+  dcterms:description "Bombyx mori miR-3249 stem-loop"@en ;
+  rdfs:label "bmo-mir-3249"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014305
+  dcterms:identifier "MI0014305" ;
+  dcterms:description "Bombyx mori miR-3250 stem-loop"@en ;
+  rdfs:label "bmo-mir-3250"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014306
+  dcterms:identifier "MI0014306" ;
+  dcterms:description "Bombyx mori miR-2807d stem-loop"@en ;
+  rdfs:label "bmo-mir-2807d"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014307
+  dcterms:identifier "MI0014307" ;
+  dcterms:description "Bombyx mori miR-3251 stem-loop"@en ;
+  rdfs:label "bmo-mir-3251"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014308
+  dcterms:identifier "MI0014308" ;
+  dcterms:description "Bombyx mori miR-3252 stem-loop"@en ;
+  rdfs:label "bmo-mir-3252"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014309
+  dcterms:identifier "MI0014309" ;
+  dcterms:description "Bombyx mori miR-3253 stem-loop"@en ;
+  rdfs:label "bmo-mir-3253"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014310
+  dcterms:identifier "MI0014310" ;
+  dcterms:description "Bombyx mori miR-3254 stem-loop"@en ;
+  rdfs:label "bmo-mir-3254"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014311
+  dcterms:identifier "MI0014311" ;
+  dcterms:description "Bombyx mori miR-3255 stem-loop"@en ;
+  rdfs:label "bmo-mir-3255"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014312
+  dcterms:identifier "MI0014312" ;
+  dcterms:description "Bombyx mori miR-3256 stem-loop"@en ;
+  rdfs:label "bmo-mir-3256"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014313
+  dcterms:identifier "MI0014313" ;
+  dcterms:description "Bombyx mori miR-3257 stem-loop"@en ;
+  rdfs:label "bmo-mir-3257"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014314
+  dcterms:identifier "MI0014314" ;
+  dcterms:description "Bombyx mori miR-3258 stem-loop"@en ;
+  rdfs:label "bmo-mir-3258"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014315
+  dcterms:identifier "MI0014315" ;
+  dcterms:description "Bombyx mori miR-3259 stem-loop"@en ;
+  rdfs:label "bmo-mir-3259"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014316
+  dcterms:identifier "MI0014316" ;
+  dcterms:description "Bombyx mori miR-3260 stem-loop"@en ;
+  rdfs:label "bmo-mir-3260"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014317
+  dcterms:identifier "MI0014317" ;
+  dcterms:description "Bombyx mori miR-3261 stem-loop"@en ;
+  rdfs:label "bmo-mir-3261"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014318
+  dcterms:identifier "MI0014318" ;
+  dcterms:description "Bombyx mori miR-3262 stem-loop"@en ;
+  rdfs:label "bmo-mir-3262"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014319
+  dcterms:identifier "MI0014319" ;
+  dcterms:description "Bombyx mori miR-3263 stem-loop"@en ;
+  rdfs:label "bmo-mir-3263"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014320
+  dcterms:identifier "MI0014320" ;
+  dcterms:description "Bombyx mori miR-3264 stem-loop"@en ;
+  rdfs:label "bmo-mir-3264"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014321
+  dcterms:identifier "MI0014321" ;
+  dcterms:description "Bombyx mori miR-3265 stem-loop"@en ;
+  rdfs:label "bmo-mir-3265"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014322
+  dcterms:identifier "MI0014322" ;
+  dcterms:description "Bombyx mori miR-3266 stem-loop"@en ;
+  rdfs:label "bmo-mir-3266"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014323
+  dcterms:identifier "MI0014323" ;
+  dcterms:description "Bombyx mori miR-3267a stem-loop"@en ;
+  rdfs:label "bmo-mir-3267a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014324
+  dcterms:identifier "MI0014324" ;
+  dcterms:description "Bombyx mori miR-3268 stem-loop"@en ;
+  rdfs:label "bmo-mir-3268"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014325
+  dcterms:identifier "MI0014325" ;
+  dcterms:description "Bombyx mori miR-3269 stem-loop"@en ;
+  rdfs:label "bmo-mir-3269"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014326
+  dcterms:identifier "MI0014326" ;
+  dcterms:description "Bombyx mori miR-3270 stem-loop"@en ;
+  rdfs:label "bmo-mir-3270"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014327
+  dcterms:identifier "MI0014327" ;
+  dcterms:description "Bombyx mori miR-3271 stem-loop"@en ;
+  rdfs:label "bmo-mir-3271"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014328
+  dcterms:identifier "MI0014328" ;
+  dcterms:description "Bombyx mori miR-3272 stem-loop"@en ;
+  rdfs:label "bmo-mir-3272"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014329
+  dcterms:identifier "MI0014329" ;
+  dcterms:description "Bombyx mori miR-3273 stem-loop"@en ;
+  rdfs:label "bmo-mir-3273"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014330
+  dcterms:identifier "MI0014330" ;
+  dcterms:description "Bombyx mori miR-3274 stem-loop"@en ;
+  rdfs:label "bmo-mir-3274"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014331
+  dcterms:identifier "MI0014331" ;
+  dcterms:description "Bombyx mori miR-3275 stem-loop"@en ;
+  rdfs:label "bmo-mir-3275"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014332
+  dcterms:identifier "MI0014332" ;
+  dcterms:description "Bombyx mori miR-3276 stem-loop"@en ;
+  rdfs:label "bmo-mir-3276"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014333
+  dcterms:identifier "MI0014333" ;
+  dcterms:description "Bombyx mori miR-3277 stem-loop"@en ;
+  rdfs:label "bmo-mir-3277"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014334
+  dcterms:identifier "MI0014334" ;
+  dcterms:description "Bombyx mori miR-3278 stem-loop"@en ;
+  rdfs:label "bmo-mir-3278"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014335
+  dcterms:identifier "MI0014335" ;
+  dcterms:description "Bombyx mori miR-3279 stem-loop"@en ;
+  rdfs:label "bmo-mir-3279"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014336
+  dcterms:identifier "MI0014336" ;
+  dcterms:description "Bombyx mori miR-3280 stem-loop"@en ;
+  rdfs:label "bmo-mir-3280"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014338
+  dcterms:identifier "MI0014338" ;
+  dcterms:description "Bombyx mori miR-3267b stem-loop"@en ;
+  rdfs:label "bmo-mir-3267b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014339
+  dcterms:identifier "MI0014339" ;
+  dcterms:description "Bombyx mori miR-3282 stem-loop"@en ;
+  rdfs:label "bmo-mir-3282"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014340
+  dcterms:identifier "MI0014340" ;
+  dcterms:description "Bombyx mori miR-3283 stem-loop"@en ;
+  rdfs:label "bmo-mir-3283"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014341
+  dcterms:identifier "MI0014341" ;
+  dcterms:description "Bombyx mori miR-3284 stem-loop"@en ;
+  rdfs:label "bmo-mir-3284"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014342
+  dcterms:identifier "MI0014342" ;
+  dcterms:description "Bombyx mori miR-3285 stem-loop"@en ;
+  rdfs:label "bmo-mir-3285"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014343
+  dcterms:identifier "MI0014343" ;
+  dcterms:description "Bombyx mori miR-3286 stem-loop"@en ;
+  rdfs:label "bmo-mir-3286"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014344
+  dcterms:identifier "MI0014344" ;
+  dcterms:description "Bombyx mori miR-3287 stem-loop"@en ;
+  rdfs:label "bmo-mir-3287"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014345
+  dcterms:identifier "MI0014345" ;
+  dcterms:description "Bombyx mori miR-3288 stem-loop"@en ;
+  rdfs:label "bmo-mir-3288"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014346
+  dcterms:identifier "MI0014346" ;
+  dcterms:description "Bombyx mori miR-3289 stem-loop"@en ;
+  rdfs:label "bmo-mir-3289"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014347
+  dcterms:identifier "MI0014347" ;
+  dcterms:description "Bombyx mori miR-3290 stem-loop"@en ;
+  rdfs:label "bmo-mir-3290"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014348
+  dcterms:identifier "MI0014348" ;
+  dcterms:description "Bombyx mori miR-3291 stem-loop"@en ;
+  rdfs:label "bmo-mir-3291"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014349
+  dcterms:identifier "MI0014349" ;
+  dcterms:description "Bombyx mori miR-3292 stem-loop"@en ;
+  rdfs:label "bmo-mir-3292"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014350
+  dcterms:identifier "MI0014350" ;
+  dcterms:description "Bombyx mori miR-3293 stem-loop"@en ;
+  rdfs:label "bmo-mir-3293"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014351
+  dcterms:identifier "MI0014351" ;
+  dcterms:description "Bombyx mori miR-3294 stem-loop"@en ;
+  rdfs:label "bmo-mir-3294"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014352
+  dcterms:identifier "MI0014352" ;
+  dcterms:description "Bombyx mori miR-3295 stem-loop"@en ;
+  rdfs:label "bmo-mir-3295"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014353
+  dcterms:identifier "MI0014353" ;
+  dcterms:description "Bombyx mori miR-3296 stem-loop"@en ;
+  rdfs:label "bmo-mir-3296"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014354
+  dcterms:identifier "MI0014354" ;
+  dcterms:description "Bombyx mori miR-3297 stem-loop"@en ;
+  rdfs:label "bmo-mir-3297"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014355
+  dcterms:identifier "MI0014355" ;
+  dcterms:description "Bombyx mori miR-3298 stem-loop"@en ;
+  rdfs:label "bmo-mir-3298"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014356
+  dcterms:identifier "MI0014356" ;
+  dcterms:description "Bombyx mori miR-3299 stem-loop"@en ;
+  rdfs:label "bmo-mir-3299"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014358
+  dcterms:identifier "MI0014358" ;
+  dcterms:description "Bombyx mori miR-3301 stem-loop"@en ;
+  rdfs:label "bmo-mir-3301"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014359
+  dcterms:identifier "MI0014359" ;
+  dcterms:description "Bombyx mori miR-3302 stem-loop"@en ;
+  rdfs:label "bmo-mir-3302"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014360
+  dcterms:identifier "MI0014360" ;
+  dcterms:description "Bombyx mori miR-3303 stem-loop"@en ;
+  rdfs:label "bmo-mir-3303"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014361
+  dcterms:identifier "MI0014361" ;
+  dcterms:description "Bombyx mori miR-3304a stem-loop"@en ;
+  rdfs:label "bmo-mir-3304a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014362
+  dcterms:identifier "MI0014362" ;
+  dcterms:description "Bombyx mori miR-3305 stem-loop"@en ;
+  rdfs:label "bmo-mir-3305"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014363
+  dcterms:identifier "MI0014363" ;
+  dcterms:description "Bombyx mori miR-3306 stem-loop"@en ;
+  rdfs:label "bmo-mir-3306"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014364
+  dcterms:identifier "MI0014364" ;
+  dcterms:description "Bombyx mori miR-3307 stem-loop"@en ;
+  rdfs:label "bmo-mir-3307"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014365
+  dcterms:identifier "MI0014365" ;
+  dcterms:description "Bombyx mori miR-3308 stem-loop"@en ;
+  rdfs:label "bmo-mir-3308"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014366
+  dcterms:identifier "MI0014366" ;
+  dcterms:description "Bombyx mori miR-3309 stem-loop"@en ;
+  rdfs:label "bmo-mir-3309"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014367
+  dcterms:identifier "MI0014367" ;
+  dcterms:description "Bombyx mori miR-3310 stem-loop"@en ;
+  rdfs:label "bmo-mir-3310"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014368
+  dcterms:identifier "MI0014368" ;
+  dcterms:description "Bombyx mori miR-3311 stem-loop"@en ;
+  rdfs:label "bmo-mir-3311"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014369
+  dcterms:identifier "MI0014369" ;
+  dcterms:description "Bombyx mori miR-3312 stem-loop"@en ;
+  rdfs:label "bmo-mir-3312"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014372
+  dcterms:identifier "MI0014372" ;
+  dcterms:description "Bombyx mori miR-3314 stem-loop"@en ;
+  rdfs:label "bmo-mir-3314"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014373
+  dcterms:identifier "MI0014373" ;
+  dcterms:description "Bombyx mori miR-3315 stem-loop"@en ;
+  rdfs:label "bmo-mir-3315"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014374
+  dcterms:identifier "MI0014374" ;
+  dcterms:description "Bombyx mori miR-3316 stem-loop"@en ;
+  rdfs:label "bmo-mir-3316"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014375
+  dcterms:identifier "MI0014375" ;
+  dcterms:description "Bombyx mori miR-3317 stem-loop"@en ;
+  rdfs:label "bmo-mir-3317"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014376
+  dcterms:identifier "MI0014376" ;
+  dcterms:description "Bombyx mori miR-3318 stem-loop"@en ;
+  rdfs:label "bmo-mir-3318"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014377
+  dcterms:identifier "MI0014377" ;
+  dcterms:description "Bombyx mori miR-3319 stem-loop"@en ;
+  rdfs:label "bmo-mir-3319"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014379
+  dcterms:identifier "MI0014379" ;
+  dcterms:description "Bombyx mori miR-3321 stem-loop"@en ;
+  rdfs:label "bmo-mir-3321"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014380
+  dcterms:identifier "MI0014380" ;
+  dcterms:description "Bombyx mori miR-3322 stem-loop"@en ;
+  rdfs:label "bmo-mir-3322"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014381
+  dcterms:identifier "MI0014381" ;
+  dcterms:description "Bombyx mori miR-3323 stem-loop"@en ;
+  rdfs:label "bmo-mir-3323"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014382
+  dcterms:identifier "MI0014382" ;
+  dcterms:description "Bombyx mori miR-3324 stem-loop"@en ;
+  rdfs:label "bmo-mir-3324"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014383
+  dcterms:identifier "MI0014383" ;
+  dcterms:description "Bombyx mori miR-3325 stem-loop"@en ;
+  rdfs:label "bmo-mir-3325"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014384
+  dcterms:identifier "MI0014384" ;
+  dcterms:description "Bombyx mori miR-3326 stem-loop"@en ;
+  rdfs:label "bmo-mir-3326"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014385
+  dcterms:identifier "MI0014385" ;
+  dcterms:description "Bombyx mori miR-3327 stem-loop"@en ;
+  rdfs:label "bmo-mir-3327"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014386
+  dcterms:identifier "MI0014386" ;
+  dcterms:description "Bombyx mori miR-3328 stem-loop"@en ;
+  rdfs:label "bmo-mir-3328"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014387
+  dcterms:identifier "MI0014387" ;
+  dcterms:description "Bombyx mori miR-3329 stem-loop"@en ;
+  rdfs:label "bmo-mir-3329"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014388
+  dcterms:identifier "MI0014388" ;
+  dcterms:description "Bombyx mori miR-3330 stem-loop"@en ;
+  rdfs:label "bmo-mir-3330"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014390
+  dcterms:identifier "MI0014390" ;
+  dcterms:description "Bombyx mori miR-3332 stem-loop"@en ;
+  rdfs:label "bmo-mir-3332"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014391
+  dcterms:identifier "MI0014391" ;
+  dcterms:description "Bombyx mori miR-3333 stem-loop"@en ;
+  rdfs:label "bmo-mir-3333"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014392
+  dcterms:identifier "MI0014392" ;
+  dcterms:description "Bombyx mori miR-3334 stem-loop"@en ;
+  rdfs:label "bmo-mir-3334"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014393
+  dcterms:identifier "MI0014393" ;
+  dcterms:description "Bombyx mori miR-3335 stem-loop"@en ;
+  rdfs:label "bmo-mir-3335"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014394
+  dcterms:identifier "MI0014394" ;
+  dcterms:description "Bombyx mori miR-3336 stem-loop"@en ;
+  rdfs:label "bmo-mir-3336"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014395
+  dcterms:identifier "MI0014395" ;
+  dcterms:description "Bombyx mori miR-3337 stem-loop"@en ;
+  rdfs:label "bmo-mir-3337"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014396
+  dcterms:identifier "MI0014396" ;
+  dcterms:description "Bombyx mori miR-3338 stem-loop"@en ;
+  rdfs:label "bmo-mir-3338"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014397
+  dcterms:identifier "MI0014397" ;
+  dcterms:description "Bombyx mori miR-3339 stem-loop"@en ;
+  rdfs:label "bmo-mir-3339"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014398
+  dcterms:identifier "MI0014398" ;
+  dcterms:description "Bombyx mori miR-3340 stem-loop"@en ;
+  rdfs:label "bmo-mir-3340"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014400
+  dcterms:identifier "MI0014400" ;
+  dcterms:description "Bombyx mori miR-3342 stem-loop"@en ;
+  rdfs:label "bmo-mir-3342"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014401
+  dcterms:identifier "MI0014401" ;
+  dcterms:description "Bombyx mori miR-3343 stem-loop"@en ;
+  rdfs:label "bmo-mir-3343"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014402
+  dcterms:identifier "MI0014402" ;
+  dcterms:description "Bombyx mori miR-3344 stem-loop"@en ;
+  rdfs:label "bmo-mir-3344"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014403
+  dcterms:identifier "MI0014403" ;
+  dcterms:description "Bombyx mori miR-3345 stem-loop"@en ;
+  rdfs:label "bmo-mir-3345"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014405
+  dcterms:identifier "MI0014405" ;
+  dcterms:description "Bombyx mori miR-3347a stem-loop"@en ;
+  rdfs:label "bmo-mir-3347a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014406
+  dcterms:identifier "MI0014406" ;
+  dcterms:description "Bombyx mori miR-3348 stem-loop"@en ;
+  rdfs:label "bmo-mir-3348"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014408
+  dcterms:identifier "MI0014408" ;
+  dcterms:description "Bombyx mori miR-3350 stem-loop"@en ;
+  rdfs:label "bmo-mir-3350"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014409
+  dcterms:identifier "MI0014409" ;
+  dcterms:description "Bombyx mori miR-3351 stem-loop"@en ;
+  rdfs:label "bmo-mir-3351"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014410
+  dcterms:identifier "MI0014410" ;
+  dcterms:description "Bombyx mori miR-3352 stem-loop"@en ;
+  rdfs:label "bmo-mir-3352"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014411
+  dcterms:identifier "MI0014411" ;
+  dcterms:description "Bombyx mori miR-3353 stem-loop"@en ;
+  rdfs:label "bmo-mir-3353"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014412
+  dcterms:identifier "MI0014412" ;
+  dcterms:description "Bombyx mori miR-2733j stem-loop"@en ;
+  rdfs:label "bmo-mir-2733j"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014413
+  dcterms:identifier "MI0014413" ;
+  dcterms:description "Bombyx mori miR-2733b-2 stem-loop"@en ;
+  rdfs:label "bmo-mir-2733b-2"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014414
+  dcterms:identifier "MI0014414" ;
+  dcterms:description "Bombyx mori miR-3354 stem-loop"@en ;
+  rdfs:label "bmo-mir-3354"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014415
+  dcterms:identifier "MI0014415" ;
+  dcterms:description "Bombyx mori miR-3355 stem-loop"@en ;
+  rdfs:label "bmo-mir-3355"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014416
+  dcterms:identifier "MI0014416" ;
+  dcterms:description "Bombyx mori miR-3356 stem-loop"@en ;
+  rdfs:label "bmo-mir-3356"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014417
+  dcterms:identifier "MI0014417" ;
+  dcterms:description "Bombyx mori miR-3357 stem-loop"@en ;
+  rdfs:label "bmo-mir-3357"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014418
+  dcterms:identifier "MI0014418" ;
+  dcterms:description "Bombyx mori miR-3358 stem-loop"@en ;
+  rdfs:label "bmo-mir-3358"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014419
+  dcterms:identifier "MI0014419" ;
+  dcterms:description "Bombyx mori miR-3359 stem-loop"@en ;
+  rdfs:label "bmo-mir-3359"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014420
+  dcterms:identifier "MI0014420" ;
+  dcterms:description "Bombyx mori miR-3360 stem-loop"@en ;
+  rdfs:label "bmo-mir-3360"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014421
+  dcterms:identifier "MI0014421" ;
+  dcterms:description "Bombyx mori miR-3361 stem-loop"@en ;
+  rdfs:label "bmo-mir-3361"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014422
+  dcterms:identifier "MI0014422" ;
+  dcterms:description "Bombyx mori miR-3362 stem-loop"@en ;
+  rdfs:label "bmo-mir-3362"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014423
+  dcterms:identifier "MI0014423" ;
+  dcterms:description "Bombyx mori miR-3363 stem-loop"@en ;
+  rdfs:label "bmo-mir-3363"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014424
+  dcterms:identifier "MI0014424" ;
+  dcterms:description "Bombyx mori miR-3364 stem-loop"@en ;
+  rdfs:label "bmo-mir-3364"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014425
+  dcterms:identifier "MI0014425" ;
+  dcterms:description "Bombyx mori miR-3365 stem-loop"@en ;
+  rdfs:label "bmo-mir-3365"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014426
+  dcterms:identifier "MI0014426" ;
+  dcterms:description "Bombyx mori miR-3366 stem-loop"@en ;
+  rdfs:label "bmo-mir-3366"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014427
+  dcterms:identifier "MI0014427" ;
+  dcterms:description "Bombyx mori miR-3367 stem-loop"@en ;
+  rdfs:label "bmo-mir-3367"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014428
+  dcterms:identifier "MI0014428" ;
+  dcterms:description "Bombyx mori miR-3368 stem-loop"@en ;
+  rdfs:label "bmo-mir-3368"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014429
+  dcterms:identifier "MI0014429" ;
+  dcterms:description "Bombyx mori miR-3369 stem-loop"@en ;
+  rdfs:label "bmo-mir-3369"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014430
+  dcterms:identifier "MI0014430" ;
+  dcterms:description "Bombyx mori miR-3267c stem-loop"@en ;
+  rdfs:label "bmo-mir-3267c"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014431
+  dcterms:identifier "MI0014431" ;
+  dcterms:description "Bombyx mori miR-3370 stem-loop"@en ;
+  rdfs:label "bmo-mir-3370"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014432
+  dcterms:identifier "MI0014432" ;
+  dcterms:description "Bombyx mori miR-3371 stem-loop"@en ;
+  rdfs:label "bmo-mir-3371"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014433
+  dcterms:identifier "MI0014433" ;
+  dcterms:description "Bombyx mori miR-3372 stem-loop"@en ;
+  rdfs:label "bmo-mir-3372"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014434
+  dcterms:identifier "MI0014434" ;
+  dcterms:description "Bombyx mori miR-3373 stem-loop"@en ;
+  rdfs:label "bmo-mir-3373"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014435
+  dcterms:identifier "MI0014435" ;
+  dcterms:description "Bombyx mori miR-3374 stem-loop"@en ;
+  rdfs:label "bmo-mir-3374"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014436
+  dcterms:identifier "MI0014436" ;
+  dcterms:description "Bombyx mori miR-3375 stem-loop"@en ;
+  rdfs:label "bmo-mir-3375"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014438
+  dcterms:identifier "MI0014438" ;
+  dcterms:description "Bombyx mori miR-3377 stem-loop"@en ;
+  rdfs:label "bmo-mir-3377"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014439
+  dcterms:identifier "MI0014439" ;
+  dcterms:description "Bombyx mori miR-3378 stem-loop"@en ;
+  rdfs:label "bmo-mir-3378"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014442
+  dcterms:identifier "MI0014442" ;
+  dcterms:description "Bombyx mori miR-3381 stem-loop"@en ;
+  rdfs:label "bmo-mir-3381"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014443
+  dcterms:identifier "MI0014443" ;
+  dcterms:description "Bombyx mori miR-3382 stem-loop"@en ;
+  rdfs:label "bmo-mir-3382"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014444
+  dcterms:identifier "MI0014444" ;
+  dcterms:description "Bombyx mori miR-3383 stem-loop"@en ;
+  rdfs:label "bmo-mir-3383"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014445
+  dcterms:identifier "MI0014445" ;
+  dcterms:description "Bombyx mori miR-3384 stem-loop"@en ;
+  rdfs:label "bmo-mir-3384"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014446
+  dcterms:identifier "MI0014446" ;
+  dcterms:description "Bombyx mori miR-3385 stem-loop"@en ;
+  rdfs:label "bmo-mir-3385"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014447
+  dcterms:identifier "MI0014447" ;
+  dcterms:description "Bombyx mori miR-3386 stem-loop"@en ;
+  rdfs:label "bmo-mir-3386"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014448
+  dcterms:identifier "MI0014448" ;
+  dcterms:description "Bombyx mori miR-3387 stem-loop"@en ;
+  rdfs:label "bmo-mir-3387"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014449
+  dcterms:identifier "MI0014449" ;
+  dcterms:description "Bombyx mori miR-3388 stem-loop"@en ;
+  rdfs:label "bmo-mir-3388"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014450
+  dcterms:identifier "MI0014450" ;
+  dcterms:description "Bombyx mori miR-3389 stem-loop"@en ;
+  rdfs:label "bmo-mir-3389"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014452
+  dcterms:identifier "MI0014452" ;
+  dcterms:description "Bombyx mori miR-2733i stem-loop"@en ;
+  rdfs:label "bmo-mir-2733i"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014453
+  dcterms:identifier "MI0014453" ;
+  dcterms:description "Bombyx mori miR-2733a-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2733a-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014454
+  dcterms:identifier "MI0014454" ;
+  dcterms:description "Bombyx mori miR-3391 stem-loop"@en ;
+  rdfs:label "bmo-mir-3391"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014455
+  dcterms:identifier "MI0014455" ;
+  dcterms:description "Bombyx mori miR-3392 stem-loop"@en ;
+  rdfs:label "bmo-mir-3392"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014456
+  dcterms:identifier "MI0014456" ;
+  dcterms:description "Bombyx mori miR-3393 stem-loop"@en ;
+  rdfs:label "bmo-mir-3393"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014457
+  dcterms:identifier "MI0014457" ;
+  dcterms:description "Bombyx mori miR-3394 stem-loop"@en ;
+  rdfs:label "bmo-mir-3394"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014458
+  dcterms:identifier "MI0014458" ;
+  dcterms:description "Bombyx mori miR-3395 stem-loop"@en ;
+  rdfs:label "bmo-mir-3395"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014459
+  dcterms:identifier "MI0014459" ;
+  dcterms:description "Bombyx mori miR-3396 stem-loop"@en ;
+  rdfs:label "bmo-mir-3396"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014460
+  dcterms:identifier "MI0014460" ;
+  dcterms:description "Bombyx mori miR-3397 stem-loop"@en ;
+  rdfs:label "bmo-mir-3397"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014461
+  dcterms:identifier "MI0014461" ;
+  dcterms:description "Bombyx mori miR-3398 stem-loop"@en ;
+  rdfs:label "bmo-mir-3398"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014462
+  dcterms:identifier "MI0014462" ;
+  dcterms:description "Bombyx mori miR-3399 stem-loop"@en ;
+  rdfs:label "bmo-mir-3399"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014463
+  dcterms:identifier "MI0014463" ;
+  dcterms:description "Bombyx mori miR-3400 stem-loop"@en ;
+  rdfs:label "bmo-mir-3400"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014464
+  dcterms:identifier "MI0014464" ;
+  dcterms:description "Bombyx mori miR-3401 stem-loop"@en ;
+  rdfs:label "bmo-mir-3401"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014465
+  dcterms:identifier "MI0014465" ;
+  dcterms:description "Bombyx mori miR-3402 stem-loop"@en ;
+  rdfs:label "bmo-mir-3402"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014466
+  dcterms:identifier "MI0014466" ;
+  dcterms:description "Bombyx mori miR-3403 stem-loop"@en ;
+  rdfs:label "bmo-mir-3403"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014467
+  dcterms:identifier "MI0014467" ;
+  dcterms:description "Bombyx mori miR-3347b stem-loop"@en ;
+  rdfs:label "bmo-mir-3347b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014468
+  dcterms:identifier "MI0014468" ;
+  dcterms:description "Bombyx mori miR-3404 stem-loop"@en ;
+  rdfs:label "bmo-mir-3404"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014469
+  dcterms:identifier "MI0014469" ;
+  dcterms:description "Bombyx mori miR-3405 stem-loop"@en ;
+  rdfs:label "bmo-mir-3405"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014470
+  dcterms:identifier "MI0014470" ;
+  dcterms:description "Bombyx mori miR-3406 stem-loop"@en ;
+  rdfs:label "bmo-mir-3406"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014471
+  dcterms:identifier "MI0014471" ;
+  dcterms:description "Bombyx mori miR-3407 stem-loop"@en ;
+  rdfs:label "bmo-mir-3407"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014472
+  dcterms:identifier "MI0014472" ;
+  dcterms:description "Bombyx mori miR-3408 stem-loop"@en ;
+  rdfs:label "bmo-mir-3408"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014473
+  dcterms:identifier "MI0014473" ;
+  dcterms:description "Bombyx mori miR-3409 stem-loop"@en ;
+  rdfs:label "bmo-mir-3409"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014474
+  dcterms:identifier "MI0014474" ;
+  dcterms:description "Bombyx mori miR-3410 stem-loop"@en ;
+  rdfs:label "bmo-mir-3410"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014475
+  dcterms:identifier "MI0014475" ;
+  dcterms:description "Bombyx mori miR-3411 stem-loop"@en ;
+  rdfs:label "bmo-mir-3411"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014476
+  dcterms:identifier "MI0014476" ;
+  dcterms:description "Bombyx mori miR-3412 stem-loop"@en ;
+  rdfs:label "bmo-mir-3412"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014477
+  dcterms:identifier "MI0014477" ;
+  dcterms:description "Bombyx mori miR-3413 stem-loop"@en ;
+  rdfs:label "bmo-mir-3413"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014478
+  dcterms:identifier "MI0014478" ;
+  dcterms:description "Bombyx mori miR-3414 stem-loop"@en ;
+  rdfs:label "bmo-mir-3414"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014479
+  dcterms:identifier "MI0014479" ;
+  dcterms:description "Bombyx mori miR-3415 stem-loop"@en ;
+  rdfs:label "bmo-mir-3415"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014480
+  dcterms:identifier "MI0014480" ;
+  dcterms:description "Bombyx mori miR-3416 stem-loop"@en ;
+  rdfs:label "bmo-mir-3416"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014481
+  dcterms:identifier "MI0014481" ;
+  dcterms:description "Bombyx mori miR-3417 stem-loop"@en ;
+  rdfs:label "bmo-mir-3417"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014482
+  dcterms:identifier "MI0014482" ;
+  dcterms:description "Bombyx mori miR-3418 stem-loop"@en ;
+  rdfs:label "bmo-mir-3418"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014483
+  dcterms:identifier "MI0014483" ;
+  dcterms:description "Bombyx mori miR-3419 stem-loop"@en ;
+  rdfs:label "bmo-mir-3419"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014484
+  dcterms:identifier "MI0014484" ;
+  dcterms:description "Bombyx mori miR-989b stem-loop"@en ;
+  rdfs:label "bmo-mir-989b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014485
+  dcterms:identifier "MI0014485" ;
+  dcterms:description "Bombyx mori miR-3420 stem-loop"@en ;
+  rdfs:label "bmo-mir-3420"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014486
+  dcterms:identifier "MI0014486" ;
+  dcterms:description "Bombyx mori miR-3421 stem-loop"@en ;
+  rdfs:label "bmo-mir-3421"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014487
+  dcterms:identifier "MI0014487" ;
+  dcterms:description "Bombyx mori miR-3422 stem-loop"@en ;
+  rdfs:label "bmo-mir-3422"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014488
+  dcterms:identifier "MI0014488" ;
+  dcterms:description "Bombyx mori miR-3423 stem-loop"@en ;
+  rdfs:label "bmo-mir-3423"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014489
+  dcterms:identifier "MI0014489" ;
+  dcterms:description "Bombyx mori miR-3424 stem-loop"@en ;
+  rdfs:label "bmo-mir-3424"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014490
+  dcterms:identifier "MI0014490" ;
+  dcterms:description "Bombyx mori miR-3425 stem-loop"@en ;
+  rdfs:label "bmo-mir-3425"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014491
+  dcterms:identifier "MI0014491" ;
+  dcterms:description "Bombyx mori miR-3426 stem-loop"@en ;
+  rdfs:label "bmo-mir-3426"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014492
+  dcterms:identifier "MI0014492" ;
+  dcterms:description "Bombyx mori miR-3427 stem-loop"@en ;
+  rdfs:label "bmo-mir-3427"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014493
+  dcterms:identifier "MI0014493" ;
+  dcterms:description "Bombyx mori miR-3428 stem-loop"@en ;
+  rdfs:label "bmo-mir-3428"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014494
+  dcterms:identifier "MI0014494" ;
+  dcterms:description "Bombyx mori miR-3429 stem-loop"@en ;
+  rdfs:label "bmo-mir-3429"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014495
+  dcterms:identifier "MI0014495" ;
+  dcterms:description "Bombyx mori miR-3204b stem-loop"@en ;
+  rdfs:label "bmo-mir-3204b"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014496
+  dcterms:identifier "MI0014496" ;
+  dcterms:description "Bombyx mori miR-3430 stem-loop"@en ;
+  rdfs:label "bmo-mir-3430"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20229201, pmid:20229201 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015936
+  dcterms:identifier "MI0015936" ;
+  dcterms:description "Bombyx mori miR-92a stem-loop"@en ;
+  rdfs:label "bmo-mir-92a"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20199675, pmid:20199675 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015937
+  dcterms:identifier "MI0015937" ;
+  dcterms:description "Bombyx mori miR-2733e-3 stem-loop"@en ;
+  rdfs:label "bmo-mir-2733e-3"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20089182, pmid:20089182 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022087
+  dcterms:identifier "MI0022087" ;
+  dcterms:description "Bombyx mori miR-6497 stem-loop"@en ;
+  rdfs:label "bmo-mir-6497"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:22662121, pmid:22662121 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022088
+  dcterms:identifier "MI0022088" ;
+  dcterms:description "Bombyx mori miR-6498 stem-loop"@en ;
+  rdfs:label "bmo-mir-6498"@en ;
+  obo:RO_0002162 taxonomy:7091 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:22662121, pmid:22662121 ;
+  ] ;
+  a :MicroRNA .
+

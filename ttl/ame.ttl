@@ -1,0 +1,3429 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0001574
+  dcterms:identifier "MI0001574" ;
+  dcterms:description "Apis mellifera bantam stem-loop"@en ;
+  rdfs:label "ame-bantam"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732515 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001575
+  dcterms:identifier "MI0001575" ;
+  dcterms:description "Apis mellifera miR-1-1 stem-loop"@en ;
+  rdfs:label "ame-mir-1-1"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732491 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001576
+  dcterms:identifier "MI0001576" ;
+  dcterms:description "Apis mellifera miR-12 stem-loop"@en ;
+  rdfs:label "ame-mir-12"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732492 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001577
+  dcterms:identifier "MI0001577" ;
+  dcterms:description "Apis mellifera miR-124 stem-loop"@en ;
+  rdfs:label "ame-mir-124"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732493 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122, pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001578
+  dcterms:identifier "MI0001578" ;
+  dcterms:description "Apis mellifera miR-125 stem-loop"@en ;
+  rdfs:label "ame-mir-125"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732494 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001579
+  dcterms:identifier "MI0001579" ;
+  dcterms:description "Apis mellifera miR-133 stem-loop"@en ;
+  rdfs:label "ame-mir-133"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732495 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001580
+  dcterms:identifier "MI0001580" ;
+  dcterms:description "Apis mellifera miR-184 stem-loop"@en ;
+  rdfs:label "ame-mir-184"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732496 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001581
+  dcterms:identifier "MI0001581" ;
+  dcterms:description "Apis mellifera miR-210 stem-loop"@en ;
+  rdfs:label "ame-mir-210"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732497 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001582
+  dcterms:identifier "MI0001582" ;
+  dcterms:description "Apis mellifera miR-219 stem-loop"@en ;
+  rdfs:label "ame-mir-219"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732498 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001583
+  dcterms:identifier "MI0001583" ;
+  dcterms:description "Apis mellifera miR-263 stem-loop"@en ;
+  rdfs:label "ame-mir-263a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732499 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001584
+  dcterms:identifier "MI0001584" ;
+  dcterms:description "Apis mellifera miR-276 stem-loop"@en ;
+  rdfs:label "ame-mir-276"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732500 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001585
+  dcterms:identifier "MI0001585" ;
+  dcterms:description "Apis mellifera miR-277 stem-loop"@en ;
+  rdfs:label "ame-mir-277"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732501 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001586
+  dcterms:identifier "MI0001586" ;
+  dcterms:description "Apis mellifera miR-278 stem-loop"@en ;
+  rdfs:label "ame-mir-278"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732502 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001587
+  dcterms:identifier "MI0001587" ;
+  dcterms:description "Apis mellifera miR-281 stem-loop"@en ;
+  rdfs:label "ame-mir-281"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732503 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001588
+  dcterms:identifier "MI0001588" ;
+  dcterms:description "Apis mellifera miR-282 stem-loop"@en ;
+  rdfs:label "ame-mir-282"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732504 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001589
+  dcterms:identifier "MI0001589" ;
+  dcterms:description "Apis mellifera miR-2-1 stem-loop"@en ;
+  rdfs:label "ame-mir-2-1"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732505 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122, pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001590
+  dcterms:identifier "MI0001590" ;
+  dcterms:description "Apis mellifera miR-2-2 stem-loop"@en ;
+  rdfs:label "ame-mir-2-2"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732506 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001591
+  dcterms:identifier "MI0001591" ;
+  dcterms:description "Apis mellifera miR-305 stem-loop"@en ;
+  rdfs:label "ame-mir-305"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732507 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001592
+  dcterms:identifier "MI0001592" ;
+  dcterms:description "Apis mellifera miR-315 stem-loop"@en ;
+  rdfs:label "ame-mir-315"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732508 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001593
+  dcterms:identifier "MI0001593" ;
+  dcterms:description "Apis mellifera miR-317 stem-loop"@en ;
+  rdfs:label "ame-mir-317"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732509 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001594
+  dcterms:identifier "MI0001594" ;
+  dcterms:description "Apis mellifera miR-7 stem-loop"@en ;
+  rdfs:label "ame-mir-7"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732510 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122, pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001595
+  dcterms:identifier "MI0001595" ;
+  dcterms:description "Apis mellifera miR-8 stem-loop"@en ;
+  rdfs:label "ame-mir-8"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732511 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001596
+  dcterms:identifier "MI0001596" ;
+  dcterms:description "Apis mellifera miR-9a stem-loop"@en ;
+  rdfs:label "ame-mir-9a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732512 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001597
+  dcterms:identifier "MI0001597" ;
+  dcterms:description "Apis mellifera miR-9b stem-loop"@en ;
+  rdfs:label "ame-mir-9b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732513 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122, pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001598
+  dcterms:identifier "MI0001598" ;
+  dcterms:description "Apis mellifera miR-iab-4 stem-loop"@en ;
+  rdfs:label "ame-mir-iab-4"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:732514 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005726
+  dcterms:identifier "MI0005726" ;
+  dcterms:description "Apis mellifera let-7 stem-loop"@en ;
+  rdfs:label "ame-let-7"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628972 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005727
+  dcterms:identifier "MI0005727" ;
+  dcterms:description "Apis mellifera miR-10 stem-loop"@en ;
+  rdfs:label "ame-mir-10"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315657 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005728
+  dcterms:identifier "MI0005728" ;
+  dcterms:description "Apis mellifera miR-100 stem-loop"@en ;
+  rdfs:label "ame-mir-100"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315658 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005729
+  dcterms:identifier "MI0005729" ;
+  dcterms:description "Apis mellifera miR-137 stem-loop"@en ;
+  rdfs:label "ame-mir-137"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315659 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005730
+  dcterms:identifier "MI0005730" ;
+  dcterms:description "Apis mellifera miR-13a stem-loop"@en ;
+  rdfs:label "ame-mir-13a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628973 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005731
+  dcterms:identifier "MI0005731" ;
+  dcterms:description "Apis mellifera miR-14 stem-loop"@en ;
+  rdfs:label "ame-mir-14"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315661 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005732
+  dcterms:identifier "MI0005732" ;
+  dcterms:description "Apis mellifera miR-2-3 stem-loop"@en ;
+  rdfs:label "ame-mir-2-3"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315662 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005733
+  dcterms:identifier "MI0005733" ;
+  dcterms:description "Apis mellifera miR-275 stem-loop"@en ;
+  rdfs:label "ame-mir-275"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315663 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005734
+  dcterms:identifier "MI0005734" ;
+  dcterms:description "Apis mellifera miR-279 stem-loop"@en ;
+  rdfs:label "ame-mir-279a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315664 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005735
+  dcterms:identifier "MI0005735" ;
+  dcterms:description "Apis mellifera miR-283 stem-loop"@en ;
+  rdfs:label "ame-mir-283"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315665 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122, pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005736
+  dcterms:identifier "MI0005736" ;
+  dcterms:description "Apis mellifera miR-29b stem-loop"@en ;
+  rdfs:label "ame-mir-29b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315686 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005737
+  dcterms:identifier "MI0005737" ;
+  dcterms:description "Apis mellifera miR-31a stem-loop"@en ;
+  rdfs:label "ame-mir-31a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315666 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005738
+  dcterms:identifier "MI0005738" ;
+  dcterms:description "Apis mellifera miR-33 stem-loop"@en ;
+  rdfs:label "ame-mir-33"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315667 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005739
+  dcterms:identifier "MI0005739" ;
+  dcterms:description "Apis mellifera miR-34 stem-loop"@en ;
+  rdfs:label "ame-mir-34"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315668 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005740
+  dcterms:identifier "MI0005740" ;
+  dcterms:description "Apis mellifera miR-375 stem-loop"@en ;
+  rdfs:label "ame-mir-375"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315687 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005741
+  dcterms:identifier "MI0005741" ;
+  dcterms:description "Apis mellifera miR-71 stem-loop"@en ;
+  rdfs:label "ame-mir-71"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315669 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005742
+  dcterms:identifier "MI0005742" ;
+  dcterms:description "Apis mellifera miR-79 stem-loop"@en ;
+  rdfs:label "ame-mir-79"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315670 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005743
+  dcterms:identifier "MI0005743" ;
+  dcterms:description "Apis mellifera miR-87-1 stem-loop"@en ;
+  rdfs:label "ame-mir-87-1"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315671 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005744
+  dcterms:identifier "MI0005744" ;
+  dcterms:description "Apis mellifera miR-87-2 stem-loop"@en ;
+  rdfs:label "ame-mir-87-2"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315688 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005745
+  dcterms:identifier "MI0005745" ;
+  dcterms:description "Apis mellifera miR-92a stem-loop"@en ;
+  rdfs:label "ame-mir-92a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315672 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005748
+  dcterms:identifier "MI0005748" ;
+  dcterms:description "Apis mellifera miR-927 stem-loop"@en ;
+  rdfs:label "ame-mir-927a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315673 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005749
+  dcterms:identifier "MI0005749" ;
+  dcterms:description "Apis mellifera miR-928 stem-loop"@en ;
+  rdfs:label "ame-mir-928"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315674 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005750
+  dcterms:identifier "MI0005750" ;
+  dcterms:description "Apis mellifera miR-190 stem-loop"@en ;
+  rdfs:label "ame-mir-190"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315689 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005751
+  dcterms:identifier "MI0005751" ;
+  dcterms:description "Apis mellifera miR-929 stem-loop"@en ;
+  rdfs:label "ame-mir-929"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315675 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005754
+  dcterms:identifier "MI0005754" ;
+  dcterms:description "Apis mellifera miR-932 stem-loop"@en ;
+  rdfs:label "ame-mir-932"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315676 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010608
+  dcterms:identifier "MI0010608" ;
+  dcterms:description "Apis mellifera miR-252 stem loop"@en ;
+  rdfs:label "ame-mir-252a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315677 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010609
+  dcterms:identifier "MI0010609" ;
+  dcterms:description "Apis mellifera miR-13b stem loop"@en ;
+  rdfs:label "ame-mir-13b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315690 ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:20491979, pmid:20491979 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010610
+  dcterms:identifier "MI0010610" ;
+  dcterms:description "Apis mellifera miR-996 stem loop"@en ;
+  rdfs:label "ame-mir-996"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315678 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010611
+  dcterms:identifier "MI0010611" ;
+  dcterms:description "Apis mellifera miR-263b stem loop"@en ;
+  rdfs:label "ame-mir-263b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315679 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010612
+  dcterms:identifier "MI0010612" ;
+  dcterms:description "Apis mellifera miR-92b-1 stem loop"@en ;
+  rdfs:label "ame-mir-92b-1"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315680 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010613
+  dcterms:identifier "MI0010613" ;
+  dcterms:description "Apis mellifera miR-92b-2 stem loop"@en ;
+  rdfs:label "ame-mir-92b-2"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315691 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010614
+  dcterms:identifier "MI0010614" ;
+  dcterms:description "Apis mellifera miR-985 stem loop"@en ;
+  rdfs:label "ame-mir-985"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315681 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010616
+  dcterms:identifier "MI0010616" ;
+  dcterms:description "Apis mellifera miR-1000 stem loop"@en ;
+  rdfs:label "ame-mir-1000"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315682 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010617
+  dcterms:identifier "MI0010617" ;
+  dcterms:description "Apis mellifera miR-1006 stem loop"@en ;
+  rdfs:label "ame-mir-1006"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315683 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010618
+  dcterms:identifier "MI0010618" ;
+  dcterms:description "Apis mellifera miR-981 stem loop"@en ;
+  rdfs:label "ame-mir-981"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315692 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010619
+  dcterms:identifier "MI0010619" ;
+  dcterms:description "Apis mellifera miR-316 stem loop"@en ;
+  rdfs:label "ame-mir-316"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315684 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010620
+  dcterms:identifier "MI0010620" ;
+  dcterms:description "Apis mellifera miR-993 stem loop"@en ;
+  rdfs:label "ame-mir-993"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100315685 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015955
+  dcterms:identifier "MI0015955" ;
+  dcterms:description "Apis mellifera miR-1-2 stem-loop"@en ;
+  rdfs:label "ame-mir-1-2"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100498677 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "RTPCR" ;
+    dcterms:references pubmed:17543122, pmid:17543122 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016136
+  dcterms:identifier "MI0016136" ;
+  dcterms:description "Apis mellifera miR-11 stem-loop"@en ;
+  rdfs:label "ame-mir-11"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628993 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016137
+  dcterms:identifier "MI0016137" ;
+  dcterms:description "Apis mellifera miR-1175 stem-loop"@en ;
+  rdfs:label "ame-mir-1175"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629076 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016138
+  dcterms:identifier "MI0016138" ;
+  dcterms:description "Apis mellifera miR-193 stem-loop"@en ;
+  rdfs:label "ame-mir-193"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629094 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016139
+  dcterms:identifier "MI0016139" ;
+  dcterms:description "Apis mellifera miR-307 stem-loop"@en ;
+  rdfs:label "ame-mir-307"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628994 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016140
+  dcterms:identifier "MI0016140" ;
+  dcterms:description "Apis mellifera miR-2788 stem-loop"@en ;
+  rdfs:label "ame-mir-2788"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628995 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016141
+  dcterms:identifier "MI0016141" ;
+  dcterms:description "Apis mellifera miR-989 stem-loop"@en ;
+  rdfs:label "ame-mir-989"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629061 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016142
+  dcterms:identifier "MI0016142" ;
+  dcterms:description "Apis mellifera miR-3717 stem-loop"@en ;
+  rdfs:label "ame-mir-3717"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628996 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016143
+  dcterms:identifier "MI0016143" ;
+  dcterms:description "Apis mellifera miR-3745 stem-loop"@en ;
+  rdfs:label "ame-mir-3745"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629095 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016144
+  dcterms:identifier "MI0016144" ;
+  dcterms:description "Apis mellifera miR-3746 stem-loop"@en ;
+  rdfs:label "ame-mir-3746"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628997 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016145
+  dcterms:identifier "MI0016145" ;
+  dcterms:description "Apis mellifera miR-3747a stem-loop"@en ;
+  rdfs:label "ame-mir-3747a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628998 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016146
+  dcterms:identifier "MI0016146" ;
+  dcterms:description "Apis mellifera miR-3747b stem-loop"@en ;
+  rdfs:label "ame-mir-3747b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629077 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016147
+  dcterms:identifier "MI0016147" ;
+  dcterms:description "Apis mellifera miR-3748 stem-loop"@en ;
+  rdfs:label "ame-mir-3748"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629062 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016148
+  dcterms:identifier "MI0016148" ;
+  dcterms:description "Apis mellifera miR-3749 stem-loop"@en ;
+  rdfs:label "ame-mir-3749"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100628999 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016149
+  dcterms:identifier "MI0016149" ;
+  dcterms:description "Apis mellifera miR-3750 stem-loop"@en ;
+  rdfs:label "ame-mir-3750"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629096 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016150
+  dcterms:identifier "MI0016150" ;
+  dcterms:description "Apis mellifera miR-3718a stem-loop"@en ;
+  rdfs:label "ame-mir-3718a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629000 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016151
+  dcterms:identifier "MI0016151" ;
+  dcterms:description "Apis mellifera miR-3751 stem-loop"@en ;
+  rdfs:label "ame-mir-3751"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629001 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016152
+  dcterms:identifier "MI0016152" ;
+  dcterms:description "Apis mellifera miR-3752 stem-loop"@en ;
+  rdfs:label "ame-mir-3752"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629002 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016153
+  dcterms:identifier "MI0016153" ;
+  dcterms:description "Apis mellifera miR-3753 stem-loop"@en ;
+  rdfs:label "ame-mir-3753"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629063 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016154
+  dcterms:identifier "MI0016154" ;
+  dcterms:description "Apis mellifera miR-3754 stem-loop"@en ;
+  rdfs:label "ame-mir-3754"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629117 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016155
+  dcterms:identifier "MI0016155" ;
+  dcterms:description "Apis mellifera miR-3755 stem-loop"@en ;
+  rdfs:label "ame-mir-3755"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629097 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016156
+  dcterms:identifier "MI0016156" ;
+  dcterms:description "Apis mellifera miR-3718b stem-loop"@en ;
+  rdfs:label "ame-mir-3718b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629003 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016157
+  dcterms:identifier "MI0016157" ;
+  dcterms:description "Apis mellifera miR-3756 stem-loop"@en ;
+  rdfs:label "ame-mir-3756"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629004 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016158
+  dcterms:identifier "MI0016158" ;
+  dcterms:description "Apis mellifera miR-3049 stem-loop"@en ;
+  rdfs:label "ame-mir-3049"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629005 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016159
+  dcterms:identifier "MI0016159" ;
+  dcterms:description "Apis mellifera miR-3757 stem-loop"@en ;
+  rdfs:label "ame-mir-3757"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629064 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016160
+  dcterms:identifier "MI0016160" ;
+  dcterms:description "Apis mellifera miR-3758 stem-loop"@en ;
+  rdfs:label "ame-mir-3758"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629098 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016161
+  dcterms:identifier "MI0016161" ;
+  dcterms:description "Apis mellifera miR-3719 stem-loop"@en ;
+  rdfs:label "ame-mir-3719"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629006 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016162
+  dcterms:identifier "MI0016162" ;
+  dcterms:description "Apis mellifera miR-3759 stem-loop"@en ;
+  rdfs:label "ame-mir-3759"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629078 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016163
+  dcterms:identifier "MI0016163" ;
+  dcterms:description "Apis mellifera miR-3760 stem-loop"@en ;
+  rdfs:label "ame-mir-3760"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629007 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016164
+  dcterms:identifier "MI0016164" ;
+  dcterms:description "Apis mellifera miR-3761 stem-loop"@en ;
+  rdfs:label "ame-mir-3761"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629008 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016165
+  dcterms:identifier "MI0016165" ;
+  dcterms:description "Apis mellifera miR-3762 stem-loop"@en ;
+  rdfs:label "ame-mir-3762"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629065 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016166
+  dcterms:identifier "MI0016166" ;
+  dcterms:description "Apis mellifera miR-3763 stem-loop"@en ;
+  rdfs:label "ame-mir-3763"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629099 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016167
+  dcterms:identifier "MI0016167" ;
+  dcterms:description "Apis mellifera miR-3764 stem-loop"@en ;
+  rdfs:label "ame-mir-3764"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629009 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016168
+  dcterms:identifier "MI0016168" ;
+  dcterms:description "Apis mellifera miR-3720 stem-loop"@en ;
+  rdfs:label "ame-mir-3720"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629010 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016169
+  dcterms:identifier "MI0016169" ;
+  dcterms:description "Apis mellifera miR-3765 stem-loop"@en ;
+  rdfs:label "ame-mir-3765"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629011 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016170
+  dcterms:identifier "MI0016170" ;
+  dcterms:description "Apis mellifera miR-3766 stem-loop"@en ;
+  rdfs:label "ame-mir-3766"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629079 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016171
+  dcterms:identifier "MI0016171" ;
+  dcterms:description "Apis mellifera miR-3767 stem-loop"@en ;
+  rdfs:label "ame-mir-3767"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629066 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016172
+  dcterms:identifier "MI0016172" ;
+  dcterms:description "Apis mellifera miR-3768 stem-loop"@en ;
+  rdfs:label "ame-mir-3768"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629100 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016173
+  dcterms:identifier "MI0016173" ;
+  dcterms:description "Apis mellifera miR-3769 stem-loop"@en ;
+  rdfs:label "ame-mir-3769"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629012 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016174
+  dcterms:identifier "MI0016174" ;
+  dcterms:description "Apis mellifera miR-971 stem-loop"@en ;
+  rdfs:label "ame-mir-971"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629013 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016175
+  dcterms:identifier "MI0016175" ;
+  dcterms:description "Apis mellifera miR-3770 stem-loop"@en ;
+  rdfs:label "ame-mir-3770"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629014 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016176
+  dcterms:identifier "MI0016176" ;
+  dcterms:description "Apis mellifera miR-3721 stem-loop"@en ;
+  rdfs:label "ame-mir-3721"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629101 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016177
+  dcterms:identifier "MI0016177" ;
+  dcterms:description "Apis mellifera miR-3771 stem-loop"@en ;
+  rdfs:label "ame-mir-3771"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629067 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016178
+  dcterms:identifier "MI0016178" ;
+  dcterms:description "Apis mellifera miR-3772 stem-loop"@en ;
+  rdfs:label "ame-mir-3772"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629015 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016179
+  dcterms:identifier "MI0016179" ;
+  dcterms:description "Apis mellifera miR-3773 stem-loop"@en ;
+  rdfs:label "ame-mir-3773"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629080 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016180
+  dcterms:identifier "MI0016180" ;
+  dcterms:description "Apis mellifera miR-3722 stem-loop"@en ;
+  rdfs:label "ame-mir-3722"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629016 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016181
+  dcterms:identifier "MI0016181" ;
+  dcterms:description "Apis mellifera miR-3774 stem-loop"@en ;
+  rdfs:label "ame-mir-3774"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629017 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016182
+  dcterms:identifier "MI0016182" ;
+  dcterms:description "Apis mellifera miR-3775 stem-loop"@en ;
+  rdfs:label "ame-mir-3775"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629102 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016183
+  dcterms:identifier "MI0016183" ;
+  dcterms:description "Apis mellifera miR-3776 stem-loop"@en ;
+  rdfs:label "ame-mir-3776"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629068 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016184
+  dcterms:identifier "MI0016184" ;
+  dcterms:description "Apis mellifera miR-3777 stem-loop"@en ;
+  rdfs:label "ame-mir-3777"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629018 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016185
+  dcterms:identifier "MI0016185" ;
+  dcterms:description "Apis mellifera miR-3778 stem-loop"@en ;
+  rdfs:label "ame-mir-3778"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629019 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016186
+  dcterms:identifier "MI0016186" ;
+  dcterms:description "Apis mellifera miR-3779 stem-loop"@en ;
+  rdfs:label "ame-mir-3779"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629020 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016187
+  dcterms:identifier "MI0016187" ;
+  dcterms:description "Apis mellifera miR-965 stem-loop"@en ;
+  rdfs:label "ame-mir-965"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629118 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016188
+  dcterms:identifier "MI0016188" ;
+  dcterms:description "Apis mellifera miR-3780 stem-loop"@en ;
+  rdfs:label "ame-mir-3780"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629103 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016189
+  dcterms:identifier "MI0016189" ;
+  dcterms:description "Apis mellifera miR-3781 stem-loop"@en ;
+  rdfs:label "ame-mir-3781"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629069 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016190
+  dcterms:identifier "MI0016190" ;
+  dcterms:description "Apis mellifera miR-3782 stem-loop"@en ;
+  rdfs:label "ame-mir-3782"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629021 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016191
+  dcterms:identifier "MI0016191" ;
+  dcterms:description "Apis mellifera miR-3783 stem-loop"@en ;
+  rdfs:label "ame-mir-3783"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629022 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016192
+  dcterms:identifier "MI0016192" ;
+  dcterms:description "Apis mellifera miR-3716b stem-loop"@en ;
+  rdfs:label "ame-mir-3716b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629023 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016193
+  dcterms:identifier "MI0016193" ;
+  dcterms:description "Apis mellifera miR-3784 stem-loop"@en ;
+  rdfs:label "ame-mir-3784"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629104 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016194
+  dcterms:identifier "MI0016194" ;
+  dcterms:description "Apis mellifera miR-3785 stem-loop"@en ;
+  rdfs:label "ame-mir-3785"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629024 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016195
+  dcterms:identifier "MI0016195" ;
+  dcterms:description "Apis mellifera miR-3786 stem-loop"@en ;
+  rdfs:label "ame-mir-3786"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629070 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016196
+  dcterms:identifier "MI0016196" ;
+  dcterms:description "Apis mellifera miR-3787 stem-loop"@en ;
+  rdfs:label "ame-mir-3787"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629081 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016197
+  dcterms:identifier "MI0016197" ;
+  dcterms:description "Apis mellifera miR-3788 stem-loop"@en ;
+  rdfs:label "ame-mir-3788"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629025 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016198
+  dcterms:identifier "MI0016198" ;
+  dcterms:description "Apis mellifera miR-3789 stem-loop"@en ;
+  rdfs:label "ame-mir-3789"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629105 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016199
+  dcterms:identifier "MI0016199" ;
+  dcterms:description "Apis mellifera miR-3790 stem-loop"@en ;
+  rdfs:label "ame-mir-3790"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629026 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016200
+  dcterms:identifier "MI0016200" ;
+  dcterms:description "Apis mellifera miR-3791 stem-loop"@en ;
+  rdfs:label "ame-mir-3791"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629027 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016201
+  dcterms:identifier "MI0016201" ;
+  dcterms:description "Apis mellifera miR-279b stem-loop"@en ;
+  rdfs:label "ame-mir-279b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629071 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016202
+  dcterms:identifier "MI0016202" ;
+  dcterms:description "Apis mellifera miR-9c stem-loop"@en ;
+  rdfs:label "ame-mir-9c"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629028 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016203
+  dcterms:identifier "MI0016203" ;
+  dcterms:description "Apis mellifera miR-2944 stem-loop"@en ;
+  rdfs:label "ame-mir-2944"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629106 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016204
+  dcterms:identifier "MI0016204" ;
+  dcterms:description "Apis mellifera miR-318 stem-loop"@en ;
+  rdfs:label "ame-mir-318"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629082 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016205
+  dcterms:identifier "MI0016205" ;
+  dcterms:description "Apis mellifera miR-3792 stem-loop"@en ;
+  rdfs:label "ame-mir-3792"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629029 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016206
+  dcterms:identifier "MI0016206" ;
+  dcterms:description "Apis mellifera miR-927b stem-loop"@en ;
+  rdfs:label "ame-mir-927b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629107 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016207
+  dcterms:identifier "MI0016207" ;
+  dcterms:description "Apis mellifera miR-3793 stem-loop"@en ;
+  rdfs:label "ame-mir-3793"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629030 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016208
+  dcterms:identifier "MI0016208" ;
+  dcterms:description "Apis mellifera miR-3794 stem-loop"@en ;
+  rdfs:label "ame-mir-3794"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629031 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016209
+  dcterms:identifier "MI0016209" ;
+  dcterms:description "Apis mellifera miR-306 stem-loop"@en ;
+  rdfs:label "ame-mir-306"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629032 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016210
+  dcterms:identifier "MI0016210" ;
+  dcterms:description "Apis mellifera miR-3795 stem-loop"@en ;
+  rdfs:label "ame-mir-3795"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629083 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016211
+  dcterms:identifier "MI0016211" ;
+  dcterms:description "Apis mellifera miR-3796 stem-loop"@en ;
+  rdfs:label "ame-mir-3796"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629108 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016212
+  dcterms:identifier "MI0016212" ;
+  dcterms:description "Apis mellifera miR-3797 stem-loop"@en ;
+  rdfs:label "ame-mir-3797"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629033 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016213
+  dcterms:identifier "MI0016213" ;
+  dcterms:description "Apis mellifera miR-3477 stem-loop"@en ;
+  rdfs:label "ame-mir-3477"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629034 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016214
+  dcterms:identifier "MI0016214" ;
+  dcterms:description "Apis mellifera miR-3798 stem-loop"@en ;
+  rdfs:label "ame-mir-3798"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629035 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016215
+  dcterms:identifier "MI0016215" ;
+  dcterms:description "Apis mellifera miR-3799 stem-loop"@en ;
+  rdfs:label "ame-mir-3799"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629109 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016216
+  dcterms:identifier "MI0016216" ;
+  dcterms:description "Apis mellifera miR-279c stem-loop"@en ;
+  rdfs:label "ame-mir-279c"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629036 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016217
+  dcterms:identifier "MI0016217" ;
+  dcterms:description "Apis mellifera miR-3800 stem-loop"@en ;
+  rdfs:label "ame-mir-3800"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629119 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016218
+  dcterms:identifier "MI0016218" ;
+  dcterms:description "Apis mellifera miR-3801 stem-loop"@en ;
+  rdfs:label "ame-mir-3801"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629037 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016219
+  dcterms:identifier "MI0016219" ;
+  dcterms:description "Apis mellifera miR-3723 stem-loop"@en ;
+  rdfs:label "ame-mir-3723"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629110 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016220
+  dcterms:identifier "MI0016220" ;
+  dcterms:description "Apis mellifera miR-3724 stem-loop"@en ;
+  rdfs:label "ame-mir-3724"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629038 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016221
+  dcterms:identifier "MI0016221" ;
+  dcterms:description "Apis mellifera miR-2796 stem-loop"@en ;
+  rdfs:label "ame-mir-2796"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629039 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016222
+  dcterms:identifier "MI0016222" ;
+  dcterms:description "Apis mellifera miR-3725 stem-loop"@en ;
+  rdfs:label "ame-mir-3725"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629040 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016223
+  dcterms:identifier "MI0016223" ;
+  dcterms:description "Apis mellifera miR-3726 stem-loop"@en ;
+  rdfs:label "ame-mir-3726"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629111 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016224
+  dcterms:identifier "MI0016224" ;
+  dcterms:description "Apis mellifera miR-3727 stem-loop"@en ;
+  rdfs:label "ame-mir-3727"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629084 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016225
+  dcterms:identifier "MI0016225" ;
+  dcterms:description "Apis mellifera miR-3728 stem-loop"@en ;
+  rdfs:label "ame-mir-3728"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629041 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016226
+  dcterms:identifier "MI0016226" ;
+  dcterms:description "Apis mellifera miR-3729 stem-loop"@en ;
+  rdfs:label "ame-mir-3729"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629042 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016227
+  dcterms:identifier "MI0016227" ;
+  dcterms:description "Apis mellifera miR-3715 stem-loop"@en ;
+  rdfs:label "ame-mir-3715"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629043 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016228
+  dcterms:identifier "MI0016228" ;
+  dcterms:description "Apis mellifera miR-3730 stem-loop"@en ;
+  rdfs:label "ame-mir-3730"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629112 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016229
+  dcterms:identifier "MI0016229" ;
+  dcterms:description "Apis mellifera miR-3731 stem-loop"@en ;
+  rdfs:label "ame-mir-3731"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629044 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016230
+  dcterms:identifier "MI0016230" ;
+  dcterms:description "Apis mellifera miR-3732 stem-loop"@en ;
+  rdfs:label "ame-mir-3732"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629045 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016231
+  dcterms:identifier "MI0016231" ;
+  dcterms:description "Apis mellifera miR-3716a stem-loop"@en ;
+  rdfs:label "ame-mir-3716a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629085 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016232
+  dcterms:identifier "MI0016232" ;
+  dcterms:description "Apis mellifera miR-3733 stem-loop"@en ;
+  rdfs:label "ame-mir-3733"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629046 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016233
+  dcterms:identifier "MI0016233" ;
+  dcterms:description "Apis mellifera miR-3734 stem-loop"@en ;
+  rdfs:label "ame-mir-3734"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629113 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016234
+  dcterms:identifier "MI0016234" ;
+  dcterms:description "Apis mellifera miR-3735 stem-loop"@en ;
+  rdfs:label "ame-mir-3735"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629047 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016235
+  dcterms:identifier "MI0016235" ;
+  dcterms:description "Apis mellifera miR-3736 stem-loop"@en ;
+  rdfs:label "ame-mir-3736"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629048 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016236
+  dcterms:identifier "MI0016236" ;
+  dcterms:description "Apis mellifera miR-3737 stem-loop"@en ;
+  rdfs:label "ame-mir-3737"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629049 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016237
+  dcterms:identifier "MI0016237" ;
+  dcterms:description "Apis mellifera miR-3738 stem-loop"@en ;
+  rdfs:label "ame-mir-3738"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629114 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016238
+  dcterms:identifier "MI0016238" ;
+  dcterms:description "Apis mellifera miR-3739 stem-loop"@en ;
+  rdfs:label "ame-mir-3739"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629086 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016239
+  dcterms:identifier "MI0016239" ;
+  dcterms:description "Apis mellifera miR-3740 stem-loop"@en ;
+  rdfs:label "ame-mir-3740"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629050 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016240
+  dcterms:identifier "MI0016240" ;
+  dcterms:description "Apis mellifera miR-3741 stem-loop"@en ;
+  rdfs:label "ame-mir-3741"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629051 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016241
+  dcterms:identifier "MI0016241" ;
+  dcterms:description "Apis mellifera miR-3742 stem-loop"@en ;
+  rdfs:label "ame-mir-3742"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629052 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016242
+  dcterms:identifier "MI0016242" ;
+  dcterms:description "Apis mellifera miR-3743 stem-loop"@en ;
+  rdfs:label "ame-mir-3743"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629115 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016243
+  dcterms:identifier "MI0016243" ;
+  dcterms:description "Apis mellifera miR-3744 stem-loop"@en ;
+  rdfs:label "ame-mir-3744"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629053 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016244
+  dcterms:identifier "MI0016244" ;
+  dcterms:description "Apis mellifera miR-980 stem-loop"@en ;
+  rdfs:label "ame-mir-980"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629054 ;
+  :evidence [
+    :experiment_type "SOLID" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016245
+  dcterms:identifier "MI0016245" ;
+  dcterms:description "Apis mellifera miR-750 stem-loop"@en ;
+  rdfs:label "ame-mir-750"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  rdfs:seeAlso ncbigene:100629120 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020210
+  dcterms:identifier "MI0020210" ;
+  dcterms:description "Apis mellifera miR-6000 stem-loop"@en ;
+  rdfs:label "ame-mir-6000a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020211
+  dcterms:identifier "MI0020211" ;
+  dcterms:description "Apis mellifera miR-6001 stem-loop"@en ;
+  rdfs:label "ame-mir-6001"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020212
+  dcterms:identifier "MI0020212" ;
+  dcterms:description "Apis mellifera miR-6002 stem-loop"@en ;
+  rdfs:label "ame-mir-6002"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020213
+  dcterms:identifier "MI0020213" ;
+  dcterms:description "Apis mellifera miR-6003 stem-loop"@en ;
+  rdfs:label "ame-mir-6003"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020214
+  dcterms:identifier "MI0020214" ;
+  dcterms:description "Apis mellifera miR-6004 stem-loop"@en ;
+  rdfs:label "ame-mir-6004"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020215
+  dcterms:identifier "MI0020215" ;
+  dcterms:description "Apis mellifera miR-6005 stem-loop"@en ;
+  rdfs:label "ame-mir-6005"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020216
+  dcterms:identifier "MI0020216" ;
+  dcterms:description "Apis mellifera miR-2765 stem-loop"@en ;
+  rdfs:label "ame-mir-2765"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020217
+  dcterms:identifier "MI0020217" ;
+  dcterms:description "Apis mellifera miR-6006 stem-loop"@en ;
+  rdfs:label "ame-mir-6006"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20807255, pmid:20807255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020304
+  dcterms:identifier "MI0020304" ;
+  dcterms:description "Apis mellifera miR-6037 stem-loop"@en ;
+  rdfs:label "ame-mir-6037"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020305
+  dcterms:identifier "MI0020305" ;
+  dcterms:description "Apis mellifera miR-6038 stem-loop"@en ;
+  rdfs:label "ame-mir-6038"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020306
+  dcterms:identifier "MI0020306" ;
+  dcterms:description "Apis mellifera miR-6039 stem-loop"@en ;
+  rdfs:label "ame-mir-6039"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020307
+  dcterms:identifier "MI0020307" ;
+  dcterms:description "Apis mellifera miR-6040 stem-loop"@en ;
+  rdfs:label "ame-mir-6040"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020308
+  dcterms:identifier "MI0020308" ;
+  dcterms:description "Apis mellifera miR-6000b stem-loop"@en ;
+  rdfs:label "ame-mir-6000b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020309
+  dcterms:identifier "MI0020309" ;
+  dcterms:description "Apis mellifera miR-252b stem-loop"@en ;
+  rdfs:label "ame-mir-252b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020310
+  dcterms:identifier "MI0020310" ;
+  dcterms:description "Apis mellifera miR-6041 stem-loop"@en ;
+  rdfs:label "ame-mir-6041"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020311
+  dcterms:identifier "MI0020311" ;
+  dcterms:description "Apis mellifera miR-6042 stem-loop"@en ;
+  rdfs:label "ame-mir-6042"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020312
+  dcterms:identifier "MI0020312" ;
+  dcterms:description "Apis mellifera miR-6043 stem-loop"@en ;
+  rdfs:label "ame-mir-6043"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020313
+  dcterms:identifier "MI0020313" ;
+  dcterms:description "Apis mellifera miR-6044 stem-loop"@en ;
+  rdfs:label "ame-mir-6044"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020314
+  dcterms:identifier "MI0020314" ;
+  dcterms:description "Apis mellifera miR-6045 stem-loop"@en ;
+  rdfs:label "ame-mir-6045"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020315
+  dcterms:identifier "MI0020315" ;
+  dcterms:description "Apis mellifera miR-92c stem-loop"@en ;
+  rdfs:label "ame-mir-92c"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020316
+  dcterms:identifier "MI0020316" ;
+  dcterms:description "Apis mellifera miR-6046 stem-loop"@en ;
+  rdfs:label "ame-mir-6046"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020317
+  dcterms:identifier "MI0020317" ;
+  dcterms:description "Apis mellifera miR-6012 stem-loop"@en ;
+  rdfs:label "ame-mir-6012"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020318
+  dcterms:identifier "MI0020318" ;
+  dcterms:description "Apis mellifera miR-6047a stem-loop"@en ;
+  rdfs:label "ame-mir-6047a"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020319
+  dcterms:identifier "MI0020319" ;
+  dcterms:description "Apis mellifera miR-6048 stem-loop"@en ;
+  rdfs:label "ame-mir-6048"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020320
+  dcterms:identifier "MI0020320" ;
+  dcterms:description "Apis mellifera miR-6049 stem-loop"@en ;
+  rdfs:label "ame-mir-6049"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020321
+  dcterms:identifier "MI0020321" ;
+  dcterms:description "Apis mellifera miR-6050 stem-loop"@en ;
+  rdfs:label "ame-mir-6050"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020322
+  dcterms:identifier "MI0020322" ;
+  dcterms:description "Apis mellifera miR-6051 stem-loop"@en ;
+  rdfs:label "ame-mir-6051"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020323
+  dcterms:identifier "MI0020323" ;
+  dcterms:description "Apis mellifera miR-6052 stem-loop"@en ;
+  rdfs:label "ame-mir-6052"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020324
+  dcterms:identifier "MI0020324" ;
+  dcterms:description "Apis mellifera miR-6053 stem-loop"@en ;
+  rdfs:label "ame-mir-6053"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020325
+  dcterms:identifier "MI0020325" ;
+  dcterms:description "Apis mellifera miR-6054 stem-loop"@en ;
+  rdfs:label "ame-mir-6054"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020326
+  dcterms:identifier "MI0020326" ;
+  dcterms:description "Apis mellifera miR-6055 stem-loop"@en ;
+  rdfs:label "ame-mir-6055"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020327
+  dcterms:identifier "MI0020327" ;
+  dcterms:description "Apis mellifera miR-6056 stem-loop"@en ;
+  rdfs:label "ame-mir-6056"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020328
+  dcterms:identifier "MI0020328" ;
+  dcterms:description "Apis mellifera miR-6057 stem-loop"@en ;
+  rdfs:label "ame-mir-6057"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020329
+  dcterms:identifier "MI0020329" ;
+  dcterms:description "Apis mellifera miR-6058 stem-loop"@en ;
+  rdfs:label "ame-mir-6058"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020330
+  dcterms:identifier "MI0020330" ;
+  dcterms:description "Apis mellifera miR-6059 stem-loop"@en ;
+  rdfs:label "ame-mir-6059"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020331
+  dcterms:identifier "MI0020331" ;
+  dcterms:description "Apis mellifera miR-6060 stem-loop"@en ;
+  rdfs:label "ame-mir-6060"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020332
+  dcterms:identifier "MI0020332" ;
+  dcterms:description "Apis mellifera miR-6061 stem-loop"@en ;
+  rdfs:label "ame-mir-6061"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020333
+  dcterms:identifier "MI0020333" ;
+  dcterms:description "Apis mellifera miR-6062 stem-loop"@en ;
+  rdfs:label "ame-mir-6062"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020334
+  dcterms:identifier "MI0020334" ;
+  dcterms:description "Apis mellifera miR-6063 stem-loop"@en ;
+  rdfs:label "ame-mir-6063"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020335
+  dcterms:identifier "MI0020335" ;
+  dcterms:description "Apis mellifera miR-6047b stem-loop"@en ;
+  rdfs:label "ame-mir-6047b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020336
+  dcterms:identifier "MI0020336" ;
+  dcterms:description "Apis mellifera miR-6064 stem-loop"@en ;
+  rdfs:label "ame-mir-6064"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020337
+  dcterms:identifier "MI0020337" ;
+  dcterms:description "Apis mellifera miR-6065 stem-loop"@en ;
+  rdfs:label "ame-mir-6065"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020338
+  dcterms:identifier "MI0020338" ;
+  dcterms:description "Apis mellifera miR-6066 stem-loop"@en ;
+  rdfs:label "ame-mir-6066"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020339
+  dcterms:identifier "MI0020339" ;
+  dcterms:description "Apis mellifera miR-6067 stem-loop"@en ;
+  rdfs:label "ame-mir-6067"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22458842, pmid:22458842, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031788
+  dcterms:identifier "MI0031788" ;
+  dcterms:description "Apis mellifera miR-9864 stem-loop"@en ;
+  rdfs:label "ame-mir-9864"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031789
+  dcterms:identifier "MI0031789" ;
+  dcterms:description "Apis mellifera miR-279d stem-loop"@en ;
+  rdfs:label "ame-mir-279d"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738, pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031790
+  dcterms:identifier "MI0031790" ;
+  dcterms:description "Apis mellifera miR-3718c stem-loop"@en ;
+  rdfs:label "ame-mir-3718c"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738, pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031791
+  dcterms:identifier "MI0031791" ;
+  dcterms:description "Apis mellifera miR-9865 stem-loop"@en ;
+  rdfs:label "ame-mir-9865"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031792
+  dcterms:identifier "MI0031792" ;
+  dcterms:description "Apis mellifera miR-9866 stem-loop"@en ;
+  rdfs:label "ame-mir-9866"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031793
+  dcterms:identifier "MI0031793" ;
+  dcterms:description "Apis mellifera miR-9867 stem-loop"@en ;
+  rdfs:label "ame-mir-9867"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031794
+  dcterms:identifier "MI0031794" ;
+  dcterms:description "Apis mellifera miR-9868 stem-loop"@en ;
+  rdfs:label "ame-mir-9868"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031795
+  dcterms:identifier "MI0031795" ;
+  dcterms:description "Apis mellifera miR-9869 stem-loop"@en ;
+  rdfs:label "ame-mir-9869"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031796
+  dcterms:identifier "MI0031796" ;
+  dcterms:description "Apis mellifera miR-9870 stem-loop"@en ;
+  rdfs:label "ame-mir-9870"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031797
+  dcterms:identifier "MI0031797" ;
+  dcterms:description "Apis mellifera miR-9871 stem-loop"@en ;
+  rdfs:label "ame-mir-9871"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031798
+  dcterms:identifier "MI0031798" ;
+  dcterms:description "Apis mellifera miR-9872 stem-loop"@en ;
+  rdfs:label "ame-mir-9872"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031799
+  dcterms:identifier "MI0031799" ;
+  dcterms:description "Apis mellifera miR-9873 stem-loop"@en ;
+  rdfs:label "ame-mir-9873"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031800
+  dcterms:identifier "MI0031800" ;
+  dcterms:description "Apis mellifera miR-9874 stem-loop"@en ;
+  rdfs:label "ame-mir-9874"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031801
+  dcterms:identifier "MI0031801" ;
+  dcterms:description "Apis mellifera miR-9875 stem-loop"@en ;
+  rdfs:label "ame-mir-9875"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031802
+  dcterms:identifier "MI0031802" ;
+  dcterms:description "Apis mellifera miR-9876 stem-loop"@en ;
+  rdfs:label "ame-mir-9876"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031803
+  dcterms:identifier "MI0031803" ;
+  dcterms:description "Apis mellifera miR-9877 stem-loop"@en ;
+  rdfs:label "ame-mir-9877"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031804
+  dcterms:identifier "MI0031804" ;
+  dcterms:description "Apis mellifera miR-9878 stem-loop"@en ;
+  rdfs:label "ame-mir-9878"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031805
+  dcterms:identifier "MI0031805" ;
+  dcterms:description "Apis mellifera miR-9879 stem-loop"@en ;
+  rdfs:label "ame-mir-9879"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031806
+  dcterms:identifier "MI0031806" ;
+  dcterms:description "Apis mellifera miR-9880 stem-loop"@en ;
+  rdfs:label "ame-mir-9880"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031807
+  dcterms:identifier "MI0031807" ;
+  dcterms:description "Apis mellifera miR-9881 stem-loop"@en ;
+  rdfs:label "ame-mir-9881"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031808
+  dcterms:identifier "MI0031808" ;
+  dcterms:description "Apis mellifera miR-9882 stem-loop"@en ;
+  rdfs:label "ame-mir-9882"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031809
+  dcterms:identifier "MI0031809" ;
+  dcterms:description "Apis mellifera miR-9883 stem-loop"@en ;
+  rdfs:label "ame-mir-9883"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738, pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031810
+  dcterms:identifier "MI0031810" ;
+  dcterms:description "Apis mellifera miR-9884 stem-loop"@en ;
+  rdfs:label "ame-mir-9884"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031811
+  dcterms:identifier "MI0031811" ;
+  dcterms:description "Apis mellifera miR-9885 stem-loop"@en ;
+  rdfs:label "ame-mir-9885"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031812
+  dcterms:identifier "MI0031812" ;
+  dcterms:description "Apis mellifera miR-9886 stem-loop"@en ;
+  rdfs:label "ame-mir-9886"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031813
+  dcterms:identifier "MI0031813" ;
+  dcterms:description "Apis mellifera miR-9887 stem-loop"@en ;
+  rdfs:label "ame-mir-9887"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031814
+  dcterms:identifier "MI0031814" ;
+  dcterms:description "Apis mellifera miR-2b stem-loop"@en ;
+  rdfs:label "ame-mir-2b"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738, pubmed:22409512, pmid:22409512 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031815
+  dcterms:identifier "MI0031815" ;
+  dcterms:description "Apis mellifera miR-9888 stem-loop"@en ;
+  rdfs:label "ame-mir-9888"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031816
+  dcterms:identifier "MI0031816" ;
+  dcterms:description "Apis mellifera miR-9889 stem-loop"@en ;
+  rdfs:label "ame-mir-9889"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031817
+  dcterms:identifier "MI0031817" ;
+  dcterms:description "Apis mellifera miR-9890 stem-loop"@en ;
+  rdfs:label "ame-mir-9890"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031818
+  dcterms:identifier "MI0031818" ;
+  dcterms:description "Apis mellifera miR-9891 stem-loop"@en ;
+  rdfs:label "ame-mir-9891"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031819
+  dcterms:identifier "MI0031819" ;
+  dcterms:description "Apis mellifera miR-9892 stem-loop"@en ;
+  rdfs:label "ame-mir-9892"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031820
+  dcterms:identifier "MI0031820" ;
+  dcterms:description "Apis mellifera miR-9893 stem-loop"@en ;
+  rdfs:label "ame-mir-9893"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031821
+  dcterms:identifier "MI0031821" ;
+  dcterms:description "Apis mellifera miR-9894 stem-loop"@en ;
+  rdfs:label "ame-mir-9894"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031822
+  dcterms:identifier "MI0031822" ;
+  dcterms:description "Apis mellifera miR-9895 stem-loop"@en ;
+  rdfs:label "ame-mir-9895"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031823
+  dcterms:identifier "MI0031823" ;
+  dcterms:description "Apis mellifera miR-9896 stem-loop"@en ;
+  rdfs:label "ame-mir-9896"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031824
+  dcterms:identifier "MI0031824" ;
+  dcterms:description "Apis mellifera miR-3478 stem-loop"@en ;
+  rdfs:label "ame-mir-3478"@en ;
+  obo:RO_0002162 taxonomy:7460 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24136738, pmid:24136738 ;
+  ] ;
+  a :MicroRNA .
+

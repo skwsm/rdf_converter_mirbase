@@ -1,0 +1,2410 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0005119
+  dcterms:identifier "MI0005119" ;
+  dcterms:description "Schmidtea mediterranea bantam-a stem-loop"@en ;
+  rdfs:label "sme-bantam-a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005120
+  dcterms:identifier "MI0005120" ;
+  dcterms:description "Schmidtea mediterranea bantam-b stem-loop"@en ;
+  rdfs:label "sme-bantam-b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005121
+  dcterms:identifier "MI0005121" ;
+  dcterms:description "Schmidtea mediterranea bantam-c-1 stem-loop"@en ;
+  rdfs:label "sme-bantam-c-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005122
+  dcterms:identifier "MI0005122" ;
+  dcterms:description "Schmidtea mediterranea let-7a stem-loop"@en ;
+  rdfs:label "sme-let-7a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005123
+  dcterms:identifier "MI0005123" ;
+  dcterms:description "Schmidtea mediterranea let-7b stem-loop"@en ;
+  rdfs:label "sme-let-7b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005124
+  dcterms:identifier "MI0005124" ;
+  dcterms:description "Schmidtea mediterranea let-7c stem-loop"@en ;
+  rdfs:label "sme-let-7c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005125
+  dcterms:identifier "MI0005125" ;
+  dcterms:description "Schmidtea mediterranea lin-4 stem-loop"@en ;
+  rdfs:label "sme-lin-4"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005128
+  dcterms:identifier "MI0005128" ;
+  dcterms:description "Schmidtea mediterranea miR-1a stem-loop"@en ;
+  rdfs:label "sme-mir-1a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005129
+  dcterms:identifier "MI0005129" ;
+  dcterms:description "Schmidtea mediterranea miR-1b stem-loop"@en ;
+  rdfs:label "sme-mir-1b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005130
+  dcterms:identifier "MI0005130" ;
+  dcterms:description "Schmidtea mediterranea miR-1c stem-loop"@en ;
+  rdfs:label "sme-mir-1c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005131
+  dcterms:identifier "MI0005131" ;
+  dcterms:description "Schmidtea mediterranea miR-2a-1 stem-loop"@en ;
+  rdfs:label "sme-mir-2a-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005132
+  dcterms:identifier "MI0005132" ;
+  dcterms:description "Schmidtea mediterranea miR-2a-2 stem-loop"@en ;
+  rdfs:label "sme-mir-2a-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005133
+  dcterms:identifier "MI0005133" ;
+  dcterms:description "Schmidtea mediterranea miR-2b stem-loop"@en ;
+  rdfs:label "sme-mir-2b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005134
+  dcterms:identifier "MI0005134" ;
+  dcterms:description "Schmidtea mediterranea miR-2c stem-loop"@en ;
+  rdfs:label "sme-mir-2c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005135
+  dcterms:identifier "MI0005135" ;
+  dcterms:description "Schmidtea mediterranea miR-2d stem-loop"@en ;
+  rdfs:label "sme-mir-2d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005136
+  dcterms:identifier "MI0005136" ;
+  dcterms:description "Schmidtea mediterranea miR-7a stem-loop"@en ;
+  rdfs:label "sme-mir-7a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005137
+  dcterms:identifier "MI0005137" ;
+  dcterms:description "Schmidtea mediterranea miR-7b stem-loop"@en ;
+  rdfs:label "sme-mir-7b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005138
+  dcterms:identifier "MI0005138" ;
+  dcterms:description "Schmidtea mediterranea miR-7c stem-loop"@en ;
+  rdfs:label "sme-mir-7c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005139
+  dcterms:identifier "MI0005139" ;
+  dcterms:description "Schmidtea mediterranea miR-8a stem-loop"@en ;
+  rdfs:label "sme-mir-8a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005140
+  dcterms:identifier "MI0005140" ;
+  dcterms:description "Schmidtea mediterranea miR-10b stem-loop"@en ;
+  rdfs:label "sme-mir-10b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005141
+  dcterms:identifier "MI0005141" ;
+  dcterms:description "Schmidtea mediterranea miR-12 stem-loop"@en ;
+  rdfs:label "sme-mir-12"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005142
+  dcterms:identifier "MI0005142" ;
+  dcterms:description "Schmidtea mediterranea miR-13 stem-loop"@en ;
+  rdfs:label "sme-mir-13"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005143
+  dcterms:identifier "MI0005143" ;
+  dcterms:description "Schmidtea mediterranea miR-745 stem-loop"@en ;
+  rdfs:label "sme-mir-745"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005144
+  dcterms:identifier "MI0005144" ;
+  dcterms:description "Schmidtea mediterranea miR-746 stem-loop"@en ;
+  rdfs:label "sme-mir-746"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005145
+  dcterms:identifier "MI0005145" ;
+  dcterms:description "Schmidtea mediterranea miR-31a stem-loop"@en ;
+  rdfs:label "sme-mir-31a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005146
+  dcterms:identifier "MI0005146" ;
+  dcterms:description "Schmidtea mediterranea miR-31b-1 stem-loop"@en ;
+  rdfs:label "sme-mir-31b-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005147
+  dcterms:identifier "MI0005147" ;
+  dcterms:description "Schmidtea mediterranea miR-36a stem-loop"@en ;
+  rdfs:label "sme-mir-36a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005148
+  dcterms:identifier "MI0005148" ;
+  dcterms:description "Schmidtea mediterranea miR-61a stem-loop"@en ;
+  rdfs:label "sme-mir-61a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005149
+  dcterms:identifier "MI0005149" ;
+  dcterms:description "Schmidtea mediterranea miR-71a-1 stem-loop"@en ;
+  rdfs:label "sme-mir-71a-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005150
+  dcterms:identifier "MI0005150" ;
+  dcterms:description "Schmidtea mediterranea miR-71a-2 stem-loop"@en ;
+  rdfs:label "sme-mir-71a-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005151
+  dcterms:identifier "MI0005151" ;
+  dcterms:description "Schmidtea mediterranea miR-71b stem-loop"@en ;
+  rdfs:label "sme-mir-71b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005152
+  dcterms:identifier "MI0005152" ;
+  dcterms:description "Schmidtea mediterranea miR-71c stem-loop"@en ;
+  rdfs:label "sme-mir-71c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005153
+  dcterms:identifier "MI0005153" ;
+  dcterms:description "Schmidtea mediterranea miR-79 stem-loop"@en ;
+  rdfs:label "sme-mir-79"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005154
+  dcterms:identifier "MI0005154" ;
+  dcterms:description "Schmidtea mediterranea miR-87a stem-loop"@en ;
+  rdfs:label "sme-mir-87a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005155
+  dcterms:identifier "MI0005155" ;
+  dcterms:description "Schmidtea mediterranea miR-87b stem-loop"@en ;
+  rdfs:label "sme-mir-87b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005156
+  dcterms:identifier "MI0005156" ;
+  dcterms:description "Schmidtea mediterranea miR-92 stem-loop"@en ;
+  rdfs:label "sme-mir-92"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005157
+  dcterms:identifier "MI0005157" ;
+  dcterms:description "Schmidtea mediterranea miR-124a stem-loop"@en ;
+  rdfs:label "sme-mir-124a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005158
+  dcterms:identifier "MI0005158" ;
+  dcterms:description "Schmidtea mediterranea miR-124b stem-loop"@en ;
+  rdfs:label "sme-mir-124b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005159
+  dcterms:identifier "MI0005159" ;
+  dcterms:description "Schmidtea mediterranea miR-124c-1 stem-loop"@en ;
+  rdfs:label "sme-mir-124c-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005160
+  dcterms:identifier "MI0005160" ;
+  dcterms:description "Schmidtea mediterranea miR-125a stem-loop"@en ;
+  rdfs:label "sme-mir-125a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005161
+  dcterms:identifier "MI0005161" ;
+  dcterms:description "Schmidtea mediterranea miR-125b stem-loop"@en ;
+  rdfs:label "sme-mir-125b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005162
+  dcterms:identifier "MI0005162" ;
+  dcterms:description "Schmidtea mediterranea miR-133b stem-loop"@en ;
+  rdfs:label "sme-mir-133b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005163
+  dcterms:identifier "MI0005163" ;
+  dcterms:description "Schmidtea mediterranea miR-184 stem-loop"@en ;
+  rdfs:label "sme-mir-184"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005164
+  dcterms:identifier "MI0005164" ;
+  dcterms:description "Schmidtea mediterranea miR-190a stem-loop"@en ;
+  rdfs:label "sme-mir-190a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005165
+  dcterms:identifier "MI0005165" ;
+  dcterms:description "Schmidtea mediterranea miR-190b stem-loop"@en ;
+  rdfs:label "sme-mir-190b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005166
+  dcterms:identifier "MI0005166" ;
+  dcterms:description "Schmidtea mediterranea miR-747 stem-loop"@en ;
+  rdfs:label "sme-mir-747"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005167
+  dcterms:identifier "MI0005167" ;
+  dcterms:description "Schmidtea mediterranea miR-219 stem-loop"@en ;
+  rdfs:label "sme-mir-219"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005168
+  dcterms:identifier "MI0005168" ;
+  dcterms:description "Schmidtea mediterranea miR-277a stem-loop"@en ;
+  rdfs:label "sme-mir-277a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005169
+  dcterms:identifier "MI0005169" ;
+  dcterms:description "Schmidtea mediterranea miR-277b stem-loop"@en ;
+  rdfs:label "sme-mir-277b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005170
+  dcterms:identifier "MI0005170" ;
+  dcterms:description "Schmidtea mediterranea miR-277c stem-loop"@en ;
+  rdfs:label "sme-mir-277c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005171
+  dcterms:identifier "MI0005171" ;
+  dcterms:description "Schmidtea mediterranea miR-278 stem-loop"@en ;
+  rdfs:label "sme-mir-278"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005172
+  dcterms:identifier "MI0005172" ;
+  dcterms:description "Schmidtea mediterranea miR-281 stem-loop"@en ;
+  rdfs:label "sme-mir-281"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005173
+  dcterms:identifier "MI0005173" ;
+  dcterms:description "Schmidtea mediterranea miR-67 stem-loop"@en ;
+  rdfs:label "sme-mir-67"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005174
+  dcterms:identifier "MI0005174" ;
+  dcterms:description "Schmidtea mediterranea miR-748 stem-loop"@en ;
+  rdfs:label "sme-mir-748"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005175
+  dcterms:identifier "MI0005175" ;
+  dcterms:description "Schmidtea mediterranea miR-749 stem-loop"@en ;
+  rdfs:label "sme-mir-749"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005176
+  dcterms:identifier "MI0005176" ;
+  dcterms:description "Schmidtea mediterranea miR-750 stem-loop"@en ;
+  rdfs:label "sme-mir-750"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005177
+  dcterms:identifier "MI0005177" ;
+  dcterms:description "Schmidtea mediterranea miR-751 stem-loop"@en ;
+  rdfs:label "sme-mir-751"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005178
+  dcterms:identifier "MI0005178" ;
+  dcterms:description "Schmidtea mediterranea miR-752 stem-loop"@en ;
+  rdfs:label "sme-mir-752"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005179
+  dcterms:identifier "MI0005179" ;
+  dcterms:description "Schmidtea mediterranea miR-753 stem-loop"@en ;
+  rdfs:label "sme-mir-753a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005180
+  dcterms:identifier "MI0005180" ;
+  dcterms:description "Schmidtea mediterranea miR-754a stem-loop"@en ;
+  rdfs:label "sme-mir-754a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344, pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005181
+  dcterms:identifier "MI0005181" ;
+  dcterms:description "Schmidtea mediterranea miR-755 stem-loop"@en ;
+  rdfs:label "sme-mir-755"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005182
+  dcterms:identifier "MI0005182" ;
+  dcterms:description "Schmidtea mediterranea miR-756 stem-loop"@en ;
+  rdfs:label "sme-mir-756"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005183
+  dcterms:identifier "MI0005183" ;
+  dcterms:description "Schmidtea mediterranea miR-277d stem-loop"@en ;
+  rdfs:label "sme-mir-277d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010763
+  dcterms:identifier "MI0010763" ;
+  dcterms:description "Schmidtea mediterranea miR-10a stem-loop"@en ;
+  rdfs:label "sme-mir-10a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010764
+  dcterms:identifier "MI0010764" ;
+  dcterms:description "Schmidtea mediterranea miR-2148 stem-loop"@en ;
+  rdfs:label "sme-mir-2148"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010765
+  dcterms:identifier "MI0010765" ;
+  dcterms:description "Schmidtea mediterranea let-7d stem-loop"@en ;
+  rdfs:label "sme-let-7d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010766
+  dcterms:identifier "MI0010766" ;
+  dcterms:description "Schmidtea mediterranea miR-753b stem-loop"@en ;
+  rdfs:label "sme-mir-753b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344, pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010767
+  dcterms:identifier "MI0010767" ;
+  dcterms:description "Schmidtea mediterranea miR-61b stem-loop"@en ;
+  rdfs:label "sme-mir-61b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010768
+  dcterms:identifier "MI0010768" ;
+  dcterms:description "Schmidtea mediterranea miR-87c stem-loop"@en ;
+  rdfs:label "sme-mir-87c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010769
+  dcterms:identifier "MI0010769" ;
+  dcterms:description "Schmidtea mediterranea miR-2149 stem-loop"@en ;
+  rdfs:label "sme-mir-2149"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010770
+  dcterms:identifier "MI0010770" ;
+  dcterms:description "Schmidtea mediterranea miR-2147a stem-loop"@en ;
+  rdfs:label "sme-mir-2147a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010771
+  dcterms:identifier "MI0010771" ;
+  dcterms:description "Schmidtea mediterranea miR-2150 stem-loop"@en ;
+  rdfs:label "sme-mir-2150"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010772
+  dcterms:identifier "MI0010772" ;
+  dcterms:description "Schmidtea mediterranea miR-2151 stem-loop"@en ;
+  rdfs:label "sme-mir-2151"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010773
+  dcterms:identifier "MI0010773" ;
+  dcterms:description "Schmidtea mediterranea miR-2152 stem-loop"@en ;
+  rdfs:label "sme-mir-2152"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010774
+  dcterms:identifier "MI0010774" ;
+  dcterms:description "Schmidtea mediterranea miR-2153 stem-loop"@en ;
+  rdfs:label "sme-mir-2153"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010775
+  dcterms:identifier "MI0010775" ;
+  dcterms:description "Schmidtea mediterranea miR-87d stem-loop"@en ;
+  rdfs:label "sme-mir-87d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010776
+  dcterms:identifier "MI0010776" ;
+  dcterms:description "Schmidtea mediterranea miR-754b-1 stem-loop"@en ;
+  rdfs:label "sme-mir-754b-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010777
+  dcterms:identifier "MI0010777" ;
+  dcterms:description "Schmidtea mediterranea miR-754c-1 stem-loop"@en ;
+  rdfs:label "sme-mir-754c-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010778
+  dcterms:identifier "MI0010778" ;
+  dcterms:description "Schmidtea mediterranea miR-124d stem-loop"@en ;
+  rdfs:label "sme-mir-124d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010779
+  dcterms:identifier "MI0010779" ;
+  dcterms:description "Schmidtea mediterranea miR-124e stem-loop"@en ;
+  rdfs:label "sme-mir-124e"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010780
+  dcterms:identifier "MI0010780" ;
+  dcterms:description "Schmidtea mediterranea miR-8b stem-loop"@en ;
+  rdfs:label "sme-mir-8b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010781
+  dcterms:identifier "MI0010781" ;
+  dcterms:description "Schmidtea mediterranea miR-1993 stem-loop"@en ;
+  rdfs:label "sme-mir-1993"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010782
+  dcterms:identifier "MI0010782" ;
+  dcterms:description "Schmidtea mediterranea miR-36b stem-loop"@en ;
+  rdfs:label "sme-mir-36b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010783
+  dcterms:identifier "MI0010783" ;
+  dcterms:description "Schmidtea mediterranea miR-1992 stem-loop"@en ;
+  rdfs:label "sme-mir-1992"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010784
+  dcterms:identifier "MI0010784" ;
+  dcterms:description "Schmidtea mediterranea miR-2154-1 stem-loop"@en ;
+  rdfs:label "sme-mir-2154-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010785
+  dcterms:identifier "MI0010785" ;
+  dcterms:description "Schmidtea mediterranea miR-216 stem-loop"@en ;
+  rdfs:label "sme-mir-216"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010786
+  dcterms:identifier "MI0010786" ;
+  dcterms:description "Schmidtea mediterranea miR-2156a stem-loop"@en ;
+  rdfs:label "sme-mir-2156a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010787
+  dcterms:identifier "MI0010787" ;
+  dcterms:description "Schmidtea mediterranea miR-9b stem-loop"@en ;
+  rdfs:label "sme-mir-9b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010788
+  dcterms:identifier "MI0010788" ;
+  dcterms:description "Schmidtea mediterranea miR-9a stem-loop"@en ;
+  rdfs:label "sme-mir-9a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010789
+  dcterms:identifier "MI0010789" ;
+  dcterms:description "Schmidtea mediterranea miR-1175 stem-loop"@en ;
+  rdfs:label "sme-mir-1175"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010790
+  dcterms:identifier "MI0010790" ;
+  dcterms:description "Schmidtea mediterranea miR-2157 stem-loop"@en ;
+  rdfs:label "sme-mir-2157"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010791
+  dcterms:identifier "MI0010791" ;
+  dcterms:description "Schmidtea mediterranea miR-2158 stem-loop"@en ;
+  rdfs:label "sme-mir-2158"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010792
+  dcterms:identifier "MI0010792" ;
+  dcterms:description "Schmidtea mediterranea miR-2159 stem-loop"@en ;
+  rdfs:label "sme-mir-2159"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010793
+  dcterms:identifier "MI0010793" ;
+  dcterms:description "Schmidtea mediterranea miR-7d stem-loop"@en ;
+  rdfs:label "sme-mir-7d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010794
+  dcterms:identifier "MI0010794" ;
+  dcterms:description "Schmidtea mediterranea miR-2160-1 stem-loop"@en ;
+  rdfs:label "sme-mir-2160-1"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010795
+  dcterms:identifier "MI0010795" ;
+  dcterms:description "Schmidtea mediterranea miR-2161 stem-loop"@en ;
+  rdfs:label "sme-mir-2161"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010796
+  dcterms:identifier "MI0010796" ;
+  dcterms:description "Schmidtea mediterranea miR-2162 stem-loop"@en ;
+  rdfs:label "sme-mir-2162"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010797
+  dcterms:identifier "MI0010797" ;
+  dcterms:description "Schmidtea mediterranea miR-2163 stem-loop"@en ;
+  rdfs:label "sme-mir-2163"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010799
+  dcterms:identifier "MI0010799" ;
+  dcterms:description "Schmidtea mediterranea miR-133a stem-loop"@en ;
+  rdfs:label "sme-mir-133a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010800
+  dcterms:identifier "MI0010800" ;
+  dcterms:description "Schmidtea mediterranea miR-2164 stem-loop"@en ;
+  rdfs:label "sme-mir-2164"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010801
+  dcterms:identifier "MI0010801" ;
+  dcterms:description "Schmidtea mediterranea miR-2165 stem-loop"@en ;
+  rdfs:label "sme-mir-2165"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010802
+  dcterms:identifier "MI0010802" ;
+  dcterms:description "Schmidtea mediterranea miR-36c stem-loop"@en ;
+  rdfs:label "sme-mir-36c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010803
+  dcterms:identifier "MI0010803" ;
+  dcterms:description "Schmidtea mediterranea miR-96a stem-loop"@en ;
+  rdfs:label "sme-mir-96a"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010804
+  dcterms:identifier "MI0010804" ;
+  dcterms:description "Schmidtea mediterranea miR-2166 stem-loop"@en ;
+  rdfs:label "sme-mir-2166"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010805
+  dcterms:identifier "MI0010805" ;
+  dcterms:description "Schmidtea mediterranea miR-2167 stem-loop"@en ;
+  rdfs:label "sme-mir-2167"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010806
+  dcterms:identifier "MI0010806" ;
+  dcterms:description "Schmidtea mediterranea miR-2147b stem-loop"@en ;
+  rdfs:label "sme-mir-2147b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010807
+  dcterms:identifier "MI0010807" ;
+  dcterms:description "Schmidtea mediterranea miR-2168 stem-loop"@en ;
+  rdfs:label "sme-mir-2168"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010808
+  dcterms:identifier "MI0010808" ;
+  dcterms:description "Schmidtea mediterranea miR-2169 stem-loop"@en ;
+  rdfs:label "sme-mir-2169"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010810
+  dcterms:identifier "MI0010810" ;
+  dcterms:description "Schmidtea mediterranea miR-754d stem-loop"@en ;
+  rdfs:label "sme-mir-754d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010811
+  dcterms:identifier "MI0010811" ;
+  dcterms:description "Schmidtea mediterranea miR-2170 stem-loop"@en ;
+  rdfs:label "sme-mir-2170"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010813
+  dcterms:identifier "MI0010813" ;
+  dcterms:description "Schmidtea mediterranea miR-2147c stem-loop"@en ;
+  rdfs:label "sme-mir-2147c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010814
+  dcterms:identifier "MI0010814" ;
+  dcterms:description "Schmidtea mediterranea miR-2171 stem-loop"@en ;
+  rdfs:label "sme-mir-2171"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010815
+  dcterms:identifier "MI0010815" ;
+  dcterms:description "Schmidtea mediterranea miR-2172 stem-loop"@en ;
+  rdfs:label "sme-mir-2172"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010817
+  dcterms:identifier "MI0010817" ;
+  dcterms:description "Schmidtea mediterranea miR-96b stem-loop"@en ;
+  rdfs:label "sme-mir-96b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010818
+  dcterms:identifier "MI0010818" ;
+  dcterms:description "Schmidtea mediterranea miR-2173 stem-loop"@en ;
+  rdfs:label "sme-mir-2173"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010819
+  dcterms:identifier "MI0010819" ;
+  dcterms:description "Schmidtea mediterranea miR-2174 stem-loop"@en ;
+  rdfs:label "sme-mir-2174"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010820
+  dcterms:identifier "MI0010820" ;
+  dcterms:description "Schmidtea mediterranea miR-2175 stem-loop"@en ;
+  rdfs:label "sme-mir-2175"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010822
+  dcterms:identifier "MI0010822" ;
+  dcterms:description "Schmidtea mediterranea miR-753c stem-loop"@en ;
+  rdfs:label "sme-mir-753c"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010823
+  dcterms:identifier "MI0010823" ;
+  dcterms:description "Schmidtea mediterranea miR-2176 stem-loop"@en ;
+  rdfs:label "sme-mir-2176"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010825
+  dcterms:identifier "MI0010825" ;
+  dcterms:description "Schmidtea mediterranea miR-2177 stem-loop"@en ;
+  rdfs:label "sme-mir-2177"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010826
+  dcterms:identifier "MI0010826" ;
+  dcterms:description "Schmidtea mediterranea miR-2178 stem-loop"@en ;
+  rdfs:label "sme-mir-2178"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010827
+  dcterms:identifier "MI0010827" ;
+  dcterms:description "Schmidtea mediterranea miR-2179 stem-loop"@en ;
+  rdfs:label "sme-mir-2179"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010828
+  dcterms:identifier "MI0010828" ;
+  dcterms:description "Schmidtea mediterranea miR-315 stem-loop"@en ;
+  rdfs:label "sme-mir-315"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616, pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010829
+  dcterms:identifier "MI0010829" ;
+  dcterms:description "Schmidtea mediterranea miR-2180 stem-loop"@en ;
+  rdfs:label "sme-mir-2180"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010830
+  dcterms:identifier "MI0010830" ;
+  dcterms:description "Schmidtea mediterranea miR-2181 stem-loop"@en ;
+  rdfs:label "sme-mir-2181"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010831
+  dcterms:identifier "MI0010831" ;
+  dcterms:description "Schmidtea mediterranea miR-2155 stem-loop"@en ;
+  rdfs:label "sme-mir-2155"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010933
+  dcterms:identifier "MI0010933" ;
+  dcterms:description "Schmidtea mediterranea miR-2156b stem-loop"@en ;
+  rdfs:label "sme-mir-2156b"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010934
+  dcterms:identifier "MI0010934" ;
+  dcterms:description "Schmidtea mediterranea miR-753e stem-loop"@en ;
+  rdfs:label "sme-mir-753e"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010935
+  dcterms:identifier "MI0010935" ;
+  dcterms:description "Schmidtea mediterranea miR-76 stem-loop"@en ;
+  rdfs:label "sme-mir-76"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010936
+  dcterms:identifier "MI0010936" ;
+  dcterms:description "Schmidtea mediterranea miR-124c-2 stem-loop"@en ;
+  rdfs:label "sme-mir-124c-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344, pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010937
+  dcterms:identifier "MI0010937" ;
+  dcterms:description "Schmidtea mediterranea miR-2204 stem-loop"@en ;
+  rdfs:label "sme-mir-2204"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010938
+  dcterms:identifier "MI0010938" ;
+  dcterms:description "Schmidtea mediterranea miR-2e stem-loop"@en ;
+  rdfs:label "sme-mir-2e"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010939
+  dcterms:identifier "MI0010939" ;
+  dcterms:description "Schmidtea mediterranea miR-2206 stem-loop"@en ;
+  rdfs:label "sme-mir-2206"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010940
+  dcterms:identifier "MI0010940" ;
+  dcterms:description "Schmidtea mediterranea miR-753d stem-loop"@en ;
+  rdfs:label "sme-mir-753d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010941
+  dcterms:identifier "MI0010941" ;
+  dcterms:description "Schmidtea mediterranea miR-2147d stem-loop"@en ;
+  rdfs:label "sme-mir-2147d"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010942
+  dcterms:identifier "MI0010942" ;
+  dcterms:description "Schmidtea mediterranea miR-2205 stem-loop"@en ;
+  rdfs:label "sme-mir-2205"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010943
+  dcterms:identifier "MI0010943" ;
+  dcterms:description "Schmidtea mediterranea miR-2f stem-loop"@en ;
+  rdfs:label "sme-mir-2f"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010944
+  dcterms:identifier "MI0010944" ;
+  dcterms:description "Schmidtea mediterranea miR-2154-2 stem-loop"@en ;
+  rdfs:label "sme-mir-2154-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344, pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010945
+  dcterms:identifier "MI0010945" ;
+  dcterms:description "Schmidtea mediterranea miR-31b-2 stem-loop"@en ;
+  rdfs:label "sme-mir-31b-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344, pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010946
+  dcterms:identifier "MI0010946" ;
+  dcterms:description "Schmidtea mediterranea miR-754c-2 stem-loop"@en ;
+  rdfs:label "sme-mir-754c-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344, pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010947
+  dcterms:identifier "MI0010947" ;
+  dcterms:description "Schmidtea mediterranea miR-754b-2 stem-loop"@en ;
+  rdfs:label "sme-mir-754b-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344, pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010948
+  dcterms:identifier "MI0010948" ;
+  dcterms:description "Schmidtea mediterranea miR-2160-2 stem-loop"@en ;
+  rdfs:label "sme-mir-2160-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010949
+  dcterms:identifier "MI0010949" ;
+  dcterms:description "Schmidtea mediterranea miR-2202 stem-loop"@en ;
+  rdfs:label "sme-mir-2202"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010950
+  dcterms:identifier "MI0010950" ;
+  dcterms:description "Schmidtea mediterranea miR-2203 stem-loop"@en ;
+  rdfs:label "sme-mir-2203"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010951
+  dcterms:identifier "MI0010951" ;
+  dcterms:description "Schmidtea mediterranea miR-2200 stem-loop"@en ;
+  rdfs:label "sme-mir-2200"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010952
+  dcterms:identifier "MI0010952" ;
+  dcterms:description "Schmidtea mediterranea miR-2201 stem-loop"@en ;
+  rdfs:label "sme-mir-2201"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010953
+  dcterms:identifier "MI0010953" ;
+  dcterms:description "Schmidtea mediterranea bantam-c-2 stem-loop"@en ;
+  rdfs:label "sme-bantam-c-2"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16849698, pmid:16849698 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010954
+  dcterms:identifier "MI0010954" ;
+  dcterms:description "Schmidtea mediterranea miR-31b-3 stem-loop"@en ;
+  rdfs:label "sme-mir-31b-3"@en ;
+  obo:RO_0002162 taxonomy:79327 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19553344, pmid:19553344, pubmed:19564616, pmid:19564616 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19564616, pmid:19564616 ;
+  ] ;
+  a :MicroRNA .
+

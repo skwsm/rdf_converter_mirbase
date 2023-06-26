@@ -1,0 +1,3737 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0000116
+  dcterms:identifier "MI0000116" ;
+  dcterms:description "Drosophila melanogaster miR-1 stem-loop"@en ;
+  rdfs:label "dme-mir-1"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00103 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000117
+  dcterms:identifier "MI0000117" ;
+  dcterms:description "Drosophila melanogaster miR-2a-1 stem-loop"@en ;
+  rdfs:label "dme-mir-2a-1"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00047 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000118
+  dcterms:identifier "MI0000118" ;
+  dcterms:description "Drosophila melanogaster miR-2a-2 stem-loop"@en ;
+  rdfs:label "dme-mir-2a-2"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00047 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000119
+  dcterms:identifier "MI0000119" ;
+  dcterms:description "Drosophila melanogaster miR-2b-1 stem-loop"@en ;
+  rdfs:label "dme-mir-2b-1"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00047 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000120
+  dcterms:identifier "MI0000120" ;
+  dcterms:description "Drosophila melanogaster miR-2b-2 stem-loop"@en ;
+  rdfs:label "dme-mir-2b-2"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00047 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000121
+  dcterms:identifier "MI0000121" ;
+  dcterms:description "Drosophila melanogaster miR-3 stem-loop"@en ;
+  rdfs:label "dme-mir-3"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000122
+  dcterms:identifier "MI0000122" ;
+  dcterms:description "Drosophila melanogaster miR-4 stem-loop"@en ;
+  rdfs:label "dme-mir-4"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000123
+  dcterms:identifier "MI0000123" ;
+  dcterms:description "Drosophila melanogaster miR-5 stem-loop"@en ;
+  rdfs:label "dme-mir-5"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000124
+  dcterms:identifier "MI0000124" ;
+  dcterms:description "Drosophila melanogaster miR-6-1 stem-loop"@en ;
+  rdfs:label "dme-mir-6-1"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000125
+  dcterms:identifier "MI0000125" ;
+  dcterms:description "Drosophila melanogaster miR-6-2 stem-loop"@en ;
+  rdfs:label "dme-mir-6-2"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000126
+  dcterms:identifier "MI0000126" ;
+  dcterms:description "Drosophila melanogaster miR-6-3 stem-loop"@en ;
+  rdfs:label "dme-mir-6-3"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000127
+  dcterms:identifier "MI0000127" ;
+  dcterms:description "Drosophila melanogaster miR-7 stem-loop"@en ;
+  rdfs:label "dme-mir-7"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00053 ;
+  rdfs:seeAlso ncbigene:3772237 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000128
+  dcterms:identifier "MI0000128" ;
+  dcterms:description "Drosophila melanogaster miR-8 stem-loop"@en ;
+  rdfs:label "dme-mir-8"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso ncbigene:3771764 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000129
+  dcterms:identifier "MI0000129" ;
+  dcterms:description "Drosophila melanogaster miR-9a stem-loop"@en ;
+  rdfs:label "dme-mir-9a"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000130
+  dcterms:identifier "MI0000130" ;
+  dcterms:description "Drosophila melanogaster miR-10 stem-loop"@en ;
+  rdfs:label "dme-mir-10"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00104 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000131
+  dcterms:identifier "MI0000131" ;
+  dcterms:description "Drosophila melanogaster miR-11 stem-loop"@en ;
+  rdfs:label "dme-mir-11"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000132
+  dcterms:identifier "MI0000132" ;
+  dcterms:description "Drosophila melanogaster miR-12 stem-loop"@en ;
+  rdfs:label "dme-mir-12"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000133
+  dcterms:identifier "MI0000133" ;
+  dcterms:description "Drosophila melanogaster miR-13a stem-loop"@en ;
+  rdfs:label "dme-mir-13a"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00047 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000134
+  dcterms:identifier "MI0000134" ;
+  dcterms:description "Drosophila melanogaster miR-13b-1 stem-loop"@en ;
+  rdfs:label "dme-mir-13b-1"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00047 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000135
+  dcterms:identifier "MI0000135" ;
+  dcterms:description "Drosophila melanogaster miR-13b-2 stem-loop"@en ;
+  rdfs:label "dme-mir-13b-2"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso rfam:RF00047 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000136
+  dcterms:identifier "MI0000136" ;
+  dcterms:description "Drosophila melanogaster miR-14 stem-loop"@en ;
+  rdfs:label "dme-mir-14"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679670, pmid:11679670, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000343
+  dcterms:identifier "MI0000343" ;
+  dcterms:description "Drosophila melanogaster miR-263a stem-loop"@en ;
+  rdfs:label "dme-mir-263a"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000354
+  dcterms:identifier "MI0000354" ;
+  dcterms:description "Drosophila melanogaster miR-184 stem-loop"@en ;
+  rdfs:label "dme-mir-184"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000355
+  dcterms:identifier "MI0000355" ;
+  dcterms:description "Drosophila melanogaster miR-274 stem-loop"@en ;
+  rdfs:label "dme-mir-274"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000356
+  dcterms:identifier "MI0000356" ;
+  dcterms:description "Drosophila melanogaster miR-275 stem-loop"@en ;
+  rdfs:label "dme-mir-275"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000357
+  dcterms:identifier "MI0000357" ;
+  dcterms:description "Drosophila melanogaster miR-92a stem-loop"@en ;
+  rdfs:label "dme-mir-92a"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000358
+  dcterms:identifier "MI0000358" ;
+  dcterms:description "Drosophila melanogaster miR-219 stem-loop"@en ;
+  rdfs:label "dme-mir-219"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000359
+  dcterms:identifier "MI0000359" ;
+  dcterms:description "Drosophila melanogaster miR-276a stem-loop"@en ;
+  rdfs:label "dme-mir-276a"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000360
+  dcterms:identifier "MI0000360" ;
+  dcterms:description "Drosophila melanogaster miR-277 stem-loop"@en ;
+  rdfs:label "dme-mir-277"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000361
+  dcterms:identifier "MI0000361" ;
+  dcterms:description "Drosophila melanogaster miR-278 stem-loop"@en ;
+  rdfs:label "dme-mir-278"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000362
+  dcterms:identifier "MI0000362" ;
+  dcterms:description "Drosophila melanogaster miR-133 stem-loop"@en ;
+  rdfs:label "dme-mir-133"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000363
+  dcterms:identifier "MI0000363" ;
+  dcterms:description "Drosophila melanogaster miR-279 stem-loop"@en ;
+  rdfs:label "dme-mir-279"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000364
+  dcterms:identifier "MI0000364" ;
+  dcterms:description "Drosophila melanogaster miR-33 stem-loop"@en ;
+  rdfs:label "dme-mir-33"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000365
+  dcterms:identifier "MI0000365" ;
+  dcterms:description "Drosophila melanogaster miR-280 stem-loop"@en ;
+  rdfs:label "dme-mir-280"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000366
+  dcterms:identifier "MI0000366" ;
+  dcterms:description "Drosophila melanogaster miR-281-1 stem-loop"@en ;
+  rdfs:label "dme-mir-281-1"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000367
+  dcterms:identifier "MI0000367" ;
+  dcterms:description "Drosophila melanogaster miR-282 stem-loop"@en ;
+  rdfs:label "dme-mir-282"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000368
+  dcterms:identifier "MI0000368" ;
+  dcterms:description "Drosophila melanogaster miR-283 stem-loop"@en ;
+  rdfs:label "dme-mir-283"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000369
+  dcterms:identifier "MI0000369" ;
+  dcterms:description "Drosophila melanogaster miR-284 stem-loop"@en ;
+  rdfs:label "dme-mir-284"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000370
+  dcterms:identifier "MI0000370" ;
+  dcterms:description "Drosophila melanogaster miR-281-2 stem-loop"@en ;
+  rdfs:label "dme-mir-281-2"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000371
+  dcterms:identifier "MI0000371" ;
+  dcterms:description "Drosophila melanogaster miR-34 stem-loop"@en ;
+  rdfs:label "dme-mir-34"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000373
+  dcterms:identifier "MI0000373" ;
+  dcterms:description "Drosophila melanogaster miR-124 stem-loop"@en ;
+  rdfs:label "dme-mir-124"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12919683, pmid:12919683, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000374
+  dcterms:identifier "MI0000374" ;
+  dcterms:description "Drosophila melanogaster miR-79 stem-loop"@en ;
+  rdfs:label "dme-mir-79"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000375
+  dcterms:identifier "MI0000375" ;
+  dcterms:description "Drosophila melanogaster miR-276b stem-loop"@en ;
+  rdfs:label "dme-mir-276b"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000376
+  dcterms:identifier "MI0000376" ;
+  dcterms:description "Drosophila melanogaster miR-210 stem-loop"@en ;
+  rdfs:label "dme-mir-210"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000377
+  dcterms:identifier "MI0000377" ;
+  dcterms:description "Drosophila melanogaster miR-285 stem-loop"@en ;
+  rdfs:label "dme-mir-285"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000378
+  dcterms:identifier "MI0000378" ;
+  dcterms:description "Drosophila melanogaster miR-100 stem-loop"@en ;
+  rdfs:label "dme-mir-100"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000379
+  dcterms:identifier "MI0000379" ;
+  dcterms:description "Drosophila melanogaster miR-92b stem-loop"@en ;
+  rdfs:label "dme-mir-92b"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000380
+  dcterms:identifier "MI0000380" ;
+  dcterms:description "Drosophila melanogaster miR-286 stem-loop"@en ;
+  rdfs:label "dme-mir-286"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000381
+  dcterms:identifier "MI0000381" ;
+  dcterms:description "Drosophila melanogaster miR-287 stem-loop"@en ;
+  rdfs:label "dme-mir-287"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000382
+  dcterms:identifier "MI0000382" ;
+  dcterms:description "Drosophila melanogaster miR-87 stem-loop"@en ;
+  rdfs:label "dme-mir-87"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12812784, pmid:12812784, pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000383
+  dcterms:identifier "MI0000383" ;
+  dcterms:description "Drosophila melanogaster miR-263b stem-loop"@en ;
+  rdfs:label "dme-mir-263b"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000384
+  dcterms:identifier "MI0000384" ;
+  dcterms:description "Drosophila melanogaster miR-288 stem-loop"@en ;
+  rdfs:label "dme-mir-288"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000385
+  dcterms:identifier "MI0000385" ;
+  dcterms:description "Drosophila melanogaster miR-289 stem-loop"@en ;
+  rdfs:label "dme-mir-289"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12844358, pmid:12844358 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000387
+  dcterms:identifier "MI0000387" ;
+  dcterms:description "Drosophila melanogaster bantam stem-loop"@en ;
+  rdfs:label "dme-bantam"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12679032, pmid:12679032 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000409
+  dcterms:identifier "MI0000409" ;
+  dcterms:description "Drosophila melanogaster miR-303 stem-loop"@en ;
+  rdfs:label "dme-mir-303"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000410
+  dcterms:identifier "MI0000410" ;
+  dcterms:description "Drosophila melanogaster miR-31b stem-loop"@en ;
+  rdfs:label "dme-mir-31b"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000411
+  dcterms:identifier "MI0000411" ;
+  dcterms:description "Drosophila melanogaster miR-304 stem-loop"@en ;
+  rdfs:label "dme-mir-304"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000412
+  dcterms:identifier "MI0000412" ;
+  dcterms:description "Drosophila melanogaster miR-305 stem-loop"@en ;
+  rdfs:label "dme-mir-305"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000413
+  dcterms:identifier "MI0000413" ;
+  dcterms:description "Drosophila melanogaster miR-9c stem-loop"@en ;
+  rdfs:label "dme-mir-9c"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000414
+  dcterms:identifier "MI0000414" ;
+  dcterms:description "Drosophila melanogaster miR-306 stem-loop"@en ;
+  rdfs:label "dme-mir-306"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000415
+  dcterms:identifier "MI0000415" ;
+  dcterms:description "Drosophila melanogaster miR-9b stem-loop"@en ;
+  rdfs:label "dme-mir-9b"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000416
+  dcterms:identifier "MI0000416" ;
+  dcterms:description "Drosophila melanogaster let-7 stem-loop"@en ;
+  rdfs:label "dme-let-7"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  rdfs:seeAlso ncbigene:3772493 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12919683, pmid:12919683, pubmed:11679670, pmid:11679670, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000417
+  dcterms:identifier "MI0000417" ;
+  dcterms:description "Drosophila melanogaster miR-125 stem-loop"@en ;
+  rdfs:label "dme-mir-125"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12919683, pmid:12919683, pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000418
+  dcterms:identifier "MI0000418" ;
+  dcterms:description "Drosophila melanogaster miR-307a stem-loop"@en ;
+  rdfs:label "dme-mir-307a"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000419
+  dcterms:identifier "MI0000419" ;
+  dcterms:description "Drosophila melanogaster miR-308 stem-loop"@en ;
+  rdfs:label "dme-mir-308"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000420
+  dcterms:identifier "MI0000420" ;
+  dcterms:description "Drosophila melanogaster miR-31a stem-loop"@en ;
+  rdfs:label "dme-mir-31a"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000421
+  dcterms:identifier "MI0000421" ;
+  dcterms:description "Drosophila melanogaster miR-309 stem-loop"@en ;
+  rdfs:label "dme-mir-309"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000422
+  dcterms:identifier "MI0000422" ;
+  dcterms:description "Drosophila melanogaster miR-310 stem-loop"@en ;
+  rdfs:label "dme-mir-310"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000423
+  dcterms:identifier "MI0000423" ;
+  dcterms:description "Drosophila melanogaster miR-311 stem-loop"@en ;
+  rdfs:label "dme-mir-311"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000424
+  dcterms:identifier "MI0000424" ;
+  dcterms:description "Drosophila melanogaster miR-312 stem-loop"@en ;
+  rdfs:label "dme-mir-312"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000425
+  dcterms:identifier "MI0000425" ;
+  dcterms:description "Drosophila melanogaster miR-313 stem-loop"@en ;
+  rdfs:label "dme-mir-313"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000426
+  dcterms:identifier "MI0000426" ;
+  dcterms:description "Drosophila melanogaster miR-314 stem-loop"@en ;
+  rdfs:label "dme-mir-314"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000427
+  dcterms:identifier "MI0000427" ;
+  dcterms:description "Drosophila melanogaster miR-315 stem-loop"@en ;
+  rdfs:label "dme-mir-315"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000428
+  dcterms:identifier "MI0000428" ;
+  dcterms:description "Drosophila melanogaster miR-316 stem-loop"@en ;
+  rdfs:label "dme-mir-316"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000429
+  dcterms:identifier "MI0000429" ;
+  dcterms:description "Drosophila melanogaster miR-317 stem-loop"@en ;
+  rdfs:label "dme-mir-317"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000430
+  dcterms:identifier "MI0000430" ;
+  dcterms:description "Drosophila melanogaster miR-318 stem-loop"@en ;
+  rdfs:label "dme-mir-318"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000431
+  dcterms:identifier "MI0000431" ;
+  dcterms:description "Drosophila melanogaster miR-2c stem-loop"@en ;
+  rdfs:label "dme-mir-2c"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12812784, pmid:12812784 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000432
+  dcterms:identifier "MI0000432" ;
+  dcterms:description "Drosophila melanogaster miR-iab-4 stem-loop"@en ;
+  rdfs:label "dme-mir-iab-4"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12919683, pmid:12919683 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005805
+  dcterms:identifier "MI0005805" ;
+  dcterms:description "Drosophila melanogaster miR-iab-8 stem-loop"@en ;
+  rdfs:label "dme-mir-iab-8"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "in-situ" ;
+    dcterms:references pubmed:18172160, pmid:18172160 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005806
+  dcterms:identifier "MI0005806" ;
+  dcterms:description "Drosophila melanogaster miR-954 stem-loop"@en ;
+  rdfs:label "dme-mir-954"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005807
+  dcterms:identifier "MI0005807" ;
+  dcterms:description "Drosophila melanogaster miR-955 stem-loop"@en ;
+  rdfs:label "dme-mir-955"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005808
+  dcterms:identifier "MI0005808" ;
+  dcterms:description "Drosophila melanogaster miR-190 stem-loop"@en ;
+  rdfs:label "dme-mir-190"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005809
+  dcterms:identifier "MI0005809" ;
+  dcterms:description "Drosophila melanogaster miR-193 stem-loop"@en ;
+  rdfs:label "dme-mir-193"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005810
+  dcterms:identifier "MI0005810" ;
+  dcterms:description "Drosophila melanogaster miR-956 stem-loop"@en ;
+  rdfs:label "dme-mir-956"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005811
+  dcterms:identifier "MI0005811" ;
+  dcterms:description "Drosophila melanogaster miR-957 stem-loop"@en ;
+  rdfs:label "dme-mir-957"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005812
+  dcterms:identifier "MI0005812" ;
+  dcterms:description "Drosophila melanogaster miR-958 stem-loop"@en ;
+  rdfs:label "dme-mir-958"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005813
+  dcterms:identifier "MI0005813" ;
+  dcterms:description "Drosophila melanogaster miR-375 stem-loop"@en ;
+  rdfs:label "dme-mir-375"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005814
+  dcterms:identifier "MI0005814" ;
+  dcterms:description "Drosophila melanogaster miR-959 stem-loop"@en ;
+  rdfs:label "dme-mir-959"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005815
+  dcterms:identifier "MI0005815" ;
+  dcterms:description "Drosophila melanogaster miR-960 stem-loop"@en ;
+  rdfs:label "dme-mir-960"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005816
+  dcterms:identifier "MI0005816" ;
+  dcterms:description "Drosophila melanogaster miR-961 stem-loop"@en ;
+  rdfs:label "dme-mir-961"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005817
+  dcterms:identifier "MI0005817" ;
+  dcterms:description "Drosophila melanogaster miR-962 stem-loop"@en ;
+  rdfs:label "dme-mir-962"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005818
+  dcterms:identifier "MI0005818" ;
+  dcterms:description "Drosophila melanogaster miR-963 stem-loop"@en ;
+  rdfs:label "dme-mir-963"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005819
+  dcterms:identifier "MI0005819" ;
+  dcterms:description "Drosophila melanogaster miR-964 stem-loop"@en ;
+  rdfs:label "dme-mir-964"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005820
+  dcterms:identifier "MI0005820" ;
+  dcterms:description "Drosophila melanogaster miR-932 stem-loop"@en ;
+  rdfs:label "dme-mir-932"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005821
+  dcterms:identifier "MI0005821" ;
+  dcterms:description "Drosophila melanogaster miR-965 stem-loop"@en ;
+  rdfs:label "dme-mir-965"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005822
+  dcterms:identifier "MI0005822" ;
+  dcterms:description "Drosophila melanogaster miR-966 stem-loop"@en ;
+  rdfs:label "dme-mir-966"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005823
+  dcterms:identifier "MI0005823" ;
+  dcterms:description "Drosophila melanogaster miR-967 stem-loop"@en ;
+  rdfs:label "dme-mir-967"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005824
+  dcterms:identifier "MI0005824" ;
+  dcterms:description "Drosophila melanogaster miR-1002 stem-loop"@en ;
+  rdfs:label "dme-mir-1002"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005825
+  dcterms:identifier "MI0005825" ;
+  dcterms:description "Drosophila melanogaster miR-968 stem-loop"@en ;
+  rdfs:label "dme-mir-968"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005826
+  dcterms:identifier "MI0005826" ;
+  dcterms:description "Drosophila melanogaster miR-969 stem-loop"@en ;
+  rdfs:label "dme-mir-969"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005827
+  dcterms:identifier "MI0005827" ;
+  dcterms:description "Drosophila melanogaster miR-970 stem-loop"@en ;
+  rdfs:label "dme-mir-970"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005828
+  dcterms:identifier "MI0005828" ;
+  dcterms:description "Drosophila melanogaster miR-971 stem-loop"@en ;
+  rdfs:label "dme-mir-971"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005829
+  dcterms:identifier "MI0005829" ;
+  dcterms:description "Drosophila melanogaster miR-972 stem-loop"@en ;
+  rdfs:label "dme-mir-972"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005830
+  dcterms:identifier "MI0005830" ;
+  dcterms:description "Drosophila melanogaster miR-973 stem-loop"@en ;
+  rdfs:label "dme-mir-973"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005831
+  dcterms:identifier "MI0005831" ;
+  dcterms:description "Drosophila melanogaster miR-974 stem-loop"@en ;
+  rdfs:label "dme-mir-974"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005832
+  dcterms:identifier "MI0005832" ;
+  dcterms:description "Drosophila melanogaster miR-975 stem-loop"@en ;
+  rdfs:label "dme-mir-975"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005833
+  dcterms:identifier "MI0005833" ;
+  dcterms:description "Drosophila melanogaster miR-976 stem-loop"@en ;
+  rdfs:label "dme-mir-976"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005834
+  dcterms:identifier "MI0005834" ;
+  dcterms:description "Drosophila melanogaster miR-977 stem-loop"@en ;
+  rdfs:label "dme-mir-977"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005835
+  dcterms:identifier "MI0005835" ;
+  dcterms:description "Drosophila melanogaster miR-978 stem-loop"@en ;
+  rdfs:label "dme-mir-978"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005836
+  dcterms:identifier "MI0005836" ;
+  dcterms:description "Drosophila melanogaster miR-979 stem-loop"@en ;
+  rdfs:label "dme-mir-979"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005837
+  dcterms:identifier "MI0005837" ;
+  dcterms:description "Drosophila melanogaster miR-980 stem-loop"@en ;
+  rdfs:label "dme-mir-980"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005838
+  dcterms:identifier "MI0005838" ;
+  dcterms:description "Drosophila melanogaster miR-981 stem-loop"@en ;
+  rdfs:label "dme-mir-981"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005839
+  dcterms:identifier "MI0005839" ;
+  dcterms:description "Drosophila melanogaster miR-982 stem-loop"@en ;
+  rdfs:label "dme-mir-982"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005840
+  dcterms:identifier "MI0005840" ;
+  dcterms:description "Drosophila melanogaster miR-983-1 stem-loop"@en ;
+  rdfs:label "dme-mir-983-1"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005841
+  dcterms:identifier "MI0005841" ;
+  dcterms:description "Drosophila melanogaster miR-983-2 stem-loop"@en ;
+  rdfs:label "dme-mir-983-2"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005842
+  dcterms:identifier "MI0005842" ;
+  dcterms:description "Drosophila melanogaster miR-984 stem-loop"@en ;
+  rdfs:label "dme-mir-984"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005843
+  dcterms:identifier "MI0005843" ;
+  dcterms:description "Drosophila melanogaster miR-927 stem-loop"@en ;
+  rdfs:label "dme-mir-927"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005844
+  dcterms:identifier "MI0005844" ;
+  dcterms:description "Drosophila melanogaster miR-985 stem-loop"@en ;
+  rdfs:label "dme-mir-985"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005845
+  dcterms:identifier "MI0005845" ;
+  dcterms:description "Drosophila melanogaster miR-986 stem-loop"@en ;
+  rdfs:label "dme-mir-986"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005846
+  dcterms:identifier "MI0005846" ;
+  dcterms:description "Drosophila melanogaster miR-987 stem-loop"@en ;
+  rdfs:label "dme-mir-987"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005847
+  dcterms:identifier "MI0005847" ;
+  dcterms:description "Drosophila melanogaster miR-988 stem-loop"@en ;
+  rdfs:label "dme-mir-988"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255, pubmed:18463636, pmid:18463636 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005848
+  dcterms:identifier "MI0005848" ;
+  dcterms:description "Drosophila melanogaster miR-989 stem-loop"@en ;
+  rdfs:label "dme-mir-989"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005849
+  dcterms:identifier "MI0005849" ;
+  dcterms:description "Drosophila melanogaster miR-137 stem-loop"@en ;
+  rdfs:label "dme-mir-137"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005850
+  dcterms:identifier "MI0005850" ;
+  dcterms:description "Drosophila melanogaster miR-990 stem-loop"@en ;
+  rdfs:label "dme-mir-990"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005851
+  dcterms:identifier "MI0005851" ;
+  dcterms:description "Drosophila melanogaster miR-991 stem-loop"@en ;
+  rdfs:label "dme-mir-991"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005852
+  dcterms:identifier "MI0005852" ;
+  dcterms:description "Drosophila melanogaster miR-992 stem-loop"@en ;
+  rdfs:label "dme-mir-992"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005853
+  dcterms:identifier "MI0005853" ;
+  dcterms:description "Drosophila melanogaster miR-929 stem-loop"@en ;
+  rdfs:label "dme-mir-929"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005854
+  dcterms:identifier "MI0005854" ;
+  dcterms:description "Drosophila melanogaster miR-993 stem-loop"@en ;
+  rdfs:label "dme-mir-993"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005855
+  dcterms:identifier "MI0005855" ;
+  dcterms:description "Drosophila melanogaster miR-994 stem-loop"@en ;
+  rdfs:label "dme-mir-994"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005856
+  dcterms:identifier "MI0005856" ;
+  dcterms:description "Drosophila melanogaster miR-995 stem-loop"@en ;
+  rdfs:label "dme-mir-995"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255, pubmed:18463636, pmid:18463636 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005857
+  dcterms:identifier "MI0005857" ;
+  dcterms:description "Drosophila melanogaster miR-996 stem-loop"@en ;
+  rdfs:label "dme-mir-996"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005858
+  dcterms:identifier "MI0005858" ;
+  dcterms:description "Drosophila melanogaster miR-252 stem-loop"@en ;
+  rdfs:label "dme-mir-252"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005859
+  dcterms:identifier "MI0005859" ;
+  dcterms:description "Drosophila melanogaster miR-997 stem-loop"@en ;
+  rdfs:label "dme-mir-997"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005860
+  dcterms:identifier "MI0005860" ;
+  dcterms:description "Drosophila melanogaster miR-998 stem-loop"@en ;
+  rdfs:label "dme-mir-998"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005861
+  dcterms:identifier "MI0005861" ;
+  dcterms:description "Drosophila melanogaster miR-999 stem-loop"@en ;
+  rdfs:label "dme-mir-999"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005862
+  dcterms:identifier "MI0005862" ;
+  dcterms:description "Drosophila melanogaster miR-1000 stem-loop"@en ;
+  rdfs:label "dme-mir-1000"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254, pubmed:17989255, pmid:17989255 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:17989255, pmid:17989255 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005863
+  dcterms:identifier "MI0005863" ;
+  dcterms:description "Drosophila melanogaster miR-1001 stem-loop"@en ;
+  rdfs:label "dme-mir-1001"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17989254, pmid:17989254 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005864
+  dcterms:identifier "MI0005864" ;
+  dcterms:description "Drosophila melanogaster miR-1003 stem-loop"@en ;
+  rdfs:label "dme-mir-1003"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005865
+  dcterms:identifier "MI0005865" ;
+  dcterms:description "Drosophila melanogaster miR-1004 stem-loop"@en ;
+  rdfs:label "dme-mir-1004"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005866
+  dcterms:identifier "MI0005866" ;
+  dcterms:description "Drosophila melanogaster miR-1005 stem-loop"@en ;
+  rdfs:label "dme-mir-1005"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005867
+  dcterms:identifier "MI0005867" ;
+  dcterms:description "Drosophila melanogaster miR-1006 stem-loop"@en ;
+  rdfs:label "dme-mir-1006"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005868
+  dcterms:identifier "MI0005868" ;
+  dcterms:description "Drosophila melanogaster miR-1007 stem-loop"@en ;
+  rdfs:label "dme-mir-1007"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005869
+  dcterms:identifier "MI0005869" ;
+  dcterms:description "Drosophila melanogaster miR-1008 stem-loop"@en ;
+  rdfs:label "dme-mir-1008"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005870
+  dcterms:identifier "MI0005870" ;
+  dcterms:description "Drosophila melanogaster miR-1009 stem-loop"@en ;
+  rdfs:label "dme-mir-1009"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005871
+  dcterms:identifier "MI0005871" ;
+  dcterms:description "Drosophila melanogaster miR-1010 stem-loop"@en ;
+  rdfs:label "dme-mir-1010"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005872
+  dcterms:identifier "MI0005872" ;
+  dcterms:description "Drosophila melanogaster miR-1011 stem-loop"@en ;
+  rdfs:label "dme-mir-1011"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005873
+  dcterms:identifier "MI0005873" ;
+  dcterms:description "Drosophila melanogaster miR-1012 stem-loop"@en ;
+  rdfs:label "dme-mir-1012"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005874
+  dcterms:identifier "MI0005874" ;
+  dcterms:description "Drosophila melanogaster miR-1013 stem-loop"@en ;
+  rdfs:label "dme-mir-1013"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005875
+  dcterms:identifier "MI0005875" ;
+  dcterms:description "Drosophila melanogaster miR-1014 stem-loop"@en ;
+  rdfs:label "dme-mir-1014"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005876
+  dcterms:identifier "MI0005876" ;
+  dcterms:description "Drosophila melanogaster miR-1015 stem-loop"@en ;
+  rdfs:label "dme-mir-1015"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005877
+  dcterms:identifier "MI0005877" ;
+  dcterms:description "Drosophila melanogaster miR-1016 stem-loop"@en ;
+  rdfs:label "dme-mir-1016"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005878
+  dcterms:identifier "MI0005878" ;
+  dcterms:description "Drosophila melanogaster miR-1017 stem-loop"@en ;
+  rdfs:label "dme-mir-1017"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011289
+  dcterms:identifier "MI0011289" ;
+  dcterms:description "Drosophila melanogaster miR-2279 stem-loop"@en ;
+  rdfs:label "dme-mir-2279"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19541914, pmid:19541914 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011290
+  dcterms:identifier "MI0011290" ;
+  dcterms:description "Drosophila melanogaster miR-2280 stem-loop"@en ;
+  rdfs:label "dme-mir-2280"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19541914, pmid:19541914 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011291
+  dcterms:identifier "MI0011291" ;
+  dcterms:description "Drosophila melanogaster miR-2281 stem-loop"@en ;
+  rdfs:label "dme-mir-2281"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19541914, pmid:19541914 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011292
+  dcterms:identifier "MI0011292" ;
+  dcterms:description "Drosophila melanogaster miR-2282 stem-loop"@en ;
+  rdfs:label "dme-mir-2282"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19541914, pmid:19541914 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011293
+  dcterms:identifier "MI0011293" ;
+  dcterms:description "Drosophila melanogaster miR-2283 stem-loop"@en ;
+  rdfs:label "dme-mir-2283"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19541914, pmid:19541914 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011577
+  dcterms:identifier "MI0011577" ;
+  dcterms:description "Drosophila melanogaster miR-307b stem-loop"@en ;
+  rdfs:label "dme-mir-307b"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011578
+  dcterms:identifier "MI0011578" ;
+  dcterms:description "Drosophila melanogaster miR-2489 stem-loop"@en ;
+  rdfs:label "dme-mir-2489"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011579
+  dcterms:identifier "MI0011579" ;
+  dcterms:description "Drosophila melanogaster miR-2490 stem-loop"@en ;
+  rdfs:label "dme-mir-2490"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011580
+  dcterms:identifier "MI0011580" ;
+  dcterms:description "Drosophila melanogaster miR-2491 stem-loop"@en ;
+  rdfs:label "dme-mir-2491"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011581
+  dcterms:identifier "MI0011581" ;
+  dcterms:description "Drosophila melanogaster miR-2492 stem-loop"@en ;
+  rdfs:label "dme-mir-2492"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011582
+  dcterms:identifier "MI0011582" ;
+  dcterms:description "Drosophila melanogaster miR-2493 stem-loop"@en ;
+  rdfs:label "dme-mir-2493"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011583
+  dcterms:identifier "MI0011583" ;
+  dcterms:description "Drosophila melanogaster miR-2494 stem-loop"@en ;
+  rdfs:label "dme-mir-2494"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011584
+  dcterms:identifier "MI0011584" ;
+  dcterms:description "Drosophila melanogaster miR-2495 stem-loop"@en ;
+  rdfs:label "dme-mir-2495"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011585
+  dcterms:identifier "MI0011585" ;
+  dcterms:description "Drosophila melanogaster miR-2496 stem-loop"@en ;
+  rdfs:label "dme-mir-2496"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011586
+  dcterms:identifier "MI0011586" ;
+  dcterms:description "Drosophila melanogaster miR-2497 stem-loop"@en ;
+  rdfs:label "dme-mir-2497"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011587
+  dcterms:identifier "MI0011587" ;
+  dcterms:description "Drosophila melanogaster miR-2498 stem-loop"@en ;
+  rdfs:label "dme-mir-2498"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011588
+  dcterms:identifier "MI0011588" ;
+  dcterms:description "Drosophila melanogaster miR-2499 stem-loop"@en ;
+  rdfs:label "dme-mir-2499"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011589
+  dcterms:identifier "MI0011589" ;
+  dcterms:description "Drosophila melanogaster miR-2500 stem-loop"@en ;
+  rdfs:label "dme-mir-2500"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011590
+  dcterms:identifier "MI0011590" ;
+  dcterms:description "Drosophila melanogaster miR-2501 stem-loop"@en ;
+  rdfs:label "dme-mir-2501"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20037610, pmid:20037610 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016041
+  dcterms:identifier "MI0016041" ;
+  dcterms:description "Drosophila melanogaster miR-3641 stem-loop"@en ;
+  rdfs:label "dme-mir-3641"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20620959, pmid:20620959 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016042
+  dcterms:identifier "MI0016042" ;
+  dcterms:description "Drosophila melanogaster miR-3642 stem-loop"@en ;
+  rdfs:label "dme-mir-3642"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20620959, pmid:20620959 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016043
+  dcterms:identifier "MI0016043" ;
+  dcterms:description "Drosophila melanogaster miR-3643 stem-loop"@en ;
+  rdfs:label "dme-mir-3643"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20620959, pmid:20620959 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016044
+  dcterms:identifier "MI0016044" ;
+  dcterms:description "Drosophila melanogaster miR-3644 stem-loop"@en ;
+  rdfs:label "dme-mir-3644"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20620959, pmid:20620959 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016045
+  dcterms:identifier "MI0016045" ;
+  dcterms:description "Drosophila melanogaster miR-3645 stem-loop"@en ;
+  rdfs:label "dme-mir-3645"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20620959, pmid:20620959 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017692
+  dcterms:identifier "MI0017692" ;
+  dcterms:description "Drosophila melanogaster miR-4910 stem-loop"@en ;
+  rdfs:label "dme-mir-4910"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017693
+  dcterms:identifier "MI0017693" ;
+  dcterms:description "Drosophila melanogaster miR-4911 stem-loop"@en ;
+  rdfs:label "dme-mir-4911"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017694
+  dcterms:identifier "MI0017694" ;
+  dcterms:description "Drosophila melanogaster miR-4912 stem-loop"@en ;
+  rdfs:label "dme-mir-4912"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017695
+  dcterms:identifier "MI0017695" ;
+  dcterms:description "Drosophila melanogaster miR-4913 stem-loop"@en ;
+  rdfs:label "dme-mir-4913"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017696
+  dcterms:identifier "MI0017696" ;
+  dcterms:description "Drosophila melanogaster miR-4914 stem-loop"@en ;
+  rdfs:label "dme-mir-4914"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017697
+  dcterms:identifier "MI0017697" ;
+  dcterms:description "Drosophila melanogaster miR-4915 stem-loop"@en ;
+  rdfs:label "dme-mir-4915"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017698
+  dcterms:identifier "MI0017698" ;
+  dcterms:description "Drosophila melanogaster miR-4916 stem-loop"@en ;
+  rdfs:label "dme-mir-4916"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017699
+  dcterms:identifier "MI0017699" ;
+  dcterms:description "Drosophila melanogaster miR-2535b stem-loop"@en ;
+  rdfs:label "dme-mir-2535b"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017700
+  dcterms:identifier "MI0017700" ;
+  dcterms:description "Drosophila melanogaster miR-4917 stem-loop"@en ;
+  rdfs:label "dme-mir-4917"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017701
+  dcterms:identifier "MI0017701" ;
+  dcterms:description "Drosophila melanogaster miR-4918 stem-loop"@en ;
+  rdfs:label "dme-mir-4918"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017702
+  dcterms:identifier "MI0017702" ;
+  dcterms:description "Drosophila melanogaster miR-4919 stem-loop"@en ;
+  rdfs:label "dme-mir-4919"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017703
+  dcterms:identifier "MI0017703" ;
+  dcterms:description "Drosophila melanogaster miR-4908 stem-loop"@en ;
+  rdfs:label "dme-mir-4908"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017704
+  dcterms:identifier "MI0017704" ;
+  dcterms:description "Drosophila melanogaster miR-4909 stem-loop"@en ;
+  rdfs:label "dme-mir-4909"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017725
+  dcterms:identifier "MI0017725" ;
+  dcterms:description "Drosophila melanogaster miR-4939 stem-loop"@en ;
+  rdfs:label "dme-mir-4939"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017726
+  dcterms:identifier "MI0017726" ;
+  dcterms:description "Drosophila melanogaster miR-4940 stem-loop"@en ;
+  rdfs:label "dme-mir-4940"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017727
+  dcterms:identifier "MI0017727" ;
+  dcterms:description "Drosophila melanogaster miR-4941 stem-loop"@en ;
+  rdfs:label "dme-mir-4941"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017728
+  dcterms:identifier "MI0017728" ;
+  dcterms:description "Drosophila melanogaster miR-4942 stem-loop"@en ;
+  rdfs:label "dme-mir-4942"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017729
+  dcterms:identifier "MI0017729" ;
+  dcterms:description "Drosophila melanogaster miR-4943 stem-loop"@en ;
+  rdfs:label "dme-mir-4943"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017730
+  dcterms:identifier "MI0017730" ;
+  dcterms:description "Drosophila melanogaster miR-4944 stem-loop"@en ;
+  rdfs:label "dme-mir-4944"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017731
+  dcterms:identifier "MI0017731" ;
+  dcterms:description "Drosophila melanogaster miR-4945 stem-loop"@en ;
+  rdfs:label "dme-mir-4945"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017732
+  dcterms:identifier "MI0017732" ;
+  dcterms:description "Drosophila melanogaster miR-4946 stem-loop"@en ;
+  rdfs:label "dme-mir-4946"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017733
+  dcterms:identifier "MI0017733" ;
+  dcterms:description "Drosophila melanogaster miR-4947 stem-loop"@en ;
+  rdfs:label "dme-mir-4947"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017734
+  dcterms:identifier "MI0017734" ;
+  dcterms:description "Drosophila melanogaster miR-4948 stem-loop"@en ;
+  rdfs:label "dme-mir-4948"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017735
+  dcterms:identifier "MI0017735" ;
+  dcterms:description "Drosophila melanogaster miR-4949 stem-loop"@en ;
+  rdfs:label "dme-mir-4949"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017736
+  dcterms:identifier "MI0017736" ;
+  dcterms:description "Drosophila melanogaster miR-4950 stem-loop"@en ;
+  rdfs:label "dme-mir-4950"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017737
+  dcterms:identifier "MI0017737" ;
+  dcterms:description "Drosophila melanogaster miR-4951 stem-loop"@en ;
+  rdfs:label "dme-mir-4951"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017738
+  dcterms:identifier "MI0017738" ;
+  dcterms:description "Drosophila melanogaster miR-4952 stem-loop"@en ;
+  rdfs:label "dme-mir-4952"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017739
+  dcterms:identifier "MI0017739" ;
+  dcterms:description "Drosophila melanogaster miR-4953 stem-loop"@en ;
+  rdfs:label "dme-mir-4953"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017740
+  dcterms:identifier "MI0017740" ;
+  dcterms:description "Drosophila melanogaster miR-4954 stem-loop"@en ;
+  rdfs:label "dme-mir-4954"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017741
+  dcterms:identifier "MI0017741" ;
+  dcterms:description "Drosophila melanogaster miR-4955 stem-loop"@en ;
+  rdfs:label "dme-mir-4955"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017742
+  dcterms:identifier "MI0017742" ;
+  dcterms:description "Drosophila melanogaster miR-4956 stem-loop"@en ;
+  rdfs:label "dme-mir-4956"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017743
+  dcterms:identifier "MI0017743" ;
+  dcterms:description "Drosophila melanogaster miR-4957 stem-loop"@en ;
+  rdfs:label "dme-mir-4957"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017744
+  dcterms:identifier "MI0017744" ;
+  dcterms:description "Drosophila melanogaster miR-4958 stem-loop"@en ;
+  rdfs:label "dme-mir-4958"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017745
+  dcterms:identifier "MI0017745" ;
+  dcterms:description "Drosophila melanogaster miR-4959 stem-loop"@en ;
+  rdfs:label "dme-mir-4959"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017746
+  dcterms:identifier "MI0017746" ;
+  dcterms:description "Drosophila melanogaster miR-4960 stem-loop"@en ;
+  rdfs:label "dme-mir-4960"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017747
+  dcterms:identifier "MI0017747" ;
+  dcterms:description "Drosophila melanogaster miR-4961 stem-loop"@en ;
+  rdfs:label "dme-mir-4961"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017748
+  dcterms:identifier "MI0017748" ;
+  dcterms:description "Drosophila melanogaster miR-4962 stem-loop"@en ;
+  rdfs:label "dme-mir-4962"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017749
+  dcterms:identifier "MI0017749" ;
+  dcterms:description "Drosophila melanogaster miR-4963 stem-loop"@en ;
+  rdfs:label "dme-mir-4963"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017750
+  dcterms:identifier "MI0017750" ;
+  dcterms:description "Drosophila melanogaster miR-4964 stem-loop"@en ;
+  rdfs:label "dme-mir-4964"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017751
+  dcterms:identifier "MI0017751" ;
+  dcterms:description "Drosophila melanogaster miR-4965 stem-loop"@en ;
+  rdfs:label "dme-mir-4965"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017752
+  dcterms:identifier "MI0017752" ;
+  dcterms:description "Drosophila melanogaster miR-4966 stem-loop"@en ;
+  rdfs:label "dme-mir-4966"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017753
+  dcterms:identifier "MI0017753" ;
+  dcterms:description "Drosophila melanogaster miR-4967 stem-loop"@en ;
+  rdfs:label "dme-mir-4967"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017754
+  dcterms:identifier "MI0017754" ;
+  dcterms:description "Drosophila melanogaster miR-4968 stem-loop"@en ;
+  rdfs:label "dme-mir-4968"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017755
+  dcterms:identifier "MI0017755" ;
+  dcterms:description "Drosophila melanogaster miR-4969 stem-loop"@en ;
+  rdfs:label "dme-mir-4969"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017756
+  dcterms:identifier "MI0017756" ;
+  dcterms:description "Drosophila melanogaster miR-4970 stem-loop"@en ;
+  rdfs:label "dme-mir-4970"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017757
+  dcterms:identifier "MI0017757" ;
+  dcterms:description "Drosophila melanogaster miR-4971 stem-loop"@en ;
+  rdfs:label "dme-mir-4971"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017758
+  dcterms:identifier "MI0017758" ;
+  dcterms:description "Drosophila melanogaster miR-4972 stem-loop"@en ;
+  rdfs:label "dme-mir-4972"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017759
+  dcterms:identifier "MI0017759" ;
+  dcterms:description "Drosophila melanogaster miR-4973 stem-loop"@en ;
+  rdfs:label "dme-mir-4973"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017760
+  dcterms:identifier "MI0017760" ;
+  dcterms:description "Drosophila melanogaster miR-4974 stem-loop"@en ;
+  rdfs:label "dme-mir-4974"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017761
+  dcterms:identifier "MI0017761" ;
+  dcterms:description "Drosophila melanogaster miR-4975 stem-loop"@en ;
+  rdfs:label "dme-mir-4975"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017762
+  dcterms:identifier "MI0017762" ;
+  dcterms:description "Drosophila melanogaster miR-4976 stem-loop"@en ;
+  rdfs:label "dme-mir-4976"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017763
+  dcterms:identifier "MI0017763" ;
+  dcterms:description "Drosophila melanogaster miR-4977 stem-loop"@en ;
+  rdfs:label "dme-mir-4977"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017764
+  dcterms:identifier "MI0017764" ;
+  dcterms:description "Drosophila melanogaster miR-4978 stem-loop"@en ;
+  rdfs:label "dme-mir-4978"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017765
+  dcterms:identifier "MI0017765" ;
+  dcterms:description "Drosophila melanogaster miR-4979 stem-loop"@en ;
+  rdfs:label "dme-mir-4979"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017766
+  dcterms:identifier "MI0017766" ;
+  dcterms:description "Drosophila melanogaster miR-4980 stem-loop"@en ;
+  rdfs:label "dme-mir-4980"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017767
+  dcterms:identifier "MI0017767" ;
+  dcterms:description "Drosophila melanogaster miR-4981 stem-loop"@en ;
+  rdfs:label "dme-mir-4981"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017768
+  dcterms:identifier "MI0017768" ;
+  dcterms:description "Drosophila melanogaster miR-4982 stem-loop"@en ;
+  rdfs:label "dme-mir-4982"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017769
+  dcterms:identifier "MI0017769" ;
+  dcterms:description "Drosophila melanogaster miR-4983 stem-loop"@en ;
+  rdfs:label "dme-mir-4983"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017770
+  dcterms:identifier "MI0017770" ;
+  dcterms:description "Drosophila melanogaster miR-4984 stem-loop"@en ;
+  rdfs:label "dme-mir-4984"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017771
+  dcterms:identifier "MI0017771" ;
+  dcterms:description "Drosophila melanogaster miR-4985 stem-loop"@en ;
+  rdfs:label "dme-mir-4985"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017772
+  dcterms:identifier "MI0017772" ;
+  dcterms:description "Drosophila melanogaster miR-4986 stem-loop"@en ;
+  rdfs:label "dme-mir-4986"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017773
+  dcterms:identifier "MI0017773" ;
+  dcterms:description "Drosophila melanogaster miR-4987 stem-loop"@en ;
+  rdfs:label "dme-mir-4987"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177969, pmid:21177969 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028918
+  dcterms:identifier "MI0028918" ;
+  dcterms:description "Drosophila melanogaster miR-9369 stem-loop"@en ;
+  rdfs:label "dme-mir-9369"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028919
+  dcterms:identifier "MI0028919" ;
+  dcterms:description "Drosophila melanogaster miR-9370 stem-loop"@en ;
+  rdfs:label "dme-mir-9370"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028920
+  dcterms:identifier "MI0028920" ;
+  dcterms:description "Drosophila melanogaster miR-9371 stem-loop"@en ;
+  rdfs:label "dme-mir-9371"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028921
+  dcterms:identifier "MI0028921" ;
+  dcterms:description "Drosophila melanogaster miR-9372 stem-loop"@en ;
+  rdfs:label "dme-mir-9372"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028922
+  dcterms:identifier "MI0028922" ;
+  dcterms:description "Drosophila melanogaster miR-9373 stem-loop"@en ;
+  rdfs:label "dme-mir-9373"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028923
+  dcterms:identifier "MI0028923" ;
+  dcterms:description "Drosophila melanogaster miR-9374 stem-loop"@en ;
+  rdfs:label "dme-mir-9374"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028924
+  dcterms:identifier "MI0028924" ;
+  dcterms:description "Drosophila melanogaster miR-9375 stem-loop"@en ;
+  rdfs:label "dme-mir-9375"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028925
+  dcterms:identifier "MI0028925" ;
+  dcterms:description "Drosophila melanogaster miR-9376 stem-loop"@en ;
+  rdfs:label "dme-mir-9376"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028926
+  dcterms:identifier "MI0028926" ;
+  dcterms:description "Drosophila melanogaster miR-9377 stem-loop"@en ;
+  rdfs:label "dme-mir-9377"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028927
+  dcterms:identifier "MI0028927" ;
+  dcterms:description "Drosophila melanogaster miR-9378 stem-loop"@en ;
+  rdfs:label "dme-mir-9378"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028928
+  dcterms:identifier "MI0028928" ;
+  dcterms:description "Drosophila melanogaster miR-9379 stem-loop"@en ;
+  rdfs:label "dme-mir-9379"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028929
+  dcterms:identifier "MI0028929" ;
+  dcterms:description "Drosophila melanogaster miR-9380 stem-loop"@en ;
+  rdfs:label "dme-mir-9380"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028930
+  dcterms:identifier "MI0028930" ;
+  dcterms:description "Drosophila melanogaster miR-9381 stem-loop"@en ;
+  rdfs:label "dme-mir-9381"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028931
+  dcterms:identifier "MI0028931" ;
+  dcterms:description "Drosophila melanogaster miR-9382 stem-loop"@en ;
+  rdfs:label "dme-mir-9382"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028932
+  dcterms:identifier "MI0028932" ;
+  dcterms:description "Drosophila melanogaster miR-9383 stem-loop"@en ;
+  rdfs:label "dme-mir-9383"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028933
+  dcterms:identifier "MI0028933" ;
+  dcterms:description "Drosophila melanogaster miR-9384 stem-loop"@en ;
+  rdfs:label "dme-mir-9384"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028934
+  dcterms:identifier "MI0028934" ;
+  dcterms:description "Drosophila melanogaster miR-9385 stem-loop"@en ;
+  rdfs:label "dme-mir-9385"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028938
+  dcterms:identifier "MI0028938" ;
+  dcterms:description "Drosophila melanogaster miR-9388 stem-loop"@en ;
+  rdfs:label "dme-mir-9388"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23882112, pmid:23882112 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0033427
+  dcterms:identifier "MI0033427" ;
+  dcterms:description "Drosophila melanogaster miR-10404 stem-loop"@en ;
+  rdfs:label "dme-mir-10404"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:25605965, pmid:25605965 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0035973
+  dcterms:identifier "MI0035973" ;
+  dcterms:description "Drosophila melanogaster miR-11182 stem-loop"@en ;
+  rdfs:label "dme-mir-11182"@en ;
+  obo:RO_0002162 taxonomy:7227 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:25892215, pmid:25892215 ;
+  ] ;
+  a :MicroRNA .
+

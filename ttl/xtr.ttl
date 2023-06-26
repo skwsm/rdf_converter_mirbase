@@ -1,0 +1,2178 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0004787
+  dcterms:identifier "MI0004787" ;
+  dcterms:description "Xenopus tropicalis let-7b stem-loop"@en ;
+  rdfs:label "xtr-let-7b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16698962, pmid:16698962 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004788
+  dcterms:identifier "MI0004788" ;
+  dcterms:description "Xenopus tropicalis miR-1a-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-1a-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004789
+  dcterms:identifier "MI0004789" ;
+  dcterms:description "Xenopus tropicalis miR-1a-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-1a-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004790
+  dcterms:identifier "MI0004790" ;
+  dcterms:description "Xenopus tropicalis miR-7-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-7-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004791
+  dcterms:identifier "MI0004791" ;
+  dcterms:description "Xenopus tropicalis miR-7-3 stem-loop"@en ;
+  rdfs:label "xtr-mir-7-3"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004792
+  dcterms:identifier "MI0004792" ;
+  dcterms:description "Xenopus tropicalis miR-7-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-7-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004793
+  dcterms:identifier "MI0004793" ;
+  dcterms:description "Xenopus tropicalis miR-9a-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-9a-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004794
+  dcterms:identifier "MI0004794" ;
+  dcterms:description "Xenopus tropicalis miR-9a-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-9a-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004795
+  dcterms:identifier "MI0004795" ;
+  dcterms:description "Xenopus tropicalis miR-9b stem-loop"@en ;
+  rdfs:label "xtr-mir-9b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004796
+  dcterms:identifier "MI0004796" ;
+  dcterms:description "Xenopus tropicalis miR-10a stem-loop"@en ;
+  rdfs:label "xtr-mir-10a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004797
+  dcterms:identifier "MI0004797" ;
+  dcterms:description "Xenopus tropicalis miR-10b stem-loop"@en ;
+  rdfs:label "xtr-mir-10b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004798
+  dcterms:identifier "MI0004798" ;
+  dcterms:description "Xenopus tropicalis miR-10c stem-loop"@en ;
+  rdfs:label "xtr-mir-10c"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004799
+  dcterms:identifier "MI0004799" ;
+  dcterms:description "Xenopus tropicalis miR-15a stem-loop"@en ;
+  rdfs:label "xtr-mir-15a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004800
+  dcterms:identifier "MI0004800" ;
+  dcterms:description "Xenopus tropicalis miR-15b stem-loop"@en ;
+  rdfs:label "xtr-mir-15b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004801
+  dcterms:identifier "MI0004801" ;
+  dcterms:description "Xenopus tropicalis miR-16c stem-loop"@en ;
+  rdfs:label "xtr-mir-16c"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004802
+  dcterms:identifier "MI0004802" ;
+  dcterms:description "Xenopus tropicalis miR-16a stem-loop"@en ;
+  rdfs:label "xtr-mir-16a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004803
+  dcterms:identifier "MI0004803" ;
+  dcterms:description "Xenopus tropicalis miR-17 stem-loop"@en ;
+  rdfs:label "xtr-mir-17"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004804
+  dcterms:identifier "MI0004804" ;
+  dcterms:description "Xenopus tropicalis miR-19a stem-loop"@en ;
+  rdfs:label "xtr-mir-19a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004805
+  dcterms:identifier "MI0004805" ;
+  dcterms:description "Xenopus tropicalis miR-19b-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-19b-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004806
+  dcterms:identifier "MI0004806" ;
+  dcterms:description "Xenopus tropicalis miR-23a-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-23a-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004807
+  dcterms:identifier "MI0004807" ;
+  dcterms:description "Xenopus tropicalis miR-26-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-26-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004808
+  dcterms:identifier "MI0004808" ;
+  dcterms:description "Xenopus tropicalis miR-26-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-26-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004809
+  dcterms:identifier "MI0004809" ;
+  dcterms:description "Xenopus tropicalis miR-27a stem-loop"@en ;
+  rdfs:label "xtr-mir-27a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004810
+  dcterms:identifier "MI0004810" ;
+  dcterms:description "Xenopus tropicalis miR-27b stem-loop"@en ;
+  rdfs:label "xtr-mir-27b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004811
+  dcterms:identifier "MI0004811" ;
+  dcterms:description "Xenopus tropicalis miR-29d stem-loop"@en ;
+  rdfs:label "xtr-mir-29d"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004812
+  dcterms:identifier "MI0004812" ;
+  dcterms:description "Xenopus tropicalis miR-29b stem-loop"@en ;
+  rdfs:label "xtr-mir-29b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004813
+  dcterms:identifier "MI0004813" ;
+  dcterms:description "Xenopus tropicalis miR-30a stem-loop"@en ;
+  rdfs:label "xtr-mir-30a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004814
+  dcterms:identifier "MI0004814" ;
+  dcterms:description "Xenopus tropicalis miR-30b stem-loop"@en ;
+  rdfs:label "xtr-mir-30b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004815
+  dcterms:identifier "MI0004815" ;
+  dcterms:description "Xenopus tropicalis miR-30c-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-30c-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004816
+  dcterms:identifier "MI0004816" ;
+  dcterms:description "Xenopus tropicalis miR-34a stem-loop"@en ;
+  rdfs:label "xtr-mir-34a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004817
+  dcterms:identifier "MI0004817" ;
+  dcterms:description "Xenopus tropicalis miR-34b-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-34b-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004818
+  dcterms:identifier "MI0004818" ;
+  dcterms:description "Xenopus tropicalis miR-34b-4 stem-loop"@en ;
+  rdfs:label "xtr-mir-34b-4"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004819
+  dcterms:identifier "MI0004819" ;
+  dcterms:description "Xenopus tropicalis miR-92a-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-92a-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004820
+  dcterms:identifier "MI0004820" ;
+  dcterms:description "Xenopus tropicalis miR-98 stem-loop"@en ;
+  rdfs:label "xtr-mir-98"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004821
+  dcterms:identifier "MI0004821" ;
+  dcterms:description "Xenopus tropicalis miR-99 stem-loop"@en ;
+  rdfs:label "xtr-mir-99"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004822
+  dcterms:identifier "MI0004822" ;
+  dcterms:description "Xenopus tropicalis miR-106 stem-loop"@en ;
+  rdfs:label "xtr-mir-106"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004823
+  dcterms:identifier "MI0004823" ;
+  dcterms:description "Xenopus tropicalis miR-107 stem-loop"@en ;
+  rdfs:label "xtr-mir-107"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004824
+  dcterms:identifier "MI0004824" ;
+  dcterms:description "Xenopus tropicalis miR-122 stem-loop"@en ;
+  rdfs:label "xtr-mir-122"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004825
+  dcterms:identifier "MI0004825" ;
+  dcterms:description "Xenopus tropicalis miR-125b-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-125b-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004826
+  dcterms:identifier "MI0004826" ;
+  dcterms:description "Xenopus tropicalis miR-125b-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-125b-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004827
+  dcterms:identifier "MI0004827" ;
+  dcterms:description "Xenopus tropicalis miR-126 stem-loop"@en ;
+  rdfs:label "xtr-mir-126"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004828
+  dcterms:identifier "MI0004828" ;
+  dcterms:description "Xenopus tropicalis miR-128-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-128-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004829
+  dcterms:identifier "MI0004829" ;
+  dcterms:description "Xenopus tropicalis miR-129-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-129-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004830
+  dcterms:identifier "MI0004830" ;
+  dcterms:description "Xenopus tropicalis miR-129-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-129-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004831
+  dcterms:identifier "MI0004831" ;
+  dcterms:description "Xenopus tropicalis miR-130a stem-loop"@en ;
+  rdfs:label "xtr-mir-130a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004832
+  dcterms:identifier "MI0004832" ;
+  dcterms:description "Xenopus tropicalis miR-130c stem-loop"@en ;
+  rdfs:label "xtr-mir-130c"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004833
+  dcterms:identifier "MI0004833" ;
+  dcterms:description "Xenopus tropicalis miR-130b stem-loop"@en ;
+  rdfs:label "xtr-mir-130b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004834
+  dcterms:identifier "MI0004834" ;
+  dcterms:description "Xenopus tropicalis miR-132 stem-loop"@en ;
+  rdfs:label "xtr-mir-132"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004835
+  dcterms:identifier "MI0004835" ;
+  dcterms:description "Xenopus tropicalis miR-133c stem-loop"@en ;
+  rdfs:label "xtr-mir-133c"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004836
+  dcterms:identifier "MI0004836" ;
+  dcterms:description "Xenopus tropicalis miR-133d stem-loop"@en ;
+  rdfs:label "xtr-mir-133d"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004837
+  dcterms:identifier "MI0004837" ;
+  dcterms:description "Xenopus tropicalis miR-133b stem-loop"@en ;
+  rdfs:label "xtr-mir-133b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004838
+  dcterms:identifier "MI0004838" ;
+  dcterms:description "Xenopus tropicalis miR-135-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-135-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004839
+  dcterms:identifier "MI0004839" ;
+  dcterms:description "Xenopus tropicalis miR-138 stem-loop"@en ;
+  rdfs:label "xtr-mir-138"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004840
+  dcterms:identifier "MI0004840" ;
+  dcterms:description "Xenopus tropicalis miR-139 stem-loop"@en ;
+  rdfs:label "xtr-mir-139"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004841
+  dcterms:identifier "MI0004841" ;
+  dcterms:description "Xenopus tropicalis miR-140 stem-loop"@en ;
+  rdfs:label "xtr-mir-140"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004842
+  dcterms:identifier "MI0004842" ;
+  dcterms:description "Xenopus tropicalis miR-142-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-142-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004843
+  dcterms:identifier "MI0004843" ;
+  dcterms:description "Xenopus tropicalis miR-142-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-142-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004844
+  dcterms:identifier "MI0004844" ;
+  dcterms:description "Xenopus tropicalis miR-146 stem-loop"@en ;
+  rdfs:label "xtr-mir-146a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004845
+  dcterms:identifier "MI0004845" ;
+  dcterms:description "Xenopus tropicalis miR-148b stem-loop"@en ;
+  rdfs:label "xtr-mir-148b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004846
+  dcterms:identifier "MI0004846" ;
+  dcterms:description "Xenopus tropicalis miR-150 stem-loop"@en ;
+  rdfs:label "xtr-mir-150"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004847
+  dcterms:identifier "MI0004847" ;
+  dcterms:description "Xenopus tropicalis miR-153-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-153-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004848
+  dcterms:identifier "MI0004848" ;
+  dcterms:description "Xenopus tropicalis miR-155 stem-loop"@en ;
+  rdfs:label "xtr-mir-155"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004849
+  dcterms:identifier "MI0004849" ;
+  dcterms:description "Xenopus tropicalis miR-181b-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-181b-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004850
+  dcterms:identifier "MI0004850" ;
+  dcterms:description "Xenopus tropicalis miR-181b-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-181b-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004851
+  dcterms:identifier "MI0004851" ;
+  dcterms:description "Xenopus tropicalis miR-182 stem-loop"@en ;
+  rdfs:label "xtr-mir-182"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004852
+  dcterms:identifier "MI0004852" ;
+  dcterms:description "Xenopus tropicalis miR-183 stem-loop"@en ;
+  rdfs:label "xtr-mir-183"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004853
+  dcterms:identifier "MI0004853" ;
+  dcterms:description "Xenopus tropicalis miR-184 stem-loop"@en ;
+  rdfs:label "xtr-mir-184"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004854
+  dcterms:identifier "MI0004854" ;
+  dcterms:description "Xenopus tropicalis miR-187 stem-loop"@en ;
+  rdfs:label "xtr-mir-187"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004855
+  dcterms:identifier "MI0004855" ;
+  dcterms:description "Xenopus tropicalis miR-192 stem-loop"@en ;
+  rdfs:label "xtr-mir-192"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004856
+  dcterms:identifier "MI0004856" ;
+  dcterms:description "Xenopus tropicalis miR-193 stem-loop"@en ;
+  rdfs:label "xtr-mir-193"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004857
+  dcterms:identifier "MI0004857" ;
+  dcterms:description "Xenopus tropicalis miR-194-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-194-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004858
+  dcterms:identifier "MI0004858" ;
+  dcterms:description "Xenopus tropicalis miR-194-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-194-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004859
+  dcterms:identifier "MI0004859" ;
+  dcterms:description "Xenopus tropicalis miR-199a stem-loop"@en ;
+  rdfs:label "xtr-mir-199a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004860
+  dcterms:identifier "MI0004860" ;
+  dcterms:description "Xenopus tropicalis miR-202-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-202-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004861
+  dcterms:identifier "MI0004861" ;
+  dcterms:description "Xenopus tropicalis miR-202-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-202-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004862
+  dcterms:identifier "MI0004862" ;
+  dcterms:description "Xenopus tropicalis miR-205b stem-loop"@en ;
+  rdfs:label "xtr-mir-205b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004863
+  dcterms:identifier "MI0004863" ;
+  dcterms:description "Xenopus tropicalis miR-206 stem-loop"@en ;
+  rdfs:label "xtr-mir-206"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004864
+  dcterms:identifier "MI0004864" ;
+  dcterms:description "Xenopus tropicalis miR-210 stem-loop"@en ;
+  rdfs:label "xtr-mir-210"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004865
+  dcterms:identifier "MI0004865" ;
+  dcterms:description "Xenopus tropicalis miR-181a-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-181a-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004866
+  dcterms:identifier "MI0004866" ;
+  dcterms:description "Xenopus tropicalis miR-181a-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-181a-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004867
+  dcterms:identifier "MI0004867" ;
+  dcterms:description "Xenopus tropicalis miR-214 stem-loop"@en ;
+  rdfs:label "xtr-mir-214"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004868
+  dcterms:identifier "MI0004868" ;
+  dcterms:description "Xenopus tropicalis miR-215 stem-loop"@en ;
+  rdfs:label "xtr-mir-215"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004869
+  dcterms:identifier "MI0004869" ;
+  dcterms:description "Xenopus tropicalis miR-216 stem-loop"@en ;
+  rdfs:label "xtr-mir-216"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004870
+  dcterms:identifier "MI0004870" ;
+  dcterms:description "Xenopus tropicalis miR-217 stem-loop"@en ;
+  rdfs:label "xtr-mir-217"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004871
+  dcterms:identifier "MI0004871" ;
+  dcterms:description "Xenopus tropicalis miR-218-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-218-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004872
+  dcterms:identifier "MI0004872" ;
+  dcterms:description "Xenopus tropicalis miR-218-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-218-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004873
+  dcterms:identifier "MI0004873" ;
+  dcterms:description "Xenopus tropicalis miR-219 stem-loop"@en ;
+  rdfs:label "xtr-mir-219"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004874
+  dcterms:identifier "MI0004874" ;
+  dcterms:description "Xenopus tropicalis miR-222 stem-loop"@en ;
+  rdfs:label "xtr-mir-222"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004875
+  dcterms:identifier "MI0004875" ;
+  dcterms:description "Xenopus tropicalis miR-223 stem-loop"@en ;
+  rdfs:label "xtr-mir-223"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004876
+  dcterms:identifier "MI0004876" ;
+  dcterms:description "Xenopus tropicalis miR-301-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-301-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004877
+  dcterms:identifier "MI0004877" ;
+  dcterms:description "Xenopus tropicalis miR-301-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-301-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004878
+  dcterms:identifier "MI0004878" ;
+  dcterms:description "Xenopus tropicalis miR-302 stem-loop"@en ;
+  rdfs:label "xtr-mir-302"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004879
+  dcterms:identifier "MI0004879" ;
+  dcterms:description "Xenopus tropicalis miR-365-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-365-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004880
+  dcterms:identifier "MI0004880" ;
+  dcterms:description "Xenopus tropicalis miR-367 stem-loop"@en ;
+  rdfs:label "xtr-mir-367"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004881
+  dcterms:identifier "MI0004881" ;
+  dcterms:description "Xenopus tropicalis miR-383 stem-loop"@en ;
+  rdfs:label "xtr-mir-383"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004882
+  dcterms:identifier "MI0004882" ;
+  dcterms:description "Xenopus tropicalis miR-425 stem-loop"@en ;
+  rdfs:label "xtr-mir-425"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004883
+  dcterms:identifier "MI0004883" ;
+  dcterms:description "Xenopus tropicalis miR-455 stem-loop"@en ;
+  rdfs:label "xtr-mir-455"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004884
+  dcterms:identifier "MI0004884" ;
+  dcterms:description "Xenopus tropicalis miR-489 stem-loop"@en ;
+  rdfs:label "xtr-mir-489"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004885
+  dcterms:identifier "MI0004885" ;
+  dcterms:description "Xenopus tropicalis miR-499 stem-loop"@en ;
+  rdfs:label "xtr-mir-499"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004886
+  dcterms:identifier "MI0004886" ;
+  dcterms:description "Xenopus tropicalis let-7c stem-loop"@en ;
+  rdfs:label "xtr-let-7c"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004887
+  dcterms:identifier "MI0004887" ;
+  dcterms:description "Xenopus tropicalis let-7f stem-loop"@en ;
+  rdfs:label "xtr-let-7f"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004888
+  dcterms:identifier "MI0004888" ;
+  dcterms:description "Xenopus tropicalis let-7g stem-loop"@en ;
+  rdfs:label "xtr-let-7g"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004889
+  dcterms:identifier "MI0004889" ;
+  dcterms:description "Xenopus tropicalis let-7i stem-loop"@en ;
+  rdfs:label "xtr-let-7i"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004890
+  dcterms:identifier "MI0004890" ;
+  dcterms:description "Xenopus tropicalis miR-1b stem-loop"@en ;
+  rdfs:label "xtr-mir-1b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004891
+  dcterms:identifier "MI0004891" ;
+  dcterms:description "Xenopus tropicalis miR-9-3 stem-loop"@en ;
+  rdfs:label "xtr-mir-9-3"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004892
+  dcterms:identifier "MI0004892" ;
+  dcterms:description "Xenopus tropicalis miR-15c stem-loop"@en ;
+  rdfs:label "xtr-mir-15c"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004893
+  dcterms:identifier "MI0004893" ;
+  dcterms:description "Xenopus tropicalis miR-18a stem-loop"@en ;
+  rdfs:label "xtr-mir-18a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004894
+  dcterms:identifier "MI0004894" ;
+  dcterms:description "Xenopus tropicalis miR-23a-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-23a-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004895
+  dcterms:identifier "MI0004895" ;
+  dcterms:description "Xenopus tropicalis miR-24a stem-loop"@en ;
+  rdfs:label "xtr-mir-24a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004896
+  dcterms:identifier "MI0004896" ;
+  dcterms:description "Xenopus tropicalis miR-24b stem-loop"@en ;
+  rdfs:label "xtr-mir-24b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004897
+  dcterms:identifier "MI0004897" ;
+  dcterms:description "Xenopus tropicalis miR-29a stem-loop"@en ;
+  rdfs:label "xtr-mir-29a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004898
+  dcterms:identifier "MI0004898" ;
+  dcterms:description "Xenopus tropicalis miR-30d stem-loop"@en ;
+  rdfs:label "xtr-mir-30d"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004899
+  dcterms:identifier "MI0004899" ;
+  dcterms:description "Xenopus tropicalis miR-92b stem-loop"@en ;
+  rdfs:label "xtr-mir-92b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004900
+  dcterms:identifier "MI0004900" ;
+  dcterms:description "Xenopus tropicalis miR-93a stem-loop"@en ;
+  rdfs:label "xtr-mir-93a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004901
+  dcterms:identifier "MI0004901" ;
+  dcterms:description "Xenopus tropicalis miR-93b stem-loop"@en ;
+  rdfs:label "xtr-mir-93b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004902
+  dcterms:identifier "MI0004902" ;
+  dcterms:description "Xenopus tropicalis miR-96 stem-loop"@en ;
+  rdfs:label "xtr-mir-96"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004903
+  dcterms:identifier "MI0004903" ;
+  dcterms:description "Xenopus tropicalis miR-101a-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-101a-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004904
+  dcterms:identifier "MI0004904" ;
+  dcterms:description "Xenopus tropicalis miR-103-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-103-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004905
+  dcterms:identifier "MI0004905" ;
+  dcterms:description "Xenopus tropicalis miR-148a stem-loop"@en ;
+  rdfs:label "xtr-mir-148a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004906
+  dcterms:identifier "MI0004906" ;
+  dcterms:description "Xenopus tropicalis miR-338-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-338-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004907
+  dcterms:identifier "MI0004907" ;
+  dcterms:description "Xenopus tropicalis let-7e-1 stem-loop"@en ;
+  rdfs:label "xtr-let-7e-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004908
+  dcterms:identifier "MI0004908" ;
+  dcterms:description "Xenopus tropicalis let-7a stem-loop"@en ;
+  rdfs:label "xtr-let-7a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004909
+  dcterms:identifier "MI0004909" ;
+  dcterms:description "Xenopus tropicalis let-7e-2 stem-loop"@en ;
+  rdfs:label "xtr-let-7e-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004910
+  dcterms:identifier "MI0004910" ;
+  dcterms:description "Xenopus tropicalis miR-16b stem-loop"@en ;
+  rdfs:label "xtr-mir-16b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004911
+  dcterms:identifier "MI0004911" ;
+  dcterms:description "Xenopus tropicalis miR-20a stem-loop"@en ;
+  rdfs:label "xtr-mir-20a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004912
+  dcterms:identifier "MI0004912" ;
+  dcterms:description "Xenopus tropicalis miR-22 stem-loop"@en ;
+  rdfs:label "xtr-mir-22"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004913
+  dcterms:identifier "MI0004913" ;
+  dcterms:description "Xenopus tropicalis miR-23b stem-loop"@en ;
+  rdfs:label "xtr-mir-23b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004914
+  dcterms:identifier "MI0004914" ;
+  dcterms:description "Xenopus tropicalis miR-25-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-25-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004915
+  dcterms:identifier "MI0004915" ;
+  dcterms:description "Xenopus tropicalis miR-25-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-25-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004916
+  dcterms:identifier "MI0004916" ;
+  dcterms:description "Xenopus tropicalis miR-27c-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-27c-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004917
+  dcterms:identifier "MI0004917" ;
+  dcterms:description "Xenopus tropicalis miR-27c-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-27c-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004918
+  dcterms:identifier "MI0004918" ;
+  dcterms:description "Xenopus tropicalis miR-29c stem-loop"@en ;
+  rdfs:label "xtr-mir-29c"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004919
+  dcterms:identifier "MI0004919" ;
+  dcterms:description "Xenopus tropicalis miR-30c-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-30c-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004920
+  dcterms:identifier "MI0004920" ;
+  dcterms:description "Xenopus tropicalis miR-30e stem-loop"@en ;
+  rdfs:label "xtr-mir-30e"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004921
+  dcterms:identifier "MI0004921" ;
+  dcterms:description "Xenopus tropicalis miR-31 stem-loop"@en ;
+  rdfs:label "xtr-mir-31a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004922
+  dcterms:identifier "MI0004922" ;
+  dcterms:description "Xenopus tropicalis miR-33a stem-loop"@en ;
+  rdfs:label "xtr-mir-33a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004923
+  dcterms:identifier "MI0004923" ;
+  dcterms:description "Xenopus tropicalis miR-33b stem-loop"@en ;
+  rdfs:label "xtr-mir-33b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004924
+  dcterms:identifier "MI0004924" ;
+  dcterms:description "Xenopus tropicalis miR-34b-3 stem-loop"@en ;
+  rdfs:label "xtr-mir-34b-3"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004925
+  dcterms:identifier "MI0004925" ;
+  dcterms:description "Xenopus tropicalis miR-34b-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-34b-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004926
+  dcterms:identifier "MI0004926" ;
+  dcterms:description "Xenopus tropicalis miR-92a-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-92a-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004927
+  dcterms:identifier "MI0004927" ;
+  dcterms:description "Xenopus tropicalis miR-100 stem-loop"@en ;
+  rdfs:label "xtr-mir-100"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004928
+  dcterms:identifier "MI0004928" ;
+  dcterms:description "Xenopus tropicalis miR-101a-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-101a-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004929
+  dcterms:identifier "MI0004929" ;
+  dcterms:description "Xenopus tropicalis miR-103-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-103-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004930
+  dcterms:identifier "MI0004930" ;
+  dcterms:description "Xenopus tropicalis miR-124 stem-loop"@en ;
+  rdfs:label "xtr-mir-124"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004931
+  dcterms:identifier "MI0004931" ;
+  dcterms:description "Xenopus tropicalis miR-125a stem-loop"@en ;
+  rdfs:label "xtr-mir-125a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004932
+  dcterms:identifier "MI0004932" ;
+  dcterms:description "Xenopus tropicalis miR-128-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-128-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004933
+  dcterms:identifier "MI0004933" ;
+  dcterms:description "Xenopus tropicalis miR-135-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-135-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004934
+  dcterms:identifier "MI0004934" ;
+  dcterms:description "Xenopus tropicalis miR-137-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-137-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004935
+  dcterms:identifier "MI0004935" ;
+  dcterms:description "Xenopus tropicalis miR-137-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-137-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004936
+  dcterms:identifier "MI0004936" ;
+  dcterms:description "Xenopus tropicalis miR-137-3 stem-loop"@en ;
+  rdfs:label "xtr-mir-137-3"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004937
+  dcterms:identifier "MI0004937" ;
+  dcterms:description "Xenopus tropicalis miR-143 stem-loop"@en ;
+  rdfs:label "xtr-mir-143"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004938
+  dcterms:identifier "MI0004938" ;
+  dcterms:description "Xenopus tropicalis miR-144 stem-loop"@en ;
+  rdfs:label "xtr-mir-144"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004939
+  dcterms:identifier "MI0004939" ;
+  dcterms:description "Xenopus tropicalis miR-145 stem-loop"@en ;
+  rdfs:label "xtr-mir-145"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004940
+  dcterms:identifier "MI0004940" ;
+  dcterms:description "Xenopus tropicalis miR-153-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-153-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004941
+  dcterms:identifier "MI0004941" ;
+  dcterms:description "Xenopus tropicalis miR-191 stem-loop"@en ;
+  rdfs:label "xtr-mir-191"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004942
+  dcterms:identifier "MI0004942" ;
+  dcterms:description "Xenopus tropicalis miR-196a stem-loop"@en ;
+  rdfs:label "xtr-mir-196a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004943
+  dcterms:identifier "MI0004943" ;
+  dcterms:description "Xenopus tropicalis miR-196b stem-loop"@en ;
+  rdfs:label "xtr-mir-196b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004944
+  dcterms:identifier "MI0004944" ;
+  dcterms:description "Xenopus tropicalis miR-199b stem-loop"@en ;
+  rdfs:label "xtr-mir-199b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004945
+  dcterms:identifier "MI0004945" ;
+  dcterms:description "Xenopus tropicalis miR-200a stem-loop"@en ;
+  rdfs:label "xtr-mir-200a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004946
+  dcterms:identifier "MI0004946" ;
+  dcterms:description "Xenopus tropicalis miR-200b stem-loop"@en ;
+  rdfs:label "xtr-mir-200b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004947
+  dcterms:identifier "MI0004947" ;
+  dcterms:description "Xenopus tropicalis miR-203 stem-loop"@en ;
+  rdfs:label "xtr-mir-203"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004948
+  dcterms:identifier "MI0004948" ;
+  dcterms:description "Xenopus tropicalis miR-204-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-204-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004949
+  dcterms:identifier "MI0004949" ;
+  dcterms:description "Xenopus tropicalis miR-204-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-204-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004950
+  dcterms:identifier "MI0004950" ;
+  dcterms:description "Xenopus tropicalis miR-205a stem-loop"@en ;
+  rdfs:label "xtr-mir-205a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004951
+  dcterms:identifier "MI0004951" ;
+  dcterms:description "Xenopus tropicalis miR-208 stem-loop"@en ;
+  rdfs:label "xtr-mir-208"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004952
+  dcterms:identifier "MI0004952" ;
+  dcterms:description "Xenopus tropicalis miR-212 stem-loop"@en ;
+  rdfs:label "xtr-mir-212"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004953
+  dcterms:identifier "MI0004953" ;
+  dcterms:description "Xenopus tropicalis miR-221 stem-loop"@en ;
+  rdfs:label "xtr-mir-221"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004954
+  dcterms:identifier "MI0004954" ;
+  dcterms:description "Xenopus tropicalis miR-338-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-338-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004955
+  dcterms:identifier "MI0004955" ;
+  dcterms:description "Xenopus tropicalis miR-363 stem-loop"@en ;
+  rdfs:label "xtr-mir-363"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004956
+  dcterms:identifier "MI0004956" ;
+  dcterms:description "Xenopus tropicalis miR-429 stem-loop"@en ;
+  rdfs:label "xtr-mir-429"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004957
+  dcterms:identifier "MI0004957" ;
+  dcterms:description "Xenopus tropicalis miR-449a stem-loop"@en ;
+  rdfs:label "xtr-mir-449a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:21602795, pmid:21602795 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004958
+  dcterms:identifier "MI0004958" ;
+  dcterms:description "Xenopus tropicalis miR-451 stem-loop"@en ;
+  rdfs:label "xtr-mir-451"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:21602795, pmid:21602795 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004959
+  dcterms:identifier "MI0004959" ;
+  dcterms:description "Xenopus tropicalis miR-18b stem-loop"@en ;
+  rdfs:label "xtr-mir-18b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:21602795, pmid:21602795 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004960
+  dcterms:identifier "MI0004960" ;
+  dcterms:description "Xenopus tropicalis miR-19b-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-19b-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:21602795, pmid:21602795 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004961
+  dcterms:identifier "MI0004961" ;
+  dcterms:description "Xenopus tropicalis miR-20b stem-loop"@en ;
+  rdfs:label "xtr-mir-20b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:21602795, pmid:21602795 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004962
+  dcterms:identifier "MI0004962" ;
+  dcterms:description "Xenopus tropicalis miR-133a stem-loop"@en ;
+  rdfs:label "xtr-mir-133a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004963
+  dcterms:identifier "MI0004963" ;
+  dcterms:description "Xenopus tropicalis miR-428 stem-loop"@en ;
+  rdfs:label "xtr-mir-428a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006264
+  dcterms:identifier "MI0006264" ;
+  dcterms:description "Xenopus tropicalis miR-31b stem-loop"@en ;
+  rdfs:label "xtr-mir-31b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18032731, pmid:18032731, pubmed:17942535, pmid:17942535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006265
+  dcterms:identifier "MI0006265" ;
+  dcterms:description "Xenopus tropicalis miR-146b stem-loop"@en ;
+  rdfs:label "xtr-mir-146b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18032731, pmid:18032731, pubmed:17942535, pmid:17942535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006266
+  dcterms:identifier "MI0006266" ;
+  dcterms:description "Xenopus tropicalis miR-320 stem-loop"@en ;
+  rdfs:label "xtr-mir-320"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18032731, pmid:18032731, pubmed:17942535, pmid:17942535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006267
+  dcterms:identifier "MI0006267" ;
+  dcterms:description "Xenopus tropicalis miR-375 stem-loop"@en ;
+  rdfs:label "xtr-mir-375"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18032731, pmid:18032731, pubmed:17942535, pmid:17942535 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006268
+  dcterms:identifier "MI0006268" ;
+  dcterms:description "Xenopus tropicalis miR-427-1 stem-loop"@en ;
+  rdfs:label "xtr-mir-427-1"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006269
+  dcterms:identifier "MI0006269" ;
+  dcterms:description "Xenopus tropicalis miR-427-2 stem-loop"@en ;
+  rdfs:label "xtr-mir-427-2"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006270
+  dcterms:identifier "MI0006270" ;
+  dcterms:description "Xenopus tropicalis miR-427-3 stem-loop"@en ;
+  rdfs:label "xtr-mir-427-3"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:18032731, pmid:18032731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011553
+  dcterms:identifier "MI0011553" ;
+  dcterms:description "Xenopus tropicalis miR-2184 stem-loop"@en ;
+  rdfs:label "xtr-mir-2184"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19628731, pmid:19628731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011554
+  dcterms:identifier "MI0011554" ;
+  dcterms:description "Xenopus tropicalis miR-2188 stem-loop"@en ;
+  rdfs:label "xtr-mir-2188"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19628731, pmid:19628731 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0018161
+  dcterms:identifier "MI0018161" ;
+  dcterms:description "Xenopus tropicalis miR-449b stem-loop"@en ;
+  rdfs:label "xtr-mir-449b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23264558, pmid:23264558 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0018162
+  dcterms:identifier "MI0018162" ;
+  dcterms:description "Xenopus tropicalis miR-449c stem-loop"@en ;
+  rdfs:label "xtr-mir-449c"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23264558, pmid:23264558 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0022169
+  dcterms:identifier "MI0022169" ;
+  dcterms:description "Xenopus tropicalis miR-190 stem-loop"@en ;
+  rdfs:label "xtr-mir-190"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21210939, pmid:21210939 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028999
+  dcterms:identifier "MI0028999" ;
+  dcterms:description "Xenopus tropicalis miR-9406 stem-loop"@en ;
+  rdfs:label "xtr-mir-9406"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24065776, pmid:24065776 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0029000
+  dcterms:identifier "MI0029000" ;
+  dcterms:description "Xenopus tropicalis miR-9407 stem-loop"@en ;
+  rdfs:label "xtr-mir-9407"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24065776, pmid:24065776 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0029001
+  dcterms:identifier "MI0029001" ;
+  dcterms:description "Xenopus tropicalis miR-428b stem-loop"@en ;
+  rdfs:label "xtr-mir-428b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24065776, pmid:24065776 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0029367
+  dcterms:identifier "MI0029367" ;
+  dcterms:description "Xenopus tropicalis miR-454 stem-loop"@en ;
+  rdfs:label "xtr-mir-454"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24798503, pmid:24798503 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0029368
+  dcterms:identifier "MI0029368" ;
+  dcterms:description "Xenopus tropicalis miR-460a stem-loop"@en ;
+  rdfs:label "xtr-mir-460a"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24798503, pmid:24798503 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0029369
+  dcterms:identifier "MI0029369" ;
+  dcterms:description "Xenopus tropicalis miR-460b stem-loop"@en ;
+  rdfs:label "xtr-mir-460b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24798503, pmid:24798503 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0029370
+  dcterms:identifier "MI0029370" ;
+  dcterms:description "Xenopus tropicalis miR-551b stem-loop"@en ;
+  rdfs:label "xtr-mir-551b"@en ;
+  obo:RO_0002162 taxonomy:8364 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24798503, pmid:24798503 ;
+  ] ;
+  a :MicroRNA .
+

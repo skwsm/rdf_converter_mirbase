@@ -1,0 +1,425 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0001064
+  dcterms:identifier "MI0001064" ;
+  dcterms:description "Epstein Barr virus miR-BHRF1-1 stem-loop"@en ;
+  rdfs:label "ebv-mir-BHRF1-1"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15118162, pmid:15118162, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15118162, pmid:15118162 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001065
+  dcterms:identifier "MI0001065" ;
+  dcterms:description "Epstein Barr virus miR-BHRF1-2 stem-loop"@en ;
+  rdfs:label "ebv-mir-BHRF1-2"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15118162, pmid:15118162, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15118162, pmid:15118162 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001066
+  dcterms:identifier "MI0001066" ;
+  dcterms:description "Epstein Barr virus miR-BHRF1-3 stem-loop"@en ;
+  rdfs:label "ebv-mir-BHRF1-3"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15118162, pmid:15118162, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15118162, pmid:15118162 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001067
+  dcterms:identifier "MI0001067" ;
+  dcterms:description "Epstein Barr virus miR-BART1 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART1"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001068
+  dcterms:identifier "MI0001068" ;
+  dcterms:description "Epstein Barr virus miR-BART2 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART2"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003725
+  dcterms:identifier "MI0003725" ;
+  dcterms:description "Epstein Barr virus miR-BART3 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART3"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003726
+  dcterms:identifier "MI0003726" ;
+  dcterms:description "Epstein Barr virus miR-BART4 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART4"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19144710, pmid:19144710 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003727
+  dcterms:identifier "MI0003727" ;
+  dcterms:description "Epstein Barr virus miR-BART5 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART5"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19144710, pmid:19144710 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003728
+  dcterms:identifier "MI0003728" ;
+  dcterms:description "Epstein Barr virus miR-BART6 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART6"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003729
+  dcterms:identifier "MI0003729" ;
+  dcterms:description "Epstein Barr virus miR-BART7 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART7"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003730
+  dcterms:identifier "MI0003730" ;
+  dcterms:description "Epstein Barr virus miR-BART8 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART8"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003731
+  dcterms:identifier "MI0003731" ;
+  dcterms:description "Epstein Barr virus miR-BART9 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART9"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003732
+  dcterms:identifier "MI0003732" ;
+  dcterms:description "Epstein Barr virus miR-BART10 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART10"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003733
+  dcterms:identifier "MI0003733" ;
+  dcterms:description "Epstein Barr virus miR-BART11 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART11"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003734
+  dcterms:identifier "MI0003734" ;
+  dcterms:description "Epstein Barr virus miR-BART12 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART12"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003735
+  dcterms:identifier "MI0003735" ;
+  dcterms:description "Epstein Barr virus miR-BART13 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART13"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16557291, pmid:16557291, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003736
+  dcterms:identifier "MI0003736" ;
+  dcterms:description "Epstein Barr virus miR-BART14 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART14"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004988
+  dcterms:identifier "MI0004988" ;
+  dcterms:description "Epstein Barr virus miR-BART15 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART15"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004989
+  dcterms:identifier "MI0004989" ;
+  dcterms:description "Epstein Barr virus miR-BART16 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART16"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004990
+  dcterms:identifier "MI0004990" ;
+  dcterms:description "Epstein Barr virus miR-BART17 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART17"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004991
+  dcterms:identifier "MI0004991" ;
+  dcterms:description "Epstein Barr virus miR-BART18 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART18"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004992
+  dcterms:identifier "MI0004992" ;
+  dcterms:description "Epstein Barr virus miR-BART19 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART19"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0004993
+  dcterms:identifier "MI0004993" ;
+  dcterms:description "Epstein Barr virus miR-BART20 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART20"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "array" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16540699, pmid:16540699 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010627
+  dcterms:identifier "MI0010627" ;
+  dcterms:description "Epstein Barr virus miR-BART21 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART21"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19144710, pmid:19144710 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010628
+  dcterms:identifier "MI0010628" ;
+  dcterms:description "Epstein Barr virus miR-BART22 stem-loop"@en ;
+  rdfs:label "ebv-mir-BART22"@en ;
+  obo:RO_0002162 taxonomy:10376 ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:19091858, pmid:19091858 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19144710, pmid:19144710 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19881953, pmid:19881953 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:19881953, pmid:19881953 ;
+  ] ;
+  a :MicroRNA .
+

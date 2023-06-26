@@ -1,0 +1,5195 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0000178
+  dcterms:identifier "MI0000178" ;
+  dcterms:description "Arabidopsis thaliana miR156a stem-loop"@en ;
+  rdfs:label "ath-MIR156a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00073 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000179
+  dcterms:identifier "MI0000179" ;
+  dcterms:description "Arabidopsis thaliana miR156b stem-loop"@en ;
+  rdfs:label "ath-MIR156b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00073 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000180
+  dcterms:identifier "MI0000180" ;
+  dcterms:description "Arabidopsis thaliana miR156c stem-loop"@en ;
+  rdfs:label "ath-MIR156c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00073 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000181
+  dcterms:identifier "MI0000181" ;
+  dcterms:description "Arabidopsis thaliana miR156d stem-loop"@en ;
+  rdfs:label "ath-MIR156d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00073 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000182
+  dcterms:identifier "MI0000182" ;
+  dcterms:description "Arabidopsis thaliana miR156e stem-loop"@en ;
+  rdfs:label "ath-MIR156e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00073 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000183
+  dcterms:identifier "MI0000183" ;
+  dcterms:description "Arabidopsis thaliana miR156f stem-loop"@en ;
+  rdfs:label "ath-MIR156f"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00073 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000184
+  dcterms:identifier "MI0000184" ;
+  dcterms:description "Arabidopsis thaliana miR157a stem-loop"@en ;
+  rdfs:label "ath-MIR157a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000185
+  dcterms:identifier "MI0000185" ;
+  dcterms:description "Arabidopsis thaliana miR157b stem-loop"@en ;
+  rdfs:label "ath-MIR157b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000186
+  dcterms:identifier "MI0000186" ;
+  dcterms:description "Arabidopsis thaliana miR157c stem-loop"@en ;
+  rdfs:label "ath-MIR157c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000187
+  dcterms:identifier "MI0000187" ;
+  dcterms:description "Arabidopsis thaliana miR157d stem-loop"@en ;
+  rdfs:label "ath-MIR157d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000188
+  dcterms:identifier "MI0000188" ;
+  dcterms:description "Arabidopsis thaliana miR158a stem-loop"@en ;
+  rdfs:label "ath-MIR158a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000189
+  dcterms:identifier "MI0000189" ;
+  dcterms:description "Arabidopsis thaliana miR159a stem-loop"@en ;
+  rdfs:label "ath-MIR159a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000190
+  dcterms:identifier "MI0000190" ;
+  dcterms:description "Arabidopsis thaliana miR160a stem-loop"@en ;
+  rdfs:label "ath-MIR160a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000191
+  dcterms:identifier "MI0000191" ;
+  dcterms:description "Arabidopsis thaliana miR160b stem-loop"@en ;
+  rdfs:label "ath-MIR160b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000192
+  dcterms:identifier "MI0000192" ;
+  dcterms:description "Arabidopsis thaliana miR160c stem-loop"@en ;
+  rdfs:label "ath-MIR160c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000193
+  dcterms:identifier "MI0000193" ;
+  dcterms:description "Arabidopsis thaliana miR161 stem-loop"@en ;
+  rdfs:label "ath-MIR161"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000194
+  dcterms:identifier "MI0000194" ;
+  dcterms:description "Arabidopsis thaliana miR162a stem-loop"@en ;
+  rdfs:label "ath-MIR162a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000195
+  dcterms:identifier "MI0000195" ;
+  dcterms:description "Arabidopsis thaliana miR162b stem-loop"@en ;
+  rdfs:label "ath-MIR162b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000196
+  dcterms:identifier "MI0000196" ;
+  dcterms:description "Arabidopsis thaliana miR163 stem-loop"@en ;
+  rdfs:label "ath-MIR163"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000197
+  dcterms:identifier "MI0000197" ;
+  dcterms:description "Arabidopsis thaliana miR164a stem-loop"@en ;
+  rdfs:label "ath-MIR164a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000198
+  dcterms:identifier "MI0000198" ;
+  dcterms:description "Arabidopsis thaliana miR164b stem-loop"@en ;
+  rdfs:label "ath-MIR164b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000199
+  dcterms:identifier "MI0000199" ;
+  dcterms:description "Arabidopsis thaliana miR165a stem-loop"@en ;
+  rdfs:label "ath-MIR165a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000200
+  dcterms:identifier "MI0000200" ;
+  dcterms:description "Arabidopsis thaliana miR165b stem-loop"@en ;
+  rdfs:label "ath-MIR165b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000201
+  dcterms:identifier "MI0000201" ;
+  dcterms:description "Arabidopsis thaliana miR166a stem-loop"@en ;
+  rdfs:label "ath-MIR166a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000202
+  dcterms:identifier "MI0000202" ;
+  dcterms:description "Arabidopsis thaliana miR166b stem-loop"@en ;
+  rdfs:label "ath-MIR166b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000203
+  dcterms:identifier "MI0000203" ;
+  dcterms:description "Arabidopsis thaliana miR166c stem-loop"@en ;
+  rdfs:label "ath-MIR166c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000204
+  dcterms:identifier "MI0000204" ;
+  dcterms:description "Arabidopsis thaliana miR166d stem-loop"@en ;
+  rdfs:label "ath-MIR166d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000205
+  dcterms:identifier "MI0000205" ;
+  dcterms:description "Arabidopsis thaliana miR166e stem-loop"@en ;
+  rdfs:label "ath-MIR166e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000206
+  dcterms:identifier "MI0000206" ;
+  dcterms:description "Arabidopsis thaliana miR166f stem-loop"@en ;
+  rdfs:label "ath-MIR166f"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000207
+  dcterms:identifier "MI0000207" ;
+  dcterms:description "Arabidopsis thaliana miR166g stem-loop"@en ;
+  rdfs:label "ath-MIR166g"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  rdfs:seeAlso rfam:RF00075 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000208
+  dcterms:identifier "MI0000208" ;
+  dcterms:description "Arabidopsis thaliana miR167a stem-loop"@en ;
+  rdfs:label "ath-MIR167a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000209
+  dcterms:identifier "MI0000209" ;
+  dcterms:description "Arabidopsis thaliana miR167b stem-loop"@en ;
+  rdfs:label "ath-MIR167b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000210
+  dcterms:identifier "MI0000210" ;
+  dcterms:description "Arabidopsis thaliana miR168a stem-loop"@en ;
+  rdfs:label "ath-MIR168a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000211
+  dcterms:identifier "MI0000211" ;
+  dcterms:description "Arabidopsis thaliana miR168b stem-loop"@en ;
+  rdfs:label "ath-MIR168b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000212
+  dcterms:identifier "MI0000212" ;
+  dcterms:description "Arabidopsis thaliana miR169a stem-loop"@en ;
+  rdfs:label "ath-MIR169a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000213
+  dcterms:identifier "MI0000213" ;
+  dcterms:description "Arabidopsis thaliana miR170 stem-loop"@en ;
+  rdfs:label "ath-MIR170"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000214
+  dcterms:identifier "MI0000214" ;
+  dcterms:description "Arabidopsis thaliana miR171a stem-loop"@en ;
+  rdfs:label "ath-MIR171a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12101121, pmid:12101121, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12101121, pmid:12101121 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000215
+  dcterms:identifier "MI0000215" ;
+  dcterms:description "Arabidopsis thaliana miR172a stem-loop"@en ;
+  rdfs:label "ath-MIR172a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12225663, pmid:12225663, pubmed:12226481, pmid:12226481 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000216
+  dcterms:identifier "MI0000216" ;
+  dcterms:description "Arabidopsis thaliana miR172b stem-loop"@en ;
+  rdfs:label "ath-MIR172b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12225663, pmid:12225663 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000217
+  dcterms:identifier "MI0000217" ;
+  dcterms:description "Arabidopsis thaliana miR173 stem-loop"@en ;
+  rdfs:label "ath-MIR173"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000218
+  dcterms:identifier "MI0000218" ;
+  dcterms:description "Arabidopsis thaliana miR159b stem-loop"@en ;
+  rdfs:label "ath-MIR159b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12226481, pmid:12226481, pubmed:12225663, pmid:12225663, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000544
+  dcterms:identifier "MI0000544" ;
+  dcterms:description "Arabidopsis thaliana miR319a stem-loop"@en ;
+  rdfs:label "ath-MIR319a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12931144, pmid:12931144 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000545
+  dcterms:identifier "MI0000545" ;
+  dcterms:description "Arabidopsis thaliana miR319b stem-loop"@en ;
+  rdfs:label "ath-MIR319b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12931144, pmid:12931144 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000975
+  dcterms:identifier "MI0000975" ;
+  dcterms:description "Arabidopsis thaliana miR167d stem-loop"@en ;
+  rdfs:label "ath-MIR167d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000976
+  dcterms:identifier "MI0000976" ;
+  dcterms:description "Arabidopsis thaliana miR169b stem-loop"@en ;
+  rdfs:label "ath-MIR169b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000977
+  dcterms:identifier "MI0000977" ;
+  dcterms:description "Arabidopsis thaliana miR169c stem-loop"@en ;
+  rdfs:label "ath-MIR169c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000978
+  dcterms:identifier "MI0000978" ;
+  dcterms:description "Arabidopsis thaliana miR169d stem-loop"@en ;
+  rdfs:label "ath-MIR169d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000979
+  dcterms:identifier "MI0000979" ;
+  dcterms:description "Arabidopsis thaliana miR169e stem-loop"@en ;
+  rdfs:label "ath-MIR169e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000980
+  dcterms:identifier "MI0000980" ;
+  dcterms:description "Arabidopsis thaliana miR169f stem-loop"@en ;
+  rdfs:label "ath-MIR169f"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000981
+  dcterms:identifier "MI0000981" ;
+  dcterms:description "Arabidopsis thaliana miR169g stem-loop"@en ;
+  rdfs:label "ath-MIR169g"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000982
+  dcterms:identifier "MI0000982" ;
+  dcterms:description "Arabidopsis thaliana miR169h stem-loop"@en ;
+  rdfs:label "ath-MIR169h"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000983
+  dcterms:identifier "MI0000983" ;
+  dcterms:description "Arabidopsis thaliana miR169i stem-loop"@en ;
+  rdfs:label "ath-MIR169i"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000984
+  dcterms:identifier "MI0000984" ;
+  dcterms:description "Arabidopsis thaliana miR169j stem-loop"@en ;
+  rdfs:label "ath-MIR169j"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000985
+  dcterms:identifier "MI0000985" ;
+  dcterms:description "Arabidopsis thaliana miR169k stem-loop"@en ;
+  rdfs:label "ath-MIR169k"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000986
+  dcterms:identifier "MI0000986" ;
+  dcterms:description "Arabidopsis thaliana miR169l stem-loop"@en ;
+  rdfs:label "ath-MIR169l"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000987
+  dcterms:identifier "MI0000987" ;
+  dcterms:description "Arabidopsis thaliana miR169m stem-loop"@en ;
+  rdfs:label "ath-MIR169m"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000988
+  dcterms:identifier "MI0000988" ;
+  dcterms:description "Arabidopsis thaliana miR169n stem-loop"@en ;
+  rdfs:label "ath-MIR169n"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000989
+  dcterms:identifier "MI0000989" ;
+  dcterms:description "Arabidopsis thaliana miR171b stem-loop"@en ;
+  rdfs:label "ath-MIR171b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262, pubmed:15345049, pmid:15345049 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000990
+  dcterms:identifier "MI0000990" ;
+  dcterms:description "Arabidopsis thaliana miR171c stem-loop"@en ;
+  rdfs:label "ath-MIR171c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000991
+  dcterms:identifier "MI0000991" ;
+  dcterms:description "Arabidopsis thaliana miR172c stem-loop"@en ;
+  rdfs:label "ath-MIR172c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000992
+  dcterms:identifier "MI0000992" ;
+  dcterms:description "Arabidopsis thaliana miR172d stem-loop"@en ;
+  rdfs:label "ath-MIR172d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001000
+  dcterms:identifier "MI0001000" ;
+  dcterms:description "Arabidopsis thaliana miR390a stem-loop"@en ;
+  rdfs:label "ath-MIR390a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15608278, pmid:15608278, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001001
+  dcterms:identifier "MI0001001" ;
+  dcterms:description "Arabidopsis thaliana miR390b stem-loop"@en ;
+  rdfs:label "ath-MIR390b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15608278, pmid:15608278, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001002
+  dcterms:identifier "MI0001002" ;
+  dcterms:description "Arabidopsis thaliana miR391 stem-loop"@en ;
+  rdfs:label "ath-MIR391"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001003
+  dcterms:identifier "MI0001003" ;
+  dcterms:description "Arabidopsis thaliana miR393a stem-loop"@en ;
+  rdfs:label "ath-MIR393a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956, pubmed:15345049, pmid:15345049 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001004
+  dcterms:identifier "MI0001004" ;
+  dcterms:description "Arabidopsis thaliana miR393b stem-loop"@en ;
+  rdfs:label "ath-MIR393b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001005
+  dcterms:identifier "MI0001005" ;
+  dcterms:description "Arabidopsis thaliana miR394a stem-loop"@en ;
+  rdfs:label "ath-MIR394a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001006
+  dcterms:identifier "MI0001006" ;
+  dcterms:description "Arabidopsis thaliana miR394b stem-loop"@en ;
+  rdfs:label "ath-MIR394b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001007
+  dcterms:identifier "MI0001007" ;
+  dcterms:description "Arabidopsis thaliana miR395a stem-loop"@en ;
+  rdfs:label "ath-MIR395a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001008
+  dcterms:identifier "MI0001008" ;
+  dcterms:description "Arabidopsis thaliana miR395b stem-loop"@en ;
+  rdfs:label "ath-MIR395b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001009
+  dcterms:identifier "MI0001009" ;
+  dcterms:description "Arabidopsis thaliana miR395c stem-loop"@en ;
+  rdfs:label "ath-MIR395c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001010
+  dcterms:identifier "MI0001010" ;
+  dcterms:description "Arabidopsis thaliana miR395d stem-loop"@en ;
+  rdfs:label "ath-MIR395d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001011
+  dcterms:identifier "MI0001011" ;
+  dcterms:description "Arabidopsis thaliana miR395e stem-loop"@en ;
+  rdfs:label "ath-MIR395e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001012
+  dcterms:identifier "MI0001012" ;
+  dcterms:description "Arabidopsis thaliana miR395f stem-loop"@en ;
+  rdfs:label "ath-MIR395f"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001013
+  dcterms:identifier "MI0001013" ;
+  dcterms:description "Arabidopsis thaliana miR396a stem-loop"@en ;
+  rdfs:label "ath-MIR396a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001014
+  dcterms:identifier "MI0001014" ;
+  dcterms:description "Arabidopsis thaliana miR396b stem-loop"@en ;
+  rdfs:label "ath-MIR396b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956, pubmed:15345049, pmid:15345049 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001015
+  dcterms:identifier "MI0001015" ;
+  dcterms:description "Arabidopsis thaliana miR397a stem-loop"@en ;
+  rdfs:label "ath-MIR397a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001016
+  dcterms:identifier "MI0001016" ;
+  dcterms:description "Arabidopsis thaliana miR397b stem-loop"@en ;
+  rdfs:label "ath-MIR397b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001017
+  dcterms:identifier "MI0001017" ;
+  dcterms:description "Arabidopsis thaliana miR398a stem-loop"@en ;
+  rdfs:label "ath-MIR398a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001018
+  dcterms:identifier "MI0001018" ;
+  dcterms:description "Arabidopsis thaliana miR398b stem-loop"@en ;
+  rdfs:label "ath-MIR398b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956, pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001019
+  dcterms:identifier "MI0001019" ;
+  dcterms:description "Arabidopsis thaliana miR398c stem-loop"@en ;
+  rdfs:label "ath-MIR398c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15200956, pmid:15200956, pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001020
+  dcterms:identifier "MI0001020" ;
+  dcterms:description "Arabidopsis thaliana miR399a stem-loop"@en ;
+  rdfs:label "ath-MIR399a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001021
+  dcterms:identifier "MI0001021" ;
+  dcterms:description "Arabidopsis thaliana miR399b stem-loop"@en ;
+  rdfs:label "ath-MIR399b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001022
+  dcterms:identifier "MI0001022" ;
+  dcterms:description "Arabidopsis thaliana miR399c stem-loop"@en ;
+  rdfs:label "ath-MIR399c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001023
+  dcterms:identifier "MI0001023" ;
+  dcterms:description "Arabidopsis thaliana miR399d stem-loop"@en ;
+  rdfs:label "ath-MIR399d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001024
+  dcterms:identifier "MI0001024" ;
+  dcterms:description "Arabidopsis thaliana miR399e stem-loop"@en ;
+  rdfs:label "ath-MIR399e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001025
+  dcterms:identifier "MI0001025" ;
+  dcterms:description "Arabidopsis thaliana miR399f stem-loop"@en ;
+  rdfs:label "ath-MIR399f"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15200956, pmid:15200956 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001069
+  dcterms:identifier "MI0001069" ;
+  dcterms:description "Arabidopsis thaliana miR400 stem-loop"@en ;
+  rdfs:label "ath-MIR400"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001070
+  dcterms:identifier "MI0001070" ;
+  dcterms:description "Arabidopsis thaliana miR401 stem-loop"@en ;
+  rdfs:label "ath-MIR401"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001071
+  dcterms:identifier "MI0001071" ;
+  dcterms:description "Arabidopsis thaliana miR402 stem-loop"@en ;
+  rdfs:label "ath-MIR402"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001072
+  dcterms:identifier "MI0001072" ;
+  dcterms:description "Arabidopsis thaliana miR403 stem-loop"@en ;
+  rdfs:label "ath-MIR403"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001073
+  dcterms:identifier "MI0001073" ;
+  dcterms:description "Arabidopsis thaliana miR404 stem-loop"@en ;
+  rdfs:label "ath-MIR404"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001074
+  dcterms:identifier "MI0001074" ;
+  dcterms:description "Arabidopsis thaliana miR405a stem-loop"@en ;
+  rdfs:label "ath-MIR405a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001075
+  dcterms:identifier "MI0001075" ;
+  dcterms:description "Arabidopsis thaliana miR405b stem-loop"@en ;
+  rdfs:label "ath-MIR405b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001077
+  dcterms:identifier "MI0001077" ;
+  dcterms:description "Arabidopsis thaliana miR405d stem-loop"@en ;
+  rdfs:label "ath-MIR405d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001078
+  dcterms:identifier "MI0001078" ;
+  dcterms:description "Arabidopsis thaliana miR406 stem-loop"@en ;
+  rdfs:label "ath-MIR406"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001079
+  dcterms:identifier "MI0001079" ;
+  dcterms:description "Arabidopsis thaliana miR407 stem-loop"@en ;
+  rdfs:label "ath-MIR407"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001080
+  dcterms:identifier "MI0001080" ;
+  dcterms:description "Arabidopsis thaliana miR408 stem-loop"@en ;
+  rdfs:label "ath-MIR408"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001082
+  dcterms:identifier "MI0001082" ;
+  dcterms:description "Arabidopsis thaliana miR156g stem-loop"@en ;
+  rdfs:label "ath-MIR156g"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001083
+  dcterms:identifier "MI0001083" ;
+  dcterms:description "Arabidopsis thaliana miR156h stem-loop"@en ;
+  rdfs:label "ath-MIR156h"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001084
+  dcterms:identifier "MI0001084" ;
+  dcterms:description "Arabidopsis thaliana miR158b stem-loop"@en ;
+  rdfs:label "ath-MIR158b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001085
+  dcterms:identifier "MI0001085" ;
+  dcterms:description "Arabidopsis thaliana miR159c stem-loop"@en ;
+  rdfs:label "ath-MIR159c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001086
+  dcterms:identifier "MI0001086" ;
+  dcterms:description "Arabidopsis thaliana miR319c stem-loop"@en ;
+  rdfs:label "ath-MIR319c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15258262, pmid:15258262 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001087
+  dcterms:identifier "MI0001087" ;
+  dcterms:description "Arabidopsis thaliana miR164c stem-loop"@en ;
+  rdfs:label "ath-MIR164c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001088
+  dcterms:identifier "MI0001088" ;
+  dcterms:description "Arabidopsis thaliana miR167c stem-loop"@en ;
+  rdfs:label "ath-MIR167c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001089
+  dcterms:identifier "MI0001089" ;
+  dcterms:description "Arabidopsis thaliana miR172e stem-loop"@en ;
+  rdfs:label "ath-MIR172e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001424
+  dcterms:identifier "MI0001424" ;
+  dcterms:description "Arabidopsis thaliana miR413 stem-loop"@en ;
+  rdfs:label "ath-MIR413"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001425
+  dcterms:identifier "MI0001425" ;
+  dcterms:description "Arabidopsis thaliana miR414 stem-loop"@en ;
+  rdfs:label "ath-MIR414"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001426
+  dcterms:identifier "MI0001426" ;
+  dcterms:description "Arabidopsis thaliana miR415 stem-loop"@en ;
+  rdfs:label "ath-MIR415"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001427
+  dcterms:identifier "MI0001427" ;
+  dcterms:description "Arabidopsis thaliana miR416 stem-loop"@en ;
+  rdfs:label "ath-MIR416"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001428
+  dcterms:identifier "MI0001428" ;
+  dcterms:description "Arabidopsis thaliana miR417 stem-loop"@en ;
+  rdfs:label "ath-MIR417"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001429
+  dcterms:identifier "MI0001429" ;
+  dcterms:description "Arabidopsis thaliana miR418 stem-loop"@en ;
+  rdfs:label "ath-MIR418"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001430
+  dcterms:identifier "MI0001430" ;
+  dcterms:description "Arabidopsis thaliana miR419 stem-loop"@en ;
+  rdfs:label "ath-MIR419"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001431
+  dcterms:identifier "MI0001431" ;
+  dcterms:description "Arabidopsis thaliana miR420 stem-loop"@en ;
+  rdfs:label "ath-MIR420"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001441
+  dcterms:identifier "MI0001441" ;
+  dcterms:description "Arabidopsis thaliana miR426 stem-loop"@en ;
+  rdfs:label "ath-MIR426"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15345049, pmid:15345049 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002407
+  dcterms:identifier "MI0002407" ;
+  dcterms:description "Arabidopsis thaliana miR447a stem-loop"@en ;
+  rdfs:label "ath-MIR447a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002408
+  dcterms:identifier "MI0002408" ;
+  dcterms:description "Arabidopsis thaliana miR447b stem-loop"@en ;
+  rdfs:label "ath-MIR447b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15851028, pmid:15851028, pubmed:16040653, pmid:16040653 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0002409
+  dcterms:identifier "MI0002409" ;
+  dcterms:description "Arabidopsis thaliana miR447c stem-loop"@en ;
+  rdfs:label "ath-MIR447c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15851028, pmid:15851028 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005101
+  dcterms:identifier "MI0005101" ;
+  dcterms:description "Arabidopsis thaliana miR771 stem-loop"@en ;
+  rdfs:label "ath-MIR771"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005102
+  dcterms:identifier "MI0005102" ;
+  dcterms:description "Arabidopsis thaliana miR472 stem-loop"@en ;
+  rdfs:label "ath-MIR472"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005103
+  dcterms:identifier "MI0005103" ;
+  dcterms:description "Arabidopsis thaliana miR773 stem-loop"@en ;
+  rdfs:label "ath-MIR773a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005104
+  dcterms:identifier "MI0005104" ;
+  dcterms:description "Arabidopsis thaliana miR774 stem-loop"@en ;
+  rdfs:label "ath-MIR774a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005105
+  dcterms:identifier "MI0005105" ;
+  dcterms:description "Arabidopsis thaliana miR775 stem-loop"@en ;
+  rdfs:label "ath-MIR775"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005106
+  dcterms:identifier "MI0005106" ;
+  dcterms:description "Arabidopsis thaliana miR776 stem-loop"@en ;
+  rdfs:label "ath-MIR776"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005107
+  dcterms:identifier "MI0005107" ;
+  dcterms:description "Arabidopsis thaliana miR777 stem-loop"@en ;
+  rdfs:label "ath-MIR777"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005108
+  dcterms:identifier "MI0005108" ;
+  dcterms:description "Arabidopsis thaliana miR778 stem-loop"@en ;
+  rdfs:label "ath-MIR778"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005109
+  dcterms:identifier "MI0005109" ;
+  dcterms:description "Arabidopsis thaliana miR779 stem-loop"@en ;
+  rdfs:label "ath-MIR779"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599, pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005110
+  dcterms:identifier "MI0005110" ;
+  dcterms:description "Arabidopsis thaliana miR780 stem-loop"@en ;
+  rdfs:label "ath-MIR780"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005111
+  dcterms:identifier "MI0005111" ;
+  dcterms:description "Arabidopsis thaliana miR781 stem-loop"@en ;
+  rdfs:label "ath-MIR781a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005112
+  dcterms:identifier "MI0005112" ;
+  dcterms:description "Arabidopsis thaliana miR782 stem-loop"@en ;
+  rdfs:label "ath-MIR782"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "MPSS" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16954541, pmid:16954541 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005379
+  dcterms:identifier "MI0005379" ;
+  dcterms:description "Arabidopsis thaliana miR822 stem-loop"@en ;
+  rdfs:label "ath-MIR822"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005380
+  dcterms:identifier "MI0005380" ;
+  dcterms:description "Arabidopsis thaliana miR823 stem-loop"@en ;
+  rdfs:label "ath-MIR823"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005381
+  dcterms:identifier "MI0005381" ;
+  dcterms:description "Arabidopsis thaliana miR825 stem-loop"@en ;
+  rdfs:label "ath-MIR825"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005382
+  dcterms:identifier "MI0005382" ;
+  dcterms:description "Arabidopsis thaliana miR826 stem-loop"@en ;
+  rdfs:label "ath-MIR826a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005383
+  dcterms:identifier "MI0005383" ;
+  dcterms:description "Arabidopsis thaliana miR827 stem-loop"@en ;
+  rdfs:label "ath-MIR827"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005384
+  dcterms:identifier "MI0005384" ;
+  dcterms:description "Arabidopsis thaliana miR828 stem-loop"@en ;
+  rdfs:label "ath-MIR828"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005385
+  dcterms:identifier "MI0005385" ;
+  dcterms:description "Arabidopsis thaliana miR829 stem-loop"@en ;
+  rdfs:label "ath-MIR829"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005386
+  dcterms:identifier "MI0005386" ;
+  dcterms:description "Arabidopsis thaliana miR830 stem-loop"@en ;
+  rdfs:label "ath-MIR830"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005387
+  dcterms:identifier "MI0005387" ;
+  dcterms:description "Arabidopsis thaliana miR831 stem-loop"@en ;
+  rdfs:label "ath-MIR831"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005388
+  dcterms:identifier "MI0005388" ;
+  dcterms:description "Arabidopsis thaliana miR832 stem-loop"@en ;
+  rdfs:label "ath-MIR832"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005389
+  dcterms:identifier "MI0005389" ;
+  dcterms:description "Arabidopsis thaliana miR833 stem-loop"@en ;
+  rdfs:label "ath-MIR833a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005390
+  dcterms:identifier "MI0005390" ;
+  dcterms:description "Arabidopsis thaliana miR834 stem-loop"@en ;
+  rdfs:label "ath-MIR834"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005391
+  dcterms:identifier "MI0005391" ;
+  dcterms:description "Arabidopsis thaliana miR835 stem-loop"@en ;
+  rdfs:label "ath-MIR835"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005392
+  dcterms:identifier "MI0005392" ;
+  dcterms:description "Arabidopsis thaliana miR836 stem-loop"@en ;
+  rdfs:label "ath-MIR836"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005393
+  dcterms:identifier "MI0005393" ;
+  dcterms:description "Arabidopsis thaliana miR837 stem-loop"@en ;
+  rdfs:label "ath-MIR837"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005394
+  dcterms:identifier "MI0005394" ;
+  dcterms:description "Arabidopsis thaliana miR838 stem-loop"@en ;
+  rdfs:label "ath-MIR838"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005395
+  dcterms:identifier "MI0005395" ;
+  dcterms:description "Arabidopsis thaliana miR839 stem-loop"@en ;
+  rdfs:label "ath-MIR839"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005396
+  dcterms:identifier "MI0005396" ;
+  dcterms:description "Arabidopsis thaliana miR840 stem-loop"@en ;
+  rdfs:label "ath-MIR840"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005397
+  dcterms:identifier "MI0005397" ;
+  dcterms:description "Arabidopsis thaliana miR841 stem-loop"@en ;
+  rdfs:label "ath-MIR841a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005398
+  dcterms:identifier "MI0005398" ;
+  dcterms:description "Arabidopsis thaliana miR842 stem-loop"@en ;
+  rdfs:label "ath-MIR842"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005399
+  dcterms:identifier "MI0005399" ;
+  dcterms:description "Arabidopsis thaliana miR843 stem-loop"@en ;
+  rdfs:label "ath-MIR843"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005400
+  dcterms:identifier "MI0005400" ;
+  dcterms:description "Arabidopsis thaliana miR844 stem-loop"@en ;
+  rdfs:label "ath-MIR844"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005401
+  dcterms:identifier "MI0005401" ;
+  dcterms:description "Arabidopsis thaliana miR845a stem-loop"@en ;
+  rdfs:label "ath-MIR845a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005402
+  dcterms:identifier "MI0005402" ;
+  dcterms:description "Arabidopsis thaliana miR846 stem-loop"@en ;
+  rdfs:label "ath-MIR846"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005403
+  dcterms:identifier "MI0005403" ;
+  dcterms:description "Arabidopsis thaliana miR848 stem-loop"@en ;
+  rdfs:label "ath-MIR848"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005404
+  dcterms:identifier "MI0005404" ;
+  dcterms:description "Arabidopsis thaliana miR849 stem-loop"@en ;
+  rdfs:label "ath-MIR849"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005405
+  dcterms:identifier "MI0005405" ;
+  dcterms:description "Arabidopsis thaliana miR850 stem-loop"@en ;
+  rdfs:label "ath-MIR850"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005406
+  dcterms:identifier "MI0005406" ;
+  dcterms:description "Arabidopsis thaliana miR851 stem-loop"@en ;
+  rdfs:label "ath-MIR851"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005407
+  dcterms:identifier "MI0005407" ;
+  dcterms:description "Arabidopsis thaliana miR852 stem-loop"@en ;
+  rdfs:label "ath-MIR852"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005408
+  dcterms:identifier "MI0005408" ;
+  dcterms:description "Arabidopsis thaliana miR853 stem-loop"@en ;
+  rdfs:label "ath-MIR853"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005409
+  dcterms:identifier "MI0005409" ;
+  dcterms:description "Arabidopsis thaliana miR824 stem-loop"@en ;
+  rdfs:label "ath-MIR824"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17182867, pmid:17182867, pubmed:17704216, pmid:17704216 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005410
+  dcterms:identifier "MI0005410" ;
+  dcterms:description "Arabidopsis thaliana miR847 stem-loop"@en ;
+  rdfs:label "ath-MIR847"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17182867, pmid:17182867 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005411
+  dcterms:identifier "MI0005411" ;
+  dcterms:description "Arabidopsis thaliana miR855 stem-loop"@en ;
+  rdfs:label "ath-MIR855"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17189346, pmid:17189346 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005412
+  dcterms:identifier "MI0005412" ;
+  dcterms:description "Arabidopsis thaliana miR854a stem-loop"@en ;
+  rdfs:label "ath-MIR854a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17189346, pmid:17189346 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005413
+  dcterms:identifier "MI0005413" ;
+  dcterms:description "Arabidopsis thaliana miR854b stem-loop"@en ;
+  rdfs:label "ath-MIR854b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17189346, pmid:17189346 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005414
+  dcterms:identifier "MI0005414" ;
+  dcterms:description "Arabidopsis thaliana miR854c stem-loop"@en ;
+  rdfs:label "ath-MIR854c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17189346, pmid:17189346 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005415
+  dcterms:identifier "MI0005415" ;
+  dcterms:description "Arabidopsis thaliana miR854d stem-loop"@en ;
+  rdfs:label "ath-MIR854d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17189346, pmid:17189346 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005433
+  dcterms:identifier "MI0005433" ;
+  dcterms:description "Arabidopsis thaliana miR856 stem-loop"@en ;
+  rdfs:label "ath-MIR856"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005434
+  dcterms:identifier "MI0005434" ;
+  dcterms:description "Arabidopsis thaliana miR857 stem-loop"@en ;
+  rdfs:label "ath-MIR857"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005435
+  dcterms:identifier "MI0005435" ;
+  dcterms:description "Arabidopsis thaliana miR858 stem-loop"@en ;
+  rdfs:label "ath-MIR858a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005436
+  dcterms:identifier "MI0005436" ;
+  dcterms:description "Arabidopsis thaliana miR859 stem-loop"@en ;
+  rdfs:label "ath-MIR859"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005437
+  dcterms:identifier "MI0005437" ;
+  dcterms:description "Arabidopsis thaliana miR860 stem-loop"@en ;
+  rdfs:label "ath-MIR860"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005438
+  dcterms:identifier "MI0005438" ;
+  dcterms:description "Arabidopsis thaliana miR861 stem-loop"@en ;
+  rdfs:label "ath-MIR861"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005439
+  dcterms:identifier "MI0005439" ;
+  dcterms:description "Arabidopsis thaliana miR862 stem-loop"@en ;
+  rdfs:label "ath-MIR862"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005440
+  dcterms:identifier "MI0005440" ;
+  dcterms:description "Arabidopsis thaliana miR863 stem-loop"@en ;
+  rdfs:label "ath-MIR863"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005441
+  dcterms:identifier "MI0005441" ;
+  dcterms:description "Arabidopsis thaliana miR864 stem-loop"@en ;
+  rdfs:label "ath-MIR864"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005442
+  dcterms:identifier "MI0005442" ;
+  dcterms:description "Arabidopsis thaliana miR865 stem-loop"@en ;
+  rdfs:label "ath-MIR865"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005443
+  dcterms:identifier "MI0005443" ;
+  dcterms:description "Arabidopsis thaliana miR866 stem-loop"@en ;
+  rdfs:label "ath-MIR866"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005444
+  dcterms:identifier "MI0005444" ;
+  dcterms:description "Arabidopsis thaliana miR845b stem-loop"@en ;
+  rdfs:label "ath-MIR845b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005445
+  dcterms:identifier "MI0005445" ;
+  dcterms:description "Arabidopsis thaliana miR867 stem-loop"@en ;
+  rdfs:label "ath-MIR867"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005446
+  dcterms:identifier "MI0005446" ;
+  dcterms:description "Arabidopsis thaliana miR868 stem-loop"@en ;
+  rdfs:label "ath-MIR868"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005447
+  dcterms:identifier "MI0005447" ;
+  dcterms:description "Arabidopsis thaliana miR869 stem-loop"@en ;
+  rdfs:label "ath-MIR869"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005448
+  dcterms:identifier "MI0005448" ;
+  dcterms:description "Arabidopsis thaliana miR870 stem-loop"@en ;
+  rdfs:label "ath-MIR870"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17299599, pmid:17299599 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008303
+  dcterms:identifier "MI0008303" ;
+  dcterms:description "Arabidopsis thaliana miR1886 stem-loop"@en ;
+  rdfs:label "ath-MIR1886"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19307293, pmid:19307293 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008304
+  dcterms:identifier "MI0008304" ;
+  dcterms:description "Arabidopsis thaliana miR1887 stem-loop"@en ;
+  rdfs:label "ath-MIR1887"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PARE" ;
+    dcterms:references pubmed:18542052, pmid:18542052 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008305
+  dcterms:identifier "MI0008305" ;
+  dcterms:description "Arabidopsis thaliana miR1888 stem-loop"@en ;
+  rdfs:label "ath-MIR1888a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "PARE" ;
+    dcterms:references pubmed:18542052, pmid:18542052 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19815687, pmid:19815687 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010630
+  dcterms:identifier "MI0010630" ;
+  dcterms:description "Arabidopsis thaliana miR2111a stem-loop"@en ;
+  rdfs:label "ath-MIR2111a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19307293, pmid:19307293, pubmed:19465578, pmid:19465578, pubmed:19854858, pmid:19854858 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010631
+  dcterms:identifier "MI0010631" ;
+  dcterms:description "Arabidopsis thaliana miR2111b stem-loop"@en ;
+  rdfs:label "ath-MIR2111b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19307293, pmid:19307293, pubmed:19465578, pmid:19465578, pubmed:19854858, pmid:19854858 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010632
+  dcterms:identifier "MI0010632" ;
+  dcterms:description "Arabidopsis thaliana miR2112 stem-loop"@en ;
+  rdfs:label "ath-MIR2112"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19307293, pmid:19307293 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013362
+  dcterms:identifier "MI0013362" ;
+  dcterms:description "Arabidopsis thaliana miR2933a stem-loop"@en ;
+  rdfs:label "ath-MIR2933a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20042113, pmid:20042113 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013363
+  dcterms:identifier "MI0013363" ;
+  dcterms:description "Arabidopsis thaliana miR2933b stem-loop"@en ;
+  rdfs:label "ath-MIR2933b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20042113, pmid:20042113 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013364
+  dcterms:identifier "MI0013364" ;
+  dcterms:description "Arabidopsis thaliana miR2934 stem-loop"@en ;
+  rdfs:label "ath-MIR2934"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013366
+  dcterms:identifier "MI0013366" ;
+  dcterms:description "Arabidopsis thaliana miR2936 stem-loop"@en ;
+  rdfs:label "ath-MIR2936"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20042113, pmid:20042113 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013367
+  dcterms:identifier "MI0013367" ;
+  dcterms:description "Arabidopsis thaliana miR2937 stem-loop"@en ;
+  rdfs:label "ath-MIR2937"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20042113, pmid:20042113 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013368
+  dcterms:identifier "MI0013368" ;
+  dcterms:description "Arabidopsis thaliana miR2938 stem-loop"@en ;
+  rdfs:label "ath-MIR2938"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20042113, pmid:20042113 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013369
+  dcterms:identifier "MI0013369" ;
+  dcterms:description "Arabidopsis thaliana miR2939 stem-loop"@en ;
+  rdfs:label "ath-MIR2939"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20042113, pmid:20042113 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014666
+  dcterms:identifier "MI0014666" ;
+  dcterms:description "Arabidopsis thaliana miR773b stem-loop"@en ;
+  rdfs:label "ath-MIR773b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20407027, pmid:20407027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014667
+  dcterms:identifier "MI0014667" ;
+  dcterms:description "Arabidopsis thaliana miR3434 stem-loop"@en ;
+  rdfs:label "ath-MIR3434"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20407027, pmid:20407027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014668
+  dcterms:identifier "MI0014668" ;
+  dcterms:description "Arabidopsis thaliana miR774b stem-loop"@en ;
+  rdfs:label "ath-MIR774b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20407027, pmid:20407027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014669
+  dcterms:identifier "MI0014669" ;
+  dcterms:description "Arabidopsis thaliana miR841b stem-loop"@en ;
+  rdfs:label "ath-MIR841b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20407027, pmid:20407027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015815
+  dcterms:identifier "MI0015815" ;
+  dcterms:description "Arabidopsis thaliana miR4221 stem-loop"@en ;
+  rdfs:label "ath-MIR4221"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20407023, pmid:20407023 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015816
+  dcterms:identifier "MI0015816" ;
+  dcterms:description "Arabidopsis thaliana miR4227 stem-loop"@en ;
+  rdfs:label "ath-MIR4227"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20407023, pmid:20407023 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015817
+  dcterms:identifier "MI0015817" ;
+  dcterms:description "Arabidopsis thaliana miR4228 stem-loop"@en ;
+  rdfs:label "ath-MIR4228"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20407023, pmid:20407023 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015818
+  dcterms:identifier "MI0015818" ;
+  dcterms:description "Arabidopsis thaliana miR3440b stem-loop"@en ;
+  rdfs:label "ath-MIR3440b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20407023, pmid:20407023 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015819
+  dcterms:identifier "MI0015819" ;
+  dcterms:description "Arabidopsis thaliana miR4239 stem-loop"@en ;
+  rdfs:label "ath-MIR4239"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20407023, pmid:20407023 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015820
+  dcterms:identifier "MI0015820" ;
+  dcterms:description "Arabidopsis thaliana miR4240 stem-loop"@en ;
+  rdfs:label "ath-MIR4240"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20407023, pmid:20407023 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015821
+  dcterms:identifier "MI0015821" ;
+  dcterms:description "Arabidopsis thaliana miR4243 stem-loop"@en ;
+  rdfs:label "ath-MIR4243"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:20407023, pmid:20407023 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015956
+  dcterms:identifier "MI0015956" ;
+  dcterms:description "Arabidopsis thaliana miR854e stem-loop"@en ;
+  rdfs:label "ath-MIR854e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17189346, pmid:17189346 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016587
+  dcterms:identifier "MI0016587" ;
+  dcterms:description "Arabidopsis thaliana miR3932a stem-loop"@en ;
+  rdfs:label "ath-MIR3932a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20621980, pmid:20621980 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016588
+  dcterms:identifier "MI0016588" ;
+  dcterms:description "Arabidopsis thaliana miR3932b stem-loop"@en ;
+  rdfs:label "ath-MIR3932b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20621980, pmid:20621980 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016589
+  dcterms:identifier "MI0016589" ;
+  dcterms:description "Arabidopsis thaliana miR3933 stem-loop"@en ;
+  rdfs:label "ath-MIR3933"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20621980, pmid:20621980 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017880
+  dcterms:identifier "MI0017880" ;
+  dcterms:description "Arabidopsis thaliana miR5012 stem-loop"@en ;
+  rdfs:label "ath-MIR5012"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017881
+  dcterms:identifier "MI0017881" ;
+  dcterms:description "Arabidopsis thaliana miR5013 stem-loop"@en ;
+  rdfs:label "ath-MIR5013"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017882
+  dcterms:identifier "MI0017882" ;
+  dcterms:description "Arabidopsis thaliana miR5014a stem-loop"@en ;
+  rdfs:label "ath-MIR5014a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017883
+  dcterms:identifier "MI0017883" ;
+  dcterms:description "Arabidopsis thaliana miR5015 stem-loop"@en ;
+  rdfs:label "ath-MIR5015"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017884
+  dcterms:identifier "MI0017884" ;
+  dcterms:description "Arabidopsis thaliana miR5016 stem-loop"@en ;
+  rdfs:label "ath-MIR5016"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017885
+  dcterms:identifier "MI0017885" ;
+  dcterms:description "Arabidopsis thaliana miR5017 stem-loop"@en ;
+  rdfs:label "ath-MIR5017"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017886
+  dcterms:identifier "MI0017886" ;
+  dcterms:description "Arabidopsis thaliana miR5018 stem-loop"@en ;
+  rdfs:label "ath-MIR5018"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017887
+  dcterms:identifier "MI0017887" ;
+  dcterms:description "Arabidopsis thaliana miR5019 stem-loop"@en ;
+  rdfs:label "ath-MIR5019"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017888
+  dcterms:identifier "MI0017888" ;
+  dcterms:description "Arabidopsis thaliana miR5020a stem-loop"@en ;
+  rdfs:label "ath-MIR5020a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774, pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017889
+  dcterms:identifier "MI0017889" ;
+  dcterms:description "Arabidopsis thaliana miR5021 stem-loop"@en ;
+  rdfs:label "ath-MIR5021"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017891
+  dcterms:identifier "MI0017891" ;
+  dcterms:description "Arabidopsis thaliana miR5022 stem-loop"@en ;
+  rdfs:label "ath-MIR5022"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017892
+  dcterms:identifier "MI0017892" ;
+  dcterms:description "Arabidopsis thaliana miR5023 stem-loop"@en ;
+  rdfs:label "ath-MIR5023"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774, pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017893
+  dcterms:identifier "MI0017893" ;
+  dcterms:description "Arabidopsis thaliana miR5020b stem-loop"@en ;
+  rdfs:label "ath-MIR5020b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017894
+  dcterms:identifier "MI0017894" ;
+  dcterms:description "Arabidopsis thaliana miR5024 stem-loop"@en ;
+  rdfs:label "ath-MIR5024"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017895
+  dcterms:identifier "MI0017895" ;
+  dcterms:description "Arabidopsis thaliana miR5025 stem-loop"@en ;
+  rdfs:label "ath-MIR5025"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017896
+  dcterms:identifier "MI0017896" ;
+  dcterms:description "Arabidopsis thaliana miR5026 stem-loop"@en ;
+  rdfs:label "ath-MIR5026"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774, pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017897
+  dcterms:identifier "MI0017897" ;
+  dcterms:description "Arabidopsis thaliana miR5027 stem-loop"@en ;
+  rdfs:label "ath-MIR5027"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017898
+  dcterms:identifier "MI0017898" ;
+  dcterms:description "Arabidopsis thaliana miR5028 stem-loop"@en ;
+  rdfs:label "ath-MIR5028"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017899
+  dcterms:identifier "MI0017899" ;
+  dcterms:description "Arabidopsis thaliana miR5029 stem-loop"@en ;
+  rdfs:label "ath-MIR5029"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21357774, pmid:21357774 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019199
+  dcterms:identifier "MI0019199" ;
+  dcterms:description "Arabidopsis thaliana miR5628 stem-loop"@en ;
+  rdfs:label "ath-MIR5628"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019200
+  dcterms:identifier "MI0019200" ;
+  dcterms:description "Arabidopsis thaliana miR5629 stem-loop"@en ;
+  rdfs:label "ath-MIR5629"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019201
+  dcterms:identifier "MI0019201" ;
+  dcterms:description "Arabidopsis thaliana miR5630a stem-loop"@en ;
+  rdfs:label "ath-MIR5630a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019202
+  dcterms:identifier "MI0019202" ;
+  dcterms:description "Arabidopsis thaliana miR5631 stem-loop"@en ;
+  rdfs:label "ath-MIR5631"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019203
+  dcterms:identifier "MI0019203" ;
+  dcterms:description "Arabidopsis thaliana miR5020c stem-loop"@en ;
+  rdfs:label "ath-MIR5020c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019204
+  dcterms:identifier "MI0019204" ;
+  dcterms:description "Arabidopsis thaliana miR5632 stem-loop"@en ;
+  rdfs:label "ath-MIR5632"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019205
+  dcterms:identifier "MI0019205" ;
+  dcterms:description "Arabidopsis thaliana miR5633 stem-loop"@en ;
+  rdfs:label "ath-MIR5633"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019206
+  dcterms:identifier "MI0019206" ;
+  dcterms:description "Arabidopsis thaliana miR5634 stem-loop"@en ;
+  rdfs:label "ath-MIR5634"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019207
+  dcterms:identifier "MI0019207" ;
+  dcterms:description "Arabidopsis thaliana miR5635a stem-loop"@en ;
+  rdfs:label "ath-MIR5635a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019208
+  dcterms:identifier "MI0019208" ;
+  dcterms:description "Arabidopsis thaliana miR5636 stem-loop"@en ;
+  rdfs:label "ath-MIR5636"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019209
+  dcterms:identifier "MI0019209" ;
+  dcterms:description "Arabidopsis thaliana miR5637 stem-loop"@en ;
+  rdfs:label "ath-MIR5637"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019210
+  dcterms:identifier "MI0019210" ;
+  dcterms:description "Arabidopsis thaliana miR5638a stem-loop"@en ;
+  rdfs:label "ath-MIR5638a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019211
+  dcterms:identifier "MI0019211" ;
+  dcterms:description "Arabidopsis thaliana miR5630b stem-loop"@en ;
+  rdfs:label "ath-MIR5630b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019212
+  dcterms:identifier "MI0019212" ;
+  dcterms:description "Arabidopsis thaliana miR5639 stem-loop"@en ;
+  rdfs:label "ath-MIR5639"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019213
+  dcterms:identifier "MI0019213" ;
+  dcterms:description "Arabidopsis thaliana miR5640 stem-loop"@en ;
+  rdfs:label "ath-MIR5640"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019214
+  dcterms:identifier "MI0019214" ;
+  dcterms:description "Arabidopsis thaliana miR5641 stem-loop"@en ;
+  rdfs:label "ath-MIR5641"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019215
+  dcterms:identifier "MI0019215" ;
+  dcterms:description "Arabidopsis thaliana miR5642a stem-loop"@en ;
+  rdfs:label "ath-MIR5642a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019216
+  dcterms:identifier "MI0019216" ;
+  dcterms:description "Arabidopsis thaliana miR5643a stem-loop"@en ;
+  rdfs:label "ath-MIR5643a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019217
+  dcterms:identifier "MI0019217" ;
+  dcterms:description "Arabidopsis thaliana miR5635d stem-loop"@en ;
+  rdfs:label "ath-MIR5635d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019218
+  dcterms:identifier "MI0019218" ;
+  dcterms:description "Arabidopsis thaliana miR5644 stem-loop"@en ;
+  rdfs:label "ath-MIR5644"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019219
+  dcterms:identifier "MI0019219" ;
+  dcterms:description "Arabidopsis thaliana miR5638b stem-loop"@en ;
+  rdfs:label "ath-MIR5638b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019220
+  dcterms:identifier "MI0019220" ;
+  dcterms:description "Arabidopsis thaliana miR5645a stem-loop"@en ;
+  rdfs:label "ath-MIR5645a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019221
+  dcterms:identifier "MI0019221" ;
+  dcterms:description "Arabidopsis thaliana miR5645b stem-loop"@en ;
+  rdfs:label "ath-MIR5645b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019222
+  dcterms:identifier "MI0019222" ;
+  dcterms:description "Arabidopsis thaliana miR5646 stem-loop"@en ;
+  rdfs:label "ath-MIR5646"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019223
+  dcterms:identifier "MI0019223" ;
+  dcterms:description "Arabidopsis thaliana miR5647 stem-loop"@en ;
+  rdfs:label "ath-MIR5647"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019224
+  dcterms:identifier "MI0019224" ;
+  dcterms:description "Arabidopsis thaliana miR5648 stem-loop"@en ;
+  rdfs:label "ath-MIR5648"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019225
+  dcterms:identifier "MI0019225" ;
+  dcterms:description "Arabidopsis thaliana miR5645c stem-loop"@en ;
+  rdfs:label "ath-MIR5645c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019226
+  dcterms:identifier "MI0019226" ;
+  dcterms:description "Arabidopsis thaliana miR5649a stem-loop"@en ;
+  rdfs:label "ath-MIR5649a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019227
+  dcterms:identifier "MI0019227" ;
+  dcterms:description "Arabidopsis thaliana miR5650 stem-loop"@en ;
+  rdfs:label "ath-MIR5650"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019228
+  dcterms:identifier "MI0019228" ;
+  dcterms:description "Arabidopsis thaliana miR858b stem-loop"@en ;
+  rdfs:label "ath-MIR858b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019229
+  dcterms:identifier "MI0019229" ;
+  dcterms:description "Arabidopsis thaliana miR5635b stem-loop"@en ;
+  rdfs:label "ath-MIR5635b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019230
+  dcterms:identifier "MI0019230" ;
+  dcterms:description "Arabidopsis thaliana miR833b stem-loop"@en ;
+  rdfs:label "ath-MIR833b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019231
+  dcterms:identifier "MI0019231" ;
+  dcterms:description "Arabidopsis thaliana miR781b stem-loop"@en ;
+  rdfs:label "ath-MIR781b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019232
+  dcterms:identifier "MI0019232" ;
+  dcterms:description "Arabidopsis thaliana miR156i stem-loop"@en ;
+  rdfs:label "ath-MIR156i"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019233
+  dcterms:identifier "MI0019233" ;
+  dcterms:description "Arabidopsis thaliana miR5651 stem-loop"@en ;
+  rdfs:label "ath-MIR5651"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019234
+  dcterms:identifier "MI0019234" ;
+  dcterms:description "Arabidopsis thaliana miR156j stem-loop"@en ;
+  rdfs:label "ath-MIR156j"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019235
+  dcterms:identifier "MI0019235" ;
+  dcterms:description "Arabidopsis thaliana miR5652 stem-loop"@en ;
+  rdfs:label "ath-MIR5652"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019236
+  dcterms:identifier "MI0019236" ;
+  dcterms:description "Arabidopsis thaliana miR5653 stem-loop"@en ;
+  rdfs:label "ath-MIR5653"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019237
+  dcterms:identifier "MI0019237" ;
+  dcterms:description "Arabidopsis thaliana miR5654 stem-loop"@en ;
+  rdfs:label "ath-MIR5654"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019238
+  dcterms:identifier "MI0019238" ;
+  dcterms:description "Arabidopsis thaliana miR5655 stem-loop"@en ;
+  rdfs:label "ath-MIR5655"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019239
+  dcterms:identifier "MI0019239" ;
+  dcterms:description "Arabidopsis thaliana miR5635c stem-loop"@en ;
+  rdfs:label "ath-MIR5635c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019240
+  dcterms:identifier "MI0019240" ;
+  dcterms:description "Arabidopsis thaliana miR5656 stem-loop"@en ;
+  rdfs:label "ath-MIR5656"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019241
+  dcterms:identifier "MI0019241" ;
+  dcterms:description "Arabidopsis thaliana miR5657 stem-loop"@en ;
+  rdfs:label "ath-MIR5657"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019242
+  dcterms:identifier "MI0019242" ;
+  dcterms:description "Arabidopsis thaliana miR5658 stem-loop"@en ;
+  rdfs:label "ath-MIR5658"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019243
+  dcterms:identifier "MI0019243" ;
+  dcterms:description "Arabidopsis thaliana miR5659 stem-loop"@en ;
+  rdfs:label "ath-MIR5659"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019244
+  dcterms:identifier "MI0019244" ;
+  dcterms:description "Arabidopsis thaliana miR5645d stem-loop"@en ;
+  rdfs:label "ath-MIR5645d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019245
+  dcterms:identifier "MI0019245" ;
+  dcterms:description "Arabidopsis thaliana miR5660 stem-loop"@en ;
+  rdfs:label "ath-MIR5660"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019246
+  dcterms:identifier "MI0019246" ;
+  dcterms:description "Arabidopsis thaliana miR5642b stem-loop"@en ;
+  rdfs:label "ath-MIR5642b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019247
+  dcterms:identifier "MI0019247" ;
+  dcterms:description "Arabidopsis thaliana miR1888b stem-loop"@en ;
+  rdfs:label "ath-MIR1888b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019248
+  dcterms:identifier "MI0019248" ;
+  dcterms:description "Arabidopsis thaliana miR5649b stem-loop"@en ;
+  rdfs:label "ath-MIR5649b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019249
+  dcterms:identifier "MI0019249" ;
+  dcterms:description "Arabidopsis thaliana miR5661 stem-loop"@en ;
+  rdfs:label "ath-MIR5661"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019250
+  dcterms:identifier "MI0019250" ;
+  dcterms:description "Arabidopsis thaliana miR5662 stem-loop"@en ;
+  rdfs:label "ath-MIR5662"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019251
+  dcterms:identifier "MI0019251" ;
+  dcterms:description "Arabidopsis thaliana miR5663 stem-loop"@en ;
+  rdfs:label "ath-MIR5663"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019252
+  dcterms:identifier "MI0019252" ;
+  dcterms:description "Arabidopsis thaliana miR5645f stem-loop"@en ;
+  rdfs:label "ath-MIR5645f"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019253
+  dcterms:identifier "MI0019253" ;
+  dcterms:description "Arabidopsis thaliana miR5664 stem-loop"@en ;
+  rdfs:label "ath-MIR5664"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019254
+  dcterms:identifier "MI0019254" ;
+  dcterms:description "Arabidopsis thaliana miR5665 stem-loop"@en ;
+  rdfs:label "ath-MIR5665"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019255
+  dcterms:identifier "MI0019255" ;
+  dcterms:description "Arabidopsis thaliana miR5666 stem-loop"@en ;
+  rdfs:label "ath-MIR5666"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019256
+  dcterms:identifier "MI0019256" ;
+  dcterms:description "Arabidopsis thaliana miR5643b stem-loop"@en ;
+  rdfs:label "ath-MIR5643b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019257
+  dcterms:identifier "MI0019257" ;
+  dcterms:description "Arabidopsis thaliana miR5645e stem-loop"@en ;
+  rdfs:label "ath-MIR5645e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21940835, pmid:21940835 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020188
+  dcterms:identifier "MI0020188" ;
+  dcterms:description "Arabidopsis thaliana miR5595a stem-loop"@en ;
+  rdfs:label "ath-MIR5595a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020189
+  dcterms:identifier "MI0020189" ;
+  dcterms:description "Arabidopsis thaliana miR5995b stem-loop"@en ;
+  rdfs:label "ath-MIR5995b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020190
+  dcterms:identifier "MI0020190" ;
+  dcterms:description "Arabidopsis thaliana miR5996 stem-loop"@en ;
+  rdfs:label "ath-MIR5996"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020191
+  dcterms:identifier "MI0020191" ;
+  dcterms:description "Arabidopsis thaliana miR5997 stem-loop"@en ;
+  rdfs:label "ath-MIR5997"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020192
+  dcterms:identifier "MI0020192" ;
+  dcterms:description "Arabidopsis thaliana miR5998a stem-loop"@en ;
+  rdfs:label "ath-MIR5998a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020193
+  dcterms:identifier "MI0020193" ;
+  dcterms:description "Arabidopsis thaliana miR5998b stem-loop"@en ;
+  rdfs:label "ath-MIR5998b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020194
+  dcterms:identifier "MI0020194" ;
+  dcterms:description "Arabidopsis thaliana miR4245 stem-loop"@en ;
+  rdfs:label "ath-MIR4245"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020195
+  dcterms:identifier "MI0020195" ;
+  dcterms:description "Arabidopsis thaliana miR5014b stem-loop"@en ;
+  rdfs:label "ath-MIR5014b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020196
+  dcterms:identifier "MI0020196" ;
+  dcterms:description "Arabidopsis thaliana miR5999 stem-loop"@en ;
+  rdfs:label "ath-MIR5999"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22221297, pmid:22221297 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026055
+  dcterms:identifier "MI0026055" ;
+  dcterms:description "Arabidopsis thaliana miR8121 stem-loop"@en ;
+  rdfs:label "ath-MIR8121"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23709668, pmid:23709668 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026793
+  dcterms:identifier "MI0026793" ;
+  dcterms:description "Arabidopsis thaliana miR8165 stem-loop"@en ;
+  rdfs:label "ath-MIR8165"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026794
+  dcterms:identifier "MI0026794" ;
+  dcterms:description "Arabidopsis thaliana miR8166 stem-loop"@en ;
+  rdfs:label "ath-MIR8166"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026795
+  dcterms:identifier "MI0026795" ;
+  dcterms:description "Arabidopsis thaliana miR8167a stem-loop"@en ;
+  rdfs:label "ath-MIR8167a"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026796
+  dcterms:identifier "MI0026796" ;
+  dcterms:description "Arabidopsis thaliana miR8167b stem-loop"@en ;
+  rdfs:label "ath-MIR8167b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026797
+  dcterms:identifier "MI0026797" ;
+  dcterms:description "Arabidopsis thaliana miR8167c stem-loop"@en ;
+  rdfs:label "ath-MIR8167c"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026798
+  dcterms:identifier "MI0026798" ;
+  dcterms:description "Arabidopsis thaliana miR8168 stem-loop"@en ;
+  rdfs:label "ath-MIR8168"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026799
+  dcterms:identifier "MI0026799" ;
+  dcterms:description "Arabidopsis thaliana miR8169 stem-loop"@en ;
+  rdfs:label "ath-MIR8169"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026800
+  dcterms:identifier "MI0026800" ;
+  dcterms:description "Arabidopsis thaliana miR8170 stem-loop"@en ;
+  rdfs:label "ath-MIR8170"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026801
+  dcterms:identifier "MI0026801" ;
+  dcterms:description "Arabidopsis thaliana miR8171 stem-loop"@en ;
+  rdfs:label "ath-MIR8171"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026802
+  dcterms:identifier "MI0026802" ;
+  dcterms:description "Arabidopsis thaliana miR8172 stem-loop"@en ;
+  rdfs:label "ath-MIR8172"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026803
+  dcterms:identifier "MI0026803" ;
+  dcterms:description "Arabidopsis thaliana miR8173 stem-loop"@en ;
+  rdfs:label "ath-MIR8173"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026804
+  dcterms:identifier "MI0026804" ;
+  dcterms:description "Arabidopsis thaliana miR8174 stem-loop"@en ;
+  rdfs:label "ath-MIR8174"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026805
+  dcterms:identifier "MI0026805" ;
+  dcterms:description "Arabidopsis thaliana miR8175 stem-loop"@en ;
+  rdfs:label "ath-MIR8175"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026806
+  dcterms:identifier "MI0026806" ;
+  dcterms:description "Arabidopsis thaliana miR8176 stem-loop"@en ;
+  rdfs:label "ath-MIR8176"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026807
+  dcterms:identifier "MI0026807" ;
+  dcterms:description "Arabidopsis thaliana miR8177 stem-loop"@en ;
+  rdfs:label "ath-MIR8177"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026808
+  dcterms:identifier "MI0026808" ;
+  dcterms:description "Arabidopsis thaliana miR8178 stem-loop"@en ;
+  rdfs:label "ath-MIR8178"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026809
+  dcterms:identifier "MI0026809" ;
+  dcterms:description "Arabidopsis thaliana miR8179 stem-loop"@en ;
+  rdfs:label "ath-MIR8179"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026810
+  dcterms:identifier "MI0026810" ;
+  dcterms:description "Arabidopsis thaliana miR8180 stem-loop"@en ;
+  rdfs:label "ath-MIR8180"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026811
+  dcterms:identifier "MI0026811" ;
+  dcterms:description "Arabidopsis thaliana miR8181 stem-loop"@en ;
+  rdfs:label "ath-MIR8181"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026812
+  dcterms:identifier "MI0026812" ;
+  dcterms:description "Arabidopsis thaliana miR8182 stem-loop"@en ;
+  rdfs:label "ath-MIR8182"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026813
+  dcterms:identifier "MI0026813" ;
+  dcterms:description "Arabidopsis thaliana miR8183 stem-loop"@en ;
+  rdfs:label "ath-MIR8183"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026814
+  dcterms:identifier "MI0026814" ;
+  dcterms:description "Arabidopsis thaliana miR8184 stem-loop"@en ;
+  rdfs:label "ath-MIR8184"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0029231
+  dcterms:identifier "MI0029231" ;
+  dcterms:description "Arabidopsis thaliana miR826b stem-loop"@en ;
+  rdfs:label "ath-MIR826b"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24367020, pmid:24367020 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031739
+  dcterms:identifier "MI0031739" ;
+  dcterms:description "Arabidopsis thaliana miR8167d stem-loop"@en ;
+  rdfs:label "ath-MIR8167d"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031740
+  dcterms:identifier "MI0031740" ;
+  dcterms:description "Arabidopsis thaliana miR8167e stem-loop"@en ;
+  rdfs:label "ath-MIR8167e"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031741
+  dcterms:identifier "MI0031741" ;
+  dcterms:description "Arabidopsis thaliana miR8167f stem-loop"@en ;
+  rdfs:label "ath-MIR8167f"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24119003, pmid:24119003 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0033661
+  dcterms:identifier "MI0033661" ;
+  dcterms:description "Arabidopsis thaliana miR10515 stem-loop"@en ;
+  rdfs:label "ath-MIR10515"@en ;
+  obo:RO_0002162 taxonomy:3702 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:25552472, pmid:25552472 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:25552472, pmid:25552472 ;
+  ] ;
+  a :MicroRNA .
+

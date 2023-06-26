@@ -1,0 +1,2174 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0006485
+  dcterms:identifier "MI0006485" ;
+  dcterms:description "Vitis vinifera miR156a stem-loop"@en ;
+  rdfs:label "vvi-MIR156a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272137 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006486
+  dcterms:identifier "MI0006486" ;
+  dcterms:description "Vitis vinifera miR156b stem-loop"@en ;
+  rdfs:label "vvi-MIR156b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272126 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006487
+  dcterms:identifier "MI0006487" ;
+  dcterms:description "Vitis vinifera miR156c stem-loop"@en ;
+  rdfs:label "vvi-MIR156c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272129 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006488
+  dcterms:identifier "MI0006488" ;
+  dcterms:description "Vitis vinifera miR156d stem-loop"@en ;
+  rdfs:label "vvi-MIR156d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272057 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006489
+  dcterms:identifier "MI0006489" ;
+  dcterms:description "Vitis vinifera miR156e stem-loop"@en ;
+  rdfs:label "vvi-MIR156e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272028 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006490
+  dcterms:identifier "MI0006490" ;
+  dcterms:description "Vitis vinifera miR156f stem-loop"@en ;
+  rdfs:label "vvi-MIR156f"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272070 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006491
+  dcterms:identifier "MI0006491" ;
+  dcterms:description "Vitis vinifera miR156g stem-loop"@en ;
+  rdfs:label "vvi-MIR156g"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272030 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006492
+  dcterms:identifier "MI0006492" ;
+  dcterms:description "Vitis vinifera miR156i stem-loop"@en ;
+  rdfs:label "vvi-MIR156i"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272066 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006493
+  dcterms:identifier "MI0006493" ;
+  dcterms:description "Vitis vinifera miR159a stem-loop"@en ;
+  rdfs:label "vvi-MIR159a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272100 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006494
+  dcterms:identifier "MI0006494" ;
+  dcterms:description "Vitis vinifera miR159b stem-loop"@en ;
+  rdfs:label "vvi-MIR159b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272095 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006495
+  dcterms:identifier "MI0006495" ;
+  dcterms:description "Vitis vinifera miR159c stem-loop"@en ;
+  rdfs:label "vvi-MIR159c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272091 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006496
+  dcterms:identifier "MI0006496" ;
+  dcterms:description "Vitis vinifera miR160a stem-loop"@en ;
+  rdfs:label "vvi-MIR160a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272103 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006497
+  dcterms:identifier "MI0006497" ;
+  dcterms:description "Vitis vinifera miR160b stem-loop"@en ;
+  rdfs:label "vvi-MIR160b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272071 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006498
+  dcterms:identifier "MI0006498" ;
+  dcterms:description "Vitis vinifera miR160c stem-loop"@en ;
+  rdfs:label "vvi-MIR160c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272010 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006499
+  dcterms:identifier "MI0006499" ;
+  dcterms:description "Vitis vinifera miR160d stem-loop"@en ;
+  rdfs:label "vvi-MIR160d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272045 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006501
+  dcterms:identifier "MI0006501" ;
+  dcterms:description "Vitis vinifera miR160e stem-loop"@en ;
+  rdfs:label "vvi-MIR160e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272138 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006502
+  dcterms:identifier "MI0006502" ;
+  dcterms:description "Vitis vinifera miR162 stem-loop"@en ;
+  rdfs:label "vvi-MIR162"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272141 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006503
+  dcterms:identifier "MI0006503" ;
+  dcterms:description "Vitis vinifera miR164a stem-loop"@en ;
+  rdfs:label "vvi-MIR164a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272134 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006504
+  dcterms:identifier "MI0006504" ;
+  dcterms:description "Vitis vinifera miR164b stem-loop"@en ;
+  rdfs:label "vvi-MIR164b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272107 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006505
+  dcterms:identifier "MI0006505" ;
+  dcterms:description "Vitis vinifera miR164c stem-loop"@en ;
+  rdfs:label "vvi-MIR164c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272012 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006506
+  dcterms:identifier "MI0006506" ;
+  dcterms:description "Vitis vinifera miR164d stem-loop"@en ;
+  rdfs:label "vvi-MIR164d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272044 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006507
+  dcterms:identifier "MI0006507" ;
+  dcterms:description "Vitis vinifera miR166a stem-loop"@en ;
+  rdfs:label "vvi-MIR166a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272008 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006508
+  dcterms:identifier "MI0006508" ;
+  dcterms:description "Vitis vinifera miR166b stem-loop"@en ;
+  rdfs:label "vvi-MIR166b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272048 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006509
+  dcterms:identifier "MI0006509" ;
+  dcterms:description "Vitis vinifera miR166c stem-loop"@en ;
+  rdfs:label "vvi-MIR166c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272106 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006510
+  dcterms:identifier "MI0006510" ;
+  dcterms:description "Vitis vinifera miR166d stem-loop"@en ;
+  rdfs:label "vvi-MIR166d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272082 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006511
+  dcterms:identifier "MI0006511" ;
+  dcterms:description "Vitis vinifera miR166e stem-loop"@en ;
+  rdfs:label "vvi-MIR166e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272083 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006512
+  dcterms:identifier "MI0006512" ;
+  dcterms:description "Vitis vinifera miR166f stem-loop"@en ;
+  rdfs:label "vvi-MIR166f"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272081 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006513
+  dcterms:identifier "MI0006513" ;
+  dcterms:description "Vitis vinifera miR166g stem-loop"@en ;
+  rdfs:label "vvi-MIR166g"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272040 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006514
+  dcterms:identifier "MI0006514" ;
+  dcterms:description "Vitis vinifera miR166h stem-loop"@en ;
+  rdfs:label "vvi-MIR166h"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272007 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006515
+  dcterms:identifier "MI0006515" ;
+  dcterms:description "Vitis vinifera miR167a stem-loop"@en ;
+  rdfs:label "vvi-MIR167a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272042 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006516
+  dcterms:identifier "MI0006516" ;
+  dcterms:description "Vitis vinifera miR167b stem-loop"@en ;
+  rdfs:label "vvi-MIR167b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272018 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006517
+  dcterms:identifier "MI0006517" ;
+  dcterms:description "Vitis vinifera miR167c stem-loop"@en ;
+  rdfs:label "vvi-MIR167c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272067 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006518
+  dcterms:identifier "MI0006518" ;
+  dcterms:description "Vitis vinifera miR167d stem-loop"@en ;
+  rdfs:label "vvi-MIR167d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272113 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006519
+  dcterms:identifier "MI0006519" ;
+  dcterms:description "Vitis vinifera miR167e stem-loop"@en ;
+  rdfs:label "vvi-MIR167e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272114 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006520
+  dcterms:identifier "MI0006520" ;
+  dcterms:description "Vitis vinifera miR168 stem-loop"@en ;
+  rdfs:label "vvi-MIR168"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272111 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006521
+  dcterms:identifier "MI0006521" ;
+  dcterms:description "Vitis vinifera miR169a stem-loop"@en ;
+  rdfs:label "vvi-MIR169a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272118 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006522
+  dcterms:identifier "MI0006522" ;
+  dcterms:description "Vitis vinifera miR169y stem-loop"@en ;
+  rdfs:label "vvi-MIR169y"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272047 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006523
+  dcterms:identifier "MI0006523" ;
+  dcterms:description "Vitis vinifera miR169c stem-loop"@en ;
+  rdfs:label "vvi-MIR169c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272017 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006524
+  dcterms:identifier "MI0006524" ;
+  dcterms:description "Vitis vinifera miR169d stem-loop"@en ;
+  rdfs:label "vvi-MIR169d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272052 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006525
+  dcterms:identifier "MI0006525" ;
+  dcterms:description "Vitis vinifera miR169e stem-loop"@en ;
+  rdfs:label "vvi-MIR169e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272006 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006526
+  dcterms:identifier "MI0006526" ;
+  dcterms:description "Vitis vinifera miR169f stem-loop"@en ;
+  rdfs:label "vvi-MIR169f"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272075 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006527
+  dcterms:identifier "MI0006527" ;
+  dcterms:description "Vitis vinifera miR169g stem-loop"@en ;
+  rdfs:label "vvi-MIR169g"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272087 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006528
+  dcterms:identifier "MI0006528" ;
+  dcterms:description "Vitis vinifera miR169j stem-loop"@en ;
+  rdfs:label "vvi-MIR169j"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272086 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006529
+  dcterms:identifier "MI0006529" ;
+  dcterms:description "Vitis vinifera miR169k stem-loop"@en ;
+  rdfs:label "vvi-MIR169k"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272076 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006530
+  dcterms:identifier "MI0006530" ;
+  dcterms:description "Vitis vinifera miR169m stem-loop"@en ;
+  rdfs:label "vvi-MIR169m"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272013 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006531
+  dcterms:identifier "MI0006531" ;
+  dcterms:description "Vitis vinifera miR169p stem-loop"@en ;
+  rdfs:label "vvi-MIR169p"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272051 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006532
+  dcterms:identifier "MI0006532" ;
+  dcterms:description "Vitis vinifera miR169r stem-loop"@en ;
+  rdfs:label "vvi-MIR169r"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272014 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006533
+  dcterms:identifier "MI0006533" ;
+  dcterms:description "Vitis vinifera miR169s stem-loop"@en ;
+  rdfs:label "vvi-MIR169s"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272039 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006534
+  dcterms:identifier "MI0006534" ;
+  dcterms:description "Vitis vinifera miR169t stem-loop"@en ;
+  rdfs:label "vvi-MIR169t"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272109 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006535
+  dcterms:identifier "MI0006535" ;
+  dcterms:description "Vitis vinifera miR169u stem-loop"@en ;
+  rdfs:label "vvi-MIR169u"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272124 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006536
+  dcterms:identifier "MI0006536" ;
+  dcterms:description "Vitis vinifera miR171a stem-loop"@en ;
+  rdfs:label "vvi-MIR171a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272123 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006537
+  dcterms:identifier "MI0006537" ;
+  dcterms:description "Vitis vinifera miR171b stem-loop"@en ;
+  rdfs:label "vvi-MIR171b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272122 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006538
+  dcterms:identifier "MI0006538" ;
+  dcterms:description "Vitis vinifera miR171c stem-loop"@en ;
+  rdfs:label "vvi-MIR171c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272119 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006539
+  dcterms:identifier "MI0006539" ;
+  dcterms:description "Vitis vinifera miR171d stem-loop"@en ;
+  rdfs:label "vvi-MIR171d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272021 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006540
+  dcterms:identifier "MI0006540" ;
+  dcterms:description "Vitis vinifera miR171e stem-loop"@en ;
+  rdfs:label "vvi-MIR171e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272056 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006541
+  dcterms:identifier "MI0006541" ;
+  dcterms:description "Vitis vinifera miR171f stem-loop"@en ;
+  rdfs:label "vvi-MIR171f"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272016 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006542
+  dcterms:identifier "MI0006542" ;
+  dcterms:description "Vitis vinifera miR171h stem-loop"@en ;
+  rdfs:label "vvi-MIR171h"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272049 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006543
+  dcterms:identifier "MI0006543" ;
+  dcterms:description "Vitis vinifera miR171i stem-loop"@en ;
+  rdfs:label "vvi-MIR171i"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272085 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006544
+  dcterms:identifier "MI0006544" ;
+  dcterms:description "Vitis vinifera miR172a stem-loop"@en ;
+  rdfs:label "vvi-MIR172a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272084 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006545
+  dcterms:identifier "MI0006545" ;
+  dcterms:description "Vitis vinifera miR172b stem-loop"@en ;
+  rdfs:label "vvi-MIR172b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272089 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006546
+  dcterms:identifier "MI0006546" ;
+  dcterms:description "Vitis vinifera miR172c stem-loop"@en ;
+  rdfs:label "vvi-MIR172c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272088 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006547
+  dcterms:identifier "MI0006547" ;
+  dcterms:description "Vitis vinifera miR172d stem-loop"@en ;
+  rdfs:label "vvi-MIR172d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272055 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006548
+  dcterms:identifier "MI0006548" ;
+  dcterms:description "Vitis vinifera miR319b stem-loop"@en ;
+  rdfs:label "vvi-MIR319b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272023 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006549
+  dcterms:identifier "MI0006549" ;
+  dcterms:description "Vitis vinifera miR319c stem-loop"@en ;
+  rdfs:label "vvi-MIR319c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272054 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006550
+  dcterms:identifier "MI0006550" ;
+  dcterms:description "Vitis vinifera miR319f stem-loop"@en ;
+  rdfs:label "vvi-MIR319f"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272019 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006551
+  dcterms:identifier "MI0006551" ;
+  dcterms:description "Vitis vinifera miR319g stem-loop"@en ;
+  rdfs:label "vvi-MIR319g"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272127 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006552
+  dcterms:identifier "MI0006552" ;
+  dcterms:description "Vitis vinifera miR390 stem-loop"@en ;
+  rdfs:label "vvi-MIR390"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272125 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006553
+  dcterms:identifier "MI0006553" ;
+  dcterms:description "Vitis vinifera miR393b stem-loop"@en ;
+  rdfs:label "vvi-MIR393b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272131 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006554
+  dcterms:identifier "MI0006554" ;
+  dcterms:description "Vitis vinifera miR394a stem-loop"@en ;
+  rdfs:label "vvi-MIR394a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272130 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006555
+  dcterms:identifier "MI0006555" ;
+  dcterms:description "Vitis vinifera miR394b stem-loop"@en ;
+  rdfs:label "vvi-MIR394b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272024 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006556
+  dcterms:identifier "MI0006556" ;
+  dcterms:description "Vitis vinifera miR395a stem-loop"@en ;
+  rdfs:label "vvi-MIR395a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272069 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006557
+  dcterms:identifier "MI0006557" ;
+  dcterms:description "Vitis vinifera miR395b stem-loop"@en ;
+  rdfs:label "vvi-MIR395b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272020 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006558
+  dcterms:identifier "MI0006558" ;
+  dcterms:description "Vitis vinifera miR395c stem-loop"@en ;
+  rdfs:label "vvi-MIR395c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272053 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006559
+  dcterms:identifier "MI0006559" ;
+  dcterms:description "Vitis vinifera miR395d stem-loop"@en ;
+  rdfs:label "vvi-MIR395d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272096 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006560
+  dcterms:identifier "MI0006560" ;
+  dcterms:description "Vitis vinifera miR395e stem-loop"@en ;
+  rdfs:label "vvi-MIR395e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272090 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006561
+  dcterms:identifier "MI0006561" ;
+  dcterms:description "Vitis vinifera miR395f stem-loop"@en ;
+  rdfs:label "vvi-MIR395f"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272094 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006562
+  dcterms:identifier "MI0006562" ;
+  dcterms:description "Vitis vinifera miR395g stem-loop"@en ;
+  rdfs:label "vvi-MIR395g"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272093 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006563
+  dcterms:identifier "MI0006563" ;
+  dcterms:description "Vitis vinifera miR395h stem-loop"@en ;
+  rdfs:label "vvi-MIR395h"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272097 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006564
+  dcterms:identifier "MI0006564" ;
+  dcterms:description "Vitis vinifera miR395i stem-loop"@en ;
+  rdfs:label "vvi-MIR395i"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272037 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006565
+  dcterms:identifier "MI0006565" ;
+  dcterms:description "Vitis vinifera miR395j stem-loop"@en ;
+  rdfs:label "vvi-MIR395j"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272050 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006566
+  dcterms:identifier "MI0006566" ;
+  dcterms:description "Vitis vinifera miR395k stem-loop"@en ;
+  rdfs:label "vvi-MIR395k"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272015 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006567
+  dcterms:identifier "MI0006567" ;
+  dcterms:description "Vitis vinifera miR395l stem-loop"@en ;
+  rdfs:label "vvi-MIR395l"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272059 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006568
+  dcterms:identifier "MI0006568" ;
+  dcterms:description "Vitis vinifera miR395m stem-loop"@en ;
+  rdfs:label "vvi-MIR395m"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272128 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006569
+  dcterms:identifier "MI0006569" ;
+  dcterms:description "Vitis vinifera miR396a stem-loop"@en ;
+  rdfs:label "vvi-MIR396a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272132 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006570
+  dcterms:identifier "MI0006570" ;
+  dcterms:description "Vitis vinifera miR396b stem-loop"@en ;
+  rdfs:label "vvi-MIR396b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272142 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006571
+  dcterms:identifier "MI0006571" ;
+  dcterms:description "Vitis vinifera miR396d stem-loop"@en ;
+  rdfs:label "vvi-MIR396d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272139 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006572
+  dcterms:identifier "MI0006572" ;
+  dcterms:description "Vitis vinifera miR398a stem-loop"@en ;
+  rdfs:label "vvi-MIR398a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272072 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006573
+  dcterms:identifier "MI0006573" ;
+  dcterms:description "Vitis vinifera miR399a stem-loop"@en ;
+  rdfs:label "vvi-MIR399a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272022 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006574
+  dcterms:identifier "MI0006574" ;
+  dcterms:description "Vitis vinifera miR399b stem-loop"@en ;
+  rdfs:label "vvi-MIR399b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272063 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006575
+  dcterms:identifier "MI0006575" ;
+  dcterms:description "Vitis vinifera miR399e stem-loop"@en ;
+  rdfs:label "vvi-MIR399e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272027 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006576
+  dcterms:identifier "MI0006576" ;
+  dcterms:description "Vitis vinifera miR399g stem-loop"@en ;
+  rdfs:label "vvi-MIR399g"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272079 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006577
+  dcterms:identifier "MI0006577" ;
+  dcterms:description "Vitis vinifera miR399h stem-loop"@en ;
+  rdfs:label "vvi-MIR399h"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272092 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006578
+  dcterms:identifier "MI0006578" ;
+  dcterms:description "Vitis vinifera miR408 stem-loop"@en ;
+  rdfs:label "vvi-MIR408"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272101 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006579
+  dcterms:identifier "MI0006579" ;
+  dcterms:description "Vitis vinifera miR479 stem-loop"@en ;
+  rdfs:label "vvi-MIR479"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272104 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006580
+  dcterms:identifier "MI0006580" ;
+  dcterms:description "Vitis vinifera miR535a stem-loop"@en ;
+  rdfs:label "vvi-MIR535a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272032 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006581
+  dcterms:identifier "MI0006581" ;
+  dcterms:description "Vitis vinifera miR535b stem-loop"@en ;
+  rdfs:label "vvi-MIR535b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272058 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0006583
+  dcterms:identifier "MI0006583" ;
+  dcterms:description "Vitis vinifera miR535c stem-loop"@en ;
+  rdfs:label "vvi-MIR535c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272061 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007939
+  dcterms:identifier "MI0007939" ;
+  dcterms:description "Vitis vinifera miR156h stem-loop"@en ;
+  rdfs:label "vvi-MIR156h"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272135 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23034410, pmid:23034410 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007940
+  dcterms:identifier "MI0007940" ;
+  dcterms:description "Vitis vinifera miR169b stem-loop"@en ;
+  rdfs:label "vvi-MIR169b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272133 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007941
+  dcterms:identifier "MI0007941" ;
+  dcterms:description "Vitis vinifera miR169h stem-loop"@en ;
+  rdfs:label "vvi-MIR169h"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272143 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007942
+  dcterms:identifier "MI0007942" ;
+  dcterms:description "Vitis vinifera miR169i stem-loop"@en ;
+  rdfs:label "vvi-MIR169i"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272117 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007943
+  dcterms:identifier "MI0007943" ;
+  dcterms:description "Vitis vinifera miR169l stem-loop"@en ;
+  rdfs:label "vvi-MIR169l"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272026 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007944
+  dcterms:identifier "MI0007944" ;
+  dcterms:description "Vitis vinifera miR169n stem-loop"@en ;
+  rdfs:label "vvi-MIR169n"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272065 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007945
+  dcterms:identifier "MI0007945" ;
+  dcterms:description "Vitis vinifera miR169o stem-loop"@en ;
+  rdfs:label "vvi-MIR169o"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272031 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007946
+  dcterms:identifier "MI0007946" ;
+  dcterms:description "Vitis vinifera miR169q stem-loop"@en ;
+  rdfs:label "vvi-MIR169q"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272046 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007947
+  dcterms:identifier "MI0007947" ;
+  dcterms:description "Vitis vinifera miR169v stem-loop"@en ;
+  rdfs:label "vvi-MIR169v"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272099 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007948
+  dcterms:identifier "MI0007948" ;
+  dcterms:description "Vitis vinifera miR169w stem-loop"@en ;
+  rdfs:label "vvi-MIR169w"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272098 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007949
+  dcterms:identifier "MI0007949" ;
+  dcterms:description "Vitis vinifera miR169x stem-loop"@en ;
+  rdfs:label "vvi-MIR169x"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272102 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007950
+  dcterms:identifier "MI0007950" ;
+  dcterms:description "Vitis vinifera miR171g stem-loop"@en ;
+  rdfs:label "vvi-MIR171g"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272078 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007951
+  dcterms:identifier "MI0007951" ;
+  dcterms:description "Vitis vinifera miR319e stem-loop"@en ;
+  rdfs:label "vvi-MIR319e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272064 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007952
+  dcterms:identifier "MI0007952" ;
+  dcterms:description "Vitis vinifera miR393a stem-loop"@en ;
+  rdfs:label "vvi-MIR393a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272029 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007953
+  dcterms:identifier "MI0007953" ;
+  dcterms:description "Vitis vinifera miR394c stem-loop"@en ;
+  rdfs:label "vvi-MIR394c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272073 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007954
+  dcterms:identifier "MI0007954" ;
+  dcterms:description "Vitis vinifera miR395n stem-loop"@en ;
+  rdfs:label "vvi-MIR395n"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272034 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007955
+  dcterms:identifier "MI0007955" ;
+  dcterms:description "Vitis vinifera miR396c stem-loop"@en ;
+  rdfs:label "vvi-MIR396c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272140 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007956
+  dcterms:identifier "MI0007956" ;
+  dcterms:description "Vitis vinifera miR397a stem-loop"@en ;
+  rdfs:label "vvi-MIR397a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272112 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007958
+  dcterms:identifier "MI0007958" ;
+  dcterms:description "Vitis vinifera miR398b stem-loop"@en ;
+  rdfs:label "vvi-MIR398b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272110 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007959
+  dcterms:identifier "MI0007959" ;
+  dcterms:description "Vitis vinifera miR398c stem-loop"@en ;
+  rdfs:label "vvi-MIR398c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272033 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007960
+  dcterms:identifier "MI0007960" ;
+  dcterms:description "Vitis vinifera miR399c stem-loop"@en ;
+  rdfs:label "vvi-MIR399c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272068 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007961
+  dcterms:identifier "MI0007961" ;
+  dcterms:description "Vitis vinifera miR399d stem-loop"@en ;
+  rdfs:label "vvi-MIR399d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272004 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007962
+  dcterms:identifier "MI0007962" ;
+  dcterms:description "Vitis vinifera miR399f stem-loop"@en ;
+  rdfs:label "vvi-MIR399f"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272062 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007963
+  dcterms:identifier "MI0007963" ;
+  dcterms:description "Vitis vinifera miR399i stem-loop"@en ;
+  rdfs:label "vvi-MIR399i"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272036 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007964
+  dcterms:identifier "MI0007964" ;
+  dcterms:description "Vitis vinifera miR403a stem-loop"@en ;
+  rdfs:label "vvi-MIR403a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272080 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007965
+  dcterms:identifier "MI0007965" ;
+  dcterms:description "Vitis vinifera miR403b stem-loop"@en ;
+  rdfs:label "vvi-MIR403b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272074 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007966
+  dcterms:identifier "MI0007966" ;
+  dcterms:description "Vitis vinifera miR403c stem-loop"@en ;
+  rdfs:label "vvi-MIR403c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272077 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007967
+  dcterms:identifier "MI0007967" ;
+  dcterms:description "Vitis vinifera miR403d stem-loop"@en ;
+  rdfs:label "vvi-MIR403d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272105 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007968
+  dcterms:identifier "MI0007968" ;
+  dcterms:description "Vitis vinifera miR403e stem-loop"@en ;
+  rdfs:label "vvi-MIR403e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272035 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007969
+  dcterms:identifier "MI0007969" ;
+  dcterms:description "Vitis vinifera miR403f stem-loop"@en ;
+  rdfs:label "vvi-MIR403f"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272038 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007970
+  dcterms:identifier "MI0007970" ;
+  dcterms:description "Vitis vinifera miR477 stem-loop"@en ;
+  rdfs:label "vvi-MIR477a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272011 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007971
+  dcterms:identifier "MI0007971" ;
+  dcterms:description "Vitis vinifera miR482 stem-loop"@en ;
+  rdfs:label "vvi-MIR482"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272043 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007972
+  dcterms:identifier "MI0007972" ;
+  dcterms:description "Vitis vinifera miR828a stem-loop"@en ;
+  rdfs:label "vvi-MIR828a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272115 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007974
+  dcterms:identifier "MI0007974" ;
+  dcterms:description "Vitis vinifera miR845a stem-loop"@en ;
+  rdfs:label "vvi-MIR845a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272121 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007975
+  dcterms:identifier "MI0007975" ;
+  dcterms:description "Vitis vinifera miR845b stem-loop"@en ;
+  rdfs:label "vvi-MIR845b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272116 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007976
+  dcterms:identifier "MI0007976" ;
+  dcterms:description "Vitis vinifera miR845c stem-loop"@en ;
+  rdfs:label "vvi-MIR845c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272041 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007977
+  dcterms:identifier "MI0007977" ;
+  dcterms:description "Vitis vinifera miR845d stem-loop"@en ;
+  rdfs:label "vvi-MIR845d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272009 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007978
+  dcterms:identifier "MI0007978" ;
+  dcterms:description "Vitis vinifera miR845e stem-loop"@en ;
+  rdfs:label "vvi-MIR845e"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  rdfs:seeAlso ncbigene:100272060 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015370
+  dcterms:identifier "MI0015370" ;
+  dcterms:description "Vitis vinifera miR2111 stem-loop"@en ;
+  rdfs:label "vvi-MIR2111"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:19854858, pmid:19854858 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:19854858, pmid:19854858 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016015
+  dcterms:identifier "MI0016015" ;
+  dcterms:description "Vitis vinifera miR3623 stem-loop"@en ;
+  rdfs:label "vvi-MIR3623"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016016
+  dcterms:identifier "MI0016016" ;
+  dcterms:description "Vitis vinifera miR2950 stem-loop"@en ;
+  rdfs:label "vvi-MIR2950"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016017
+  dcterms:identifier "MI0016017" ;
+  dcterms:description "Vitis vinifera miR3624 stem-loop"@en ;
+  rdfs:label "vvi-MIR3624"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016018
+  dcterms:identifier "MI0016018" ;
+  dcterms:description "Vitis vinifera miR3625 stem-loop"@en ;
+  rdfs:label "vvi-MIR3625"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016019
+  dcterms:identifier "MI0016019" ;
+  dcterms:description "Vitis vinifera miR3626 stem-loop"@en ;
+  rdfs:label "vvi-MIR3626"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016020
+  dcterms:identifier "MI0016020" ;
+  dcterms:description "Vitis vinifera miR3627 stem-loop"@en ;
+  rdfs:label "vvi-MIR3627"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016021
+  dcterms:identifier "MI0016021" ;
+  dcterms:description "Vitis vinifera miR3628 stem-loop"@en ;
+  rdfs:label "vvi-MIR3628"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016022
+  dcterms:identifier "MI0016022" ;
+  dcterms:description "Vitis vinifera miR3629a stem-loop"@en ;
+  rdfs:label "vvi-MIR3629a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016023
+  dcterms:identifier "MI0016023" ;
+  dcterms:description "Vitis vinifera miR3629b stem-loop"@en ;
+  rdfs:label "vvi-MIR3629b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016024
+  dcterms:identifier "MI0016024" ;
+  dcterms:description "Vitis vinifera miR3629c stem-loop"@en ;
+  rdfs:label "vvi-MIR3629c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016025
+  dcterms:identifier "MI0016025" ;
+  dcterms:description "Vitis vinifera miR477b stem-loop"@en ;
+  rdfs:label "vvi-MIR477b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016026
+  dcterms:identifier "MI0016026" ;
+  dcterms:description "Vitis vinifera miR3630 stem-loop"@en ;
+  rdfs:label "vvi-MIR3630"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016027
+  dcterms:identifier "MI0016027" ;
+  dcterms:description "Vitis vinifera miR3631a stem-loop"@en ;
+  rdfs:label "vvi-MIR3631a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016028
+  dcterms:identifier "MI0016028" ;
+  dcterms:description "Vitis vinifera miR3631b stem-loop"@en ;
+  rdfs:label "vvi-MIR3631b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016029
+  dcterms:identifier "MI0016029" ;
+  dcterms:description "Vitis vinifera miR3631c stem-loop"@en ;
+  rdfs:label "vvi-MIR3631c"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016030
+  dcterms:identifier "MI0016030" ;
+  dcterms:description "Vitis vinifera miR3631d stem-loop"@en ;
+  rdfs:label "vvi-MIR3631d"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016031
+  dcterms:identifier "MI0016031" ;
+  dcterms:description "Vitis vinifera miR3632 stem-loop"@en ;
+  rdfs:label "vvi-MIR3632"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016032
+  dcterms:identifier "MI0016032" ;
+  dcterms:description "Vitis vinifera miR3633a stem-loop"@en ;
+  rdfs:label "vvi-MIR3633a"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016033
+  dcterms:identifier "MI0016033" ;
+  dcterms:description "Vitis vinifera miR3634 stem-loop"@en ;
+  rdfs:label "vvi-MIR3634"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016034
+  dcterms:identifier "MI0016034" ;
+  dcterms:description "Vitis vinifera miR3633b stem-loop"@en ;
+  rdfs:label "vvi-MIR3633b"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016035
+  dcterms:identifier "MI0016035" ;
+  dcterms:description "Vitis vinifera miR3635 stem-loop"@en ;
+  rdfs:label "vvi-MIR3635"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016036
+  dcterms:identifier "MI0016036" ;
+  dcterms:description "Vitis vinifera miR3636 stem-loop"@en ;
+  rdfs:label "vvi-MIR3636"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016037
+  dcterms:identifier "MI0016037" ;
+  dcterms:description "Vitis vinifera miR3637 stem-loop"@en ;
+  rdfs:label "vvi-MIR3637"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016038
+  dcterms:identifier "MI0016038" ;
+  dcterms:description "Vitis vinifera miR3638 stem-loop"@en ;
+  rdfs:label "vvi-MIR3638"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016039
+  dcterms:identifier "MI0016039" ;
+  dcterms:description "Vitis vinifera miR3639 stem-loop"@en ;
+  rdfs:label "vvi-MIR3639"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016040
+  dcterms:identifier "MI0016040" ;
+  dcterms:description "Vitis vinifera miR3640 stem-loop"@en ;
+  rdfs:label "vvi-MIR3640"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20230504, pmid:20230504 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0031743
+  dcterms:identifier "MI0031743" ;
+  dcterms:description "Vitis vinifera miR171j stem-loop"@en ;
+  rdfs:label "vvi-MIR171j"@en ;
+  obo:RO_0002162 taxonomy:29760 ;
+  :evidence [
+    :experiment_type "Array" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19939267, pmid:19939267 ;
+  ] ;
+  a :MicroRNA .
+

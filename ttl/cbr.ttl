@@ -1,0 +1,1951 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0000491
+  dcterms:identifier "MI0000491" ;
+  dcterms:description "Caenorhabditis briggsae let-7 stem-loop"@en ;
+  rdfs:label "cbr-let-7"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000492
+  dcterms:identifier "MI0000492" ;
+  dcterms:description "Caenorhabditis briggsae lin-4 stem-loop"@en ;
+  rdfs:label "cbr-lin-4"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000493
+  dcterms:identifier "MI0000493" ;
+  dcterms:description "Caenorhabditis briggsae miR-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000494
+  dcterms:identifier "MI0000494" ;
+  dcterms:description "Caenorhabditis briggsae miR-34 stem-loop"@en ;
+  rdfs:label "cbr-mir-34"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000495
+  dcterms:identifier "MI0000495" ;
+  dcterms:description "Caenorhabditis briggsae miR-42 stem-loop"@en ;
+  rdfs:label "cbr-mir-42"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000496
+  dcterms:identifier "MI0000496" ;
+  dcterms:description "Caenorhabditis briggsae miR-43 stem-loop"@en ;
+  rdfs:label "cbr-mir-43"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000497
+  dcterms:identifier "MI0000497" ;
+  dcterms:description "Caenorhabditis briggsae miR-44 stem-loop"@en ;
+  rdfs:label "cbr-mir-44"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000498
+  dcterms:identifier "MI0000498" ;
+  dcterms:description "Caenorhabditis briggsae miR-45-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-45-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000499
+  dcterms:identifier "MI0000499" ;
+  dcterms:description "Caenorhabditis briggsae miR-45-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-45-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000500
+  dcterms:identifier "MI0000500" ;
+  dcterms:description "Caenorhabditis briggsae miR-46 stem-loop"@en ;
+  rdfs:label "cbr-mir-46"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000501
+  dcterms:identifier "MI0000501" ;
+  dcterms:description "Caenorhabditis briggsae miR-47 stem-loop"@en ;
+  rdfs:label "cbr-mir-47"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000502
+  dcterms:identifier "MI0000502" ;
+  dcterms:description "Caenorhabditis briggsae miR-48 stem-loop"@en ;
+  rdfs:label "cbr-mir-48"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000503
+  dcterms:identifier "MI0000503" ;
+  dcterms:description "Caenorhabditis briggsae miR-49 stem-loop"@en ;
+  rdfs:label "cbr-mir-49"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000504
+  dcterms:identifier "MI0000504" ;
+  dcterms:description "Caenorhabditis briggsae miR-50 stem-loop"@en ;
+  rdfs:label "cbr-mir-50"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000505
+  dcterms:identifier "MI0000505" ;
+  dcterms:description "Caenorhabditis briggsae miR-52 stem-loop"@en ;
+  rdfs:label "cbr-mir-52"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000507
+  dcterms:identifier "MI0000507" ;
+  dcterms:description "Caenorhabditis briggsae miR-57 stem-loop"@en ;
+  rdfs:label "cbr-mir-57"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000508
+  dcterms:identifier "MI0000508" ;
+  dcterms:description "Caenorhabditis briggsae miR-58 stem-loop"@en ;
+  rdfs:label "cbr-mir-58a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000509
+  dcterms:identifier "MI0000509" ;
+  dcterms:description "Caenorhabditis briggsae miR-60 stem-loop"@en ;
+  rdfs:label "cbr-mir-60"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000510
+  dcterms:identifier "MI0000510" ;
+  dcterms:description "Caenorhabditis briggsae miR-67 stem-loop"@en ;
+  rdfs:label "cbr-mir-67"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000511
+  dcterms:identifier "MI0000511" ;
+  dcterms:description "Caenorhabditis briggsae miR-71 stem-loop"@en ;
+  rdfs:label "cbr-mir-71"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000512
+  dcterms:identifier "MI0000512" ;
+  dcterms:description "Caenorhabditis briggsae miR-73 stem-loop"@en ;
+  rdfs:label "cbr-mir-73a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000513
+  dcterms:identifier "MI0000513" ;
+  dcterms:description "Caenorhabditis briggsae miR-74 stem-loop"@en ;
+  rdfs:label "cbr-mir-74a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000514
+  dcterms:identifier "MI0000514" ;
+  dcterms:description "Caenorhabditis briggsae miR-75 stem-loop"@en ;
+  rdfs:label "cbr-mir-75"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000515
+  dcterms:identifier "MI0000515" ;
+  dcterms:description "Caenorhabditis briggsae miR-77-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-77-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000517
+  dcterms:identifier "MI0000517" ;
+  dcterms:description "Caenorhabditis briggsae miR-79 stem-loop"@en ;
+  rdfs:label "cbr-mir-79"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000518
+  dcterms:identifier "MI0000518" ;
+  dcterms:description "Caenorhabditis briggsae miR-80 stem-loop"@en ;
+  rdfs:label "cbr-mir-80"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000519
+  dcterms:identifier "MI0000519" ;
+  dcterms:description "Caenorhabditis briggsae miR-81 stem-loop"@en ;
+  rdfs:label "cbr-mir-81"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000520
+  dcterms:identifier "MI0000520" ;
+  dcterms:description "Caenorhabditis briggsae miR-82 stem-loop"@en ;
+  rdfs:label "cbr-mir-82"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000521
+  dcterms:identifier "MI0000521" ;
+  dcterms:description "Caenorhabditis briggsae miR-85 stem-loop"@en ;
+  rdfs:label "cbr-mir-85"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000522
+  dcterms:identifier "MI0000522" ;
+  dcterms:description "Caenorhabditis briggsae miR-86 stem-loop"@en ;
+  rdfs:label "cbr-mir-86"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000523
+  dcterms:identifier "MI0000523" ;
+  dcterms:description "Caenorhabditis briggsae miR-87 stem-loop"@en ;
+  rdfs:label "cbr-mir-87"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000524
+  dcterms:identifier "MI0000524" ;
+  dcterms:description "Caenorhabditis briggsae miR-90 stem-loop"@en ;
+  rdfs:label "cbr-mir-90a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000525
+  dcterms:identifier "MI0000525" ;
+  dcterms:description "Caenorhabditis briggsae miR-124 stem-loop"@en ;
+  rdfs:label "cbr-mir-124a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000526
+  dcterms:identifier "MI0000526" ;
+  dcterms:description "Caenorhabditis briggsae miR-228 stem-loop"@en ;
+  rdfs:label "cbr-mir-228"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000527
+  dcterms:identifier "MI0000527" ;
+  dcterms:description "Caenorhabditis briggsae miR-230 stem-loop"@en ;
+  rdfs:label "cbr-mir-230"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000528
+  dcterms:identifier "MI0000528" ;
+  dcterms:description "Caenorhabditis briggsae miR-232-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-232-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000530
+  dcterms:identifier "MI0000530" ;
+  dcterms:description "Caenorhabditis briggsae miR-233 stem-loop"@en ;
+  rdfs:label "cbr-mir-233"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000531
+  dcterms:identifier "MI0000531" ;
+  dcterms:description "Caenorhabditis briggsae miR-234 stem-loop"@en ;
+  rdfs:label "cbr-mir-234"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000532
+  dcterms:identifier "MI0000532" ;
+  dcterms:description "Caenorhabditis briggsae miR-236 stem-loop"@en ;
+  rdfs:label "cbr-mir-236"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000533
+  dcterms:identifier "MI0000533" ;
+  dcterms:description "Caenorhabditis briggsae miR-241 stem-loop"@en ;
+  rdfs:label "cbr-mir-241"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000534
+  dcterms:identifier "MI0000534" ;
+  dcterms:description "Caenorhabditis briggsae miR-244 stem-loop"@en ;
+  rdfs:label "cbr-mir-244"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000535
+  dcterms:identifier "MI0000535" ;
+  dcterms:description "Caenorhabditis briggsae miR-245 stem-loop"@en ;
+  rdfs:label "cbr-mir-245"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000536
+  dcterms:identifier "MI0000536" ;
+  dcterms:description "Caenorhabditis briggsae miR-248 stem-loop"@en ;
+  rdfs:label "cbr-mir-248"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000537
+  dcterms:identifier "MI0000537" ;
+  dcterms:description "Caenorhabditis briggsae miR-250 stem-loop"@en ;
+  rdfs:label "cbr-mir-250"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000538
+  dcterms:identifier "MI0000538" ;
+  dcterms:description "Caenorhabditis briggsae miR-251 stem-loop"@en ;
+  rdfs:label "cbr-mir-251"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000539
+  dcterms:identifier "MI0000539" ;
+  dcterms:description "Caenorhabditis briggsae miR-252 stem-loop"@en ;
+  rdfs:label "cbr-mir-252"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000540
+  dcterms:identifier "MI0000540" ;
+  dcterms:description "Caenorhabditis briggsae miR-259 stem-loop"@en ;
+  rdfs:label "cbr-mir-259"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000541
+  dcterms:identifier "MI0000541" ;
+  dcterms:description "Caenorhabditis briggsae miR-268 stem-loop"@en ;
+  rdfs:label "cbr-mir-268"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000751
+  dcterms:identifier "MI0000751" ;
+  dcterms:description "Caenorhabditis briggsae miR-72 stem-loop"@en ;
+  rdfs:label "cbr-mir-72"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000818
+  dcterms:identifier "MI0000818" ;
+  dcterms:description "Caenorhabditis briggsae lsy-6 stem-loop"@en ;
+  rdfs:label "cbr-lsy-6"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20215419, pmid:20215419, pubmed:20413612, pmid:20413612 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001392
+  dcterms:identifier "MI0001392" ;
+  dcterms:description "Caenorhabditis briggsae miR-64 stem-loop"@en ;
+  rdfs:label "cbr-mir-64a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001394
+  dcterms:identifier "MI0001394" ;
+  dcterms:description "Caenorhabditis briggsae miR-231 stem-loop"@en ;
+  rdfs:label "cbr-mir-231"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001395
+  dcterms:identifier "MI0001395" ;
+  dcterms:description "Caenorhabditis briggsae miR-356 stem-loop"@en ;
+  rdfs:label "cbr-mir-356"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001396
+  dcterms:identifier "MI0001396" ;
+  dcterms:description "Caenorhabditis briggsae miR-83 stem-loop"@en ;
+  rdfs:label "cbr-mir-83"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001397
+  dcterms:identifier "MI0001397" ;
+  dcterms:description "Caenorhabditis briggsae miR-246 stem-loop"@en ;
+  rdfs:label "cbr-mir-246"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001398
+  dcterms:identifier "MI0001398" ;
+  dcterms:description "Caenorhabditis briggsae miR-51 stem-loop"@en ;
+  rdfs:label "cbr-mir-51"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001400
+  dcterms:identifier "MI0001400" ;
+  dcterms:description "Caenorhabditis briggsae miR-357-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-357-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001401
+  dcterms:identifier "MI0001401" ;
+  dcterms:description "Caenorhabditis briggsae miR-253 stem-loop"@en ;
+  rdfs:label "cbr-mir-253"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001402
+  dcterms:identifier "MI0001402" ;
+  dcterms:description "Caenorhabditis briggsae miR-70 stem-loop"@en ;
+  rdfs:label "cbr-mir-70"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001403
+  dcterms:identifier "MI0001403" ;
+  dcterms:description "Caenorhabditis briggsae miR-358 stem-loop"@en ;
+  rdfs:label "cbr-mir-358"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001404
+  dcterms:identifier "MI0001404" ;
+  dcterms:description "Caenorhabditis briggsae miR-61 stem-loop"@en ;
+  rdfs:label "cbr-mir-61"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001405
+  dcterms:identifier "MI0001405" ;
+  dcterms:description "Caenorhabditis briggsae miR-360 stem-loop"@en ;
+  rdfs:label "cbr-mir-360"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001406
+  dcterms:identifier "MI0001406" ;
+  dcterms:description "Caenorhabditis briggsae miR-239a stem-loop"@en ;
+  rdfs:label "cbr-mir-239a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001407
+  dcterms:identifier "MI0001407" ;
+  dcterms:description "Caenorhabditis briggsae miR-249 stem-loop"@en ;
+  rdfs:label "cbr-mir-249"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001408
+  dcterms:identifier "MI0001408" ;
+  dcterms:description "Caenorhabditis briggsae miR-240 stem-loop"@en ;
+  rdfs:label "cbr-mir-240"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001409
+  dcterms:identifier "MI0001409" ;
+  dcterms:description "Caenorhabditis briggsae miR-254 stem-loop"@en ;
+  rdfs:label "cbr-mir-254"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001410
+  dcterms:identifier "MI0001410" ;
+  dcterms:description "Caenorhabditis briggsae miR-239b stem-loop"@en ;
+  rdfs:label "cbr-mir-239b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001411
+  dcterms:identifier "MI0001411" ;
+  dcterms:description "Caenorhabditis briggsae miR-62 stem-loop"@en ;
+  rdfs:label "cbr-mir-62"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001412
+  dcterms:identifier "MI0001412" ;
+  dcterms:description "Caenorhabditis briggsae miR-55 stem-loop"@en ;
+  rdfs:label "cbr-mir-55"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001413
+  dcterms:identifier "MI0001413" ;
+  dcterms:description "Caenorhabditis briggsae miR-84 stem-loop"@en ;
+  rdfs:label "cbr-mir-84"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001414
+  dcterms:identifier "MI0001414" ;
+  dcterms:description "Caenorhabditis briggsae miR-354 stem-loop"@en ;
+  rdfs:label "cbr-mir-354"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001415
+  dcterms:identifier "MI0001415" ;
+  dcterms:description "Caenorhabditis briggsae miR-35 stem-loop"@en ;
+  rdfs:label "cbr-mir-35a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001416
+  dcterms:identifier "MI0001416" ;
+  dcterms:description "Caenorhabditis briggsae miR-36 stem-loop"@en ;
+  rdfs:label "cbr-mir-36"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001418
+  dcterms:identifier "MI0001418" ;
+  dcterms:description "Caenorhabditis briggsae miR-38 stem-loop"@en ;
+  rdfs:label "cbr-mir-38"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001419
+  dcterms:identifier "MI0001419" ;
+  dcterms:description "Caenorhabditis briggsae miR-39 stem-loop"@en ;
+  rdfs:label "cbr-mir-39"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001420
+  dcterms:identifier "MI0001420" ;
+  dcterms:description "Caenorhabditis briggsae miR-40 stem-loop"@en ;
+  rdfs:label "cbr-mir-40"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001421
+  dcterms:identifier "MI0001421" ;
+  dcterms:description "Caenorhabditis briggsae miR-41 stem-loop"@en ;
+  rdfs:label "cbr-mir-41a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001422
+  dcterms:identifier "MI0001422" ;
+  dcterms:description "Caenorhabditis briggsae miR-355 stem-loop"@en ;
+  rdfs:label "cbr-mir-355"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005417
+  dcterms:identifier "MI0005417" ;
+  dcterms:description "Caenorhabditis briggsae miR-784 stem-loop"@en ;
+  rdfs:label "cbr-mir-784"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005418
+  dcterms:identifier "MI0005418" ;
+  dcterms:description "Caenorhabditis briggsae miR-785 stem-loop"@en ;
+  rdfs:label "cbr-mir-785a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005419
+  dcterms:identifier "MI0005419" ;
+  dcterms:description "Caenorhabditis briggsae miR-786 stem-loop"@en ;
+  rdfs:label "cbr-mir-786"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005420
+  dcterms:identifier "MI0005420" ;
+  dcterms:description "Caenorhabditis briggsae miR-787 stem-loop"@en ;
+  rdfs:label "cbr-mir-787"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005421
+  dcterms:identifier "MI0005421" ;
+  dcterms:description "Caenorhabditis briggsae miR-788 stem-loop"@en ;
+  rdfs:label "cbr-mir-788"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005423
+  dcterms:identifier "MI0005423" ;
+  dcterms:description "Caenorhabditis briggsae miR-789 stem-loop"@en ;
+  rdfs:label "cbr-mir-789"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005424
+  dcterms:identifier "MI0005424" ;
+  dcterms:description "Caenorhabditis briggsae miR-790-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-790-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005425
+  dcterms:identifier "MI0005425" ;
+  dcterms:description "Caenorhabditis briggsae miR-790-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-790-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005426
+  dcterms:identifier "MI0005426" ;
+  dcterms:description "Caenorhabditis briggsae miR-791 stem-loop"@en ;
+  rdfs:label "cbr-mir-791"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005427
+  dcterms:identifier "MI0005427" ;
+  dcterms:description "Caenorhabditis briggsae miR-792 stem-loop"@en ;
+  rdfs:label "cbr-mir-792"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005428
+  dcterms:identifier "MI0005428" ;
+  dcterms:description "Caenorhabditis briggsae miR-235 stem-loop"@en ;
+  rdfs:label "cbr-mir-235a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005429
+  dcterms:identifier "MI0005429" ;
+  dcterms:description "Caenorhabditis briggsae miR-242 stem-loop"@en ;
+  rdfs:label "cbr-mir-242"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005430
+  dcterms:identifier "MI0005430" ;
+  dcterms:description "Caenorhabditis briggsae miR-255 stem-loop"@en ;
+  rdfs:label "cbr-mir-255"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005431
+  dcterms:identifier "MI0005431" ;
+  dcterms:description "Caenorhabditis briggsae miR-359 stem-loop"@en ;
+  rdfs:label "cbr-mir-359"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005432
+  dcterms:identifier "MI0005432" ;
+  dcterms:description "Caenorhabditis briggsae miR-392 stem-loop"@en ;
+  rdfs:label "cbr-mir-392"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:18402656, pmid:18402656 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010975
+  dcterms:identifier "MI0010975" ;
+  dcterms:description "Caenorhabditis briggsae miR-73b stem-loop"@en ;
+  rdfs:label "cbr-mir-73b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010976
+  dcterms:identifier "MI0010976" ;
+  dcterms:description "Caenorhabditis briggsae miR-238 stem-loop"@en ;
+  rdfs:label "cbr-mir-238"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010977
+  dcterms:identifier "MI0010977" ;
+  dcterms:description "Caenorhabditis briggsae miR-76 stem-loop"@en ;
+  rdfs:label "cbr-mir-76"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010978
+  dcterms:identifier "MI0010978" ;
+  dcterms:description "Caenorhabditis briggsae miR-35c-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-35c-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010979
+  dcterms:identifier "MI0010979" ;
+  dcterms:description "Caenorhabditis briggsae miR-35e stem-loop"@en ;
+  rdfs:label "cbr-mir-35e"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010980
+  dcterms:identifier "MI0010980" ;
+  dcterms:description "Caenorhabditis briggsae miR-35c-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-35c-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010981
+  dcterms:identifier "MI0010981" ;
+  dcterms:description "Caenorhabditis briggsae miR-35d stem-loop"@en ;
+  rdfs:label "cbr-mir-35d"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010982
+  dcterms:identifier "MI0010982" ;
+  dcterms:description "Caenorhabditis briggsae miR-90b stem-loop"@en ;
+  rdfs:label "cbr-mir-90b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010983
+  dcterms:identifier "MI0010983" ;
+  dcterms:description "Caenorhabditis briggsae miR-235b stem-loop"@en ;
+  rdfs:label "cbr-mir-235b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010984
+  dcterms:identifier "MI0010984" ;
+  dcterms:description "Caenorhabditis briggsae miR-56 stem-loop"@en ;
+  rdfs:label "cbr-mir-56"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010985
+  dcterms:identifier "MI0010985" ;
+  dcterms:description "Caenorhabditis briggsae miR-54a stem-loop"@en ;
+  rdfs:label "cbr-mir-54a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010986
+  dcterms:identifier "MI0010986" ;
+  dcterms:description "Caenorhabditis briggsae miR-237 stem-loop"@en ;
+  rdfs:label "cbr-mir-237"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010987
+  dcterms:identifier "MI0010987" ;
+  dcterms:description "Caenorhabditis briggsae miR-1822 stem-loop"@en ;
+  rdfs:label "cbr-mir-1822"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010988
+  dcterms:identifier "MI0010988" ;
+  dcterms:description "Caenorhabditis briggsae miR-58b stem-loop"@en ;
+  rdfs:label "cbr-mir-58b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010989
+  dcterms:identifier "MI0010989" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010990
+  dcterms:identifier "MI0010990" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010991
+  dcterms:identifier "MI0010991" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-3 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-3"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010992
+  dcterms:identifier "MI0010992" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-4 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-4"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010993
+  dcterms:identifier "MI0010993" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-5 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-5"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010994
+  dcterms:identifier "MI0010994" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-6 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-6"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010995
+  dcterms:identifier "MI0010995" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-7 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-7"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010996
+  dcterms:identifier "MI0010996" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-8 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-8"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010997
+  dcterms:identifier "MI0010997" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-9 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-9"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010998
+  dcterms:identifier "MI0010998" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-10 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-10"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010999
+  dcterms:identifier "MI0010999" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-11 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-11"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011000
+  dcterms:identifier "MI0011000" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-12 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-12"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011001
+  dcterms:identifier "MI0011001" ;
+  dcterms:description "Caenorhabditis briggsae miR-35b-13 stem-loop"@en ;
+  rdfs:label "cbr-mir-35b-13"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011002
+  dcterms:identifier "MI0011002" ;
+  dcterms:description "Caenorhabditis briggsae miR-65 stem-loop"@en ;
+  rdfs:label "cbr-mir-65"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011003
+  dcterms:identifier "MI0011003" ;
+  dcterms:description "Caenorhabditis briggsae miR-1817 stem-loop"@en ;
+  rdfs:label "cbr-mir-1817"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011004
+  dcterms:identifier "MI0011004" ;
+  dcterms:description "Caenorhabditis briggsae miR-2222-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-2222-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011005
+  dcterms:identifier "MI0011005" ;
+  dcterms:description "Caenorhabditis briggsae miR-2227 stem-loop"@en ;
+  rdfs:label "cbr-mir-2227"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011006
+  dcterms:identifier "MI0011006" ;
+  dcterms:description "Caenorhabditis briggsae miR-41b stem-loop"@en ;
+  rdfs:label "cbr-mir-41b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011007
+  dcterms:identifier "MI0011007" ;
+  dcterms:description "Caenorhabditis briggsae miR-2222-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-2222-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011008
+  dcterms:identifier "MI0011008" ;
+  dcterms:description "Caenorhabditis briggsae miR-64b stem-loop"@en ;
+  rdfs:label "cbr-mir-64b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011010
+  dcterms:identifier "MI0011010" ;
+  dcterms:description "Caenorhabditis briggsae miR-2223 stem-loop"@en ;
+  rdfs:label "cbr-mir-2223"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011011
+  dcterms:identifier "MI0011011" ;
+  dcterms:description "Caenorhabditis briggsae miR-2224 stem-loop"@en ;
+  rdfs:label "cbr-mir-2224"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011012
+  dcterms:identifier "MI0011012" ;
+  dcterms:description "Caenorhabditis briggsae miR-54b stem-loop"@en ;
+  rdfs:label "cbr-mir-54b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011013
+  dcterms:identifier "MI0011013" ;
+  dcterms:description "Caenorhabditis briggsae miR-54c stem-loop"@en ;
+  rdfs:label "cbr-mir-54c"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011014
+  dcterms:identifier "MI0011014" ;
+  dcterms:description "Caenorhabditis briggsae miR-54d stem-loop"@en ;
+  rdfs:label "cbr-mir-54d"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011015
+  dcterms:identifier "MI0011015" ;
+  dcterms:description "Caenorhabditis briggsae miR-2225 stem-loop"@en ;
+  rdfs:label "cbr-mir-2225"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011016
+  dcterms:identifier "MI0011016" ;
+  dcterms:description "Caenorhabditis briggsae miR-2226 stem-loop"@en ;
+  rdfs:label "cbr-mir-2226"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011017
+  dcterms:identifier "MI0011017" ;
+  dcterms:description "Caenorhabditis briggsae miR-74b stem-loop"@en ;
+  rdfs:label "cbr-mir-74b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015957
+  dcterms:identifier "MI0015957" ;
+  dcterms:description "Caenorhabditis briggsae miR-232-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-232-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:17189346, pmid:17189346 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015958
+  dcterms:identifier "MI0015958" ;
+  dcterms:description "Caenorhabditis briggsae miR-357-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-357-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015959
+  dcterms:identifier "MI0015959" ;
+  dcterms:description "Caenorhabditis briggsae miR-77-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-77-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024716
+  dcterms:identifier "MI0024716" ;
+  dcterms:description "Caenorhabditis briggsae miR-7579 stem-loop"@en ;
+  rdfs:label "cbr-mir-7579"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024717
+  dcterms:identifier "MI0024717" ;
+  dcterms:description "Caenorhabditis briggsae miR-7580-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-7580-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024718
+  dcterms:identifier "MI0024718" ;
+  dcterms:description "Caenorhabditis briggsae miR-7580-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-7580-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024719
+  dcterms:identifier "MI0024719" ;
+  dcterms:description "Caenorhabditis briggsae miR-7581 stem-loop"@en ;
+  rdfs:label "cbr-mir-7581"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024720
+  dcterms:identifier "MI0024720" ;
+  dcterms:description "Caenorhabditis briggsae miR-7582 stem-loop"@en ;
+  rdfs:label "cbr-mir-7582"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024721
+  dcterms:identifier "MI0024721" ;
+  dcterms:description "Caenorhabditis briggsae miR-7583a stem-loop"@en ;
+  rdfs:label "cbr-mir-7583a"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024722
+  dcterms:identifier "MI0024722" ;
+  dcterms:description "Caenorhabditis briggsae miR-7583b stem-loop"@en ;
+  rdfs:label "cbr-mir-7583b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024723
+  dcterms:identifier "MI0024723" ;
+  dcterms:description "Caenorhabditis briggsae miR-7584 stem-loop"@en ;
+  rdfs:label "cbr-mir-7584"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024724
+  dcterms:identifier "MI0024724" ;
+  dcterms:description "Caenorhabditis briggsae miR-7585 stem-loop"@en ;
+  rdfs:label "cbr-mir-7585"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024725
+  dcterms:identifier "MI0024725" ;
+  dcterms:description "Caenorhabditis briggsae miR-7586 stem-loop"@en ;
+  rdfs:label "cbr-mir-7586"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024726
+  dcterms:identifier "MI0024726" ;
+  dcterms:description "Caenorhabditis briggsae miR-7587 stem-loop"@en ;
+  rdfs:label "cbr-mir-7587"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024727
+  dcterms:identifier "MI0024727" ;
+  dcterms:description "Caenorhabditis briggsae miR-7583d stem-loop"@en ;
+  rdfs:label "cbr-mir-7583d"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024728
+  dcterms:identifier "MI0024728" ;
+  dcterms:description "Caenorhabditis briggsae miR-7588 stem-loop"@en ;
+  rdfs:label "cbr-mir-7588"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024729
+  dcterms:identifier "MI0024729" ;
+  dcterms:description "Caenorhabditis briggsae miR-7583c stem-loop"@en ;
+  rdfs:label "cbr-mir-7583c"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024730
+  dcterms:identifier "MI0024730" ;
+  dcterms:description "Caenorhabditis briggsae miR-7589 stem-loop"@en ;
+  rdfs:label "cbr-mir-7589"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024731
+  dcterms:identifier "MI0024731" ;
+  dcterms:description "Caenorhabditis briggsae miR-7590 stem-loop"@en ;
+  rdfs:label "cbr-mir-7590"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024732
+  dcterms:identifier "MI0024732" ;
+  dcterms:description "Caenorhabditis briggsae miR-7591 stem-loop"@en ;
+  rdfs:label "cbr-mir-7591"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024733
+  dcterms:identifier "MI0024733" ;
+  dcterms:description "Caenorhabditis briggsae miR-7592 stem-loop"@en ;
+  rdfs:label "cbr-mir-7592"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024734
+  dcterms:identifier "MI0024734" ;
+  dcterms:description "Caenorhabditis briggsae miR-7593 stem-loop"@en ;
+  rdfs:label "cbr-mir-7593"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024735
+  dcterms:identifier "MI0024735" ;
+  dcterms:description "Caenorhabditis briggsae miR-7594a-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-7594a-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024736
+  dcterms:identifier "MI0024736" ;
+  dcterms:description "Caenorhabditis briggsae miR-7594a-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-7594a-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024737
+  dcterms:identifier "MI0024737" ;
+  dcterms:description "Caenorhabditis briggsae miR-7594b-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-7594b-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024738
+  dcterms:identifier "MI0024738" ;
+  dcterms:description "Caenorhabditis briggsae miR-7594b-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-7594b-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024739
+  dcterms:identifier "MI0024739" ;
+  dcterms:description "Caenorhabditis briggsae miR-7595 stem-loop"@en ;
+  rdfs:label "cbr-mir-7595"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024740
+  dcterms:identifier "MI0024740" ;
+  dcterms:description "Caenorhabditis briggsae miR-64c stem-loop"@en ;
+  rdfs:label "cbr-mir-64c"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024741
+  dcterms:identifier "MI0024741" ;
+  dcterms:description "Caenorhabditis briggsae miR-7596 stem-loop"@en ;
+  rdfs:label "cbr-mir-7596"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024742
+  dcterms:identifier "MI0024742" ;
+  dcterms:description "Caenorhabditis briggsae miR-247 stem-loop"@en ;
+  rdfs:label "cbr-mir-247"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024743
+  dcterms:identifier "MI0024743" ;
+  dcterms:description "Caenorhabditis briggsae miR-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024744
+  dcterms:identifier "MI0024744" ;
+  dcterms:description "Caenorhabditis briggsae miR-124b stem-loop"@en ;
+  rdfs:label "cbr-mir-124b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024745
+  dcterms:identifier "MI0024745" ;
+  dcterms:description "Caenorhabditis briggsae miR-124c stem-loop"@en ;
+  rdfs:label "cbr-mir-124c"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024746
+  dcterms:identifier "MI0024746" ;
+  dcterms:description "Caenorhabditis briggsae miR-785b stem-loop"@en ;
+  rdfs:label "cbr-mir-785b"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025046
+  dcterms:identifier "MI0025046" ;
+  dcterms:description "Caenorhabditis briggsae miR-4813 stem-loop"@en ;
+  rdfs:label "cbr-mir-4813"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025047
+  dcterms:identifier "MI0025047" ;
+  dcterms:description "Caenorhabditis briggsae miR-2231 stem-loop"@en ;
+  rdfs:label "cbr-mir-2231"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025048
+  dcterms:identifier "MI0025048" ;
+  dcterms:description "Caenorhabditis briggsae miR-35f stem-loop"@en ;
+  rdfs:label "cbr-mir-35f"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025049
+  dcterms:identifier "MI0025049" ;
+  dcterms:description "Caenorhabditis briggsae miR-35g-1 stem-loop"@en ;
+  rdfs:label "cbr-mir-35g-1"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025050
+  dcterms:identifier "MI0025050" ;
+  dcterms:description "Caenorhabditis briggsae miR-35g-2 stem-loop"@en ;
+  rdfs:label "cbr-mir-35g-2"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0025051
+  dcterms:identifier "MI0025051" ;
+  dcterms:description "Caenorhabditis briggsae miR-35g-3 stem-loop"@en ;
+  rdfs:label "cbr-mir-35g-3"@en ;
+  obo:RO_0002162 taxonomy:6238 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23363624, pmid:23363624 ;
+  ] ;
+  a :MicroRNA .
+

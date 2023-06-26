@@ -1,0 +1,1936 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0001456
+  dcterms:identifier "MI0001456" ;
+  dcterms:description "Zea mays miR156d stem-loop"@en ;
+  rdfs:label "zma-MIR156d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001457
+  dcterms:identifier "MI0001457" ;
+  dcterms:description "Zea mays miR156f stem-loop"@en ;
+  rdfs:label "zma-MIR156f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001458
+  dcterms:identifier "MI0001458" ;
+  dcterms:description "Zea mays miR156g stem-loop"@en ;
+  rdfs:label "zma-MIR156g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001459
+  dcterms:identifier "MI0001459" ;
+  dcterms:description "Zea mays miR156b stem-loop"@en ;
+  rdfs:label "zma-MIR156b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001460
+  dcterms:identifier "MI0001460" ;
+  dcterms:description "Zea mays miR156c stem-loop"@en ;
+  rdfs:label "zma-MIR156c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001461
+  dcterms:identifier "MI0001461" ;
+  dcterms:description "Zea mays miR156e stem-loop"@en ;
+  rdfs:label "zma-MIR156e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001462
+  dcterms:identifier "MI0001462" ;
+  dcterms:description "Zea mays miR156a stem-loop"@en ;
+  rdfs:label "zma-MIR156a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001463
+  dcterms:identifier "MI0001463" ;
+  dcterms:description "Zea mays miR156h stem-loop"@en ;
+  rdfs:label "zma-MIR156h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001464
+  dcterms:identifier "MI0001464" ;
+  dcterms:description "Zea mays miR156i stem-loop"@en ;
+  rdfs:label "zma-MIR156i"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001465
+  dcterms:identifier "MI0001465" ;
+  dcterms:description "Zea mays miR160a stem-loop"@en ;
+  rdfs:label "zma-MIR160a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001466
+  dcterms:identifier "MI0001466" ;
+  dcterms:description "Zea mays miR160c stem-loop"@en ;
+  rdfs:label "zma-MIR160c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001467
+  dcterms:identifier "MI0001467" ;
+  dcterms:description "Zea mays miR160d stem-loop"@en ;
+  rdfs:label "zma-MIR160d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001468
+  dcterms:identifier "MI0001468" ;
+  dcterms:description "Zea mays miR160b stem-loop"@en ;
+  rdfs:label "zma-MIR160b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001469
+  dcterms:identifier "MI0001469" ;
+  dcterms:description "Zea mays miR164a stem-loop"@en ;
+  rdfs:label "zma-MIR164a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001470
+  dcterms:identifier "MI0001470" ;
+  dcterms:description "Zea mays miR164d stem-loop"@en ;
+  rdfs:label "zma-MIR164d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001471
+  dcterms:identifier "MI0001471" ;
+  dcterms:description "Zea mays miR164b stem-loop"@en ;
+  rdfs:label "zma-MIR164b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001472
+  dcterms:identifier "MI0001472" ;
+  dcterms:description "Zea mays miR164c stem-loop"@en ;
+  rdfs:label "zma-MIR164c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001473
+  dcterms:identifier "MI0001473" ;
+  dcterms:description "Zea mays miR169a stem-loop"@en ;
+  rdfs:label "zma-MIR169a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001474
+  dcterms:identifier "MI0001474" ;
+  dcterms:description "Zea mays miR169b stem-loop"@en ;
+  rdfs:label "zma-MIR169b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001475
+  dcterms:identifier "MI0001475" ;
+  dcterms:description "Zea mays miR167a stem-loop"@en ;
+  rdfs:label "zma-MIR167a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001476
+  dcterms:identifier "MI0001476" ;
+  dcterms:description "Zea mays miR167b stem-loop"@en ;
+  rdfs:label "zma-MIR167b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001477
+  dcterms:identifier "MI0001477" ;
+  dcterms:description "Zea mays miR167d stem-loop"@en ;
+  rdfs:label "zma-MIR167d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001478
+  dcterms:identifier "MI0001478" ;
+  dcterms:description "Zea mays miR167c stem-loop"@en ;
+  rdfs:label "zma-MIR167c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001479
+  dcterms:identifier "MI0001479" ;
+  dcterms:description "Zea mays miR160e stem-loop"@en ;
+  rdfs:label "zma-MIR160e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001480
+  dcterms:identifier "MI0001480" ;
+  dcterms:description "Zea mays miR166a stem-loop"@en ;
+  rdfs:label "zma-MIR166a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001481
+  dcterms:identifier "MI0001481" ;
+  dcterms:description "Zea mays miR162 stem-loop"@en ;
+  rdfs:label "zma-MIR162"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001482
+  dcterms:identifier "MI0001482" ;
+  dcterms:description "Zea mays miR166h stem-loop"@en ;
+  rdfs:label "zma-MIR166h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001483
+  dcterms:identifier "MI0001483" ;
+  dcterms:description "Zea mays miR166e stem-loop"@en ;
+  rdfs:label "zma-MIR166e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:15916721, pmid:15916721 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001485
+  dcterms:identifier "MI0001485" ;
+  dcterms:description "Zea mays miR166i stem-loop"@en ;
+  rdfs:label "zma-MIR166i"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001486
+  dcterms:identifier "MI0001486" ;
+  dcterms:description "Zea mays miR166f stem-loop"@en ;
+  rdfs:label "zma-MIR166f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:15916721, pmid:15916721 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001487
+  dcterms:identifier "MI0001487" ;
+  dcterms:description "Zea mays miR166g stem-loop"@en ;
+  rdfs:label "zma-MIR166g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001488
+  dcterms:identifier "MI0001488" ;
+  dcterms:description "Zea mays miR166b stem-loop"@en ;
+  rdfs:label "zma-MIR166b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001489
+  dcterms:identifier "MI0001489" ;
+  dcterms:description "Zea mays miR166c stem-loop"@en ;
+  rdfs:label "zma-MIR166c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001490
+  dcterms:identifier "MI0001490" ;
+  dcterms:description "Zea mays miR166d stem-loop"@en ;
+  rdfs:label "zma-MIR166d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001491
+  dcterms:identifier "MI0001491" ;
+  dcterms:description "Zea mays miR171a stem-loop"@en ;
+  rdfs:label "zma-MIR171a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001492
+  dcterms:identifier "MI0001492" ;
+  dcterms:description "Zea mays miR171b stem-loop"@en ;
+  rdfs:label "zma-MIR171b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001493
+  dcterms:identifier "MI0001493" ;
+  dcterms:description "Zea mays miR172a stem-loop"@en ;
+  rdfs:label "zma-MIR172a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001494
+  dcterms:identifier "MI0001494" ;
+  dcterms:description "Zea mays miR172d stem-loop"@en ;
+  rdfs:label "zma-MIR172d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001495
+  dcterms:identifier "MI0001495" ;
+  dcterms:description "Zea mays miR172b stem-loop"@en ;
+  rdfs:label "zma-MIR172b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001496
+  dcterms:identifier "MI0001496" ;
+  dcterms:description "Zea mays miR172c stem-loop"@en ;
+  rdfs:label "zma-MIR172c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001792
+  dcterms:identifier "MI0001792" ;
+  dcterms:description "Zea mays miR171d stem-loop"@en ;
+  rdfs:label "zma-MIR171d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001793
+  dcterms:identifier "MI0001793" ;
+  dcterms:description "Zea mays miR171f stem-loop"@en ;
+  rdfs:label "zma-MIR171f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001794
+  dcterms:identifier "MI0001794" ;
+  dcterms:description "Zea mays miR394a stem-loop"@en ;
+  rdfs:label "zma-MIR394a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001795
+  dcterms:identifier "MI0001795" ;
+  dcterms:description "Zea mays miR394b stem-loop"@en ;
+  rdfs:label "zma-MIR394b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001796
+  dcterms:identifier "MI0001796" ;
+  dcterms:description "Zea mays miR395b stem-loop"@en ;
+  rdfs:label "zma-MIR395b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001798
+  dcterms:identifier "MI0001798" ;
+  dcterms:description "Zea mays miR395c stem-loop"@en ;
+  rdfs:label "zma-MIR395c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001799
+  dcterms:identifier "MI0001799" ;
+  dcterms:description "Zea mays miR395a stem-loop"@en ;
+  rdfs:label "zma-MIR395a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001800
+  dcterms:identifier "MI0001800" ;
+  dcterms:description "Zea mays miR396b stem-loop"@en ;
+  rdfs:label "zma-MIR396b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001801
+  dcterms:identifier "MI0001801" ;
+  dcterms:description "Zea mays miR396a stem-loop"@en ;
+  rdfs:label "zma-MIR396a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001802
+  dcterms:identifier "MI0001802" ;
+  dcterms:description "Zea mays miR399a stem-loop"@en ;
+  rdfs:label "zma-MIR399a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001803
+  dcterms:identifier "MI0001803" ;
+  dcterms:description "Zea mays miR399c stem-loop"@en ;
+  rdfs:label "zma-MIR399c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001804
+  dcterms:identifier "MI0001804" ;
+  dcterms:description "Zea mays miR399b stem-loop"@en ;
+  rdfs:label "zma-MIR399b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001805
+  dcterms:identifier "MI0001805" ;
+  dcterms:description "Zea mays miR399d stem-loop"@en ;
+  rdfs:label "zma-MIR399d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001806
+  dcterms:identifier "MI0001806" ;
+  dcterms:description "Zea mays miR399e stem-loop"@en ;
+  rdfs:label "zma-MIR399e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001807
+  dcterms:identifier "MI0001807" ;
+  dcterms:description "Zea mays miR399f stem-loop"@en ;
+  rdfs:label "zma-MIR399f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001808
+  dcterms:identifier "MI0001808" ;
+  dcterms:description "Zea mays miR156j stem-loop"@en ;
+  rdfs:label "zma-MIR156j"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001809
+  dcterms:identifier "MI0001809" ;
+  dcterms:description "Zea mays miR159a stem-loop"@en ;
+  rdfs:label "zma-MIR159a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001810
+  dcterms:identifier "MI0001810" ;
+  dcterms:description "Zea mays miR159b stem-loop"@en ;
+  rdfs:label "zma-MIR159b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001811
+  dcterms:identifier "MI0001811" ;
+  dcterms:description "Zea mays miR159c stem-loop"@en ;
+  rdfs:label "zma-MIR159c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001812
+  dcterms:identifier "MI0001812" ;
+  dcterms:description "Zea mays miR159d stem-loop"@en ;
+  rdfs:label "zma-MIR159d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001813
+  dcterms:identifier "MI0001813" ;
+  dcterms:description "Zea mays miR319a stem-loop"@en ;
+  rdfs:label "zma-MIR319a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001814
+  dcterms:identifier "MI0001814" ;
+  dcterms:description "Zea mays miR319c stem-loop"@en ;
+  rdfs:label "zma-MIR319c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001815
+  dcterms:identifier "MI0001815" ;
+  dcterms:description "Zea mays miR319b stem-loop"@en ;
+  rdfs:label "zma-MIR319b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001816
+  dcterms:identifier "MI0001816" ;
+  dcterms:description "Zea mays miR319d stem-loop"@en ;
+  rdfs:label "zma-MIR319d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001817
+  dcterms:identifier "MI0001817" ;
+  dcterms:description "Zea mays miR166k stem-loop"@en ;
+  rdfs:label "zma-MIR166k"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001818
+  dcterms:identifier "MI0001818" ;
+  dcterms:description "Zea mays miR166j stem-loop"@en ;
+  rdfs:label "zma-MIR166j"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001819
+  dcterms:identifier "MI0001819" ;
+  dcterms:description "Zea mays miR167e stem-loop"@en ;
+  rdfs:label "zma-MIR167e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001820
+  dcterms:identifier "MI0001820" ;
+  dcterms:description "Zea mays miR167f stem-loop"@en ;
+  rdfs:label "zma-MIR167f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001821
+  dcterms:identifier "MI0001821" ;
+  dcterms:description "Zea mays miR167g stem-loop"@en ;
+  rdfs:label "zma-MIR167g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001822
+  dcterms:identifier "MI0001822" ;
+  dcterms:description "Zea mays miR167h stem-loop"@en ;
+  rdfs:label "zma-MIR167h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001823
+  dcterms:identifier "MI0001823" ;
+  dcterms:description "Zea mays miR167i stem-loop"@en ;
+  rdfs:label "zma-MIR167i"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001824
+  dcterms:identifier "MI0001824" ;
+  dcterms:description "Zea mays miR168a stem-loop"@en ;
+  rdfs:label "zma-MIR168a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001825
+  dcterms:identifier "MI0001825" ;
+  dcterms:description "Zea mays miR168b stem-loop"@en ;
+  rdfs:label "zma-MIR168b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001826
+  dcterms:identifier "MI0001826" ;
+  dcterms:description "Zea mays miR169c stem-loop"@en ;
+  rdfs:label "zma-MIR169c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001827
+  dcterms:identifier "MI0001827" ;
+  dcterms:description "Zea mays miR169f stem-loop"@en ;
+  rdfs:label "zma-MIR169f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001828
+  dcterms:identifier "MI0001828" ;
+  dcterms:description "Zea mays miR169g stem-loop"@en ;
+  rdfs:label "zma-MIR169g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001829
+  dcterms:identifier "MI0001829" ;
+  dcterms:description "Zea mays miR169h stem-loop"@en ;
+  rdfs:label "zma-MIR169h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001830
+  dcterms:identifier "MI0001830" ;
+  dcterms:description "Zea mays miR169i stem-loop"@en ;
+  rdfs:label "zma-MIR169i"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001831
+  dcterms:identifier "MI0001831" ;
+  dcterms:description "Zea mays miR169k stem-loop"@en ;
+  rdfs:label "zma-MIR169k"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001832
+  dcterms:identifier "MI0001832" ;
+  dcterms:description "Zea mays miR169j stem-loop"@en ;
+  rdfs:label "zma-MIR169j"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001833
+  dcterms:identifier "MI0001833" ;
+  dcterms:description "Zea mays miR169d stem-loop"@en ;
+  rdfs:label "zma-MIR169d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001834
+  dcterms:identifier "MI0001834" ;
+  dcterms:description "Zea mays miR169e stem-loop"@en ;
+  rdfs:label "zma-MIR169e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001835
+  dcterms:identifier "MI0001835" ;
+  dcterms:description "Zea mays miR171c stem-loop"@en ;
+  rdfs:label "zma-MIR171c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001836
+  dcterms:identifier "MI0001836" ;
+  dcterms:description "Zea mays miR171j stem-loop"@en ;
+  rdfs:label "zma-MIR171j"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001837
+  dcterms:identifier "MI0001837" ;
+  dcterms:description "Zea mays miR171e stem-loop"@en ;
+  rdfs:label "zma-MIR171e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001838
+  dcterms:identifier "MI0001838" ;
+  dcterms:description "Zea mays miR171i stem-loop"@en ;
+  rdfs:label "zma-MIR171i"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001839
+  dcterms:identifier "MI0001839" ;
+  dcterms:description "Zea mays miR171g stem-loop"@en ;
+  rdfs:label "zma-MIR171g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001840
+  dcterms:identifier "MI0001840" ;
+  dcterms:description "Zea mays miR172e stem-loop"@en ;
+  rdfs:label "zma-MIR172e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001841
+  dcterms:identifier "MI0001841" ;
+  dcterms:description "Zea mays miR166l stem-loop"@en ;
+  rdfs:label "zma-MIR166l"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001842
+  dcterms:identifier "MI0001842" ;
+  dcterms:description "Zea mays miR166m stem-loop"@en ;
+  rdfs:label "zma-MIR166m"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001843
+  dcterms:identifier "MI0001843" ;
+  dcterms:description "Zea mays miR171k stem-loop"@en ;
+  rdfs:label "zma-MIR171k"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001844
+  dcterms:identifier "MI0001844" ;
+  dcterms:description "Zea mays miR171h stem-loop"@en ;
+  rdfs:label "zma-MIR171h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001845
+  dcterms:identifier "MI0001845" ;
+  dcterms:description "Zea mays miR393a stem-loop"@en ;
+  rdfs:label "zma-MIR393a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001846
+  dcterms:identifier "MI0001846" ;
+  dcterms:description "Zea mays miR408 stem-loop"@en ;
+  rdfs:label "zma-MIR408a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:, pmid: ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001847
+  dcterms:identifier "MI0001847" ;
+  dcterms:description "Zea mays miR156k stem-loop"@en ;
+  rdfs:label "zma-MIR156k"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001848
+  dcterms:identifier "MI0001848" ;
+  dcterms:description "Zea mays miR160f stem-loop"@en ;
+  rdfs:label "zma-MIR160f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010569
+  dcterms:identifier "MI0010569" ;
+  dcterms:description "Zea mays miR396c stem-loop"@en ;
+  rdfs:label "zma-MIR396c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19103661, pmid:19103661, pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010570
+  dcterms:identifier "MI0010570" ;
+  dcterms:description "Zea mays miR396d stem-loop"@en ;
+  rdfs:label "zma-MIR396d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19103661, pmid:19103661, pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011271
+  dcterms:identifier "MI0011271" ;
+  dcterms:description "Zea mays miR2118a stem-loop"@en ;
+  rdfs:label "zma-MIR2118a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011272
+  dcterms:identifier "MI0011272" ;
+  dcterms:description "Zea mays miR2118b stem-loop"@en ;
+  rdfs:label "zma-MIR2118b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011273
+  dcterms:identifier "MI0011273" ;
+  dcterms:description "Zea mays miR2118c stem-loop"@en ;
+  rdfs:label "zma-MIR2118c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011274
+  dcterms:identifier "MI0011274" ;
+  dcterms:description "Zea mays miR2118d stem-loop"@en ;
+  rdfs:label "zma-MIR2118d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011275
+  dcterms:identifier "MI0011275" ;
+  dcterms:description "Zea mays miR2118e stem-loop"@en ;
+  rdfs:label "zma-MIR2118e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011276
+  dcterms:identifier "MI0011276" ;
+  dcterms:description "Zea mays miR2118f stem-loop"@en ;
+  rdfs:label "zma-MIR2118f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011277
+  dcterms:identifier "MI0011277" ;
+  dcterms:description "Zea mays miR2118g stem-loop"@en ;
+  rdfs:label "zma-MIR2118g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011278
+  dcterms:identifier "MI0011278" ;
+  dcterms:description "Zea mays miR2275a stem-loop"@en ;
+  rdfs:label "zma-MIR2275a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011279
+  dcterms:identifier "MI0011279" ;
+  dcterms:description "Zea mays miR2275b stem-loop"@en ;
+  rdfs:label "zma-MIR2275b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011280
+  dcterms:identifier "MI0011280" ;
+  dcterms:description "Zea mays miR2275c stem-loop"@en ;
+  rdfs:label "zma-MIR2275c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0011281
+  dcterms:identifier "MI0011281" ;
+  dcterms:description "Zea mays miR2275d stem-loop"@en ;
+  rdfs:label "zma-MIR2275d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19584097, pmid:19584097 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013184
+  dcterms:identifier "MI0013184" ;
+  dcterms:description "Zea mays miR156l stem-loop"@en ;
+  rdfs:label "zma-MIR156l"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013185
+  dcterms:identifier "MI0013185" ;
+  dcterms:description "Zea mays miR159e stem-loop"@en ;
+  rdfs:label "zma-MIR159e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013186
+  dcterms:identifier "MI0013186" ;
+  dcterms:description "Zea mays miR159f stem-loop"@en ;
+  rdfs:label "zma-MIR159f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013187
+  dcterms:identifier "MI0013187" ;
+  dcterms:description "Zea mays miR159g stem-loop"@en ;
+  rdfs:label "zma-MIR159g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013188
+  dcterms:identifier "MI0013188" ;
+  dcterms:description "Zea mays miR159h stem-loop"@en ;
+  rdfs:label "zma-MIR159h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013189
+  dcterms:identifier "MI0013189" ;
+  dcterms:description "Zea mays miR159i stem-loop"@en ;
+  rdfs:label "zma-MIR159i"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013190
+  dcterms:identifier "MI0013190" ;
+  dcterms:description "Zea mays miR159j stem-loop"@en ;
+  rdfs:label "zma-MIR159j"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013191
+  dcterms:identifier "MI0013191" ;
+  dcterms:description "Zea mays miR159k stem-loop"@en ;
+  rdfs:label "zma-MIR159k"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013192
+  dcterms:identifier "MI0013192" ;
+  dcterms:description "Zea mays miR160g stem-loop"@en ;
+  rdfs:label "zma-MIR160g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013193
+  dcterms:identifier "MI0013193" ;
+  dcterms:description "Zea mays miR164e stem-loop"@en ;
+  rdfs:label "zma-MIR164e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013194
+  dcterms:identifier "MI0013194" ;
+  dcterms:description "Zea mays miR164f stem-loop"@en ;
+  rdfs:label "zma-MIR164f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013195
+  dcterms:identifier "MI0013195" ;
+  dcterms:description "Zea mays miR164g stem-loop"@en ;
+  rdfs:label "zma-MIR164g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013196
+  dcterms:identifier "MI0013196" ;
+  dcterms:description "Zea mays miR164h stem-loop"@en ;
+  rdfs:label "zma-MIR164h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013197
+  dcterms:identifier "MI0013197" ;
+  dcterms:description "Zea mays miR166n stem-loop"@en ;
+  rdfs:label "zma-MIR166n"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013198
+  dcterms:identifier "MI0013198" ;
+  dcterms:description "Zea mays miR167j stem-loop"@en ;
+  rdfs:label "zma-MIR167j"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013199
+  dcterms:identifier "MI0013199" ;
+  dcterms:description "Zea mays miR169l stem-loop"@en ;
+  rdfs:label "zma-MIR169l"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013200
+  dcterms:identifier "MI0013200" ;
+  dcterms:description "Zea mays miR169m stem-loop"@en ;
+  rdfs:label "zma-MIR169m"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013201
+  dcterms:identifier "MI0013201" ;
+  dcterms:description "Zea mays miR169n stem-loop"@en ;
+  rdfs:label "zma-MIR169n"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013202
+  dcterms:identifier "MI0013202" ;
+  dcterms:description "Zea mays miR169o stem-loop"@en ;
+  rdfs:label "zma-MIR169o"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013203
+  dcterms:identifier "MI0013203" ;
+  dcterms:description "Zea mays miR169p stem-loop"@en ;
+  rdfs:label "zma-MIR169p"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013204
+  dcterms:identifier "MI0013204" ;
+  dcterms:description "Zea mays miR169q stem-loop"@en ;
+  rdfs:label "zma-MIR169q"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013205
+  dcterms:identifier "MI0013205" ;
+  dcterms:description "Zea mays miR169r stem-loop"@en ;
+  rdfs:label "zma-MIR169r"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013206
+  dcterms:identifier "MI0013206" ;
+  dcterms:description "Zea mays miR171l stem-loop"@en ;
+  rdfs:label "zma-MIR171l"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013207
+  dcterms:identifier "MI0013207" ;
+  dcterms:description "Zea mays miR171m stem-loop"@en ;
+  rdfs:label "zma-MIR171m"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013208
+  dcterms:identifier "MI0013208" ;
+  dcterms:description "Zea mays miR171n stem-loop"@en ;
+  rdfs:label "zma-MIR171n"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013209
+  dcterms:identifier "MI0013209" ;
+  dcterms:description "Zea mays miR390a stem-loop"@en ;
+  rdfs:label "zma-MIR390a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013210
+  dcterms:identifier "MI0013210" ;
+  dcterms:description "Zea mays miR393b stem-loop"@en ;
+  rdfs:label "zma-MIR393b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013211
+  dcterms:identifier "MI0013211" ;
+  dcterms:description "Zea mays miR393c stem-loop"@en ;
+  rdfs:label "zma-MIR393c"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013212
+  dcterms:identifier "MI0013212" ;
+  dcterms:description "Zea mays miR395d stem-loop"@en ;
+  rdfs:label "zma-MIR395d"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013213
+  dcterms:identifier "MI0013213" ;
+  dcterms:description "Zea mays miR395e stem-loop"@en ;
+  rdfs:label "zma-MIR395e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013214
+  dcterms:identifier "MI0013214" ;
+  dcterms:description "Zea mays miR395f stem-loop"@en ;
+  rdfs:label "zma-MIR395f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013215
+  dcterms:identifier "MI0013215" ;
+  dcterms:description "Zea mays miR395g stem-loop"@en ;
+  rdfs:label "zma-MIR395g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013216
+  dcterms:identifier "MI0013216" ;
+  dcterms:description "Zea mays miR395h stem-loop"@en ;
+  rdfs:label "zma-MIR395h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013217
+  dcterms:identifier "MI0013217" ;
+  dcterms:description "Zea mays miR395i stem-loop"@en ;
+  rdfs:label "zma-MIR395i"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013218
+  dcterms:identifier "MI0013218" ;
+  dcterms:description "Zea mays miR395j stem-loop"@en ;
+  rdfs:label "zma-MIR395j"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013219
+  dcterms:identifier "MI0013219" ;
+  dcterms:description "Zea mays miR395k stem-loop"@en ;
+  rdfs:label "zma-MIR395k"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013220
+  dcterms:identifier "MI0013220" ;
+  dcterms:description "Zea mays miR395l stem-loop"@en ;
+  rdfs:label "zma-MIR395l"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013221
+  dcterms:identifier "MI0013221" ;
+  dcterms:description "Zea mays miR395m stem-loop"@en ;
+  rdfs:label "zma-MIR395m"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013222
+  dcterms:identifier "MI0013222" ;
+  dcterms:description "Zea mays miR395n stem-loop"@en ;
+  rdfs:label "zma-MIR395n"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013223
+  dcterms:identifier "MI0013223" ;
+  dcterms:description "Zea mays miR395o stem-loop"@en ;
+  rdfs:label "zma-MIR395o"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013224
+  dcterms:identifier "MI0013224" ;
+  dcterms:description "Zea mays miR395p stem-loop"@en ;
+  rdfs:label "zma-MIR395p"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013225
+  dcterms:identifier "MI0013225" ;
+  dcterms:description "Zea mays miR396e stem-loop"@en ;
+  rdfs:label "zma-MIR396e"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013226
+  dcterms:identifier "MI0013226" ;
+  dcterms:description "Zea mays miR396f stem-loop"@en ;
+  rdfs:label "zma-MIR396f"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013227
+  dcterms:identifier "MI0013227" ;
+  dcterms:description "Zea mays miR396g stem-loop"@en ;
+  rdfs:label "zma-MIR396g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013228
+  dcterms:identifier "MI0013228" ;
+  dcterms:description "Zea mays miR396h stem-loop"@en ;
+  rdfs:label "zma-MIR396h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013229
+  dcterms:identifier "MI0013229" ;
+  dcterms:description "Zea mays miR397a stem-loop"@en ;
+  rdfs:label "zma-MIR397a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013230
+  dcterms:identifier "MI0013230" ;
+  dcterms:description "Zea mays miR397b stem-loop"@en ;
+  rdfs:label "zma-MIR397b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013231
+  dcterms:identifier "MI0013231" ;
+  dcterms:description "Zea mays miR398a stem-loop"@en ;
+  rdfs:label "zma-MIR398a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013232
+  dcterms:identifier "MI0013232" ;
+  dcterms:description "Zea mays miR398b stem-loop"@en ;
+  rdfs:label "zma-MIR398b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013233
+  dcterms:identifier "MI0013233" ;
+  dcterms:description "Zea mays miR399g stem-loop"@en ;
+  rdfs:label "zma-MIR399g"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013234
+  dcterms:identifier "MI0013234" ;
+  dcterms:description "Zea mays miR399h stem-loop"@en ;
+  rdfs:label "zma-MIR399h"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013235
+  dcterms:identifier "MI0013235" ;
+  dcterms:description "Zea mays miR399i stem-loop"@en ;
+  rdfs:label "zma-MIR399i"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013236
+  dcterms:identifier "MI0013236" ;
+  dcterms:description "Zea mays miR399j stem-loop"@en ;
+  rdfs:label "zma-MIR399j"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013237
+  dcterms:identifier "MI0013237" ;
+  dcterms:description "Zea mays miR408b stem-loop"@en ;
+  rdfs:label "zma-MIR408b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013238
+  dcterms:identifier "MI0013238" ;
+  dcterms:description "Zea mays miR482 stem-loop"@en ;
+  rdfs:label "zma-MIR482"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013239
+  dcterms:identifier "MI0013239" ;
+  dcterms:description "Zea mays miR528a stem-loop"@en ;
+  rdfs:label "zma-MIR528a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013240
+  dcterms:identifier "MI0013240" ;
+  dcterms:description "Zea mays miR528b stem-loop"@en ;
+  rdfs:label "zma-MIR528b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013241
+  dcterms:identifier "MI0013241" ;
+  dcterms:description "Zea mays miR529 stem-loop"@en ;
+  rdfs:label "zma-MIR529"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013242
+  dcterms:identifier "MI0013242" ;
+  dcterms:description "Zea mays miR827 stem-loop"@en ;
+  rdfs:label "zma-MIR827"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013243
+  dcterms:identifier "MI0013243" ;
+  dcterms:description "Zea mays miR1432 stem-loop"@en ;
+  rdfs:label "zma-MIR1432"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013244
+  dcterms:identifier "MI0013244" ;
+  dcterms:description "Zea mays miR390b stem-loop"@en ;
+  rdfs:label "zma-MIR390b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19936050, pmid:19936050 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019128
+  dcterms:identifier "MI0019128" ;
+  dcterms:description "Zea mays miR444a stem-loop"@en ;
+  rdfs:label "zma-MIR444a"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21421552, pmid:21421552 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019129
+  dcterms:identifier "MI0019129" ;
+  dcterms:description "Zea mays miR444b stem-loop"@en ;
+  rdfs:label "zma-MIR444b"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21421552, pmid:21421552 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0038157
+  dcterms:identifier "MI0038157" ;
+  dcterms:description "Zea mays miR11969 stem-loop"@en ;
+  rdfs:label "zma-MIR11969"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:27313591, pmid:27313591 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0038158
+  dcterms:identifier "MI0038158" ;
+  dcterms:description "Zea mays miR11970 stem-loop"@en ;
+  rdfs:label "zma-MIR11970"@en ;
+  obo:RO_0002162 taxonomy:4577 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:27313591, pmid:27313591 ;
+  ] ;
+  a :MicroRNA .
+

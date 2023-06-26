@@ -1,0 +1,275 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0001669
+  dcterms:identifier "MI0001669" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-1 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-1"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727, pubmed:19948768, pmid:19948768 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001670
+  dcterms:identifier "MI0001670" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-2 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-2"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727, pubmed:19948768, pmid:19948768 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001671
+  dcterms:identifier "MI0001671" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-3 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-3"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:19948768, pmid:19948768 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001672
+  dcterms:identifier "MI0001672" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-4 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-4"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001673
+  dcterms:identifier "MI0001673" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-5 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-5"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001674
+  dcterms:identifier "MI0001674" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-6 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-6"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727, pubmed:19948768, pmid:19948768 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001675
+  dcterms:identifier "MI0001675" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-7 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-7"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727, pubmed:19948768, pmid:19948768 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001676
+  dcterms:identifier "MI0001676" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-8 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-8"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001677
+  dcterms:identifier "MI0001677" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-9 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-9"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727, pubmed:19948768, pmid:19948768 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016250
+  dcterms:identifier "MI0016250" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-10 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-10"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:20668074, pmid:20668074, pubmed:20660200, pmid:20660200 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016251
+  dcterms:identifier "MI0016251" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-11 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-11"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016252
+  dcterms:identifier "MI0016252" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-12 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-12"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:20668074, pmid:20668074, pubmed:20660200, pmid:20660200 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016253
+  dcterms:identifier "MI0016253" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-13 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-13"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016254
+  dcterms:identifier "MI0016254" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-14 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-14"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:20668074, pmid:20668074, pubmed:20660200, pmid:20660200 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  :evidence [
+    :experiment_type "RT-PCR" ;
+    dcterms:references pubmed:20660200, pmid:20660200 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0016255
+  dcterms:identifier "MI0016255" ;
+  dcterms:description "Mouse gammaherpesvirus 68 miR-M1-15 stem-loop"@en ;
+  rdfs:label "mghv-mir-M1-15"@en ;
+  obo:RO_0002162 taxonomy:33708 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20668074, pmid:20668074 ;
+  ] ;
+  a :MicroRNA .
+

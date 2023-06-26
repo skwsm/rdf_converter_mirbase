@@ -1,0 +1,1959 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0013433
+  dcterms:identifier "MI0013433" ;
+  dcterms:description "Aedes aegypti miR-184 stem-loop"@en ;
+  rdfs:label "aae-mir-184"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013434
+  dcterms:identifier "MI0013434" ;
+  dcterms:description "Aedes aegypti miR-275 stem-loop"@en ;
+  rdfs:label "aae-mir-275"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013435
+  dcterms:identifier "MI0013435" ;
+  dcterms:description "Aedes aegypti miR-277 stem-loop"@en ;
+  rdfs:label "aae-mir-277"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013436
+  dcterms:identifier "MI0013436" ;
+  dcterms:description "Aedes aegypti miR-9c stem-loop"@en ;
+  rdfs:label "aae-mir-9c"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013437
+  dcterms:identifier "MI0013437" ;
+  dcterms:description "Aedes aegypti miR-8 stem-loop"@en ;
+  rdfs:label "aae-mir-8"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013438
+  dcterms:identifier "MI0013438" ;
+  dcterms:description "Aedes aegypti miR-252 stem-loop"@en ;
+  rdfs:label "aae-mir-252"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013439
+  dcterms:identifier "MI0013439" ;
+  dcterms:description "Aedes aegypti bantam stem-loop"@en ;
+  rdfs:label "aae-bantam"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013440
+  dcterms:identifier "MI0013440" ;
+  dcterms:description "Aedes aegypti miR-71 stem-loop"@en ;
+  rdfs:label "aae-mir-71"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013441
+  dcterms:identifier "MI0013441" ;
+  dcterms:description "Aedes aegypti miR-276-1 stem-loop"@en ;
+  rdfs:label "aae-mir-276-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013442
+  dcterms:identifier "MI0013442" ;
+  dcterms:description "Aedes aegypti miR-317-1 stem-loop"@en ;
+  rdfs:label "aae-mir-317-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013443
+  dcterms:identifier "MI0013443" ;
+  dcterms:description "Aedes aegypti miR-2a stem-loop"@en ;
+  rdfs:label "aae-mir-2a"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013444
+  dcterms:identifier "MI0013444" ;
+  dcterms:description "Aedes aegypti miR-998 stem-loop"@en ;
+  rdfs:label "aae-mir-998"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013445
+  dcterms:identifier "MI0013445" ;
+  dcterms:description "Aedes aegypti miR-92a stem-loop"@en ;
+  rdfs:label "aae-mir-92a"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013446
+  dcterms:identifier "MI0013446" ;
+  dcterms:description "Aedes aegypti miR-306 stem-loop"@en ;
+  rdfs:label "aae-mir-306"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013447
+  dcterms:identifier "MI0013447" ;
+  dcterms:description "Aedes aegypti miR-281 stem-loop"@en ;
+  rdfs:label "aae-mir-281"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013448
+  dcterms:identifier "MI0013448" ;
+  dcterms:description "Aedes aegypti miR-1889 stem-loop"@en ;
+  rdfs:label "aae-mir-1889"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013449
+  dcterms:identifier "MI0013449" ;
+  dcterms:description "Aedes aegypti miR-980 stem-loop"@en ;
+  rdfs:label "aae-mir-980"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013450
+  dcterms:identifier "MI0013450" ;
+  dcterms:description "Aedes aegypti miR-278 stem-loop"@en ;
+  rdfs:label "aae-mir-278"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013451
+  dcterms:identifier "MI0013451" ;
+  dcterms:description "Aedes aegypti miR-989 stem-loop"@en ;
+  rdfs:label "aae-mir-989"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013452
+  dcterms:identifier "MI0013452" ;
+  dcterms:description "Aedes aegypti miR-14 stem-loop"@en ;
+  rdfs:label "aae-mir-14"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013453
+  dcterms:identifier "MI0013453" ;
+  dcterms:description "Aedes aegypti miR-11 stem-loop"@en ;
+  rdfs:label "aae-mir-11"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013454
+  dcterms:identifier "MI0013454" ;
+  dcterms:description "Aedes aegypti miR-190 stem-loop"@en ;
+  rdfs:label "aae-mir-190"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013455
+  dcterms:identifier "MI0013455" ;
+  dcterms:description "Aedes aegypti miR-1 stem-loop"@en ;
+  rdfs:label "aae-mir-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013456
+  dcterms:identifier "MI0013456" ;
+  dcterms:description "Aedes aegypti miR-34 stem-loop"@en ;
+  rdfs:label "aae-mir-34"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013457
+  dcterms:identifier "MI0013457" ;
+  dcterms:description "Aedes aegypti miR-1890 stem-loop"@en ;
+  rdfs:label "aae-mir-1890"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013458
+  dcterms:identifier "MI0013458" ;
+  dcterms:description "Aedes aegypti miR-957 stem-loop"@en ;
+  rdfs:label "aae-mir-957"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013459
+  dcterms:identifier "MI0013459" ;
+  dcterms:description "Aedes aegypti miR-305 stem-loop"@en ;
+  rdfs:label "aae-mir-305"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013460
+  dcterms:identifier "MI0013460" ;
+  dcterms:description "Aedes aegypti miR-996 stem-loop"@en ;
+  rdfs:label "aae-mir-996"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013461
+  dcterms:identifier "MI0013461" ;
+  dcterms:description "Aedes aegypti miR-87 stem-loop"@en ;
+  rdfs:label "aae-mir-87"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013462
+  dcterms:identifier "MI0013462" ;
+  dcterms:description "Aedes aegypti miR-12 stem-loop"@en ;
+  rdfs:label "aae-mir-12"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013463
+  dcterms:identifier "MI0013463" ;
+  dcterms:description "Aedes aegypti miR-13 stem-loop"@en ;
+  rdfs:label "aae-mir-13"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013464
+  dcterms:identifier "MI0013464" ;
+  dcterms:description "Aedes aegypti miR-999 stem-loop"@en ;
+  rdfs:label "aae-mir-999"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013465
+  dcterms:identifier "MI0013465" ;
+  dcterms:description "Aedes aegypti miR-125 stem-loop"@en ;
+  rdfs:label "aae-mir-125"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013466
+  dcterms:identifier "MI0013466" ;
+  dcterms:description "Aedes aegypti miR-308 stem-loop"@en ;
+  rdfs:label "aae-mir-308"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013467
+  dcterms:identifier "MI0013467" ;
+  dcterms:description "Aedes aegypti miR-315 stem-loop"@en ;
+  rdfs:label "aae-mir-315"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013468
+  dcterms:identifier "MI0013468" ;
+  dcterms:description "Aedes aegypti miR-1891-1 stem-loop"@en ;
+  rdfs:label "aae-mir-1891-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013469
+  dcterms:identifier "MI0013469" ;
+  dcterms:description "Aedes aegypti miR-1891-2 stem-loop"@en ;
+  rdfs:label "aae-mir-1891-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013470
+  dcterms:identifier "MI0013470" ;
+  dcterms:description "Aedes aegypti miR-1175 stem-loop"@en ;
+  rdfs:label "aae-mir-1175"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013471
+  dcterms:identifier "MI0013471" ;
+  dcterms:description "Aedes aegypti miR-1174 stem-loop"@en ;
+  rdfs:label "aae-mir-1174"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013472
+  dcterms:identifier "MI0013472" ;
+  dcterms:description "Aedes aegypti miR-993 stem-loop"@en ;
+  rdfs:label "aae-mir-993"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013473
+  dcterms:identifier "MI0013473" ;
+  dcterms:description "Aedes aegypti miR-981 stem-loop"@en ;
+  rdfs:label "aae-mir-981"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013474
+  dcterms:identifier "MI0013474" ;
+  dcterms:description "Aedes aegypti miR-965 stem-loop"@en ;
+  rdfs:label "aae-mir-965"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013475
+  dcterms:identifier "MI0013475" ;
+  dcterms:description "Aedes aegypti miR-932 stem-loop"@en ;
+  rdfs:label "aae-mir-932"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013476
+  dcterms:identifier "MI0013476" ;
+  dcterms:description "Aedes aegypti miR-927 stem-loop"@en ;
+  rdfs:label "aae-mir-927"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013477
+  dcterms:identifier "MI0013477" ;
+  dcterms:description "Aedes aegypti miR-309a-1 stem-loop"@en ;
+  rdfs:label "aae-mir-309a-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013478
+  dcterms:identifier "MI0013478" ;
+  dcterms:description "Aedes aegypti miR-309a-2 stem-loop"@en ;
+  rdfs:label "aae-mir-309a-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013479
+  dcterms:identifier "MI0013479" ;
+  dcterms:description "Aedes aegypti miR-285 stem-loop"@en ;
+  rdfs:label "aae-mir-285"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013480
+  dcterms:identifier "MI0013480" ;
+  dcterms:description "Aedes aegypti miR-137-1 stem-loop"@en ;
+  rdfs:label "aae-mir-137-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013481
+  dcterms:identifier "MI0013481" ;
+  dcterms:description "Aedes aegypti miR-137-2 stem-loop"@en ;
+  rdfs:label "aae-mir-137-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013482
+  dcterms:identifier "MI0013482" ;
+  dcterms:description "Aedes aegypti miR-133 stem-loop"@en ;
+  rdfs:label "aae-mir-133"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013483
+  dcterms:identifier "MI0013483" ;
+  dcterms:description "Aedes aegypti miR-31 stem-loop"@en ;
+  rdfs:label "aae-mir-31"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013484
+  dcterms:identifier "MI0013484" ;
+  dcterms:description "Aedes aegypti miR-10 stem-loop"@en ;
+  rdfs:label "aae-mir-10"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013485
+  dcterms:identifier "MI0013485" ;
+  dcterms:description "Aedes aegypti miR-iab-4-1 stem-loop"@en ;
+  rdfs:label "aae-mir-iab-4-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013486
+  dcterms:identifier "MI0013486" ;
+  dcterms:description "Aedes aegypti miR-283 stem-loop"@en ;
+  rdfs:label "aae-mir-283"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013487
+  dcterms:identifier "MI0013487" ;
+  dcterms:description "Aedes aegypti miR-988 stem-loop"@en ;
+  rdfs:label "aae-mir-988"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013488
+  dcterms:identifier "MI0013488" ;
+  dcterms:description "Aedes aegypti miR-124 stem-loop"@en ;
+  rdfs:label "aae-mir-124"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013489
+  dcterms:identifier "MI0013489" ;
+  dcterms:description "Aedes aegypti miR-2940 stem-loop"@en ;
+  rdfs:label "aae-mir-2940"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013490
+  dcterms:identifier "MI0013490" ;
+  dcterms:description "Aedes aegypti miR-2765 stem-loop"@en ;
+  rdfs:label "aae-mir-2765"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013491
+  dcterms:identifier "MI0013491" ;
+  dcterms:description "Aedes aegypti miR-2941-1 stem-loop"@en ;
+  rdfs:label "aae-mir-2941-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013492
+  dcterms:identifier "MI0013492" ;
+  dcterms:description "Aedes aegypti miR-2941-2 stem-loop"@en ;
+  rdfs:label "aae-mir-2941-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013493
+  dcterms:identifier "MI0013493" ;
+  dcterms:description "Aedes aegypti miR-33 stem-loop"@en ;
+  rdfs:label "aae-mir-33"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013494
+  dcterms:identifier "MI0013494" ;
+  dcterms:description "Aedes aegypti miR-279 stem-loop"@en ;
+  rdfs:label "aae-mir-279"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013495
+  dcterms:identifier "MI0013495" ;
+  dcterms:description "Aedes aegypti miR-263a stem-loop"@en ;
+  rdfs:label "aae-mir-263a"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013496
+  dcterms:identifier "MI0013496" ;
+  dcterms:description "Aedes aegypti miR-7 stem-loop"@en ;
+  rdfs:label "aae-mir-7"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013497
+  dcterms:identifier "MI0013497" ;
+  dcterms:description "Aedes aegypti miR-100 stem-loop"@en ;
+  rdfs:label "aae-mir-100"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013498
+  dcterms:identifier "MI0013498" ;
+  dcterms:description "Aedes aegypti miR-970 stem-loop"@en ;
+  rdfs:label "aae-mir-970"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013499
+  dcterms:identifier "MI0013499" ;
+  dcterms:description "Aedes aegypti miR-210 stem-loop"@en ;
+  rdfs:label "aae-mir-210"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013500
+  dcterms:identifier "MI0013500" ;
+  dcterms:description "Aedes aegypti miR-79 stem-loop"@en ;
+  rdfs:label "aae-mir-79"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013501
+  dcterms:identifier "MI0013501" ;
+  dcterms:description "Aedes aegypti miR-307 stem-loop"@en ;
+  rdfs:label "aae-mir-307"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013502
+  dcterms:identifier "MI0013502" ;
+  dcterms:description "Aedes aegypti miR-1000-1 stem-loop"@en ;
+  rdfs:label "aae-mir-1000-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013503
+  dcterms:identifier "MI0013503" ;
+  dcterms:description "Aedes aegypti miR-1000-2 stem-loop"@en ;
+  rdfs:label "aae-mir-1000-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013504
+  dcterms:identifier "MI0013504" ;
+  dcterms:description "Aedes aegypti miR-375 stem-loop"@en ;
+  rdfs:label "aae-mir-375"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:20167119, pmid:20167119 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013505
+  dcterms:identifier "MI0013505" ;
+  dcterms:description "Aedes aegypti let-7 stem-loop"@en ;
+  rdfs:label "aae-let-7"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013506
+  dcterms:identifier "MI0013506" ;
+  dcterms:description "Aedes aegypti miR-2942 stem-loop"@en ;
+  rdfs:label "aae-mir-2942"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013507
+  dcterms:identifier "MI0013507" ;
+  dcterms:description "Aedes aegypti miR-2943-1 stem-loop"@en ;
+  rdfs:label "aae-mir-2943-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013508
+  dcterms:identifier "MI0013508" ;
+  dcterms:description "Aedes aegypti miR-2943-2 stem-loop"@en ;
+  rdfs:label "aae-mir-2943-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013509
+  dcterms:identifier "MI0013509" ;
+  dcterms:description "Aedes aegypti miR-2944a stem-loop"@en ;
+  rdfs:label "aae-mir-2944a"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013510
+  dcterms:identifier "MI0013510" ;
+  dcterms:description "Aedes aegypti miR-2944b stem-loop"@en ;
+  rdfs:label "aae-mir-2944b"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013511
+  dcterms:identifier "MI0013511" ;
+  dcterms:description "Aedes aegypti miR-193 stem-loop"@en ;
+  rdfs:label "aae-mir-193"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013512
+  dcterms:identifier "MI0013512" ;
+  dcterms:description "Aedes aegypti miR-2b stem-loop"@en ;
+  rdfs:label "aae-mir-2b"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013513
+  dcterms:identifier "MI0013513" ;
+  dcterms:description "Aedes aegypti miR-219 stem-loop"@en ;
+  rdfs:label "aae-mir-219"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013514
+  dcterms:identifier "MI0013514" ;
+  dcterms:description "Aedes aegypti miR-2c stem-loop"@en ;
+  rdfs:label "aae-mir-2c"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013515
+  dcterms:identifier "MI0013515" ;
+  dcterms:description "Aedes aegypti miR-263b stem-loop"@en ;
+  rdfs:label "aae-mir-263b"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013516
+  dcterms:identifier "MI0013516" ;
+  dcterms:description "Aedes aegypti miR-276-2 stem-loop"@en ;
+  rdfs:label "aae-mir-276-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013517
+  dcterms:identifier "MI0013517" ;
+  dcterms:description "Aedes aegypti miR-282-1 stem-loop"@en ;
+  rdfs:label "aae-mir-282-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013518
+  dcterms:identifier "MI0013518" ;
+  dcterms:description "Aedes aegypti miR-282-2 stem-loop"@en ;
+  rdfs:label "aae-mir-282-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013519
+  dcterms:identifier "MI0013519" ;
+  dcterms:description "Aedes aegypti miR-286b-1 stem-loop"@en ;
+  rdfs:label "aae-mir-286b-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013520
+  dcterms:identifier "MI0013520" ;
+  dcterms:description "Aedes aegypti miR-286b-2 stem-loop"@en ;
+  rdfs:label "aae-mir-286b-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013521
+  dcterms:identifier "MI0013521" ;
+  dcterms:description "Aedes aegypti miR-286a stem-loop"@en ;
+  rdfs:label "aae-mir-286a"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013522
+  dcterms:identifier "MI0013522" ;
+  dcterms:description "Aedes aegypti miR-2945 stem-loop"@en ;
+  rdfs:label "aae-mir-2945"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013523
+  dcterms:identifier "MI0013523" ;
+  dcterms:description "Aedes aegypti miR-316 stem-loop"@en ;
+  rdfs:label "aae-mir-316"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013524
+  dcterms:identifier "MI0013524" ;
+  dcterms:description "Aedes aegypti miR-317-2 stem-loop"@en ;
+  rdfs:label "aae-mir-317-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013526
+  dcterms:identifier "MI0013526" ;
+  dcterms:description "Aedes aegypti miR-309b stem-loop"@en ;
+  rdfs:label "aae-mir-309b"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013527
+  dcterms:identifier "MI0013527" ;
+  dcterms:description "Aedes aegypti miR-92b stem-loop"@en ;
+  rdfs:label "aae-mir-92b"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013528
+  dcterms:identifier "MI0013528" ;
+  dcterms:description "Aedes aegypti miR-9a-1 stem-loop"@en ;
+  rdfs:label "aae-mir-9a-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013529
+  dcterms:identifier "MI0013529" ;
+  dcterms:description "Aedes aegypti miR-9a-2 stem-loop"@en ;
+  rdfs:label "aae-mir-9a-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013530
+  dcterms:identifier "MI0013530" ;
+  dcterms:description "Aedes aegypti miR-9b stem-loop"@en ;
+  rdfs:label "aae-mir-9b"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013531
+  dcterms:identifier "MI0013531" ;
+  dcterms:description "Aedes aegypti miR-iab-4-2 stem-loop"@en ;
+  rdfs:label "aae-mir-iab-4-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013532
+  dcterms:identifier "MI0013532" ;
+  dcterms:description "Aedes aegypti miR-2946 stem-loop"@en ;
+  rdfs:label "aae-mir-2946"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014710
+  dcterms:identifier "MI0014710" ;
+  dcterms:description "Aedes aegypti miR-929-1 stem-loop"@en ;
+  rdfs:label "aae-mir-929-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0014711
+  dcterms:identifier "MI0014711" ;
+  dcterms:description "Aedes aegypti miR-929-2 stem-loop"@en ;
+  rdfs:label "aae-mir-929-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19961592, pmid:19961592 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037925
+  dcterms:identifier "MI0037925" ;
+  dcterms:description "Aedes aegypti miR-11893-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11893-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037926
+  dcterms:identifier "MI0037926" ;
+  dcterms:description "Aedes aegypti miR-11893-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11893-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037927
+  dcterms:identifier "MI0037927" ;
+  dcterms:description "Aedes aegypti miR-11894a-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11894a-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037928
+  dcterms:identifier "MI0037928" ;
+  dcterms:description "Aedes aegypti miR-11894a-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11894a-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037929
+  dcterms:identifier "MI0037929" ;
+  dcterms:description "Aedes aegypti miR-11894a-3 stem-loop"@en ;
+  rdfs:label "aae-mir-11894a-3"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037930
+  dcterms:identifier "MI0037930" ;
+  dcterms:description "Aedes aegypti miR-11894b-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11894b-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037931
+  dcterms:identifier "MI0037931" ;
+  dcterms:description "Aedes aegypti miR-11894b-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11894b-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037932
+  dcterms:identifier "MI0037932" ;
+  dcterms:description "Aedes aegypti miR-11895-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11895-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037933
+  dcterms:identifier "MI0037933" ;
+  dcterms:description "Aedes aegypti miR-11895-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11895-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037934
+  dcterms:identifier "MI0037934" ;
+  dcterms:description "Aedes aegypti miR-10365 stem-loop"@en ;
+  rdfs:label "aae-mir-10365"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037935
+  dcterms:identifier "MI0037935" ;
+  dcterms:description "Aedes aegypti miR-11896 stem-loop"@en ;
+  rdfs:label "aae-mir-11896"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037936
+  dcterms:identifier "MI0037936" ;
+  dcterms:description "Aedes aegypti miR-11897a stem-loop"@en ;
+  rdfs:label "aae-mir-11897a"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037937
+  dcterms:identifier "MI0037937" ;
+  dcterms:description "Aedes aegypti miR-11898 stem-loop"@en ;
+  rdfs:label "aae-mir-11898"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037938
+  dcterms:identifier "MI0037938" ;
+  dcterms:description "Aedes aegypti miR-11897b stem-loop"@en ;
+  rdfs:label "aae-mir-11897b"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037939
+  dcterms:identifier "MI0037939" ;
+  dcterms:description "Aedes aegypti miR-11899-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11899-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037940
+  dcterms:identifier "MI0037940" ;
+  dcterms:description "Aedes aegypti miR-11899-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11899-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037941
+  dcterms:identifier "MI0037941" ;
+  dcterms:description "Aedes aegypti miR-11900 stem-loop"@en ;
+  rdfs:label "aae-mir-11900"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037942
+  dcterms:identifier "MI0037942" ;
+  dcterms:description "Aedes aegypti miR-11901 stem-loop"@en ;
+  rdfs:label "aae-mir-11901"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037943
+  dcterms:identifier "MI0037943" ;
+  dcterms:description "Aedes aegypti miR-11902 stem-loop"@en ;
+  rdfs:label "aae-mir-11902"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037944
+  dcterms:identifier "MI0037944" ;
+  dcterms:description "Aedes aegypti miR-11903a stem-loop"@en ;
+  rdfs:label "aae-mir-11903a"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037945
+  dcterms:identifier "MI0037945" ;
+  dcterms:description "Aedes aegypti miR-11904 stem-loop"@en ;
+  rdfs:label "aae-mir-11904"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037946
+  dcterms:identifier "MI0037946" ;
+  dcterms:description "Aedes aegypti miR-11905 stem-loop"@en ;
+  rdfs:label "aae-mir-11905"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037947
+  dcterms:identifier "MI0037947" ;
+  dcterms:description "Aedes aegypti miR-11906 stem-loop"@en ;
+  rdfs:label "aae-mir-11906"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037948
+  dcterms:identifier "MI0037948" ;
+  dcterms:description "Aedes aegypti miR-11907 stem-loop"@en ;
+  rdfs:label "aae-mir-11907"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037949
+  dcterms:identifier "MI0037949" ;
+  dcterms:description "Aedes aegypti miR-11908-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11908-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037950
+  dcterms:identifier "MI0037950" ;
+  dcterms:description "Aedes aegypti miR-11908-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11908-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037951
+  dcterms:identifier "MI0037951" ;
+  dcterms:description "Aedes aegypti miR-11909-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11909-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037952
+  dcterms:identifier "MI0037952" ;
+  dcterms:description "Aedes aegypti miR-11909-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11909-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037953
+  dcterms:identifier "MI0037953" ;
+  dcterms:description "Aedes aegypti miR-11910 stem-loop"@en ;
+  rdfs:label "aae-mir-11910"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037954
+  dcterms:identifier "MI0037954" ;
+  dcterms:description "Aedes aegypti miR-11911 stem-loop"@en ;
+  rdfs:label "aae-mir-11911"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037955
+  dcterms:identifier "MI0037955" ;
+  dcterms:description "Aedes aegypti miR-11912 stem-loop"@en ;
+  rdfs:label "aae-mir-11912"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037956
+  dcterms:identifier "MI0037956" ;
+  dcterms:description "Aedes aegypti miR-11913 stem-loop"@en ;
+  rdfs:label "aae-mir-11913"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037957
+  dcterms:identifier "MI0037957" ;
+  dcterms:description "Aedes aegypti miR-11914-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11914-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037958
+  dcterms:identifier "MI0037958" ;
+  dcterms:description "Aedes aegypti miR-11914-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11914-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037959
+  dcterms:identifier "MI0037959" ;
+  dcterms:description "Aedes aegypti miR-11914-3 stem-loop"@en ;
+  rdfs:label "aae-mir-11914-3"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037960
+  dcterms:identifier "MI0037960" ;
+  dcterms:description "Aedes aegypti miR-11903b stem-loop"@en ;
+  rdfs:label "aae-mir-11903b"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037961
+  dcterms:identifier "MI0037961" ;
+  dcterms:description "Aedes aegypti miR-11915 stem-loop"@en ;
+  rdfs:label "aae-mir-11915"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037962
+  dcterms:identifier "MI0037962" ;
+  dcterms:description "Aedes aegypti miR-11916 stem-loop"@en ;
+  rdfs:label "aae-mir-11916"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037963
+  dcterms:identifier "MI0037963" ;
+  dcterms:description "Aedes aegypti miR-11917 stem-loop"@en ;
+  rdfs:label "aae-mir-11917"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037964
+  dcterms:identifier "MI0037964" ;
+  dcterms:description "Aedes aegypti miR-11918 stem-loop"@en ;
+  rdfs:label "aae-mir-11918"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037965
+  dcterms:identifier "MI0037965" ;
+  dcterms:description "Aedes aegypti miR-11919 stem-loop"@en ;
+  rdfs:label "aae-mir-11919"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037966
+  dcterms:identifier "MI0037966" ;
+  dcterms:description "Aedes aegypti miR-11920-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11920-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037967
+  dcterms:identifier "MI0037967" ;
+  dcterms:description "Aedes aegypti miR-11920-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11920-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037968
+  dcterms:identifier "MI0037968" ;
+  dcterms:description "Aedes aegypti miR-11920-3 stem-loop"@en ;
+  rdfs:label "aae-mir-11920-3"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037969
+  dcterms:identifier "MI0037969" ;
+  dcterms:description "Aedes aegypti miR-11920-4 stem-loop"@en ;
+  rdfs:label "aae-mir-11920-4"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037970
+  dcterms:identifier "MI0037970" ;
+  dcterms:description "Aedes aegypti miR-11921 stem-loop"@en ;
+  rdfs:label "aae-mir-11921"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037971
+  dcterms:identifier "MI0037971" ;
+  dcterms:description "Aedes aegypti miR-11922 stem-loop"@en ;
+  rdfs:label "aae-mir-11922"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037972
+  dcterms:identifier "MI0037972" ;
+  dcterms:description "Aedes aegypti miR-11923 stem-loop"@en ;
+  rdfs:label "aae-mir-11923"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037973
+  dcterms:identifier "MI0037973" ;
+  dcterms:description "Aedes aegypti miR-11924 stem-loop"@en ;
+  rdfs:label "aae-mir-11924"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037974
+  dcterms:identifier "MI0037974" ;
+  dcterms:description "Aedes aegypti miR-11925 stem-loop"@en ;
+  rdfs:label "aae-mir-11925"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037975
+  dcterms:identifier "MI0037975" ;
+  dcterms:description "Aedes aegypti miR-11926-1 stem-loop"@en ;
+  rdfs:label "aae-mir-11926-1"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037976
+  dcterms:identifier "MI0037976" ;
+  dcterms:description "Aedes aegypti miR-11926-2 stem-loop"@en ;
+  rdfs:label "aae-mir-11926-2"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037977
+  dcterms:identifier "MI0037977" ;
+  dcterms:description "Aedes aegypti miR-11927 stem-loop"@en ;
+  rdfs:label "aae-mir-11927"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0037978
+  dcterms:identifier "MI0037978" ;
+  dcterms:description "Aedes aegypti miR-11928 stem-loop"@en ;
+  rdfs:label "aae-mir-11928"@en ;
+  obo:RO_0002162 taxonomy:7159 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:26914027, pmid:26914027 ;
+  ] ;
+  a :MicroRNA .
+

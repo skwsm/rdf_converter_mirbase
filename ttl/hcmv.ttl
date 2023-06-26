@@ -1,0 +1,231 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0001678
+  dcterms:identifier "MI0001678" ;
+  dcterms:description "Human cytomegalovirus miR-UL22A stem-loop"@en ;
+  rdfs:label "hcmv-mir-UL22A"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:16207254, pmid:16207254, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051, pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001679
+  dcterms:identifier "MI0001679" ;
+  dcterms:description "Human cytomegalovirus miR-UL36 stem-loop"@en ;
+  rdfs:label "hcmv-mir-UL36"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051, pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001680
+  dcterms:identifier "MI0001680" ;
+  dcterms:description "Human cytomegalovirus miR-UL112 stem-loop"@en ;
+  rdfs:label "hcmv-mir-UL112"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051, pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001681
+  dcterms:identifier "MI0001681" ;
+  dcterms:description "Human cytomegalovirus miR-UL148D stem-loop"@en ;
+  rdfs:label "hcmv-mir-UL148D"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051, pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001682
+  dcterms:identifier "MI0001682" ;
+  dcterms:description "Human cytomegalovirus miR-US5-1 stem-loop"@en ;
+  rdfs:label "hcmv-mir-US5-1"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16140786, pmid:16140786 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051, pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001683
+  dcterms:identifier "MI0001683" ;
+  dcterms:description "Human cytomegalovirus miR-US5-2 stem-loop"@en ;
+  rdfs:label "hcmv-mir-US5-2"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001684
+  dcterms:identifier "MI0001684" ;
+  dcterms:description "Human cytomegalovirus miR-US25-1 stem-loop"@en ;
+  rdfs:label "hcmv-mir-US25-1"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051, pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001685
+  dcterms:identifier "MI0001685" ;
+  dcterms:description "Human cytomegalovirus miR-US25-2 stem-loop"@en ;
+  rdfs:label "hcmv-mir-US25-2"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15782219, pmid:15782219, pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051, pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001686
+  dcterms:identifier "MI0001686" ;
+  dcterms:description "Human cytomegalovirus miR-US33 stem-loop"@en ;
+  rdfs:label "hcmv-mir-US33"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17604727, pmid:17604727 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051, pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003687
+  dcterms:identifier "MI0003687" ;
+  dcterms:description "Human cytomegalovirus miR-US4 stem-loop"@en ;
+  rdfs:label "hcmv-mir-US4"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0003688
+  dcterms:identifier "MI0003688" ;
+  dcterms:description "Human cytomegalovirus miR-UL70 stem-loop"@en ;
+  rdfs:label "hcmv-mir-UL70"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:16140786, pmid:16140786 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0023578
+  dcterms:identifier "MI0023578" ;
+  dcterms:description "Human cytomegalovirus miR-US22 stem-loop"@en ;
+  rdfs:label "hcmv-mir-US22"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0023579
+  dcterms:identifier "MI0023579" ;
+  dcterms:description "Human cytomegalovirus miR-US29 stem-loop"@en ;
+  rdfs:label "hcmv-mir-US29"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22013051, pmid:22013051 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024164
+  dcterms:identifier "MI0024164" ;
+  dcterms:description "Human cytomegalovirus miR-UL59 stem-loop"@en ;
+  rdfs:label "hcmv-mir-UL59"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0024165
+  dcterms:identifier "MI0024165" ;
+  dcterms:description "Human cytomegalovirus miR-UL69 stem-loop"@en ;
+  rdfs:label "hcmv-mir-UL69"@en ;
+  obo:RO_0002162 taxonomy:10359 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:22715351, pmid:22715351 ;
+  ] ;
+  a :MicroRNA .
+

@@ -1,0 +1,3900 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0000001
+  dcterms:identifier "MI0000001" ;
+  dcterms:description "Caenorhabditis elegans let-7 stem-loop"@en ;
+  rdfs:label "cel-let-7"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  rdfs:seeAlso rfam:RF00027 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000002
+  dcterms:identifier "MI0000002" ;
+  dcterms:description "Caenorhabditis elegans lin-4 stem-loop"@en ;
+  rdfs:label "cel-lin-4"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  rdfs:seeAlso rfam:RF00052 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000003
+  dcterms:identifier "MI0000003" ;
+  dcterms:description "Caenorhabditis elegans miR-1 stem-loop"@en ;
+  rdfs:label "cel-mir-1"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  rdfs:seeAlso rfam:RF00103 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183, pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000004
+  dcterms:identifier "MI0000004" ;
+  dcterms:description "Caenorhabditis elegans miR-2 stem-loop"@en ;
+  rdfs:label "cel-mir-2"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  rdfs:seeAlso rfam:RF00047 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000005
+  dcterms:identifier "MI0000005" ;
+  dcterms:description "Caenorhabditis elegans miR-34 stem-loop"@en ;
+  rdfs:label "cel-mir-34"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000006
+  dcterms:identifier "MI0000006" ;
+  dcterms:description "Caenorhabditis elegans miR-35 stem-loop"@en ;
+  rdfs:label "cel-mir-35"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000007
+  dcterms:identifier "MI0000007" ;
+  dcterms:description "Caenorhabditis elegans miR-36 stem-loop"@en ;
+  rdfs:label "cel-mir-36"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000008
+  dcterms:identifier "MI0000008" ;
+  dcterms:description "Caenorhabditis elegans miR-37 stem-loop"@en ;
+  rdfs:label "cel-mir-37"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000009
+  dcterms:identifier "MI0000009" ;
+  dcterms:description "Caenorhabditis elegans miR-38 stem-loop"@en ;
+  rdfs:label "cel-mir-38"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000010
+  dcterms:identifier "MI0000010" ;
+  dcterms:description "Caenorhabditis elegans miR-39 stem-loop"@en ;
+  rdfs:label "cel-mir-39"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000011
+  dcterms:identifier "MI0000011" ;
+  dcterms:description "Caenorhabditis elegans miR-40 stem-loop"@en ;
+  rdfs:label "cel-mir-40"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000012
+  dcterms:identifier "MI0000012" ;
+  dcterms:description "Caenorhabditis elegans miR-41 stem-loop"@en ;
+  rdfs:label "cel-mir-41"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000013
+  dcterms:identifier "MI0000013" ;
+  dcterms:description "Caenorhabditis elegans miR-42 stem-loop"@en ;
+  rdfs:label "cel-mir-42"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000014
+  dcterms:identifier "MI0000014" ;
+  dcterms:description "Caenorhabditis elegans miR-43 stem-loop"@en ;
+  rdfs:label "cel-mir-43"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000015
+  dcterms:identifier "MI0000015" ;
+  dcterms:description "Caenorhabditis elegans miR-44 stem-loop"@en ;
+  rdfs:label "cel-mir-44"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000016
+  dcterms:identifier "MI0000016" ;
+  dcterms:description "Caenorhabditis elegans miR-45 stem-loop"@en ;
+  rdfs:label "cel-mir-45"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000017
+  dcterms:identifier "MI0000017" ;
+  dcterms:description "Caenorhabditis elegans miR-46 stem-loop"@en ;
+  rdfs:label "cel-mir-46"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000018
+  dcterms:identifier "MI0000018" ;
+  dcterms:description "Caenorhabditis elegans miR-47 stem-loop"@en ;
+  rdfs:label "cel-mir-47"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000019
+  dcterms:identifier "MI0000019" ;
+  dcterms:description "Caenorhabditis elegans miR-48 stem-loop"@en ;
+  rdfs:label "cel-mir-48"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  rdfs:seeAlso ncbigene:260115 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000020
+  dcterms:identifier "MI0000020" ;
+  dcterms:description "Caenorhabditis elegans miR-49 stem-loop"@en ;
+  rdfs:label "cel-mir-49"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000021
+  dcterms:identifier "MI0000021" ;
+  dcterms:description "Caenorhabditis elegans miR-50 stem-loop"@en ;
+  rdfs:label "cel-mir-50"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000022
+  dcterms:identifier "MI0000022" ;
+  dcterms:description "Caenorhabditis elegans miR-51 stem-loop"@en ;
+  rdfs:label "cel-mir-51"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  rdfs:seeAlso rfam:RF00104 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000023
+  dcterms:identifier "MI0000023" ;
+  dcterms:description "Caenorhabditis elegans miR-52 stem-loop"@en ;
+  rdfs:label "cel-mir-52"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000024
+  dcterms:identifier "MI0000024" ;
+  dcterms:description "Caenorhabditis elegans miR-53 stem-loop"@en ;
+  rdfs:label "cel-mir-53"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000025
+  dcterms:identifier "MI0000025" ;
+  dcterms:description "Caenorhabditis elegans miR-54 stem-loop"@en ;
+  rdfs:label "cel-mir-54"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000026
+  dcterms:identifier "MI0000026" ;
+  dcterms:description "Caenorhabditis elegans miR-55 stem-loop"@en ;
+  rdfs:label "cel-mir-55"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000027
+  dcterms:identifier "MI0000027" ;
+  dcterms:description "Caenorhabditis elegans miR-56 stem-loop"@en ;
+  rdfs:label "cel-mir-56"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000028
+  dcterms:identifier "MI0000028" ;
+  dcterms:description "Caenorhabditis elegans miR-57 stem-loop"@en ;
+  rdfs:label "cel-mir-57"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  rdfs:seeAlso rfam:RF00104 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000029
+  dcterms:identifier "MI0000029" ;
+  dcterms:description "Caenorhabditis elegans miR-58 stem-loop"@en ;
+  rdfs:label "cel-mir-58a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000030
+  dcterms:identifier "MI0000030" ;
+  dcterms:description "Caenorhabditis elegans miR-59 stem-loop"@en ;
+  rdfs:label "cel-mir-59"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000031
+  dcterms:identifier "MI0000031" ;
+  dcterms:description "Caenorhabditis elegans miR-60 stem-loop"@en ;
+  rdfs:label "cel-mir-60"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000032
+  dcterms:identifier "MI0000032" ;
+  dcterms:description "Caenorhabditis elegans miR-61 stem-loop"@en ;
+  rdfs:label "cel-mir-61"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000033
+  dcterms:identifier "MI0000033" ;
+  dcterms:description "Caenorhabditis elegans miR-62 stem-loop"@en ;
+  rdfs:label "cel-mir-62"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000034
+  dcterms:identifier "MI0000034" ;
+  dcterms:description "Caenorhabditis elegans miR-63 stem-loop"@en ;
+  rdfs:label "cel-mir-63"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000035
+  dcterms:identifier "MI0000035" ;
+  dcterms:description "Caenorhabditis elegans miR-64 stem-loop"@en ;
+  rdfs:label "cel-mir-64"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000036
+  dcterms:identifier "MI0000036" ;
+  dcterms:description "Caenorhabditis elegans miR-65 stem-loop"@en ;
+  rdfs:label "cel-mir-65"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000037
+  dcterms:identifier "MI0000037" ;
+  dcterms:description "Caenorhabditis elegans miR-66 stem-loop"@en ;
+  rdfs:label "cel-mir-66"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000038
+  dcterms:identifier "MI0000038" ;
+  dcterms:description "Caenorhabditis elegans miR-67 stem-loop"@en ;
+  rdfs:label "cel-mir-67"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000041
+  dcterms:identifier "MI0000041" ;
+  dcterms:description "Caenorhabditis elegans miR-70 stem-loop"@en ;
+  rdfs:label "cel-mir-70"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000042
+  dcterms:identifier "MI0000042" ;
+  dcterms:description "Caenorhabditis elegans miR-71 stem-loop"@en ;
+  rdfs:label "cel-mir-71"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000043
+  dcterms:identifier "MI0000043" ;
+  dcterms:description "Caenorhabditis elegans miR-72 stem-loop"@en ;
+  rdfs:label "cel-mir-72"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000044
+  dcterms:identifier "MI0000044" ;
+  dcterms:description "Caenorhabditis elegans miR-73 stem-loop"@en ;
+  rdfs:label "cel-mir-73"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000045
+  dcterms:identifier "MI0000045" ;
+  dcterms:description "Caenorhabditis elegans miR-74 stem-loop"@en ;
+  rdfs:label "cel-mir-74"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000046
+  dcterms:identifier "MI0000046" ;
+  dcterms:description "Caenorhabditis elegans miR-75 stem-loop"@en ;
+  rdfs:label "cel-mir-75"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000047
+  dcterms:identifier "MI0000047" ;
+  dcterms:description "Caenorhabditis elegans miR-76 stem-loop"@en ;
+  rdfs:label "cel-mir-76"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000048
+  dcterms:identifier "MI0000048" ;
+  dcterms:description "Caenorhabditis elegans miR-77 stem-loop"@en ;
+  rdfs:label "cel-mir-77"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000049
+  dcterms:identifier "MI0000049" ;
+  dcterms:description "Caenorhabditis elegans miR-78 stem-loop"@en ;
+  rdfs:label "cel-mir-78"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000050
+  dcterms:identifier "MI0000050" ;
+  dcterms:description "Caenorhabditis elegans miR-79 stem-loop"@en ;
+  rdfs:label "cel-mir-79"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000051
+  dcterms:identifier "MI0000051" ;
+  dcterms:description "Caenorhabditis elegans miR-80/miR-227 stem-loop"@en ;
+  rdfs:label "cel-mir-80"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12747828, pmid:12747828, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:11679671, pmid:11679671 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000052
+  dcterms:identifier "MI0000052" ;
+  dcterms:description "Caenorhabditis elegans miR-81 stem-loop"@en ;
+  rdfs:label "cel-mir-81"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000053
+  dcterms:identifier "MI0000053" ;
+  dcterms:description "Caenorhabditis elegans miR-82 stem-loop"@en ;
+  rdfs:label "cel-mir-82"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000054
+  dcterms:identifier "MI0000054" ;
+  dcterms:description "Caenorhabditis elegans miR-83 stem-loop"@en ;
+  rdfs:label "cel-mir-83"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000055
+  dcterms:identifier "MI0000055" ;
+  dcterms:description "Caenorhabditis elegans miR-84 stem-loop"@en ;
+  rdfs:label "cel-mir-84"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000056
+  dcterms:identifier "MI0000056" ;
+  dcterms:description "Caenorhabditis elegans miR-85 stem-loop"@en ;
+  rdfs:label "cel-mir-85"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679671, pmid:11679671, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000057
+  dcterms:identifier "MI0000057" ;
+  dcterms:description "Caenorhabditis elegans miR-86 stem-loop"@en ;
+  rdfs:label "cel-mir-86"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000058
+  dcterms:identifier "MI0000058" ;
+  dcterms:description "Caenorhabditis elegans miR-87 stem-loop"@en ;
+  rdfs:label "cel-mir-87"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000059
+  dcterms:identifier "MI0000059" ;
+  dcterms:description "Caenorhabditis elegans miR-90 stem-loop"@en ;
+  rdfs:label "cel-mir-90"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:11679672, pmid:11679672, pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000302
+  dcterms:identifier "MI0000302" ;
+  dcterms:description "Caenorhabditis elegans miR-124 stem-loop"@en ;
+  rdfs:label "cel-mir-124"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000303
+  dcterms:identifier "MI0000303" ;
+  dcterms:description "Caenorhabditis elegans miR-228 stem-loop"@en ;
+  rdfs:label "cel-mir-228"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000304
+  dcterms:identifier "MI0000304" ;
+  dcterms:description "Caenorhabditis elegans miR-229 stem-loop"@en ;
+  rdfs:label "cel-mir-229"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000305
+  dcterms:identifier "MI0000305" ;
+  dcterms:description "Caenorhabditis elegans miR-230 stem-loop"@en ;
+  rdfs:label "cel-mir-230"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000306
+  dcterms:identifier "MI0000306" ;
+  dcterms:description "Caenorhabditis elegans miR-231 stem-loop"@en ;
+  rdfs:label "cel-mir-231"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000307
+  dcterms:identifier "MI0000307" ;
+  dcterms:description "Caenorhabditis elegans miR-232 stem-loop"@en ;
+  rdfs:label "cel-mir-232"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000308
+  dcterms:identifier "MI0000308" ;
+  dcterms:description "Caenorhabditis elegans miR-233 stem-loop"@en ;
+  rdfs:label "cel-mir-233"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000309
+  dcterms:identifier "MI0000309" ;
+  dcterms:description "Caenorhabditis elegans miR-234 stem-loop"@en ;
+  rdfs:label "cel-mir-234"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000310
+  dcterms:identifier "MI0000310" ;
+  dcterms:description "Caenorhabditis elegans miR-235 stem-loop"@en ;
+  rdfs:label "cel-mir-235"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000311
+  dcterms:identifier "MI0000311" ;
+  dcterms:description "Caenorhabditis elegans miR-236 stem-loop"@en ;
+  rdfs:label "cel-mir-236"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000312
+  dcterms:identifier "MI0000312" ;
+  dcterms:description "Caenorhabditis elegans miR-237 stem-loop"@en ;
+  rdfs:label "cel-mir-237"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000313
+  dcterms:identifier "MI0000313" ;
+  dcterms:description "Caenorhabditis elegans miR-238 stem-loop"@en ;
+  rdfs:label "cel-mir-238"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:12747828, pmid:12747828, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000314
+  dcterms:identifier "MI0000314" ;
+  dcterms:description "Caenorhabditis elegans miR-239a stem-loop"@en ;
+  rdfs:label "cel-mir-239a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000315
+  dcterms:identifier "MI0000315" ;
+  dcterms:description "Caenorhabditis elegans miR-239b stem-loop"@en ;
+  rdfs:label "cel-mir-239b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000316
+  dcterms:identifier "MI0000316" ;
+  dcterms:description "Caenorhabditis elegans miR-240 stem-loop"@en ;
+  rdfs:label "cel-mir-240"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000317
+  dcterms:identifier "MI0000317" ;
+  dcterms:description "Caenorhabditis elegans miR-241 stem-loop"@en ;
+  rdfs:label "cel-mir-241"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000318
+  dcterms:identifier "MI0000318" ;
+  dcterms:description "Caenorhabditis elegans miR-242 stem-loop"@en ;
+  rdfs:label "cel-mir-242"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000319
+  dcterms:identifier "MI0000319" ;
+  dcterms:description "Caenorhabditis elegans miR-243 stem-loop"@en ;
+  rdfs:label "cel-mir-243"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000320
+  dcterms:identifier "MI0000320" ;
+  dcterms:description "Caenorhabditis elegans miR-244 stem-loop"@en ;
+  rdfs:label "cel-mir-244"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000321
+  dcterms:identifier "MI0000321" ;
+  dcterms:description "Caenorhabditis elegans miR-245 stem-loop"@en ;
+  rdfs:label "cel-mir-245"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000322
+  dcterms:identifier "MI0000322" ;
+  dcterms:description "Caenorhabditis elegans miR-246 stem-loop"@en ;
+  rdfs:label "cel-mir-246"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000323
+  dcterms:identifier "MI0000323" ;
+  dcterms:description "Caenorhabditis elegans miR-247 stem-loop"@en ;
+  rdfs:label "cel-mir-247"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000324
+  dcterms:identifier "MI0000324" ;
+  dcterms:description "Caenorhabditis elegans miR-248 stem-loop"@en ;
+  rdfs:label "cel-mir-248"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000325
+  dcterms:identifier "MI0000325" ;
+  dcterms:description "Caenorhabditis elegans miR-249 stem-loop"@en ;
+  rdfs:label "cel-mir-249"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000326
+  dcterms:identifier "MI0000326" ;
+  dcterms:description "Caenorhabditis elegans miR-250 stem-loop"@en ;
+  rdfs:label "cel-mir-250"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000327
+  dcterms:identifier "MI0000327" ;
+  dcterms:description "Caenorhabditis elegans miR-251 stem-loop"@en ;
+  rdfs:label "cel-mir-251"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000328
+  dcterms:identifier "MI0000328" ;
+  dcterms:description "Caenorhabditis elegans miR-252 stem-loop"@en ;
+  rdfs:label "cel-mir-252"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000329
+  dcterms:identifier "MI0000329" ;
+  dcterms:description "Caenorhabditis elegans miR-253 stem-loop"@en ;
+  rdfs:label "cel-mir-253"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000330
+  dcterms:identifier "MI0000330" ;
+  dcterms:description "Caenorhabditis elegans miR-254 stem-loop"@en ;
+  rdfs:label "cel-mir-254"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000331
+  dcterms:identifier "MI0000331" ;
+  dcterms:description "Caenorhabditis elegans miR-255 stem-loop"@en ;
+  rdfs:label "cel-mir-255"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000333
+  dcterms:identifier "MI0000333" ;
+  dcterms:description "Caenorhabditis elegans miR-256 stem-loop"@en ;
+  rdfs:label "cel-mir-256"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Northern" ;
+    dcterms:references pubmed:12672692, pmid:12672692 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000336
+  dcterms:identifier "MI0000336" ;
+  dcterms:description "Caenorhabditis elegans miR-259 stem-loop"@en ;
+  rdfs:label "cel-mir-259"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000338
+  dcterms:identifier "MI0000338" ;
+  dcterms:description "Caenorhabditis elegans miR-261 stem-loop"@en ;
+  rdfs:label "cel-mir-261"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:12747828, pmid:12747828 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000344
+  dcterms:identifier "MI0000344" ;
+  dcterms:description "Caenorhabditis elegans miR-264 stem-loop"@en ;
+  rdfs:label "cel-mir-264"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000345
+  dcterms:identifier "MI0000345" ;
+  dcterms:description "Caenorhabditis elegans miR-265 stem-loop"@en ;
+  rdfs:label "cel-mir-265"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000346
+  dcterms:identifier "MI0000346" ;
+  dcterms:description "Caenorhabditis elegans miR-266 stem-loop"@en ;
+  rdfs:label "cel-mir-266"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000347
+  dcterms:identifier "MI0000347" ;
+  dcterms:description "Caenorhabditis elegans miR-267 stem-loop"@en ;
+  rdfs:label "cel-mir-267"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000348
+  dcterms:identifier "MI0000348" ;
+  dcterms:description "Caenorhabditis elegans miR-268 stem-loop"@en ;
+  rdfs:label "cel-mir-268"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000349
+  dcterms:identifier "MI0000349" ;
+  dcterms:description "Caenorhabditis elegans miR-269 stem-loop"@en ;
+  rdfs:label "cel-mir-269"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000350
+  dcterms:identifier "MI0000350" ;
+  dcterms:description "Caenorhabditis elegans miR-270 stem-loop"@en ;
+  rdfs:label "cel-mir-270"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000351
+  dcterms:identifier "MI0000351" ;
+  dcterms:description "Caenorhabditis elegans miR-271 stem-loop"@en ;
+  rdfs:label "cel-mir-271"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000352
+  dcterms:identifier "MI0000352" ;
+  dcterms:description "Caenorhabditis elegans miR-272 stem-loop"@en ;
+  rdfs:label "cel-mir-272"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000353
+  dcterms:identifier "MI0000353" ;
+  dcterms:description "Caenorhabditis elegans miR-273 stem-loop"@en ;
+  rdfs:label "cel-mir-273"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:12769849, pmid:12769849 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000753
+  dcterms:identifier "MI0000753" ;
+  dcterms:description "Caenorhabditis elegans miR-354 stem-loop"@en ;
+  rdfs:label "cel-mir-354"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000754
+  dcterms:identifier "MI0000754" ;
+  dcterms:description "Caenorhabditis elegans miR-355 stem-loop"@en ;
+  rdfs:label "cel-mir-355"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000755
+  dcterms:identifier "MI0000755" ;
+  dcterms:description "Caenorhabditis elegans miR-356 stem-loop"@en ;
+  rdfs:label "cel-mir-356a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000756
+  dcterms:identifier "MI0000756" ;
+  dcterms:description "Caenorhabditis elegans miR-357 stem-loop"@en ;
+  rdfs:label "cel-mir-357"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000757
+  dcterms:identifier "MI0000757" ;
+  dcterms:description "Caenorhabditis elegans miR-358 stem-loop"@en ;
+  rdfs:label "cel-mir-358"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000758
+  dcterms:identifier "MI0000758" ;
+  dcterms:description "Caenorhabditis elegans miR-359 stem-loop"@en ;
+  rdfs:label "cel-mir-359"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000759
+  dcterms:identifier "MI0000759" ;
+  dcterms:description "Caenorhabditis elegans miR-360 stem-loop"@en ;
+  rdfs:label "cel-mir-360"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000801
+  dcterms:identifier "MI0000801" ;
+  dcterms:description "Caenorhabditis elegans lsy-6 stem-loop"@en ;
+  rdfs:label "cel-lsy-6"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0000819
+  dcterms:identifier "MI0000819" ;
+  dcterms:description "Caenorhabditis elegans miR-392 stem-loop"@en ;
+  rdfs:label "cel-mir-392"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15317971, pmid:15317971, pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "PCR" ;
+    dcterms:references pubmed:15317971, pmid:15317971 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005184
+  dcterms:identifier "MI0005184" ;
+  dcterms:description "Caenorhabditis elegans miR-784 stem-loop"@en ;
+  rdfs:label "cel-mir-784"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005185
+  dcterms:identifier "MI0005185" ;
+  dcterms:description "Caenorhabditis elegans miR-785 stem-loop"@en ;
+  rdfs:label "cel-mir-785"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005186
+  dcterms:identifier "MI0005186" ;
+  dcterms:description "Caenorhabditis elegans miR-786 stem-loop"@en ;
+  rdfs:label "cel-mir-786"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005187
+  dcterms:identifier "MI0005187" ;
+  dcterms:description "Caenorhabditis elegans miR-787 stem-loop"@en ;
+  rdfs:label "cel-mir-787"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005188
+  dcterms:identifier "MI0005188" ;
+  dcterms:description "Caenorhabditis elegans miR-788 stem-loop"@en ;
+  rdfs:label "cel-mir-788"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005189
+  dcterms:identifier "MI0005189" ;
+  dcterms:description "Caenorhabditis elegans miR-789-1 stem-loop"@en ;
+  rdfs:label "cel-mir-789-1"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005190
+  dcterms:identifier "MI0005190" ;
+  dcterms:description "Caenorhabditis elegans miR-789-2 stem-loop"@en ;
+  rdfs:label "cel-mir-789-2"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005191
+  dcterms:identifier "MI0005191" ;
+  dcterms:description "Caenorhabditis elegans miR-790 stem-loop"@en ;
+  rdfs:label "cel-mir-790"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005192
+  dcterms:identifier "MI0005192" ;
+  dcterms:description "Caenorhabditis elegans miR-791 stem-loop"@en ;
+  rdfs:label "cel-mir-791"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005193
+  dcterms:identifier "MI0005193" ;
+  dcterms:description "Caenorhabditis elegans miR-792 stem-loop"@en ;
+  rdfs:label "cel-mir-792"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005194
+  dcterms:identifier "MI0005194" ;
+  dcterms:description "Caenorhabditis elegans miR-793 stem-loop"@en ;
+  rdfs:label "cel-mir-793"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005195
+  dcterms:identifier "MI0005195" ;
+  dcterms:description "Caenorhabditis elegans miR-794 stem-loop"@en ;
+  rdfs:label "cel-mir-794"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005196
+  dcterms:identifier "MI0005196" ;
+  dcterms:description "Caenorhabditis elegans miR-795 stem-loop"@en ;
+  rdfs:label "cel-mir-795"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005197
+  dcterms:identifier "MI0005197" ;
+  dcterms:description "Caenorhabditis elegans miR-796 stem-loop"@en ;
+  rdfs:label "cel-mir-796"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005198
+  dcterms:identifier "MI0005198" ;
+  dcterms:description "Caenorhabditis elegans miR-797 stem-loop"@en ;
+  rdfs:label "cel-mir-797"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005199
+  dcterms:identifier "MI0005199" ;
+  dcterms:description "Caenorhabditis elegans miR-798 stem-loop"@en ;
+  rdfs:label "cel-mir-798"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005200
+  dcterms:identifier "MI0005200" ;
+  dcterms:description "Caenorhabditis elegans miR-799 stem-loop"@en ;
+  rdfs:label "cel-mir-799"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005201
+  dcterms:identifier "MI0005201" ;
+  dcterms:description "Caenorhabditis elegans miR-800 stem-loop"@en ;
+  rdfs:label "cel-mir-800"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17174894, pmid:17174894 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005879
+  dcterms:identifier "MI0005879" ;
+  dcterms:description "Caenorhabditis elegans miR-1018 stem-loop"@en ;
+  rdfs:label "cel-mir-1018"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005880
+  dcterms:identifier "MI0005880" ;
+  dcterms:description "Caenorhabditis elegans miR-1019 stem-loop"@en ;
+  rdfs:label "cel-mir-1019"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005881
+  dcterms:identifier "MI0005881" ;
+  dcterms:description "Caenorhabditis elegans miR-1020 stem-loop"@en ;
+  rdfs:label "cel-mir-1020"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:17589500, pmid:17589500 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005899
+  dcterms:identifier "MI0005899" ;
+  dcterms:description "Caenorhabditis elegans miR-1021 stem-loop"@en ;
+  rdfs:label "cel-mir-1021"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:17652138, pmid:17652138 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0005900
+  dcterms:identifier "MI0005900" ;
+  dcterms:description "Caenorhabditis elegans miR-1022 stem-loop"@en ;
+  rdfs:label "cel-mir-1022"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007979
+  dcterms:identifier "MI0007979" ;
+  dcterms:description "Caenorhabditis elegans miR-1817 stem-loop"@en ;
+  rdfs:label "cel-mir-1817"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18042455, pmid:18042455, pubmed:18392026, pmid:18392026 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007980
+  dcterms:identifier "MI0007980" ;
+  dcterms:description "Caenorhabditis elegans miR-1818 stem-loop"@en ;
+  rdfs:label "cel-mir-1818"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18042455, pmid:18042455 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007981
+  dcterms:identifier "MI0007981" ;
+  dcterms:description "Caenorhabditis elegans miR-1819 stem-loop"@en ;
+  rdfs:label "cel-mir-1819"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18042455, pmid:18042455 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007982
+  dcterms:identifier "MI0007982" ;
+  dcterms:description "Caenorhabditis elegans miR-1820 stem-loop"@en ;
+  rdfs:label "cel-mir-1820"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007983
+  dcterms:identifier "MI0007983" ;
+  dcterms:description "Caenorhabditis elegans miR-1821 stem-loop"@en ;
+  rdfs:label "cel-mir-1821"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18042455, pmid:18042455, pubmed:18392026, pmid:18392026 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007984
+  dcterms:identifier "MI0007984" ;
+  dcterms:description "Caenorhabditis elegans miR-1822 stem-loop"@en ;
+  rdfs:label "cel-mir-1822"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18042455, pmid:18042455, pubmed:18392026, pmid:18392026 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007985
+  dcterms:identifier "MI0007985" ;
+  dcterms:description "Caenorhabditis elegans miR-1823 stem-loop"@en ;
+  rdfs:label "cel-mir-1823"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18042455, pmid:18042455 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007986
+  dcterms:identifier "MI0007986" ;
+  dcterms:description "Caenorhabditis elegans miR-1824 stem-loop"@en ;
+  rdfs:label "cel-mir-1824"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008196
+  dcterms:identifier "MI0008196" ;
+  dcterms:description "Caenorhabditis elegans miR-1828 stem-loop"@en ;
+  rdfs:label "cel-mir-1828"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008197
+  dcterms:identifier "MI0008197" ;
+  dcterms:description "Caenorhabditis elegans miR-1829a stem-loop"@en ;
+  rdfs:label "cel-mir-1829a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008198
+  dcterms:identifier "MI0008198" ;
+  dcterms:description "Caenorhabditis elegans miR-1829b stem-loop"@en ;
+  rdfs:label "cel-mir-1829b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008199
+  dcterms:identifier "MI0008199" ;
+  dcterms:description "Caenorhabditis elegans miR-1829c stem-loop"@en ;
+  rdfs:label "cel-mir-1829c"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008200
+  dcterms:identifier "MI0008200" ;
+  dcterms:description "Caenorhabditis elegans miR-1830 stem-loop"@en ;
+  rdfs:label "cel-mir-1830"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008202
+  dcterms:identifier "MI0008202" ;
+  dcterms:description "Caenorhabditis elegans miR-1832 stem-loop"@en ;
+  rdfs:label "cel-mir-1832a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008203
+  dcterms:identifier "MI0008203" ;
+  dcterms:description "Caenorhabditis elegans miR-1833 stem-loop"@en ;
+  rdfs:label "cel-mir-1833"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008204
+  dcterms:identifier "MI0008204" ;
+  dcterms:description "Caenorhabditis elegans miR-58b stem-loop"@en ;
+  rdfs:label "cel-mir-58b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010955
+  dcterms:identifier "MI0010955" ;
+  dcterms:description "Caenorhabditis elegans miR-2207 stem-loop"@en ;
+  rdfs:label "cel-mir-2207"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010956
+  dcterms:identifier "MI0010956" ;
+  dcterms:description "Caenorhabditis elegans miR-2208a stem-loop"@en ;
+  rdfs:label "cel-mir-2208a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010957
+  dcterms:identifier "MI0010957" ;
+  dcterms:description "Caenorhabditis elegans miR-2208b stem-loop"@en ;
+  rdfs:label "cel-mir-2208b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010958
+  dcterms:identifier "MI0010958" ;
+  dcterms:description "Caenorhabditis elegans miR-2209a stem-loop"@en ;
+  rdfs:label "cel-mir-2209a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010959
+  dcterms:identifier "MI0010959" ;
+  dcterms:description "Caenorhabditis elegans miR-2209c stem-loop"@en ;
+  rdfs:label "cel-mir-2209c"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010960
+  dcterms:identifier "MI0010960" ;
+  dcterms:description "Caenorhabditis elegans miR-2210 stem-loop"@en ;
+  rdfs:label "cel-mir-2210"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010961
+  dcterms:identifier "MI0010961" ;
+  dcterms:description "Caenorhabditis elegans miR-2211 stem-loop"@en ;
+  rdfs:label "cel-mir-2211"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010962
+  dcterms:identifier "MI0010962" ;
+  dcterms:description "Caenorhabditis elegans miR-2212 stem-loop"@en ;
+  rdfs:label "cel-mir-2212"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010963
+  dcterms:identifier "MI0010963" ;
+  dcterms:description "Caenorhabditis elegans miR-2213 stem-loop"@en ;
+  rdfs:label "cel-mir-2213"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010965
+  dcterms:identifier "MI0010965" ;
+  dcterms:description "Caenorhabditis elegans miR-2215 stem-loop"@en ;
+  rdfs:label "cel-mir-2215"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010966
+  dcterms:identifier "MI0010966" ;
+  dcterms:description "Caenorhabditis elegans miR-2216 stem-loop"@en ;
+  rdfs:label "cel-mir-2216"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010967
+  dcterms:identifier "MI0010967" ;
+  dcterms:description "Caenorhabditis elegans miR-1832b stem-loop"@en ;
+  rdfs:label "cel-mir-1832b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010968
+  dcterms:identifier "MI0010968" ;
+  dcterms:description "Caenorhabditis elegans miR-2217 stem-loop"@en ;
+  rdfs:label "cel-mir-2217a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010969
+  dcterms:identifier "MI0010969" ;
+  dcterms:description "Caenorhabditis elegans miR-2209b stem-loop"@en ;
+  rdfs:label "cel-mir-2209b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010970
+  dcterms:identifier "MI0010970" ;
+  dcterms:description "Caenorhabditis elegans miR-2218a stem-loop"@en ;
+  rdfs:label "cel-mir-2218a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010971
+  dcterms:identifier "MI0010971" ;
+  dcterms:description "Caenorhabditis elegans miR-2218b stem-loop"@en ;
+  rdfs:label "cel-mir-2218b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010972
+  dcterms:identifier "MI0010972" ;
+  dcterms:description "Caenorhabditis elegans miR-2219 stem-loop"@en ;
+  rdfs:label "cel-mir-2219"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142, pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010973
+  dcterms:identifier "MI0010973" ;
+  dcterms:description "Caenorhabditis elegans miR-2220 stem-loop"@en ;
+  rdfs:label "cel-mir-2220"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:19460142, pmid:19460142 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010974
+  dcterms:identifier "MI0010974" ;
+  dcterms:description "Caenorhabditis elegans miR-2221 stem-loop"@en ;
+  rdfs:label "cel-mir-2221"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:19755563, pmid:19755563 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0013633
+  dcterms:identifier "MI0013633" ;
+  dcterms:description "Caenorhabditis elegans miR-2953 stem-loop"@en ;
+  rdfs:label "cel-mir-2953"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "CLIPseq" ;
+    dcterms:references pubmed:20062054, pmid:20062054 ;
+  ] ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21307183, pmid:21307183 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017535
+  dcterms:identifier "MI0017535" ;
+  dcterms:description "Caenorhabditis elegans miR-4805 stem-loop"@en ;
+  rdfs:label "cel-mir-4805"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017536
+  dcterms:identifier "MI0017536" ;
+  dcterms:description "Caenorhabditis elegans miR-4806 stem-loop"@en ;
+  rdfs:label "cel-mir-4806"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017537
+  dcterms:identifier "MI0017537" ;
+  dcterms:description "Caenorhabditis elegans miR-4807 stem-loop"@en ;
+  rdfs:label "cel-mir-4807"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017538
+  dcterms:identifier "MI0017538" ;
+  dcterms:description "Caenorhabditis elegans miR-4808 stem-loop"@en ;
+  rdfs:label "cel-mir-4808"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017539
+  dcterms:identifier "MI0017539" ;
+  dcterms:description "Caenorhabditis elegans miR-4809 stem-loop"@en ;
+  rdfs:label "cel-mir-4809"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120, pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017540
+  dcterms:identifier "MI0017540" ;
+  dcterms:description "Caenorhabditis elegans miR-4810 stem-loop"@en ;
+  rdfs:label "cel-mir-4810a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017541
+  dcterms:identifier "MI0017541" ;
+  dcterms:description "Caenorhabditis elegans miR-4811 stem-loop"@en ;
+  rdfs:label "cel-mir-4811"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017542
+  dcterms:identifier "MI0017542" ;
+  dcterms:description "Caenorhabditis elegans miR-4812 stem-loop"@en ;
+  rdfs:label "cel-mir-4812"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017543
+  dcterms:identifier "MI0017543" ;
+  dcterms:description "Caenorhabditis elegans miR-4813 stem-loop"@en ;
+  rdfs:label "cel-mir-4813"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017544
+  dcterms:identifier "MI0017544" ;
+  dcterms:description "Caenorhabditis elegans miR-4814 stem-loop"@en ;
+  rdfs:label "cel-mir-4814"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017545
+  dcterms:identifier "MI0017545" ;
+  dcterms:description "Caenorhabditis elegans miR-4815 stem-loop"@en ;
+  rdfs:label "cel-mir-4815"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017546
+  dcterms:identifier "MI0017546" ;
+  dcterms:description "Caenorhabditis elegans miR-4816 stem-loop"@en ;
+  rdfs:label "cel-mir-4816"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21085120, pmid:21085120, pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017705
+  dcterms:identifier "MI0017705" ;
+  dcterms:description "Caenorhabditis elegans miR-4920 stem-loop"@en ;
+  rdfs:label "cel-mir-4920"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017706
+  dcterms:identifier "MI0017706" ;
+  dcterms:description "Caenorhabditis elegans miR-4921 stem-loop"@en ;
+  rdfs:label "cel-mir-4921"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017707
+  dcterms:identifier "MI0017707" ;
+  dcterms:description "Caenorhabditis elegans miR-4922-1 stem-loop"@en ;
+  rdfs:label "cel-mir-4922-1"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017708
+  dcterms:identifier "MI0017708" ;
+  dcterms:description "Caenorhabditis elegans miR-4922-2 stem-loop"@en ;
+  rdfs:label "cel-mir-4922-2"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017709
+  dcterms:identifier "MI0017709" ;
+  dcterms:description "Caenorhabditis elegans miR-4923a stem-loop"@en ;
+  rdfs:label "cel-mir-4923a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017710
+  dcterms:identifier "MI0017710" ;
+  dcterms:description "Caenorhabditis elegans miR-4924 stem-loop"@en ;
+  rdfs:label "cel-mir-4924"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017711
+  dcterms:identifier "MI0017711" ;
+  dcterms:description "Caenorhabditis elegans miR-4923b stem-loop"@en ;
+  rdfs:label "cel-mir-4923b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017712
+  dcterms:identifier "MI0017712" ;
+  dcterms:description "Caenorhabditis elegans miR-4925 stem-loop"@en ;
+  rdfs:label "cel-mir-4925"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017713
+  dcterms:identifier "MI0017713" ;
+  dcterms:description "Caenorhabditis elegans miR-4926 stem-loop"@en ;
+  rdfs:label "cel-mir-4926"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017714
+  dcterms:identifier "MI0017714" ;
+  dcterms:description "Caenorhabditis elegans miR-4927 stem-loop"@en ;
+  rdfs:label "cel-mir-4927"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21177960, pmid:21177960 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017715
+  dcterms:identifier "MI0017715" ;
+  dcterms:description "Caenorhabditis elegans miR-4929 stem-loop"@en ;
+  rdfs:label "cel-mir-4929"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017716
+  dcterms:identifier "MI0017716" ;
+  dcterms:description "Caenorhabditis elegans miR-4930 stem-loop"@en ;
+  rdfs:label "cel-mir-4930"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017717
+  dcterms:identifier "MI0017717" ;
+  dcterms:description "Caenorhabditis elegans miR-4931 stem-loop"@en ;
+  rdfs:label "cel-mir-4931"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017718
+  dcterms:identifier "MI0017718" ;
+  dcterms:description "Caenorhabditis elegans miR-4932 stem-loop"@en ;
+  rdfs:label "cel-mir-4932"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017719
+  dcterms:identifier "MI0017719" ;
+  dcterms:description "Caenorhabditis elegans miR-4933 stem-loop"@en ;
+  rdfs:label "cel-mir-4933"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017720
+  dcterms:identifier "MI0017720" ;
+  dcterms:description "Caenorhabditis elegans miR-4934 stem-loop"@en ;
+  rdfs:label "cel-mir-4934"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017721
+  dcterms:identifier "MI0017721" ;
+  dcterms:description "Caenorhabditis elegans miR-4935 stem-loop"@en ;
+  rdfs:label "cel-mir-4935"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017722
+  dcterms:identifier "MI0017722" ;
+  dcterms:description "Caenorhabditis elegans miR-4936 stem-loop"@en ;
+  rdfs:label "cel-mir-4936"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017723
+  dcterms:identifier "MI0017723" ;
+  dcterms:description "Caenorhabditis elegans miR-4937 stem-loop"@en ;
+  rdfs:label "cel-mir-4937"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0017724
+  dcterms:identifier "MI0017724" ;
+  dcterms:description "Caenorhabditis elegans miR-4938 stem-loop"@en ;
+  rdfs:label "cel-mir-4938"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:21129974, pmid:21129974 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019066
+  dcterms:identifier "MI0019066" ;
+  dcterms:description "Caenorhabditis elegans miR-5545 stem-loop"@en ;
+  rdfs:label "cel-mir-5545"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019067
+  dcterms:identifier "MI0019067" ;
+  dcterms:description "Caenorhabditis elegans miR-5546 stem-loop"@en ;
+  rdfs:label "cel-mir-5546"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019068
+  dcterms:identifier "MI0019068" ;
+  dcterms:description "Caenorhabditis elegans miR-5547 stem-loop"@en ;
+  rdfs:label "cel-mir-5547"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019069
+  dcterms:identifier "MI0019069" ;
+  dcterms:description "Caenorhabditis elegans miR-5548 stem-loop"@en ;
+  rdfs:label "cel-mir-5548"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019070
+  dcterms:identifier "MI0019070" ;
+  dcterms:description "Caenorhabditis elegans miR-5549 stem-loop"@en ;
+  rdfs:label "cel-mir-5549"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019071
+  dcterms:identifier "MI0019071" ;
+  dcterms:description "Caenorhabditis elegans miR-5550 stem-loop"@en ;
+  rdfs:label "cel-mir-5550"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019072
+  dcterms:identifier "MI0019072" ;
+  dcterms:description "Caenorhabditis elegans miR-5551 stem-loop"@en ;
+  rdfs:label "cel-mir-5551"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019073
+  dcterms:identifier "MI0019073" ;
+  dcterms:description "Caenorhabditis elegans miR-5552 stem-loop"@en ;
+  rdfs:label "cel-mir-5552"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019074
+  dcterms:identifier "MI0019074" ;
+  dcterms:description "Caenorhabditis elegans miR-5553 stem-loop"@en ;
+  rdfs:label "cel-mir-5553"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21810936, pmid:21810936 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019153
+  dcterms:identifier "MI0019153" ;
+  dcterms:description "Caenorhabditis elegans miR-5592-1 stem-loop"@en ;
+  rdfs:label "cel-mir-5592-1"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21980368, pmid:21980368 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019154
+  dcterms:identifier "MI0019154" ;
+  dcterms:description "Caenorhabditis elegans miR-5592-2 stem-loop"@en ;
+  rdfs:label "cel-mir-5592-2"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21980368, pmid:21980368 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019155
+  dcterms:identifier "MI0019155" ;
+  dcterms:description "Caenorhabditis elegans miR-5593-1 stem-loop"@en ;
+  rdfs:label "cel-mir-5593-1"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21980368, pmid:21980368 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019156
+  dcterms:identifier "MI0019156" ;
+  dcterms:description "Caenorhabditis elegans miR-5593-2 stem-loop"@en ;
+  rdfs:label "cel-mir-5593-2"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21980368, pmid:21980368 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019157
+  dcterms:identifier "MI0019157" ;
+  dcterms:description "Caenorhabditis elegans miR-5594 stem-loop"@en ;
+  rdfs:label "cel-mir-5594"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21980368, pmid:21980368 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019158
+  dcterms:identifier "MI0019158" ;
+  dcterms:description "Caenorhabditis elegans miR-356b stem-loop"@en ;
+  rdfs:label "cel-mir-356b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21980368, pmid:21980368 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0019159
+  dcterms:identifier "MI0019159" ;
+  dcterms:description "Caenorhabditis elegans miR-5595 stem-loop"@en ;
+  rdfs:label "cel-mir-5595"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:21980368, pmid:21980368 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026816
+  dcterms:identifier "MI0026816" ;
+  dcterms:description "Caenorhabditis elegans miR-8186-1 stem-loop"@en ;
+  rdfs:label "cel-mir-8186-1"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026817
+  dcterms:identifier "MI0026817" ;
+  dcterms:description "Caenorhabditis elegans miR-8186-2 stem-loop"@en ;
+  rdfs:label "cel-mir-8186-2"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026818
+  dcterms:identifier "MI0026818" ;
+  dcterms:description "Caenorhabditis elegans miR-8187 stem-loop"@en ;
+  rdfs:label "cel-mir-8187"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026819
+  dcterms:identifier "MI0026819" ;
+  dcterms:description "Caenorhabditis elegans miR-8188 stem-loop"@en ;
+  rdfs:label "cel-mir-8188"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026820
+  dcterms:identifier "MI0026820" ;
+  dcterms:description "Caenorhabditis elegans miR-8189 stem-loop"@en ;
+  rdfs:label "cel-mir-8189"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026821
+  dcterms:identifier "MI0026821" ;
+  dcterms:description "Caenorhabditis elegans miR-8190 stem-loop"@en ;
+  rdfs:label "cel-mir-8190"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026822
+  dcterms:identifier "MI0026822" ;
+  dcterms:description "Caenorhabditis elegans miR-8191 stem-loop"@en ;
+  rdfs:label "cel-mir-8191"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026823
+  dcterms:identifier "MI0026823" ;
+  dcterms:description "Caenorhabditis elegans miR-8192 stem-loop"@en ;
+  rdfs:label "cel-mir-8192"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026824
+  dcterms:identifier "MI0026824" ;
+  dcterms:description "Caenorhabditis elegans miR-8193 stem-loop"@en ;
+  rdfs:label "cel-mir-8193"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026825
+  dcterms:identifier "MI0026825" ;
+  dcterms:description "Caenorhabditis elegans miR-8194 stem-loop"@en ;
+  rdfs:label "cel-mir-8194"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026826
+  dcterms:identifier "MI0026826" ;
+  dcterms:description "Caenorhabditis elegans miR-8195 stem-loop"@en ;
+  rdfs:label "cel-mir-8195"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026827
+  dcterms:identifier "MI0026827" ;
+  dcterms:description "Caenorhabditis elegans miR-8196a stem-loop"@en ;
+  rdfs:label "cel-mir-8196a"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026828
+  dcterms:identifier "MI0026828" ;
+  dcterms:description "Caenorhabditis elegans miR-8197 stem-loop"@en ;
+  rdfs:label "cel-mir-8197"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026829
+  dcterms:identifier "MI0026829" ;
+  dcterms:description "Caenorhabditis elegans miR-8198 stem-loop"@en ;
+  rdfs:label "cel-mir-8198"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026830
+  dcterms:identifier "MI0026830" ;
+  dcterms:description "Caenorhabditis elegans miR-8199 stem-loop"@en ;
+  rdfs:label "cel-mir-8199"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026831
+  dcterms:identifier "MI0026831" ;
+  dcterms:description "Caenorhabditis elegans miR-8200 stem-loop"@en ;
+  rdfs:label "cel-mir-8200"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026832
+  dcterms:identifier "MI0026832" ;
+  dcterms:description "Caenorhabditis elegans miR-8201 stem-loop"@en ;
+  rdfs:label "cel-mir-8201"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026833
+  dcterms:identifier "MI0026833" ;
+  dcterms:description "Caenorhabditis elegans miR-8202 stem-loop"@en ;
+  rdfs:label "cel-mir-8202"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026834
+  dcterms:identifier "MI0026834" ;
+  dcterms:description "Caenorhabditis elegans miR-8203 stem-loop"@en ;
+  rdfs:label "cel-mir-8203"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026835
+  dcterms:identifier "MI0026835" ;
+  dcterms:description "Caenorhabditis elegans miR-4810b stem-loop"@en ;
+  rdfs:label "cel-mir-4810b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026836
+  dcterms:identifier "MI0026836" ;
+  dcterms:description "Caenorhabditis elegans miR-8204 stem-loop"@en ;
+  rdfs:label "cel-mir-8204"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026837
+  dcterms:identifier "MI0026837" ;
+  dcterms:description "Caenorhabditis elegans miR-8196b stem-loop"@en ;
+  rdfs:label "cel-mir-8196b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026838
+  dcterms:identifier "MI0026838" ;
+  dcterms:description "Caenorhabditis elegans miR-8205 stem-loop"@en ;
+  rdfs:label "cel-mir-8205"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "SOLiD" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026839
+  dcterms:identifier "MI0026839" ;
+  dcterms:description "Caenorhabditis elegans miR-8206 stem-loop"@en ;
+  rdfs:label "cel-mir-8206"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026840
+  dcterms:identifier "MI0026840" ;
+  dcterms:description "Caenorhabditis elegans miR-8207 stem-loop"@en ;
+  rdfs:label "cel-mir-8207"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026841
+  dcterms:identifier "MI0026841" ;
+  dcterms:description "Caenorhabditis elegans miR-8208 stem-loop"@en ;
+  rdfs:label "cel-mir-8208"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026842
+  dcterms:identifier "MI0026842" ;
+  dcterms:description "Caenorhabditis elegans miR-8209 stem-loop"@en ;
+  rdfs:label "cel-mir-8209"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026843
+  dcterms:identifier "MI0026843" ;
+  dcterms:description "Caenorhabditis elegans miR-8210 stem-loop"@en ;
+  rdfs:label "cel-mir-8210"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026844
+  dcterms:identifier "MI0026844" ;
+  dcterms:description "Caenorhabditis elegans miR-2217b-1 stem-loop"@en ;
+  rdfs:label "cel-mir-2217b-1"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026845
+  dcterms:identifier "MI0026845" ;
+  dcterms:description "Caenorhabditis elegans miR-2217b-2 stem-loop"@en ;
+  rdfs:label "cel-mir-2217b-2"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026846
+  dcterms:identifier "MI0026846" ;
+  dcterms:description "Caenorhabditis elegans miR-2217b-3 stem-loop"@en ;
+  rdfs:label "cel-mir-2217b-3"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026847
+  dcterms:identifier "MI0026847" ;
+  dcterms:description "Caenorhabditis elegans miR-8211 stem-loop"@en ;
+  rdfs:label "cel-mir-8211"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026848
+  dcterms:identifier "MI0026848" ;
+  dcterms:description "Caenorhabditis elegans miR-8212 stem-loop"@en ;
+  rdfs:label "cel-mir-8212"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0026849
+  dcterms:identifier "MI0026849" ;
+  dcterms:description "Caenorhabditis elegans miR-2217b-4 stem-loop"@en ;
+  rdfs:label "cel-mir-2217b-4"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23729632, pmid:23729632 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039736
+  dcterms:identifier "MI0039736" ;
+  dcterms:description "Caenorhabditis elegans miR-12134 stem-loop"@en ;
+  rdfs:label "cel-mir-12134"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:28645154, pmid:28645154 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039737
+  dcterms:identifier "MI0039737" ;
+  dcterms:description "Caenorhabditis elegans miR-55b stem-loop"@en ;
+  rdfs:label "cel-mir-55b"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:28645154, pmid:28645154 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0039738
+  dcterms:identifier "MI0039738" ;
+  dcterms:description "Caenorhabditis elegans miR-58c stem-loop"@en ;
+  rdfs:label "cel-mir-58c"@en ;
+  obo:RO_0002162 taxonomy:6239 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:28645154, pmid:28645154 ;
+  ] ;
+  a :MicroRNA .
+

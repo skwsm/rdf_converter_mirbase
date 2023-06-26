@@ -1,0 +1,5544 @@
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix term: <http://rdf.ebi.ac.uk/terms/ensembl/> .
+@prefix identifiers: <http://identifiers.org/> .
+@prefix pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix pmid: <http://identifiers.org/pubmed/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix so: <http://purl.obolibrary.org/obo/so#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix upid: <http://identifiers.org/uniprot/> .
+@prefix mirbase: <http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=> .
+@prefix taxonomy: <http://identifiers.org/taxonomy/> .
+@prefix rfam: <http://identifiers.org/rfam/> .
+@prefix hgnc: <http://identifiers.org/hgnc/> .
+@prefix ncbigene: <http://identifiers.org/ncbigene/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mgi: <http://identifiers.org/mgi:> .
+@prefix : <http://purl.jp/bio/10/mirbase/ontology/> .
+
+mirbase:MI0001640
+  dcterms:identifier "MI0001640" ;
+  dcterms:description "Canis familiaris miR-448 stem-loop"@en ;
+  rdfs:label "cfa-mir-448"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15735639, pmid:15735639 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001644
+  dcterms:identifier "MI0001644" ;
+  dcterms:description "Canis familiaris miR-429 stem-loop"@en ;
+  rdfs:label "cfa-mir-429"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15735639, pmid:15735639 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001647
+  dcterms:identifier "MI0001647" ;
+  dcterms:description "Canis familiaris miR-365-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-365-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15735639, pmid:15735639 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001651
+  dcterms:identifier "MI0001651" ;
+  dcterms:description "Canis familiaris miR-449 stem-loop"@en ;
+  rdfs:label "cfa-mir-449a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15735639, pmid:15735639 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001655
+  dcterms:identifier "MI0001655" ;
+  dcterms:description "Canis familiaris miR-450a stem-loop"@en ;
+  rdfs:label "cfa-mir-450a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15735639, pmid:15735639 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0001657
+  dcterms:identifier "MI0001657" ;
+  dcterms:description "Canis familiaris miR-365-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-365-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "cloned" ;
+    dcterms:references pubmed:15735639, pmid:15735639 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007987
+  dcterms:identifier "MI0007987" ;
+  dcterms:description "Canis familiaris miR-216b stem-loop"@en ;
+  rdfs:label "cfa-mir-216b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007988
+  dcterms:identifier "MI0007988" ;
+  dcterms:description "Canis familiaris miR-33 stem-loop"@en ;
+  rdfs:label "cfa-mir-33a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007989
+  dcterms:identifier "MI0007989" ;
+  dcterms:description "Canis familiaris let-7a-1 stem-loop"@en ;
+  rdfs:label "cfa-let-7a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007990
+  dcterms:identifier "MI0007990" ;
+  dcterms:description "Canis familiaris miR-26a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-26a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007991
+  dcterms:identifier "MI0007991" ;
+  dcterms:description "Canis familiaris miR-1835 stem-loop"@en ;
+  rdfs:label "cfa-mir-1835"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007992
+  dcterms:identifier "MI0007992" ;
+  dcterms:description "Canis familiaris miR-32 stem-loop"@en ;
+  rdfs:label "cfa-mir-32"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007993
+  dcterms:identifier "MI0007993" ;
+  dcterms:description "Canis familiaris miR-204 stem-loop"@en ;
+  rdfs:label "cfa-mir-204"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007994
+  dcterms:identifier "MI0007994" ;
+  dcterms:description "Canis familiaris miR-31 stem-loop"@en ;
+  rdfs:label "cfa-mir-31"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007995
+  dcterms:identifier "MI0007995" ;
+  dcterms:description "Canis familiaris miR-101-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-101-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007996
+  dcterms:identifier "MI0007996" ;
+  dcterms:description "Canis familiaris miR-371 stem-loop"@en ;
+  rdfs:label "cfa-mir-371"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007997
+  dcterms:identifier "MI0007997" ;
+  dcterms:description "Canis familiaris miR-491 stem-loop"@en ;
+  rdfs:label "cfa-mir-491"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007998
+  dcterms:identifier "MI0007998" ;
+  dcterms:description "Canis familiaris miR-150 stem-loop"@en ;
+  rdfs:label "cfa-mir-150"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0007999
+  dcterms:identifier "MI0007999" ;
+  dcterms:description "Canis familiaris miR-455 stem-loop"@en ;
+  rdfs:label "cfa-mir-455"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008000
+  dcterms:identifier "MI0008000" ;
+  dcterms:description "Canis familiaris miR-30a stem-loop"@en ;
+  rdfs:label "cfa-mir-30a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008001
+  dcterms:identifier "MI0008001" ;
+  dcterms:description "Canis familiaris miR-30c-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-30c-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008002
+  dcterms:identifier "MI0008002" ;
+  dcterms:description "Canis familiaris miR-206 stem-loop"@en ;
+  rdfs:label "cfa-mir-206"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008003
+  dcterms:identifier "MI0008003" ;
+  dcterms:description "Canis familiaris miR-99b stem-loop"@en ;
+  rdfs:label "cfa-mir-99b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008004
+  dcterms:identifier "MI0008004" ;
+  dcterms:description "Canis familiaris let-7e stem-loop"@en ;
+  rdfs:label "cfa-let-7e"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008005
+  dcterms:identifier "MI0008005" ;
+  dcterms:description "Canis familiaris miR-125a stem-loop"@en ;
+  rdfs:label "cfa-mir-125a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008006
+  dcterms:identifier "MI0008006" ;
+  dcterms:description "Canis familiaris let-7f stem-loop"@en ;
+  rdfs:label "cfa-let-7f"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008007
+  dcterms:identifier "MI0008007" ;
+  dcterms:description "Canis familiaris miR-219-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-219-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008008
+  dcterms:identifier "MI0008008" ;
+  dcterms:description "Canis familiaris miR-23b stem-loop"@en ;
+  rdfs:label "cfa-mir-23b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008009
+  dcterms:identifier "MI0008009" ;
+  dcterms:description "Canis familiaris miR-27b stem-loop"@en ;
+  rdfs:label "cfa-mir-27b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008010
+  dcterms:identifier "MI0008010" ;
+  dcterms:description "Canis familiaris miR-24-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-24-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008011
+  dcterms:identifier "MI0008011" ;
+  dcterms:description "Canis familiaris miR-151 stem-loop"@en ;
+  rdfs:label "cfa-mir-151"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008012
+  dcterms:identifier "MI0008012" ;
+  dcterms:description "Canis familiaris miR-30d stem-loop"@en ;
+  rdfs:label "cfa-mir-30d"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008013
+  dcterms:identifier "MI0008013" ;
+  dcterms:description "Canis familiaris miR-30b stem-loop"@en ;
+  rdfs:label "cfa-mir-30b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008014
+  dcterms:identifier "MI0008014" ;
+  dcterms:description "Canis familiaris miR-1836 stem-loop"@en ;
+  rdfs:label "cfa-mir-1836"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008015
+  dcterms:identifier "MI0008015" ;
+  dcterms:description "Canis familiaris miR-122 stem-loop"@en ;
+  rdfs:label "cfa-mir-122"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008016
+  dcterms:identifier "MI0008016" ;
+  dcterms:description "Canis familiaris miR-196b stem-loop"@en ;
+  rdfs:label "cfa-mir-196b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008017
+  dcterms:identifier "MI0008017" ;
+  dcterms:description "Canis familiaris miR-183 stem-loop"@en ;
+  rdfs:label "cfa-mir-183"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008018
+  dcterms:identifier "MI0008018" ;
+  dcterms:description "Canis familiaris miR-148a stem-loop"@en ;
+  rdfs:label "cfa-mir-148a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008019
+  dcterms:identifier "MI0008019" ;
+  dcterms:description "Canis familiaris miR-129-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-129-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008020
+  dcterms:identifier "MI0008020" ;
+  dcterms:description "Canis familiaris miR-335 stem-loop"@en ;
+  rdfs:label "cfa-mir-335"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008021
+  dcterms:identifier "MI0008021" ;
+  dcterms:description "Canis familiaris miR-29b-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-29b-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008022
+  dcterms:identifier "MI0008022" ;
+  dcterms:description "Canis familiaris miR-29a stem-loop"@en ;
+  rdfs:label "cfa-mir-29a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008023
+  dcterms:identifier "MI0008023" ;
+  dcterms:description "Canis familiaris miR-30e stem-loop"@en ;
+  rdfs:label "cfa-mir-30e"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008024
+  dcterms:identifier "MI0008024" ;
+  dcterms:description "Canis familiaris miR-30c-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-30c-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008025
+  dcterms:identifier "MI0008025" ;
+  dcterms:description "Canis familiaris miR-135a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-135a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008026
+  dcterms:identifier "MI0008026" ;
+  dcterms:description "Canis familiaris miR-383 stem-loop"@en ;
+  rdfs:label "cfa-mir-383"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008027
+  dcterms:identifier "MI0008027" ;
+  dcterms:description "Canis familiaris miR-486 stem-loop"@en ;
+  rdfs:label "cfa-mir-486"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008028
+  dcterms:identifier "MI0008028" ;
+  dcterms:description "Canis familiaris miR-1837-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-1837-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008029
+  dcterms:identifier "MI0008029" ;
+  dcterms:description "Canis familiaris miR-130a stem-loop"@en ;
+  rdfs:label "cfa-mir-130a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008030
+  dcterms:identifier "MI0008030" ;
+  dcterms:description "Canis familiaris miR-129-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-129-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008031
+  dcterms:identifier "MI0008031" ;
+  dcterms:description "Canis familiaris miR-192 stem-loop"@en ;
+  rdfs:label "cfa-mir-192"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008032
+  dcterms:identifier "MI0008032" ;
+  dcterms:description "Canis familiaris miR-128-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-128-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008033
+  dcterms:identifier "MI0008033" ;
+  dcterms:description "Canis familiaris miR-7-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-7-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008034
+  dcterms:identifier "MI0008034" ;
+  dcterms:description "Canis familiaris miR-181c stem-loop"@en ;
+  rdfs:label "cfa-mir-181c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008035
+  dcterms:identifier "MI0008035" ;
+  dcterms:description "Canis familiaris miR-181d stem-loop"@en ;
+  rdfs:label "cfa-mir-181d"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008036
+  dcterms:identifier "MI0008036" ;
+  dcterms:description "Canis familiaris let-7g stem-loop"@en ;
+  rdfs:label "cfa-let-7g"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008037
+  dcterms:identifier "MI0008037" ;
+  dcterms:description "Canis familiaris miR-191 stem-loop"@en ;
+  rdfs:label "cfa-mir-191"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008038
+  dcterms:identifier "MI0008038" ;
+  dcterms:description "Canis familiaris miR-425 stem-loop"@en ;
+  rdfs:label "cfa-mir-425"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008039
+  dcterms:identifier "MI0008039" ;
+  dcterms:description "Canis familiaris miR-23a stem-loop"@en ;
+  rdfs:label "cfa-mir-23a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008040
+  dcterms:identifier "MI0008040" ;
+  dcterms:description "Canis familiaris miR-27a stem-loop"@en ;
+  rdfs:label "cfa-mir-27a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008041
+  dcterms:identifier "MI0008041" ;
+  dcterms:description "Canis familiaris miR-24-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-24-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008042
+  dcterms:identifier "MI0008042" ;
+  dcterms:description "Canis familiaris miR-199-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-199-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008043
+  dcterms:identifier "MI0008043" ;
+  dcterms:description "Canis familiaris miR-708 stem-loop"@en ;
+  rdfs:label "cfa-mir-708"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008044
+  dcterms:identifier "MI0008044" ;
+  dcterms:description "Canis familiaris miR-1838 stem-loop"@en ;
+  rdfs:label "cfa-mir-1838"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008045
+  dcterms:identifier "MI0008045" ;
+  dcterms:description "Canis familiaris miR-139 stem-loop"@en ;
+  rdfs:label "cfa-mir-139"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008047
+  dcterms:identifier "MI0008047" ;
+  dcterms:description "Canis familiaris miR-138b stem-loop"@en ;
+  rdfs:label "cfa-mir-138b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008048
+  dcterms:identifier "MI0008048" ;
+  dcterms:description "Canis familiaris miR-15a stem-loop"@en ;
+  rdfs:label "cfa-mir-15a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008049
+  dcterms:identifier "MI0008049" ;
+  dcterms:description "Canis familiaris miR-16-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-16-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008050
+  dcterms:identifier "MI0008050" ;
+  dcterms:description "Canis familiaris miR-17 stem-loop"@en ;
+  rdfs:label "cfa-mir-17"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008051
+  dcterms:identifier "MI0008051" ;
+  dcterms:description "Canis familiaris miR-19a stem-loop"@en ;
+  rdfs:label "cfa-mir-19a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008052
+  dcterms:identifier "MI0008052" ;
+  dcterms:description "Canis familiaris miR-20a stem-loop"@en ;
+  rdfs:label "cfa-mir-20a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008054
+  dcterms:identifier "MI0008054" ;
+  dcterms:description "Canis familiaris miR-19b-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-19b-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008055
+  dcterms:identifier "MI0008055" ;
+  dcterms:description "Canis familiaris miR-92a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-92a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008056
+  dcterms:identifier "MI0008056" ;
+  dcterms:description "Canis familiaris miR-138a stem-loop"@en ;
+  rdfs:label "cfa-mir-138a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008057
+  dcterms:identifier "MI0008057" ;
+  dcterms:description "Canis familiaris miR-128-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-128-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008058
+  dcterms:identifier "MI0008058" ;
+  dcterms:description "Canis familiaris miR-26a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-26a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008059
+  dcterms:identifier "MI0008059" ;
+  dcterms:description "Canis familiaris miR-499 stem-loop"@en ;
+  rdfs:label "cfa-mir-499"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008060
+  dcterms:identifier "MI0008060" ;
+  dcterms:description "Canis familiaris miR-1-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-1-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008061
+  dcterms:identifier "MI0008061" ;
+  dcterms:description "Canis familiaris miR-124-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-124-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008062
+  dcterms:identifier "MI0008062" ;
+  dcterms:description "Canis familiaris miR-124-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-124-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008063
+  dcterms:identifier "MI0008063" ;
+  dcterms:description "Canis familiaris miR-320 stem-loop"@en ;
+  rdfs:label "cfa-mir-320"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008064
+  dcterms:identifier "MI0008064" ;
+  dcterms:description "Canis familiaris miR-130b stem-loop"@en ;
+  rdfs:label "cfa-mir-130b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008065
+  dcterms:identifier "MI0008065" ;
+  dcterms:description "Canis familiaris miR-185 stem-loop"@en ;
+  rdfs:label "cfa-mir-185"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008066
+  dcterms:identifier "MI0008066" ;
+  dcterms:description "Canis familiaris miR-1306 stem-loop"@en ;
+  rdfs:label "cfa-mir-1306"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008068
+  dcterms:identifier "MI0008068" ;
+  dcterms:description "Canis familiaris miR-196a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-196a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008069
+  dcterms:identifier "MI0008069" ;
+  dcterms:description "Canis familiaris miR-148b stem-loop"@en ;
+  rdfs:label "cfa-mir-148b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008070
+  dcterms:identifier "MI0008070" ;
+  dcterms:description "Canis familiaris miR-200c stem-loop"@en ;
+  rdfs:label "cfa-mir-200c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008071
+  dcterms:identifier "MI0008071" ;
+  dcterms:description "Canis familiaris miR-1307 stem-loop"@en ;
+  rdfs:label "cfa-mir-1307"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008072
+  dcterms:identifier "MI0008072" ;
+  dcterms:description "Canis familiaris miR-107 stem-loop"@en ;
+  rdfs:label "cfa-mir-107"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008073
+  dcterms:identifier "MI0008073" ;
+  dcterms:description "Canis familiaris miR-146b stem-loop"@en ;
+  rdfs:label "cfa-mir-146b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008074
+  dcterms:identifier "MI0008074" ;
+  dcterms:description "Canis familiaris miR-124-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-124-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008075
+  dcterms:identifier "MI0008075" ;
+  dcterms:description "Canis familiaris miR-99a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-99a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008076
+  dcterms:identifier "MI0008076" ;
+  dcterms:description "Canis familiaris let-7c stem-loop"@en ;
+  rdfs:label "cfa-let-7c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008077
+  dcterms:identifier "MI0008077" ;
+  dcterms:description "Canis familiaris miR-125b-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-125b-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008078
+  dcterms:identifier "MI0008078" ;
+  dcterms:description "Canis familiaris miR-155 stem-loop"@en ;
+  rdfs:label "cfa-mir-155"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008079
+  dcterms:identifier "MI0008079" ;
+  dcterms:description "Canis familiaris miR-218-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-218-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008080
+  dcterms:identifier "MI0008080" ;
+  dcterms:description "Canis familiaris miR-574 stem-loop"@en ;
+  rdfs:label "cfa-mir-574"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008081
+  dcterms:identifier "MI0008081" ;
+  dcterms:description "Canis familiaris miR-9-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-9-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008082
+  dcterms:identifier "MI0008082" ;
+  dcterms:description "Canis familiaris miR-28 stem-loop"@en ;
+  rdfs:label "cfa-mir-28"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008083
+  dcterms:identifier "MI0008083" ;
+  dcterms:description "Canis familiaris miR-15b stem-loop"@en ;
+  rdfs:label "cfa-mir-15b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008084
+  dcterms:identifier "MI0008084" ;
+  dcterms:description "Canis familiaris miR-16-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-16-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008085
+  dcterms:identifier "MI0008085" ;
+  dcterms:description "Canis familiaris miR-7-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-7-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008086
+  dcterms:identifier "MI0008086" ;
+  dcterms:description "Canis familiaris miR-9-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-9-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008087
+  dcterms:identifier "MI0008087" ;
+  dcterms:description "Canis familiaris miR-1839 stem-loop"@en ;
+  rdfs:label "cfa-mir-1839"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008088
+  dcterms:identifier "MI0008088" ;
+  dcterms:description "Canis familiaris miR-26b stem-loop"@en ;
+  rdfs:label "cfa-mir-26b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008089
+  dcterms:identifier "MI0008089" ;
+  dcterms:description "Canis familiaris miR-1840 stem-loop"@en ;
+  rdfs:label "cfa-mir-1840"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008090
+  dcterms:identifier "MI0008090" ;
+  dcterms:description "Canis familiaris miR-664 stem-loop"@en ;
+  rdfs:label "cfa-mir-664"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008091
+  dcterms:identifier "MI0008091" ;
+  dcterms:description "Canis familiaris miR-194 stem-loop"@en ;
+  rdfs:label "cfa-mir-194"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008092
+  dcterms:identifier "MI0008092" ;
+  dcterms:description "Canis familiaris miR-143 stem-loop"@en ;
+  rdfs:label "cfa-mir-143"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008093
+  dcterms:identifier "MI0008093" ;
+  dcterms:description "Canis familiaris miR-378 stem-loop"@en ;
+  rdfs:label "cfa-mir-378"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008094
+  dcterms:identifier "MI0008094" ;
+  dcterms:description "Canis familiaris miR-146a stem-loop"@en ;
+  rdfs:label "cfa-mir-146a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008095
+  dcterms:identifier "MI0008095" ;
+  dcterms:description "Canis familiaris miR-1271 stem-loop"@en ;
+  rdfs:label "cfa-mir-1271"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008096
+  dcterms:identifier "MI0008096" ;
+  dcterms:description "Canis familiaris miR-1841 stem-loop"@en ;
+  rdfs:label "cfa-mir-1841"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008097
+  dcterms:identifier "MI0008097" ;
+  dcterms:description "Canis familiaris miR-218-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-218-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008098
+  dcterms:identifier "MI0008098" ;
+  dcterms:description "Canis familiaris miR-103-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-103-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008099
+  dcterms:identifier "MI0008099" ;
+  dcterms:description "Canis familiaris miR-328 stem-loop"@en ;
+  rdfs:label "cfa-mir-328"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008100
+  dcterms:identifier "MI0008100" ;
+  dcterms:description "Canis familiaris miR-140 stem-loop"@en ;
+  rdfs:label "cfa-mir-140"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008101
+  dcterms:identifier "MI0008101" ;
+  dcterms:description "Canis familiaris miR-34a stem-loop"@en ;
+  rdfs:label "cfa-mir-34a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008102
+  dcterms:identifier "MI0008102" ;
+  dcterms:description "Canis familiaris miR-99a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-99a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008103
+  dcterms:identifier "MI0008103" ;
+  dcterms:description "Canis familiaris miR-125b-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-125b-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008104
+  dcterms:identifier "MI0008104" ;
+  dcterms:description "Canis familiaris miR-497 stem-loop"@en ;
+  rdfs:label "cfa-mir-497"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008105
+  dcterms:identifier "MI0008105" ;
+  dcterms:description "Canis familiaris miR-195 stem-loop"@en ;
+  rdfs:label "cfa-mir-195"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008106
+  dcterms:identifier "MI0008106" ;
+  dcterms:description "Canis familiaris miR-34c stem-loop"@en ;
+  rdfs:label "cfa-mir-34c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008107
+  dcterms:identifier "MI0008107" ;
+  dcterms:description "Canis familiaris miR-101-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-101-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008108
+  dcterms:identifier "MI0008108" ;
+  dcterms:description "Canis familiaris miR-186 stem-loop"@en ;
+  rdfs:label "cfa-mir-186"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008109
+  dcterms:identifier "MI0008109" ;
+  dcterms:description "Canis familiaris miR-106b stem-loop"@en ;
+  rdfs:label "cfa-mir-106b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008110
+  dcterms:identifier "MI0008110" ;
+  dcterms:description "Canis familiaris miR-93 stem-loop"@en ;
+  rdfs:label "cfa-mir-93"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008111
+  dcterms:identifier "MI0008111" ;
+  dcterms:description "Canis familiaris miR-25 stem-loop"@en ;
+  rdfs:label "cfa-mir-25"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008112
+  dcterms:identifier "MI0008112" ;
+  dcterms:description "Canis familiaris miR-197 stem-loop"@en ;
+  rdfs:label "cfa-mir-197"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008113
+  dcterms:identifier "MI0008113" ;
+  dcterms:description "Canis familiaris miR-193b stem-loop"@en ;
+  rdfs:label "cfa-mir-193b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008114
+  dcterms:identifier "MI0008114" ;
+  dcterms:description "Canis familiaris miR-590 stem-loop"@en ;
+  rdfs:label "cfa-mir-590"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008115
+  dcterms:identifier "MI0008115" ;
+  dcterms:description "Canis familiaris miR-339 stem-loop"@en ;
+  rdfs:label "cfa-mir-339-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026, pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008116
+  dcterms:identifier "MI0008116" ;
+  dcterms:description "Canis familiaris miR-1842 stem-loop"@en ;
+  rdfs:label "cfa-mir-1842"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008117
+  dcterms:identifier "MI0008117" ;
+  dcterms:description "Canis familiaris miR-137 stem-loop"@en ;
+  rdfs:label "cfa-mir-137"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008118
+  dcterms:identifier "MI0008118" ;
+  dcterms:description "Canis familiaris miR-1-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-1-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008119
+  dcterms:identifier "MI0008119" ;
+  dcterms:description "Canis familiaris miR-92b stem-loop"@en ;
+  rdfs:label "cfa-mir-92b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008120
+  dcterms:identifier "MI0008120" ;
+  dcterms:description "Canis familiaris miR-350 stem-loop"@en ;
+  rdfs:label "cfa-mir-350"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008121
+  dcterms:identifier "MI0008121" ;
+  dcterms:description "Canis familiaris miR-29b-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-29b-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008122
+  dcterms:identifier "MI0008122" ;
+  dcterms:description "Canis familiaris miR-29c-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-29c-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008123
+  dcterms:identifier "MI0008123" ;
+  dcterms:description "Canis familiaris miR-1843 stem-loop"@en ;
+  rdfs:label "cfa-mir-1843"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008124
+  dcterms:identifier "MI0008124" ;
+  dcterms:description "Canis familiaris miR-199-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-199-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008125
+  dcterms:identifier "MI0008125" ;
+  dcterms:description "Canis familiaris miR-9-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-9-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008126
+  dcterms:identifier "MI0008126" ;
+  dcterms:description "Canis familiaris miR-181a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-181a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008127
+  dcterms:identifier "MI0008127" ;
+  dcterms:description "Canis familiaris miR-181b-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-181b-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008128
+  dcterms:identifier "MI0008128" ;
+  dcterms:description "Canis familiaris miR-342 stem-loop"@en ;
+  rdfs:label "cfa-mir-342"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008129
+  dcterms:identifier "MI0008129" ;
+  dcterms:description "Canis familiaris miR-345 stem-loop"@en ;
+  rdfs:label "cfa-mir-345"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008130
+  dcterms:identifier "MI0008130" ;
+  dcterms:description "Canis familiaris miR-493 stem-loop"@en ;
+  rdfs:label "cfa-mir-493"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008131
+  dcterms:identifier "MI0008131" ;
+  dcterms:description "Canis familiaris miR-433 stem-loop"@en ;
+  rdfs:label "cfa-mir-433"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008132
+  dcterms:identifier "MI0008132" ;
+  dcterms:description "Canis familiaris miR-127 stem-loop"@en ;
+  rdfs:label "cfa-mir-127"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008133
+  dcterms:identifier "MI0008133" ;
+  dcterms:description "Canis familiaris miR-136 stem-loop"@en ;
+  rdfs:label "cfa-mir-136"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008134
+  dcterms:identifier "MI0008134" ;
+  dcterms:description "Canis familiaris miR-379 stem-loop"@en ;
+  rdfs:label "cfa-mir-379"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008135
+  dcterms:identifier "MI0008135" ;
+  dcterms:description "Canis familiaris miR-411 stem-loop"@en ;
+  rdfs:label "cfa-mir-411"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008136
+  dcterms:identifier "MI0008136" ;
+  dcterms:description "Canis familiaris miR-380 stem-loop"@en ;
+  rdfs:label "cfa-mir-380"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008137
+  dcterms:identifier "MI0008137" ;
+  dcterms:description "Canis familiaris miR-323 stem-loop"@en ;
+  rdfs:label "cfa-mir-323"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008138
+  dcterms:identifier "MI0008138" ;
+  dcterms:description "Canis familiaris miR-329a stem-loop"@en ;
+  rdfs:label "cfa-mir-329a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008139
+  dcterms:identifier "MI0008139" ;
+  dcterms:description "Canis familiaris miR-543 stem-loop"@en ;
+  rdfs:label "cfa-mir-543"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008140
+  dcterms:identifier "MI0008140" ;
+  dcterms:description "Canis familiaris miR-495 stem-loop"@en ;
+  rdfs:label "cfa-mir-495"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008141
+  dcterms:identifier "MI0008141" ;
+  dcterms:description "Canis familiaris miR-376a-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-376a-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008142
+  dcterms:identifier "MI0008142" ;
+  dcterms:description "Canis familiaris miR-376a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-376a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008143
+  dcterms:identifier "MI0008143" ;
+  dcterms:description "Canis familiaris miR-376a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-376a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008144
+  dcterms:identifier "MI0008144" ;
+  dcterms:description "Canis familiaris miR-487b stem-loop"@en ;
+  rdfs:label "cfa-mir-487b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008145
+  dcterms:identifier "MI0008145" ;
+  dcterms:description "Canis familiaris miR-382 stem-loop"@en ;
+  rdfs:label "cfa-mir-382"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008146
+  dcterms:identifier "MI0008146" ;
+  dcterms:description "Canis familiaris miR-485 stem-loop"@en ;
+  rdfs:label "cfa-mir-485"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008147
+  dcterms:identifier "MI0008147" ;
+  dcterms:description "Canis familiaris miR-409 stem-loop"@en ;
+  rdfs:label "cfa-mir-409"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008148
+  dcterms:identifier "MI0008148" ;
+  dcterms:description "Canis familiaris miR-369 stem-loop"@en ;
+  rdfs:label "cfa-mir-369"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008149
+  dcterms:identifier "MI0008149" ;
+  dcterms:description "Canis familiaris miR-410 stem-loop"@en ;
+  rdfs:label "cfa-mir-410"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008150
+  dcterms:identifier "MI0008150" ;
+  dcterms:description "Canis familiaris miR-219-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-219-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008151
+  dcterms:identifier "MI0008151" ;
+  dcterms:description "Canis familiaris miR-199-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-199-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008152
+  dcterms:identifier "MI0008152" ;
+  dcterms:description "Canis familiaris miR-181a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-181a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008153
+  dcterms:identifier "MI0008153" ;
+  dcterms:description "Canis familiaris miR-181b-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-181b-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008154
+  dcterms:identifier "MI0008154" ;
+  dcterms:description "Canis familiaris miR-126 stem-loop"@en ;
+  rdfs:label "cfa-mir-126"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008155
+  dcterms:identifier "MI0008155" ;
+  dcterms:description "Canis familiaris miR-212 stem-loop"@en ;
+  rdfs:label "cfa-mir-212"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008156
+  dcterms:identifier "MI0008156" ;
+  dcterms:description "Canis familiaris miR-132 stem-loop"@en ;
+  rdfs:label "cfa-mir-132"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008157
+  dcterms:identifier "MI0008157" ;
+  dcterms:description "Canis familiaris miR-22 stem-loop"@en ;
+  rdfs:label "cfa-mir-22"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008158
+  dcterms:identifier "MI0008158" ;
+  dcterms:description "Canis familiaris miR-144 stem-loop"@en ;
+  rdfs:label "cfa-mir-144"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008159
+  dcterms:identifier "MI0008159" ;
+  dcterms:description "Canis familiaris miR-193a stem-loop"@en ;
+  rdfs:label "cfa-mir-193a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008160
+  dcterms:identifier "MI0008160" ;
+  dcterms:description "Canis familiaris miR-142 stem-loop"@en ;
+  rdfs:label "cfa-mir-142"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008161
+  dcterms:identifier "MI0008161" ;
+  dcterms:description "Canis familiaris miR-10 stem-loop"@en ;
+  rdfs:label "cfa-mir-10a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008162
+  dcterms:identifier "MI0008162" ;
+  dcterms:description "Canis familiaris miR-152 stem-loop"@en ;
+  rdfs:label "cfa-mir-152"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008163
+  dcterms:identifier "MI0008163" ;
+  dcterms:description "Canis familiaris miR-338 stem-loop"@en ;
+  rdfs:label "cfa-mir-338"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008164
+  dcterms:identifier "MI0008164" ;
+  dcterms:description "Canis familiaris miR-1844 stem-loop"@en ;
+  rdfs:label "cfa-mir-1844"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008165
+  dcterms:identifier "MI0008165" ;
+  dcterms:description "Canis familiaris miR-21 stem-loop"@en ;
+  rdfs:label "cfa-mir-21"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008166
+  dcterms:identifier "MI0008166" ;
+  dcterms:description "Canis familiaris miR-423a stem-loop"@en ;
+  rdfs:label "cfa-mir-423a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008167
+  dcterms:identifier "MI0008167" ;
+  dcterms:description "Canis familiaris miR-652 stem-loop"@en ;
+  rdfs:label "cfa-mir-652"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008168
+  dcterms:identifier "MI0008168" ;
+  dcterms:description "Canis familiaris miR-224 stem-loop"@en ;
+  rdfs:label "cfa-mir-224"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008169
+  dcterms:identifier "MI0008169" ;
+  dcterms:description "Canis familiaris miR-424 stem-loop"@en ;
+  rdfs:label "cfa-mir-424"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008170
+  dcterms:identifier "MI0008170" ;
+  dcterms:description "Canis familiaris miR-503 stem-loop"@en ;
+  rdfs:label "cfa-mir-503"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008171
+  dcterms:identifier "MI0008171" ;
+  dcterms:description "Canis familiaris miR-542 stem-loop"@en ;
+  rdfs:label "cfa-mir-542"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008172
+  dcterms:identifier "MI0008172" ;
+  dcterms:description "Canis familiaris miR-450b stem-loop"@en ;
+  rdfs:label "cfa-mir-450b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008173
+  dcterms:identifier "MI0008173" ;
+  dcterms:description "Canis familiaris miR-106a stem-loop"@en ;
+  rdfs:label "cfa-mir-106a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008174
+  dcterms:identifier "MI0008174" ;
+  dcterms:description "Canis familiaris miR-19b-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-19b-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008175
+  dcterms:identifier "MI0008175" ;
+  dcterms:description "Canis familiaris miR-92a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-92a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008176
+  dcterms:identifier "MI0008176" ;
+  dcterms:description "Canis familiaris miR-363 stem-loop"@en ;
+  rdfs:label "cfa-mir-363"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008177
+  dcterms:identifier "MI0008177" ;
+  dcterms:description "Canis familiaris miR-361 stem-loop"@en ;
+  rdfs:label "cfa-mir-361"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008178
+  dcterms:identifier "MI0008178" ;
+  dcterms:description "Canis familiaris miR-384 stem-loop"@en ;
+  rdfs:label "cfa-mir-384"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008179
+  dcterms:identifier "MI0008179" ;
+  dcterms:description "Canis familiaris miR-374a stem-loop"@en ;
+  rdfs:label "cfa-mir-374a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008180
+  dcterms:identifier "MI0008180" ;
+  dcterms:description "Canis familiaris miR-374b stem-loop"@en ;
+  rdfs:label "cfa-mir-374b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008181
+  dcterms:identifier "MI0008181" ;
+  dcterms:description "Canis familiaris miR-421 stem-loop"@en ;
+  rdfs:label "cfa-mir-421"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008182
+  dcterms:identifier "MI0008182" ;
+  dcterms:description "Canis familiaris miR-98 stem-loop"@en ;
+  rdfs:label "cfa-mir-98"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008183
+  dcterms:identifier "MI0008183" ;
+  dcterms:description "Canis familiaris miR-221 stem-loop"@en ;
+  rdfs:label "cfa-mir-221"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008184
+  dcterms:identifier "MI0008184" ;
+  dcterms:description "Canis familiaris miR-532 stem-loop"@en ;
+  rdfs:label "cfa-mir-532"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008185
+  dcterms:identifier "MI0008185" ;
+  dcterms:description "Canis familiaris miR-500 stem-loop"@en ;
+  rdfs:label "cfa-mir-500"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008186
+  dcterms:identifier "MI0008186" ;
+  dcterms:description "Canis familiaris miR-660 stem-loop"@en ;
+  rdfs:label "cfa-mir-660"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008187
+  dcterms:identifier "MI0008187" ;
+  dcterms:description "Canis familiaris miR-502 stem-loop"@en ;
+  rdfs:label "cfa-mir-502"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008188
+  dcterms:identifier "MI0008188" ;
+  dcterms:description "Canis familiaris miR-676 stem-loop"@en ;
+  rdfs:label "cfa-mir-676"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0008189
+  dcterms:identifier "MI0008189" ;
+  dcterms:description "Canis familiaris let-7j stem-loop"@en ;
+  rdfs:label "cfa-let-7j"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010322
+  dcterms:identifier "MI0010322" ;
+  dcterms:description "Canis familiaris miR-20b stem-loop"@en ;
+  rdfs:label "cfa-mir-20b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010323
+  dcterms:identifier "MI0010323" ;
+  dcterms:description "Canis familiaris miR-18b stem-loop"@en ;
+  rdfs:label "cfa-mir-18b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010324
+  dcterms:identifier "MI0010324" ;
+  dcterms:description "Canis familiaris miR-18a stem-loop"@en ;
+  rdfs:label "cfa-mir-18a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010325
+  dcterms:identifier "MI0010325" ;
+  dcterms:description "Canis familiaris miR-133c stem-loop"@en ;
+  rdfs:label "cfa-mir-133c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010326
+  dcterms:identifier "MI0010326" ;
+  dcterms:description "Canis familiaris miR-133a stem-loop"@en ;
+  rdfs:label "cfa-mir-133a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010327
+  dcterms:identifier "MI0010327" ;
+  dcterms:description "Canis familiaris miR-133b stem-loop"@en ;
+  rdfs:label "cfa-mir-133b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010328
+  dcterms:identifier "MI0010328" ;
+  dcterms:description "Canis familiaris let-7a-2 stem-loop"@en ;
+  rdfs:label "cfa-let-7a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010329
+  dcterms:identifier "MI0010329" ;
+  dcterms:description "Canis familiaris let-7b stem-loop"@en ;
+  rdfs:label "cfa-let-7b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010330
+  dcterms:identifier "MI0010330" ;
+  dcterms:description "Canis familiaris miR-7-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-7-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010331
+  dcterms:identifier "MI0010331" ;
+  dcterms:description "Canis familiaris miR-10b stem-loop"@en ;
+  rdfs:label "cfa-mir-10b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010332
+  dcterms:identifier "MI0010332" ;
+  dcterms:description "Canis familiaris miR-34b stem-loop"@en ;
+  rdfs:label "cfa-mir-34b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010333
+  dcterms:identifier "MI0010333" ;
+  dcterms:description "Canis familiaris miR-135a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-135a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010334
+  dcterms:identifier "MI0010334" ;
+  dcterms:description "Canis familiaris miR-135b stem-loop"@en ;
+  rdfs:label "cfa-mir-135b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010335
+  dcterms:identifier "MI0010335" ;
+  dcterms:description "Canis familiaris miR-153 stem-loop"@en ;
+  rdfs:label "cfa-mir-153"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010336
+  dcterms:identifier "MI0010336" ;
+  dcterms:description "Canis familiaris miR-182 stem-loop"@en ;
+  rdfs:label "cfa-mir-182"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010337
+  dcterms:identifier "MI0010337" ;
+  dcterms:description "Canis familiaris miR-184 stem-loop"@en ;
+  rdfs:label "cfa-mir-184"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010338
+  dcterms:identifier "MI0010338" ;
+  dcterms:description "Canis familiaris miR-187 stem-loop"@en ;
+  rdfs:label "cfa-mir-187"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010339
+  dcterms:identifier "MI0010339" ;
+  dcterms:description "Canis familiaris miR-202 stem-loop"@en ;
+  rdfs:label "cfa-mir-202"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010340
+  dcterms:identifier "MI0010340" ;
+  dcterms:description "Canis familiaris miR-205 stem-loop"@en ;
+  rdfs:label "cfa-mir-205"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010341
+  dcterms:identifier "MI0010341" ;
+  dcterms:description "Canis familiaris miR-210 stem-loop"@en ;
+  rdfs:label "cfa-mir-210"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010342
+  dcterms:identifier "MI0010342" ;
+  dcterms:description "Canis familiaris miR-214 stem-loop"@en ;
+  rdfs:label "cfa-mir-214"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010343
+  dcterms:identifier "MI0010343" ;
+  dcterms:description "Canis familiaris miR-215 stem-loop"@en ;
+  rdfs:label "cfa-mir-215"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010344
+  dcterms:identifier "MI0010344" ;
+  dcterms:description "Canis familiaris miR-216a stem-loop"@en ;
+  rdfs:label "cfa-mir-216a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010345
+  dcterms:identifier "MI0010345" ;
+  dcterms:description "Canis familiaris miR-217 stem-loop"@en ;
+  rdfs:label "cfa-mir-217"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010346
+  dcterms:identifier "MI0010346" ;
+  dcterms:description "Canis familiaris miR-222 stem-loop"@en ;
+  rdfs:label "cfa-mir-222"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010347
+  dcterms:identifier "MI0010347" ;
+  dcterms:description "Canis familiaris miR-223 stem-loop"@en ;
+  rdfs:label "cfa-mir-223"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010348
+  dcterms:identifier "MI0010348" ;
+  dcterms:description "Canis familiaris miR-301a stem-loop"@en ;
+  rdfs:label "cfa-mir-301a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010349
+  dcterms:identifier "MI0010349" ;
+  dcterms:description "Canis familiaris miR-301b stem-loop"@en ;
+  rdfs:label "cfa-mir-301b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010350
+  dcterms:identifier "MI0010350" ;
+  dcterms:description "Canis familiaris miR-302a stem-loop"@en ;
+  rdfs:label "cfa-mir-302a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010351
+  dcterms:identifier "MI0010351" ;
+  dcterms:description "Canis familiaris miR-302b stem-loop"@en ;
+  rdfs:label "cfa-mir-302b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010352
+  dcterms:identifier "MI0010352" ;
+  dcterms:description "Canis familiaris miR-302c stem-loop"@en ;
+  rdfs:label "cfa-mir-302c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010353
+  dcterms:identifier "MI0010353" ;
+  dcterms:description "Canis familiaris miR-302d stem-loop"@en ;
+  rdfs:label "cfa-mir-302d"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010354
+  dcterms:identifier "MI0010354" ;
+  dcterms:description "Canis familiaris miR-367 stem-loop"@en ;
+  rdfs:label "cfa-mir-367"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010355
+  dcterms:identifier "MI0010355" ;
+  dcterms:description "Canis familiaris miR-489 stem-loop"@en ;
+  rdfs:label "cfa-mir-489"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010356
+  dcterms:identifier "MI0010356" ;
+  dcterms:description "Canis familiaris miR-96 stem-loop"@en ;
+  rdfs:label "cfa-mir-96"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010357
+  dcterms:identifier "MI0010357" ;
+  dcterms:description "Canis familiaris miR-103-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-103-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010358
+  dcterms:identifier "MI0010358" ;
+  dcterms:description "Canis familiaris miR-33b stem-loop"@en ;
+  rdfs:label "cfa-mir-33b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010359
+  dcterms:identifier "MI0010359" ;
+  dcterms:description "Canis familiaris miR-145 stem-loop"@en ;
+  rdfs:label "cfa-mir-145"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010360
+  dcterms:identifier "MI0010360" ;
+  dcterms:description "Canis familiaris miR-196a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-196a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010361
+  dcterms:identifier "MI0010361" ;
+  dcterms:description "Canis familiaris miR-200b stem-loop"@en ;
+  rdfs:label "cfa-mir-200b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010362
+  dcterms:identifier "MI0010362" ;
+  dcterms:description "Canis familiaris miR-200a stem-loop"@en ;
+  rdfs:label "cfa-mir-200a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010363
+  dcterms:identifier "MI0010363" ;
+  dcterms:description "Canis familiaris miR-203 stem-loop"@en ;
+  rdfs:label "cfa-mir-203"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010365
+  dcterms:identifier "MI0010365" ;
+  dcterms:description "Canis familiaris miR-208a stem-loop"@en ;
+  rdfs:label "cfa-mir-208a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010366
+  dcterms:identifier "MI0010366" ;
+  dcterms:description "Canis familiaris miR-208b stem-loop"@en ;
+  rdfs:label "cfa-mir-208b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010367
+  dcterms:identifier "MI0010367" ;
+  dcterms:description "Canis familiaris miR-451 stem-loop"@en ;
+  rdfs:label "cfa-mir-451"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010368
+  dcterms:identifier "MI0010368" ;
+  dcterms:description "Canis familiaris miR-375 stem-loop"@en ;
+  rdfs:label "cfa-mir-375"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010369
+  dcterms:identifier "MI0010369" ;
+  dcterms:description "Canis familiaris miR-190a stem-loop"@en ;
+  rdfs:label "cfa-mir-190a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010370
+  dcterms:identifier "MI0010370" ;
+  dcterms:description "Canis familiaris miR-190b stem-loop"@en ;
+  rdfs:label "cfa-mir-190b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010371
+  dcterms:identifier "MI0010371" ;
+  dcterms:description "Canis familiaris miR-147 stem-loop"@en ;
+  rdfs:label "cfa-mir-147"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010372
+  dcterms:identifier "MI0010372" ;
+  dcterms:description "Canis familiaris miR-490 stem-loop"@en ;
+  rdfs:label "cfa-mir-490"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010373
+  dcterms:identifier "MI0010373" ;
+  dcterms:description "Canis familiaris miR-211 stem-loop"@en ;
+  rdfs:label "cfa-mir-211"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010374
+  dcterms:identifier "MI0010374" ;
+  dcterms:description "Canis familiaris miR-141 stem-loop"@en ;
+  rdfs:label "cfa-mir-141"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010375
+  dcterms:identifier "MI0010375" ;
+  dcterms:description "Canis familiaris miR-514 stem-loop"@en ;
+  rdfs:label "cfa-mir-514"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010376
+  dcterms:identifier "MI0010376" ;
+  dcterms:description "Canis familiaris miR-95 stem-loop"@en ;
+  rdfs:label "cfa-mir-95"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010377
+  dcterms:identifier "MI0010377" ;
+  dcterms:description "Canis familiaris miR-105a stem-loop"@en ;
+  rdfs:label "cfa-mir-105a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010378
+  dcterms:identifier "MI0010378" ;
+  dcterms:description "Canis familiaris miR-105b stem-loop"@en ;
+  rdfs:label "cfa-mir-105b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010379
+  dcterms:identifier "MI0010379" ;
+  dcterms:description "Canis familiaris miR-188 stem-loop"@en ;
+  rdfs:label "cfa-mir-188"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010382
+  dcterms:identifier "MI0010382" ;
+  dcterms:description "Canis familiaris miR-134 stem-loop"@en ;
+  rdfs:label "cfa-mir-134"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010383
+  dcterms:identifier "MI0010383" ;
+  dcterms:description "Canis familiaris miR-149 stem-loop"@en ;
+  rdfs:label "cfa-mir-149"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010384
+  dcterms:identifier "MI0010384" ;
+  dcterms:description "Canis familiaris miR-299 stem-loop"@en ;
+  rdfs:label "cfa-mir-299"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010385
+  dcterms:identifier "MI0010385" ;
+  dcterms:description "Canis familiaris miR-362 stem-loop"@en ;
+  rdfs:label "cfa-mir-362"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010386
+  dcterms:identifier "MI0010386" ;
+  dcterms:description "Canis familiaris miR-376b stem-loop"@en ;
+  rdfs:label "cfa-mir-376b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010387
+  dcterms:identifier "MI0010387" ;
+  dcterms:description "Canis familiaris miR-376c stem-loop"@en ;
+  rdfs:label "cfa-mir-376c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010388
+  dcterms:identifier "MI0010388" ;
+  dcterms:description "Canis familiaris miR-370 stem-loop"@en ;
+  rdfs:label "cfa-mir-370"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010389
+  dcterms:identifier "MI0010389" ;
+  dcterms:description "Canis familiaris miR-377 stem-loop"@en ;
+  rdfs:label "cfa-mir-377"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010390
+  dcterms:identifier "MI0010390" ;
+  dcterms:description "Canis familiaris miR-381 stem-loop"@en ;
+  rdfs:label "cfa-mir-381"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010391
+  dcterms:identifier "MI0010391" ;
+  dcterms:description "Canis familiaris miR-340 stem-loop"@en ;
+  rdfs:label "cfa-mir-340"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010392
+  dcterms:identifier "MI0010392" ;
+  dcterms:description "Canis familiaris miR-330 stem-loop"@en ;
+  rdfs:label "cfa-mir-330"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010393
+  dcterms:identifier "MI0010393" ;
+  dcterms:description "Canis familiaris miR-326 stem-loop"@en ;
+  rdfs:label "cfa-mir-326"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010394
+  dcterms:identifier "MI0010394" ;
+  dcterms:description "Canis familiaris miR-331 stem-loop"@en ;
+  rdfs:label "cfa-mir-331"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010395
+  dcterms:identifier "MI0010395" ;
+  dcterms:description "Canis familiaris miR-324 stem-loop"@en ;
+  rdfs:label "cfa-mir-324"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010396
+  dcterms:identifier "MI0010396" ;
+  dcterms:description "Canis familiaris miR-325 stem-loop"@en ;
+  rdfs:label "cfa-mir-325"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010397
+  dcterms:identifier "MI0010397" ;
+  dcterms:description "Canis familiaris miR-346 stem-loop"@en ;
+  rdfs:label "cfa-mir-346"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010398
+  dcterms:identifier "MI0010398" ;
+  dcterms:description "Canis familiaris miR-329b stem-loop"@en ;
+  rdfs:label "cfa-mir-329b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010399
+  dcterms:identifier "MI0010399" ;
+  dcterms:description "Canis familiaris miR-452 stem-loop"@en ;
+  rdfs:label "cfa-mir-452"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010400
+  dcterms:identifier "MI0010400" ;
+  dcterms:description "Canis familiaris miR-483 stem-loop"@en ;
+  rdfs:label "cfa-mir-483"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010401
+  dcterms:identifier "MI0010401" ;
+  dcterms:description "Canis familiaris miR-487a stem-loop"@en ;
+  rdfs:label "cfa-mir-487a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010402
+  dcterms:identifier "MI0010402" ;
+  dcterms:description "Canis familiaris miR-488 stem-loop"@en ;
+  rdfs:label "cfa-mir-488"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010403
+  dcterms:identifier "MI0010403" ;
+  dcterms:description "Canis familiaris miR-432 stem-loop"@en ;
+  rdfs:label "cfa-mir-432"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010404
+  dcterms:identifier "MI0010404" ;
+  dcterms:description "Canis familiaris miR-494 stem-loop"@en ;
+  rdfs:label "cfa-mir-494"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010405
+  dcterms:identifier "MI0010405" ;
+  dcterms:description "Canis familiaris miR-496 stem-loop"@en ;
+  rdfs:label "cfa-mir-496"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010406
+  dcterms:identifier "MI0010406" ;
+  dcterms:description "Canis familiaris miR-504 stem-loop"@en ;
+  rdfs:label "cfa-mir-504"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010407
+  dcterms:identifier "MI0010407" ;
+  dcterms:description "Canis familiaris miR-505 stem-loop"@en ;
+  rdfs:label "cfa-mir-505"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010408
+  dcterms:identifier "MI0010408" ;
+  dcterms:description "Canis familiaris miR-539 stem-loop"@en ;
+  rdfs:label "cfa-mir-539"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010409
+  dcterms:identifier "MI0010409" ;
+  dcterms:description "Canis familiaris miR-544 stem-loop"@en ;
+  rdfs:label "cfa-mir-544"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010410
+  dcterms:identifier "MI0010410" ;
+  dcterms:description "Canis familiaris miR-545 stem-loop"@en ;
+  rdfs:label "cfa-mir-545"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010411
+  dcterms:identifier "MI0010411" ;
+  dcterms:description "Canis familiaris miR-551a stem-loop"@en ;
+  rdfs:label "cfa-mir-551a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010412
+  dcterms:identifier "MI0010412" ;
+  dcterms:description "Canis familiaris miR-551b stem-loop"@en ;
+  rdfs:label "cfa-mir-551b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010413
+  dcterms:identifier "MI0010413" ;
+  dcterms:description "Canis familiaris miR-568 stem-loop"@en ;
+  rdfs:label "cfa-mir-568"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010414
+  dcterms:identifier "MI0010414" ;
+  dcterms:description "Canis familiaris miR-578 stem-loop"@en ;
+  rdfs:label "cfa-mir-578"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010415
+  dcterms:identifier "MI0010415" ;
+  dcterms:description "Canis familiaris miR-582 stem-loop"@en ;
+  rdfs:label "cfa-mir-582"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010416
+  dcterms:identifier "MI0010416" ;
+  dcterms:description "Canis familiaris miR-589 stem-loop"@en ;
+  rdfs:label "cfa-mir-589"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010417
+  dcterms:identifier "MI0010417" ;
+  dcterms:description "Canis familiaris miR-592 stem-loop"@en ;
+  rdfs:label "cfa-mir-592"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010418
+  dcterms:identifier "MI0010418" ;
+  dcterms:description "Canis familiaris miR-599 stem-loop"@en ;
+  rdfs:label "cfa-mir-599"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010419
+  dcterms:identifier "MI0010419" ;
+  dcterms:description "Canis familiaris miR-615 stem-loop"@en ;
+  rdfs:label "cfa-mir-615"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010420
+  dcterms:identifier "MI0010420" ;
+  dcterms:description "Canis familiaris miR-628 stem-loop"@en ;
+  rdfs:label "cfa-mir-628"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010421
+  dcterms:identifier "MI0010421" ;
+  dcterms:description "Canis familiaris miR-631 stem-loop"@en ;
+  rdfs:label "cfa-mir-631"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010422
+  dcterms:identifier "MI0010422" ;
+  dcterms:description "Canis familiaris miR-632 stem-loop"@en ;
+  rdfs:label "cfa-mir-632"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010423
+  dcterms:identifier "MI0010423" ;
+  dcterms:description "Canis familiaris miR-653 stem-loop"@en ;
+  rdfs:label "cfa-mir-653"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010424
+  dcterms:identifier "MI0010424" ;
+  dcterms:description "Canis familiaris miR-758 stem-loop"@en ;
+  rdfs:label "cfa-mir-758"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010425
+  dcterms:identifier "MI0010425" ;
+  dcterms:description "Canis familiaris miR-671 stem-loop"@en ;
+  rdfs:label "cfa-mir-671"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010426
+  dcterms:identifier "MI0010426" ;
+  dcterms:description "Canis familiaris miR-454 stem-loop"@en ;
+  rdfs:label "cfa-mir-454"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010427
+  dcterms:identifier "MI0010427" ;
+  dcterms:description "Canis familiaris miR-802 stem-loop"@en ;
+  rdfs:label "cfa-mir-802"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010428
+  dcterms:identifier "MI0010428" ;
+  dcterms:description "Canis familiaris miR-300 stem-loop"@en ;
+  rdfs:label "cfa-mir-300"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010429
+  dcterms:identifier "MI0010429" ;
+  dcterms:description "Canis familiaris miR-874 stem-loop"@en ;
+  rdfs:label "cfa-mir-874"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010430
+  dcterms:identifier "MI0010430" ;
+  dcterms:description "Canis familiaris miR-875 stem-loop"@en ;
+  rdfs:label "cfa-mir-875"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010431
+  dcterms:identifier "MI0010431" ;
+  dcterms:description "Canis familiaris miR-876 stem-loop"@en ;
+  rdfs:label "cfa-mir-876"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010432
+  dcterms:identifier "MI0010432" ;
+  dcterms:description "Canis familiaris miR-885 stem-loop"@en ;
+  rdfs:label "cfa-mir-885"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010433
+  dcterms:identifier "MI0010433" ;
+  dcterms:description "Canis familiaris miR-665 stem-loop"@en ;
+  rdfs:label "cfa-mir-665"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010434
+  dcterms:identifier "MI0010434" ;
+  dcterms:description "Canis familiaris miR-207 stem-loop"@en ;
+  rdfs:label "cfa-mir-207"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010435
+  dcterms:identifier "MI0010435" ;
+  dcterms:description "Canis familiaris miR-761 stem-loop"@en ;
+  rdfs:label "cfa-mir-761"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010436
+  dcterms:identifier "MI0010436" ;
+  dcterms:description "Canis familiaris miR-764 stem-loop"@en ;
+  rdfs:label "cfa-mir-764"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010437
+  dcterms:identifier "MI0010437" ;
+  dcterms:description "Canis familiaris miR-759 stem-loop"@en ;
+  rdfs:label "cfa-mir-759"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010438
+  dcterms:identifier "MI0010438" ;
+  dcterms:description "Canis familiaris miR-718 stem-loop"@en ;
+  rdfs:label "cfa-mir-718"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0010439
+  dcterms:identifier "MI0010439" ;
+  dcterms:description "Canis familiaris miR-872 stem-loop"@en ;
+  rdfs:label "cfa-mir-872"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "454" ;
+    dcterms:references pubmed:18215311, pmid:18215311 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015960
+  dcterms:identifier "MI0015960" ;
+  dcterms:description "Canis familiaris miR-29c-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-29c-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015961
+  dcterms:identifier "MI0015961" ;
+  dcterms:description "Canis familiaris miR-1837-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-1837-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015962
+  dcterms:identifier "MI0015962" ;
+  dcterms:description "Canis familiaris miR-1837-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-1837-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0015963
+  dcterms:identifier "MI0015963" ;
+  dcterms:description "Canis familiaris miR-1837-4 stem-loop"@en ;
+  rdfs:label "cfa-mir-1837-4"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:18392026, pmid:18392026 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0020342
+  dcterms:identifier "MI0020342" ;
+  dcterms:description "Canis familiaris miR-1199 stem-loop"@en ;
+  rdfs:label "cfa-mir-1199"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:23229173, pmid:23229173, pubmed:26853694, pmid:26853694 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027868
+  dcterms:identifier "MI0027868" ;
+  dcterms:description "Canis familiaris miR-6529 stem-loop"@en ;
+  rdfs:label "cfa-mir-6529"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027869
+  dcterms:identifier "MI0027869" ;
+  dcterms:description "Canis familiaris miR-8789 stem-loop"@en ;
+  rdfs:label "cfa-mir-8789"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027870
+  dcterms:identifier "MI0027870" ;
+  dcterms:description "Canis familiaris miR-8790 stem-loop"@en ;
+  rdfs:label "cfa-mir-8790"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027871
+  dcterms:identifier "MI0027871" ;
+  dcterms:description "Canis familiaris miR-8791a stem-loop"@en ;
+  rdfs:label "cfa-mir-8791a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027872
+  dcterms:identifier "MI0027872" ;
+  dcterms:description "Canis familiaris miR-8792 stem-loop"@en ;
+  rdfs:label "cfa-mir-8792"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027873
+  dcterms:identifier "MI0027873" ;
+  dcterms:description "Canis familiaris miR-8793-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8793-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027874
+  dcterms:identifier "MI0027874" ;
+  dcterms:description "Canis familiaris miR-8794-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8794-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027875
+  dcterms:identifier "MI0027875" ;
+  dcterms:description "Canis familiaris miR-8795 stem-loop"@en ;
+  rdfs:label "cfa-mir-8795"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027876
+  dcterms:identifier "MI0027876" ;
+  dcterms:description "Canis familiaris miR-8796 stem-loop"@en ;
+  rdfs:label "cfa-mir-8796"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027877
+  dcterms:identifier "MI0027877" ;
+  dcterms:description "Canis familiaris miR-8797 stem-loop"@en ;
+  rdfs:label "cfa-mir-8797"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027878
+  dcterms:identifier "MI0027878" ;
+  dcterms:description "Canis familiaris miR-8798 stem-loop"@en ;
+  rdfs:label "cfa-mir-8798"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027879
+  dcterms:identifier "MI0027879" ;
+  dcterms:description "Canis familiaris miR-8799a stem-loop"@en ;
+  rdfs:label "cfa-mir-8799a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027880
+  dcterms:identifier "MI0027880" ;
+  dcterms:description "Canis familiaris miR-8800 stem-loop"@en ;
+  rdfs:label "cfa-mir-8800"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027881
+  dcterms:identifier "MI0027881" ;
+  dcterms:description "Canis familiaris miR-8801 stem-loop"@en ;
+  rdfs:label "cfa-mir-8801"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027882
+  dcterms:identifier "MI0027882" ;
+  dcterms:description "Canis familiaris miR-8802 stem-loop"@en ;
+  rdfs:label "cfa-mir-8802"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027883
+  dcterms:identifier "MI0027883" ;
+  dcterms:description "Canis familiaris miR-8803 stem-loop"@en ;
+  rdfs:label "cfa-mir-8803"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027884
+  dcterms:identifier "MI0027884" ;
+  dcterms:description "Canis familiaris miR-8804 stem-loop"@en ;
+  rdfs:label "cfa-mir-8804"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027885
+  dcterms:identifier "MI0027885" ;
+  dcterms:description "Canis familiaris miR-8805 stem-loop"@en ;
+  rdfs:label "cfa-mir-8805"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027886
+  dcterms:identifier "MI0027886" ;
+  dcterms:description "Canis familiaris miR-8806 stem-loop"@en ;
+  rdfs:label "cfa-mir-8806"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027887
+  dcterms:identifier "MI0027887" ;
+  dcterms:description "Canis familiaris miR-8807 stem-loop"@en ;
+  rdfs:label "cfa-mir-8807"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027888
+  dcterms:identifier "MI0027888" ;
+  dcterms:description "Canis familiaris miR-8808 stem-loop"@en ;
+  rdfs:label "cfa-mir-8808"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027889
+  dcterms:identifier "MI0027889" ;
+  dcterms:description "Canis familiaris miR-8809 stem-loop"@en ;
+  rdfs:label "cfa-mir-8809"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027890
+  dcterms:identifier "MI0027890" ;
+  dcterms:description "Canis familiaris miR-8810 stem-loop"@en ;
+  rdfs:label "cfa-mir-8810"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027891
+  dcterms:identifier "MI0027891" ;
+  dcterms:description "Canis familiaris miR-8811 stem-loop"@en ;
+  rdfs:label "cfa-mir-8811"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027892
+  dcterms:identifier "MI0027892" ;
+  dcterms:description "Canis familiaris miR-8812 stem-loop"@en ;
+  rdfs:label "cfa-mir-8812"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027893
+  dcterms:identifier "MI0027893" ;
+  dcterms:description "Canis familiaris miR-8813-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8813-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027894
+  dcterms:identifier "MI0027894" ;
+  dcterms:description "Canis familiaris miR-8814 stem-loop"@en ;
+  rdfs:label "cfa-mir-8814"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027895
+  dcterms:identifier "MI0027895" ;
+  dcterms:description "Canis familiaris miR-8815-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8815-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027896
+  dcterms:identifier "MI0027896" ;
+  dcterms:description "Canis familiaris miR-8816 stem-loop"@en ;
+  rdfs:label "cfa-mir-8816"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027897
+  dcterms:identifier "MI0027897" ;
+  dcterms:description "Canis familiaris miR-8815-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8815-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027898
+  dcterms:identifier "MI0027898" ;
+  dcterms:description "Canis familiaris miR-8817 stem-loop"@en ;
+  rdfs:label "cfa-mir-8817"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027899
+  dcterms:identifier "MI0027899" ;
+  dcterms:description "Canis familiaris miR-8818 stem-loop"@en ;
+  rdfs:label "cfa-mir-8818"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027900
+  dcterms:identifier "MI0027900" ;
+  dcterms:description "Canis familiaris miR-8819 stem-loop"@en ;
+  rdfs:label "cfa-mir-8819"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027901
+  dcterms:identifier "MI0027901" ;
+  dcterms:description "Canis familiaris miR-8820 stem-loop"@en ;
+  rdfs:label "cfa-mir-8820"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027902
+  dcterms:identifier "MI0027902" ;
+  dcterms:description "Canis familiaris miR-8821 stem-loop"@en ;
+  rdfs:label "cfa-mir-8821"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027903
+  dcterms:identifier "MI0027903" ;
+  dcterms:description "Canis familiaris miR-8822 stem-loop"@en ;
+  rdfs:label "cfa-mir-8822"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027904
+  dcterms:identifier "MI0027904" ;
+  dcterms:description "Canis familiaris miR-8823 stem-loop"@en ;
+  rdfs:label "cfa-mir-8823"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027905
+  dcterms:identifier "MI0027905" ;
+  dcterms:description "Canis familiaris miR-8824 stem-loop"@en ;
+  rdfs:label "cfa-mir-8824"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027906
+  dcterms:identifier "MI0027906" ;
+  dcterms:description "Canis familiaris miR-8825 stem-loop"@en ;
+  rdfs:label "cfa-mir-8825"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027907
+  dcterms:identifier "MI0027907" ;
+  dcterms:description "Canis familiaris miR-8799b stem-loop"@en ;
+  rdfs:label "cfa-mir-8799b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027908
+  dcterms:identifier "MI0027908" ;
+  dcterms:description "Canis familiaris miR-8826 stem-loop"@en ;
+  rdfs:label "cfa-mir-8826"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027909
+  dcterms:identifier "MI0027909" ;
+  dcterms:description "Canis familiaris miR-8799c stem-loop"@en ;
+  rdfs:label "cfa-mir-8799c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027910
+  dcterms:identifier "MI0027910" ;
+  dcterms:description "Canis familiaris miR-8827 stem-loop"@en ;
+  rdfs:label "cfa-mir-8827"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027911
+  dcterms:identifier "MI0027911" ;
+  dcterms:description "Canis familiaris miR-8828 stem-loop"@en ;
+  rdfs:label "cfa-mir-8828"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027912
+  dcterms:identifier "MI0027912" ;
+  dcterms:description "Canis familiaris miR-1249 stem-loop"@en ;
+  rdfs:label "cfa-mir-1249"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027913
+  dcterms:identifier "MI0027913" ;
+  dcterms:description "Canis familiaris miR-8829 stem-loop"@en ;
+  rdfs:label "cfa-mir-8829"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027914
+  dcterms:identifier "MI0027914" ;
+  dcterms:description "Canis familiaris miR-8830-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8830-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027915
+  dcterms:identifier "MI0027915" ;
+  dcterms:description "Canis familiaris miR-8830-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8830-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027916
+  dcterms:identifier "MI0027916" ;
+  dcterms:description "Canis familiaris miR-8831 stem-loop"@en ;
+  rdfs:label "cfa-mir-8831"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027917
+  dcterms:identifier "MI0027917" ;
+  dcterms:description "Canis familiaris miR-8830-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-8830-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027918
+  dcterms:identifier "MI0027918" ;
+  dcterms:description "Canis familiaris miR-8832 stem-loop"@en ;
+  rdfs:label "cfa-mir-8832"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027919
+  dcterms:identifier "MI0027919" ;
+  dcterms:description "Canis familiaris miR-8833 stem-loop"@en ;
+  rdfs:label "cfa-mir-8833"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027920
+  dcterms:identifier "MI0027920" ;
+  dcterms:description "Canis familiaris miR-8834a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8834a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027921
+  dcterms:identifier "MI0027921" ;
+  dcterms:description "Canis familiaris miR-8835 stem-loop"@en ;
+  rdfs:label "cfa-mir-8835"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027922
+  dcterms:identifier "MI0027922" ;
+  dcterms:description "Canis familiaris miR-8836 stem-loop"@en ;
+  rdfs:label "cfa-mir-8836"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027923
+  dcterms:identifier "MI0027923" ;
+  dcterms:description "Canis familiaris miR-8837 stem-loop"@en ;
+  rdfs:label "cfa-mir-8837"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027924
+  dcterms:identifier "MI0027924" ;
+  dcterms:description "Canis familiaris miR-8838 stem-loop"@en ;
+  rdfs:label "cfa-mir-8838"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027925
+  dcterms:identifier "MI0027925" ;
+  dcterms:description "Canis familiaris miR-8839 stem-loop"@en ;
+  rdfs:label "cfa-mir-8839"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027926
+  dcterms:identifier "MI0027926" ;
+  dcterms:description "Canis familiaris miR-8840 stem-loop"@en ;
+  rdfs:label "cfa-mir-8840"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027927
+  dcterms:identifier "MI0027927" ;
+  dcterms:description "Canis familiaris miR-8841-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8841-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027928
+  dcterms:identifier "MI0027928" ;
+  dcterms:description "Canis familiaris miR-8842 stem-loop"@en ;
+  rdfs:label "cfa-mir-8842"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027929
+  dcterms:identifier "MI0027929" ;
+  dcterms:description "Canis familiaris miR-8843 stem-loop"@en ;
+  rdfs:label "cfa-mir-8843"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027930
+  dcterms:identifier "MI0027930" ;
+  dcterms:description "Canis familiaris miR-1301 stem-loop"@en ;
+  rdfs:label "cfa-mir-1301"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027931
+  dcterms:identifier "MI0027931" ;
+  dcterms:description "Canis familiaris miR-8844 stem-loop"@en ;
+  rdfs:label "cfa-mir-8844"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027932
+  dcterms:identifier "MI0027932" ;
+  dcterms:description "Canis familiaris miR-8845 stem-loop"@en ;
+  rdfs:label "cfa-mir-8845"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027933
+  dcterms:identifier "MI0027933" ;
+  dcterms:description "Canis familiaris miR-8846 stem-loop"@en ;
+  rdfs:label "cfa-mir-8846"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027934
+  dcterms:identifier "MI0027934" ;
+  dcterms:description "Canis familiaris miR-8799d stem-loop"@en ;
+  rdfs:label "cfa-mir-8799d"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027935
+  dcterms:identifier "MI0027935" ;
+  dcterms:description "Canis familiaris miR-8794-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8794-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027936
+  dcterms:identifier "MI0027936" ;
+  dcterms:description "Canis familiaris miR-8847 stem-loop"@en ;
+  rdfs:label "cfa-mir-8847"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027937
+  dcterms:identifier "MI0027937" ;
+  dcterms:description "Canis familiaris miR-8848 stem-loop"@en ;
+  rdfs:label "cfa-mir-8848"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027938
+  dcterms:identifier "MI0027938" ;
+  dcterms:description "Canis familiaris miR-8793-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8793-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027939
+  dcterms:identifier "MI0027939" ;
+  dcterms:description "Canis familiaris miR-8793-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-8793-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027940
+  dcterms:identifier "MI0027940" ;
+  dcterms:description "Canis familiaris miR-8849 stem-loop"@en ;
+  rdfs:label "cfa-mir-8849"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027941
+  dcterms:identifier "MI0027941" ;
+  dcterms:description "Canis familiaris miR-8850 stem-loop"@en ;
+  rdfs:label "cfa-mir-8850"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027942
+  dcterms:identifier "MI0027942" ;
+  dcterms:description "Canis familiaris miR-8851 stem-loop"@en ;
+  rdfs:label "cfa-mir-8851"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027943
+  dcterms:identifier "MI0027943" ;
+  dcterms:description "Canis familiaris miR-8852 stem-loop"@en ;
+  rdfs:label "cfa-mir-8852"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027944
+  dcterms:identifier "MI0027944" ;
+  dcterms:description "Canis familiaris miR-8853 stem-loop"@en ;
+  rdfs:label "cfa-mir-8853"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027945
+  dcterms:identifier "MI0027945" ;
+  dcterms:description "Canis familiaris miR-8854 stem-loop"@en ;
+  rdfs:label "cfa-mir-8854"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027946
+  dcterms:identifier "MI0027946" ;
+  dcterms:description "Canis familiaris miR-8855 stem-loop"@en ;
+  rdfs:label "cfa-mir-8855"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027947
+  dcterms:identifier "MI0027947" ;
+  dcterms:description "Canis familiaris miR-8856 stem-loop"@en ;
+  rdfs:label "cfa-mir-8856"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027948
+  dcterms:identifier "MI0027948" ;
+  dcterms:description "Canis familiaris miR-8857 stem-loop"@en ;
+  rdfs:label "cfa-mir-8857"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027949
+  dcterms:identifier "MI0027949" ;
+  dcterms:description "Canis familiaris miR-8858 stem-loop"@en ;
+  rdfs:label "cfa-mir-8858"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027950
+  dcterms:identifier "MI0027950" ;
+  dcterms:description "Canis familiaris miR-8859a stem-loop"@en ;
+  rdfs:label "cfa-mir-8859a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027951
+  dcterms:identifier "MI0027951" ;
+  dcterms:description "Canis familiaris miR-8860 stem-loop"@en ;
+  rdfs:label "cfa-mir-8860"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027952
+  dcterms:identifier "MI0027952" ;
+  dcterms:description "Canis familiaris miR-8861 stem-loop"@en ;
+  rdfs:label "cfa-mir-8861"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027953
+  dcterms:identifier "MI0027953" ;
+  dcterms:description "Canis familiaris miR-1343 stem-loop"@en ;
+  rdfs:label "cfa-mir-1343"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027954
+  dcterms:identifier "MI0027954" ;
+  dcterms:description "Canis familiaris miR-8859b stem-loop"@en ;
+  rdfs:label "cfa-mir-8859b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027955
+  dcterms:identifier "MI0027955" ;
+  dcterms:description "Canis familiaris miR-8862 stem-loop"@en ;
+  rdfs:label "cfa-mir-8862"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027956
+  dcterms:identifier "MI0027956" ;
+  dcterms:description "Canis familiaris miR-8863 stem-loop"@en ;
+  rdfs:label "cfa-mir-8863"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027957
+  dcterms:identifier "MI0027957" ;
+  dcterms:description "Canis familiaris miR-8864-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8864-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027958
+  dcterms:identifier "MI0027958" ;
+  dcterms:description "Canis familiaris miR-8865 stem-loop"@en ;
+  rdfs:label "cfa-mir-8865"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027959
+  dcterms:identifier "MI0027959" ;
+  dcterms:description "Canis familiaris miR-8866 stem-loop"@en ;
+  rdfs:label "cfa-mir-8866"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027960
+  dcterms:identifier "MI0027960" ;
+  dcterms:description "Canis familiaris miR-8867 stem-loop"@en ;
+  rdfs:label "cfa-mir-8867"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027961
+  dcterms:identifier "MI0027961" ;
+  dcterms:description "Canis familiaris miR-8868 stem-loop"@en ;
+  rdfs:label "cfa-mir-8868"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027962
+  dcterms:identifier "MI0027962" ;
+  dcterms:description "Canis familiaris miR-8869 stem-loop"@en ;
+  rdfs:label "cfa-mir-8869"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027963
+  dcterms:identifier "MI0027963" ;
+  dcterms:description "Canis familiaris miR-8870 stem-loop"@en ;
+  rdfs:label "cfa-mir-8870"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027964
+  dcterms:identifier "MI0027964" ;
+  dcterms:description "Canis familiaris miR-8871 stem-loop"@en ;
+  rdfs:label "cfa-mir-8871"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027965
+  dcterms:identifier "MI0027965" ;
+  dcterms:description "Canis familiaris miR-8872 stem-loop"@en ;
+  rdfs:label "cfa-mir-8872"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027966
+  dcterms:identifier "MI0027966" ;
+  dcterms:description "Canis familiaris miR-2387 stem-loop"@en ;
+  rdfs:label "cfa-mir-2387"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027967
+  dcterms:identifier "MI0027967" ;
+  dcterms:description "Canis familiaris miR-8799e-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8799e-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027968
+  dcterms:identifier "MI0027968" ;
+  dcterms:description "Canis familiaris miR-8799f stem-loop"@en ;
+  rdfs:label "cfa-mir-8799f"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027969
+  dcterms:identifier "MI0027969" ;
+  dcterms:description "Canis familiaris miR-8873a stem-loop"@en ;
+  rdfs:label "cfa-mir-8873a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027970
+  dcterms:identifier "MI0027970" ;
+  dcterms:description "Canis familiaris miR-8874 stem-loop"@en ;
+  rdfs:label "cfa-mir-8874"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027971
+  dcterms:identifier "MI0027971" ;
+  dcterms:description "Canis familiaris miR-8875 stem-loop"@en ;
+  rdfs:label "cfa-mir-8875"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027972
+  dcterms:identifier "MI0027972" ;
+  dcterms:description "Canis familiaris miR-8876 stem-loop"@en ;
+  rdfs:label "cfa-mir-8876"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027973
+  dcterms:identifier "MI0027973" ;
+  dcterms:description "Canis familiaris miR-8877 stem-loop"@en ;
+  rdfs:label "cfa-mir-8877"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027974
+  dcterms:identifier "MI0027974" ;
+  dcterms:description "Canis familiaris miR-8878 stem-loop"@en ;
+  rdfs:label "cfa-mir-8878"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027975
+  dcterms:identifier "MI0027975" ;
+  dcterms:description "Canis familiaris miR-8879 stem-loop"@en ;
+  rdfs:label "cfa-mir-8879"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027976
+  dcterms:identifier "MI0027976" ;
+  dcterms:description "Canis familiaris miR-8799e-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8799e-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027977
+  dcterms:identifier "MI0027977" ;
+  dcterms:description "Canis familiaris miR-8880 stem-loop"@en ;
+  rdfs:label "cfa-mir-8880"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027978
+  dcterms:identifier "MI0027978" ;
+  dcterms:description "Canis familiaris miR-8881 stem-loop"@en ;
+  rdfs:label "cfa-mir-8881"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027979
+  dcterms:identifier "MI0027979" ;
+  dcterms:description "Canis familiaris miR-7180 stem-loop"@en ;
+  rdfs:label "cfa-mir-7180"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027980
+  dcterms:identifier "MI0027980" ;
+  dcterms:description "Canis familiaris miR-1185 stem-loop"@en ;
+  rdfs:label "cfa-mir-1185"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027981
+  dcterms:identifier "MI0027981" ;
+  dcterms:description "Canis familiaris miR-8882 stem-loop"@en ;
+  rdfs:label "cfa-mir-8882"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027982
+  dcterms:identifier "MI0027982" ;
+  dcterms:description "Canis familiaris miR-8883 stem-loop"@en ;
+  rdfs:label "cfa-mir-8883"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027983
+  dcterms:identifier "MI0027983" ;
+  dcterms:description "Canis familiaris miR-8884 stem-loop"@en ;
+  rdfs:label "cfa-mir-8884"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027984
+  dcterms:identifier "MI0027984" ;
+  dcterms:description "Canis familiaris miR-889 stem-loop"@en ;
+  rdfs:label "cfa-mir-889"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027985
+  dcterms:identifier "MI0027985" ;
+  dcterms:description "Canis familiaris miR-3958 stem-loop"@en ;
+  rdfs:label "cfa-mir-3958"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027986
+  dcterms:identifier "MI0027986" ;
+  dcterms:description "Canis familiaris miR-8841-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8841-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027987
+  dcterms:identifier "MI0027987" ;
+  dcterms:description "Canis familiaris miR-8885 stem-loop"@en ;
+  rdfs:label "cfa-mir-8885"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027988
+  dcterms:identifier "MI0027988" ;
+  dcterms:description "Canis familiaris miR-8886 stem-loop"@en ;
+  rdfs:label "cfa-mir-8886"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027989
+  dcterms:identifier "MI0027989" ;
+  dcterms:description "Canis familiaris miR-8887 stem-loop"@en ;
+  rdfs:label "cfa-mir-8887"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027990
+  dcterms:identifier "MI0027990" ;
+  dcterms:description "Canis familiaris miR-8888 stem-loop"@en ;
+  rdfs:label "cfa-mir-8888"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027991
+  dcterms:identifier "MI0027991" ;
+  dcterms:description "Canis familiaris miR-6516 stem-loop"@en ;
+  rdfs:label "cfa-mir-6516"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027992
+  dcterms:identifier "MI0027992" ;
+  dcterms:description "Canis familiaris miR-8889 stem-loop"@en ;
+  rdfs:label "cfa-mir-8889"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027993
+  dcterms:identifier "MI0027993" ;
+  dcterms:description "Canis familiaris miR-8873b stem-loop"@en ;
+  rdfs:label "cfa-mir-8873b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027994
+  dcterms:identifier "MI0027994" ;
+  dcterms:description "Canis familiaris let-7d stem-loop"@en ;
+  rdfs:label "cfa-let-7d"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027995
+  dcterms:identifier "MI0027995" ;
+  dcterms:description "Canis familiaris miR-8890 stem-loop"@en ;
+  rdfs:label "cfa-mir-8890"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027996
+  dcterms:identifier "MI0027996" ;
+  dcterms:description "Canis familiaris miR-8891 stem-loop"@en ;
+  rdfs:label "cfa-mir-8891"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027997
+  dcterms:identifier "MI0027997" ;
+  dcterms:description "Canis familiaris miR-8892 stem-loop"@en ;
+  rdfs:label "cfa-mir-8892"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027998
+  dcterms:identifier "MI0027998" ;
+  dcterms:description "Canis familiaris miR-769 stem-loop"@en ;
+  rdfs:label "cfa-mir-769"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0027999
+  dcterms:identifier "MI0027999" ;
+  dcterms:description "Canis familiaris miR-8893 stem-loop"@en ;
+  rdfs:label "cfa-mir-8893"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028000
+  dcterms:identifier "MI0028000" ;
+  dcterms:description "Canis familiaris miR-8894 stem-loop"@en ;
+  rdfs:label "cfa-mir-8894"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028001
+  dcterms:identifier "MI0028001" ;
+  dcterms:description "Canis familiaris miR-8864-4 stem-loop"@en ;
+  rdfs:label "cfa-mir-8864-4"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028002
+  dcterms:identifier "MI0028002" ;
+  dcterms:description "Canis familiaris miR-8864-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-8864-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028003
+  dcterms:identifier "MI0028003" ;
+  dcterms:description "Canis familiaris miR-8813-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8813-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028004
+  dcterms:identifier "MI0028004" ;
+  dcterms:description "Canis familiaris miR-8895 stem-loop"@en ;
+  rdfs:label "cfa-mir-8895"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028005
+  dcterms:identifier "MI0028005" ;
+  dcterms:description "Canis familiaris miR-8896 stem-loop"@en ;
+  rdfs:label "cfa-mir-8896"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028006
+  dcterms:identifier "MI0028006" ;
+  dcterms:description "Canis familiaris miR-8897 stem-loop"@en ;
+  rdfs:label "cfa-mir-8897"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028007
+  dcterms:identifier "MI0028007" ;
+  dcterms:description "Canis familiaris miR-449b stem-loop"@en ;
+  rdfs:label "cfa-mir-449b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028008
+  dcterms:identifier "MI0028008" ;
+  dcterms:description "Canis familiaris miR-8799g stem-loop"@en ;
+  rdfs:label "cfa-mir-8799g"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028009
+  dcterms:identifier "MI0028009" ;
+  dcterms:description "Canis familiaris miR-8898 stem-loop"@en ;
+  rdfs:label "cfa-mir-8898"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028010
+  dcterms:identifier "MI0028010" ;
+  dcterms:description "Canis familiaris miR-8899 stem-loop"@en ;
+  rdfs:label "cfa-mir-8899"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028011
+  dcterms:identifier "MI0028011" ;
+  dcterms:description "Canis familiaris miR-8900 stem-loop"@en ;
+  rdfs:label "cfa-mir-8900"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028012
+  dcterms:identifier "MI0028012" ;
+  dcterms:description "Canis familiaris miR-8901 stem-loop"@en ;
+  rdfs:label "cfa-mir-8901"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028013
+  dcterms:identifier "MI0028013" ;
+  dcterms:description "Canis familiaris miR-8902 stem-loop"@en ;
+  rdfs:label "cfa-mir-8902"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028014
+  dcterms:identifier "MI0028014" ;
+  dcterms:description "Canis familiaris miR-1296 stem-loop"@en ;
+  rdfs:label "cfa-mir-1296"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028015
+  dcterms:identifier "MI0028015" ;
+  dcterms:description "Canis familiaris miR-8903 stem-loop"@en ;
+  rdfs:label "cfa-mir-8903"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028016
+  dcterms:identifier "MI0028016" ;
+  dcterms:description "Canis familiaris miR-8908b stem-loop"@en ;
+  rdfs:label "cfa-mir-8908b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028017
+  dcterms:identifier "MI0028017" ;
+  dcterms:description "Canis familiaris miR-507b stem-loop"@en ;
+  rdfs:label "cfa-mir-507b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028018
+  dcterms:identifier "MI0028018" ;
+  dcterms:description "Canis familiaris miR-8904a stem-loop"@en ;
+  rdfs:label "cfa-mir-8904a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028019
+  dcterms:identifier "MI0028019" ;
+  dcterms:description "Canis familiaris miR-8908f stem-loop"@en ;
+  rdfs:label "cfa-mir-8908f"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028020
+  dcterms:identifier "MI0028020" ;
+  dcterms:description "Canis familiaris miR-508a stem-loop"@en ;
+  rdfs:label "cfa-mir-508a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028021
+  dcterms:identifier "MI0028021" ;
+  dcterms:description "Canis familiaris miR-8908d-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8908d-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028022
+  dcterms:identifier "MI0028022" ;
+  dcterms:description "Canis familiaris miR-8908d-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-8908d-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028023
+  dcterms:identifier "MI0028023" ;
+  dcterms:description "Canis familiaris miR-2483 stem-loop"@en ;
+  rdfs:label "cfa-mir-2483"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028024
+  dcterms:identifier "MI0028024" ;
+  dcterms:description "Canis familiaris miR-506 stem-loop"@en ;
+  rdfs:label "cfa-mir-506"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028025
+  dcterms:identifier "MI0028025" ;
+  dcterms:description "Canis familiaris miR-1468 stem-loop"@en ;
+  rdfs:label "cfa-mir-1468"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028026
+  dcterms:identifier "MI0028026" ;
+  dcterms:description "Canis familiaris miR-8904b stem-loop"@en ;
+  rdfs:label "cfa-mir-8904b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028027
+  dcterms:identifier "MI0028027" ;
+  dcterms:description "Canis familiaris miR-508b stem-loop"@en ;
+  rdfs:label "cfa-mir-508b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028028
+  dcterms:identifier "MI0028028" ;
+  dcterms:description "Canis familiaris miR-8908e stem-loop"@en ;
+  rdfs:label "cfa-mir-8908e"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028029
+  dcterms:identifier "MI0028029" ;
+  dcterms:description "Canis familiaris miR-2114 stem-loop"@en ;
+  rdfs:label "cfa-mir-2114"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028030
+  dcterms:identifier "MI0028030" ;
+  dcterms:description "Canis familiaris miR-8908a-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8908a-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028031
+  dcterms:identifier "MI0028031" ;
+  dcterms:description "Canis familiaris miR-8834a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8834a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028032
+  dcterms:identifier "MI0028032" ;
+  dcterms:description "Canis familiaris miR-8791b stem-loop"@en ;
+  rdfs:label "cfa-mir-8791b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028033
+  dcterms:identifier "MI0028033" ;
+  dcterms:description "Canis familiaris miR-8834b stem-loop"@en ;
+  rdfs:label "cfa-mir-8834b"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028034
+  dcterms:identifier "MI0028034" ;
+  dcterms:description "Canis familiaris miR-8908a-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8908a-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028035
+  dcterms:identifier "MI0028035" ;
+  dcterms:description "Canis familiaris miR-507a stem-loop"@en ;
+  rdfs:label "cfa-mir-507a"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028036
+  dcterms:identifier "MI0028036" ;
+  dcterms:description "Canis familiaris miR-8908d-1 stem-loop"@en ;
+  rdfs:label "cfa-mir-8908d-1"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028037
+  dcterms:identifier "MI0028037" ;
+  dcterms:description "Canis familiaris miR-8908c stem-loop"@en ;
+  rdfs:label "cfa-mir-8908c"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028038
+  dcterms:identifier "MI0028038" ;
+  dcterms:description "Canis familiaris miR-8908a-3 stem-loop"@en ;
+  rdfs:label "cfa-mir-8908a-3"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028039
+  dcterms:identifier "MI0028039" ;
+  dcterms:description "Canis familiaris miR-8908a-4 stem-loop"@en ;
+  rdfs:label "cfa-mir-8908a-4"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028040
+  dcterms:identifier "MI0028040" ;
+  dcterms:description "Canis familiaris miR-8864-2 stem-loop"@en ;
+  rdfs:label "cfa-mir-8864-2"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028041
+  dcterms:identifier "MI0028041" ;
+  dcterms:description "Canis familiaris miR-8906 stem-loop"@en ;
+  rdfs:label "cfa-mir-8906"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028042
+  dcterms:identifier "MI0028042" ;
+  dcterms:description "Canis familiaris miR-8907 stem-loop"@en ;
+  rdfs:label "cfa-mir-8907"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
+mirbase:MI0028043
+  dcterms:identifier "MI0028043" ;
+  dcterms:description "Canis familiaris miR-8905 stem-loop"@en ;
+  rdfs:label "cfa-mir-8905"@en ;
+  obo:RO_0002162 taxonomy:9615 ;
+  :evidence [
+    :experiment_type "Illumina" ;
+    dcterms:references pubmed:24692655, pmid:24692655 ;
+  ] ;
+  a :MicroRNA .
+
