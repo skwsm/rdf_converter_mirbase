@@ -123,7 +123,7 @@ module MiRBase
       print "    faldo:begin [\n"
       print "      a faldo:ExactPosition ;\n"
       print "      faldo:position #{mirna_start} ; \n"
-      print "      faldo:reference <http://identifiers.org/hco/#{chr}#GRCh38>\n"
+      print "      faldo:reference <http://identifiers.org/hco/#{chr}\/GRCh38>\n"
       #QName notation with URL fragment (like below) is not allowed for
       #Virtuoso due to a bug.\n"
       #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
@@ -131,7 +131,7 @@ module MiRBase
       print "    faldo:end [\n"
       print "      a faldo:ExactPosition ;\n"
       print "      faldo:position #{mirna_end} ;\n"
-      print "      faldo:reference <http://identifiers.org/hco/#{chr}#GRCh38>\n"
+      print "      faldo:reference <http://identifiers.org/hco/#{chr}\/GRCh38>\n"
       #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
       print "    ] \n"
       print "  ] .\n"
