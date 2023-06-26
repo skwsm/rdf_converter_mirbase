@@ -66,7 +66,8 @@ module MiRBase
      "rfam: <http://identifiers.org/rfam/>",
      "hgnc: <http://identifiers.org/hgnc/>",
      "ncbigene: <http://identifiers.org/ncbigene/>",
-     "skos: <http://http://www.w3.org/2004/02/skos/core#>",
+     "skos: <http://www.w3.org/2004/02/skos/core#>",
+     "mgi: <http://identifiers.org/mgi:>",
      ": <http://purl.jp/bio/10/mirbase/ontology/>"
     ].each {|uri| print "@prefix #{uri} .\n"}
     print "\n"
@@ -230,12 +231,14 @@ module MiRBase
           print "  rdfs:seeAlso ncbigene:#{link.id} ;\n"
         when "RFAM"
           print "  rdfs:seeAlso rfam:#{link.id} ;\n"
+        when "MGI"
+          print "  rdfs:seeAlso mgi:#{link.id} ;\n"
         when "TARGETS:PICTAR-VERT"
         when "MIR"
         when "WORMBASE"
         else
           STDERR.print link.database
-          STDERR.print "Unkown Database\n"
+          STDERR.print ": Unkown Database\n"
         end
       end
       entry.references.each do |ref|
@@ -248,13 +251,13 @@ module MiRBase
       end
       @experiment2references.each do |experiment, references|
         print "  :evidence [\n"
-          print "  :experiment_type \"#{experiment}\" ;\n"
-          pmids = []
-          references.each do |embl_gb_record_number|
-            pmids << "pubmed:#{@ref_rn2ref[embl_gb_record_number].pubmed}"
-            pmids << "pmid:#{@ref_rn2ref[embl_gb_record_number].pubmed}"
-          end
-          print "      dcterms:references #{pmids.join(', ')} ;\n"
+        print "    :experiment_type \"#{experiment}\" ;\n"
+        pmids = []
+        references.each do |embl_gb_record_number|
+          pmids << "pubmed:#{@ref_rn2ref[embl_gb_record_number].pubmed}"
+          pmids << "pmid:#{@ref_rn2ref[embl_gb_record_number].pubmed}"
+        end
+        print "    dcterms:references #{pmids.join(', ')} ;\n"
         print "  ] ;\n"
       end
       if entry.accession == "MIMAT" 
