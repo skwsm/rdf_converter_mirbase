@@ -85,8 +85,12 @@ module MiRBase
         unless /^#/ =~ line
           ary = line.chomp.split
           if ary[8] != nil
-            /chr(\d+)/  =~ ary[0]
-            chr         = $1
+            if @org_code == "hsa"
+              /chr(\d+)/  =~ ary[0]
+              chr         = $1
+            else
+              chr         = ary[0]
+            end
             feature     = ary[2]
             mirna_start = ary[3]
             mirna_end   = ary[4]
@@ -123,16 +127,24 @@ module MiRBase
       print "    faldo:begin [\n"
       print "      a faldo:ExactPosition ;\n"
       print "      faldo:position #{mirna_start} ; \n"
-      print "      faldo:reference <http://identifiers.org/hco/#{chr}\/GRCh38>\n"
-      #QName notation with URL fragment (like below) is not allowed for
-      #Virtuoso due to a bug.\n"
-      #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
+      if @org_code == 'hsa'
+        print "      faldo:reference <http://identifiers.org/hco/#{chr}\/GRCh38>\n"
+        #QName notation with URL fragment (like below) is not allowed for
+        #Virtuoso due to a bug.\n"
+        #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
+      else
+        print "      faldo:reference \"#{chr}\"\n"
+      end
       print "    ] ;\n"
       print "    faldo:end [\n"
       print "      a faldo:ExactPosition ;\n"
       print "      faldo:position #{mirna_end} ;\n"
-      print "      faldo:reference <http://identifiers.org/hco/#{chr}\/GRCh38>\n"
-      #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
+      if @org_code == 'hsa'
+        print "      faldo:reference <http://identifiers.org/hco/#{chr}\/GRCh38>\n"
+        #print "      faldo:reference hco:#{chr}\\#GRCh38 \n"
+      else
+        print "      faldo:reference \"#{chr}\"\n"
+      end
       print "    ] \n"
       print "  ] .\n"
       print "\n"
